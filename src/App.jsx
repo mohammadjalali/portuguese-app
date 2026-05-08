@@ -873,6 +873,10 @@ export default function App() {
     document.body.style.background = "#08080f";
   }, []);
 
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, [activeSession]);
+
   if (activeSession) {
     return (
       <SessionPage
