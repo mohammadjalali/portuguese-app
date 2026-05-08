@@ -1,0 +1,337 @@
+{
+  "id": 3,
+  "title": "Números e Interrogativos",
+  "subtitle": "Numbers & Question Words",
+  "color": "#6B2D8B",
+  "accent": "#C77DFF",
+  "icon": "🔢",
+  "description": "Master numbers 0–50, key question words, and continue building on personal information vocabulary.",
+  "topics": ["Numbers 0–50", "Interrogatives", "Review of SER & TER", "Nationalities review", "Phonetics: ch, lh, nh"],
+  "vocabulary": [
+    {
+      "word": "zero, um, dois, três",
+      "translation": "zero, one, two, three",
+      "pronunciation": "ZEH-roo, oom, doysh, tresh",
+      "ipa": "/ˈzɛɾu/ /ũ/ /dojʃ/ /tɾɛʃ/",
+      "example": "O meu número é zero-um-dois-três.",
+      "exampleTranslation": "My number is 0-1-2-3.",
+      "category": "numbers",
+      "tip": "'Um' changes to 'uma' for feminine nouns: uma pessoa, um livro"
+    },
+    {
+      "word": "quatro, cinco, seis, sete",
+      "translation": "four, five, six, seven",
+      "pronunciation": "KWAH-troo, SEEN-koo, saysh, SEH-teh",
+      "ipa": "/ˈkwatɾu/ /ˈsĩku/ /ˈsejʃ/ /ˈsɛtɨ/",
+      "example": "Eu tenho quatro irmãos e seis primos.",
+      "exampleTranslation": "I have four siblings and six cousins.",
+      "category": "numbers",
+      "tip": "'Seis' sounds like English 'say' + 'sh'"
+    },
+    {
+      "word": "oito, nove, dez",
+      "translation": "eight, nine, ten",
+      "pronunciation": "OY-too, NOH-veh, desh",
+      "ipa": "/ˈojtʊ/ /ˈnɔvɨ/ /ˈdeʃ/",
+      "example": "Tenho oito anos. — Eu tenho dez!",
+      "exampleTranslation": "I am eight years old. — I am ten!",
+      "category": "numbers",
+      "tip": "'Dez' sounds like 'desh' in European Portuguese"
+    },
+    {
+      "word": "onze até vinte",
+      "translation": "eleven to twenty",
+      "pronunciation": "ON-zeh ah-TAY VEEN-teh",
+      "ipa": "/ˈõzɨ/ ... /ˈvĩtɨ/",
+      "example": "Tenho dezasseis anos.",
+      "exampleTranslation": "I am sixteen years old.",
+      "category": "numbers",
+      "tip": "16 = dezasseis, 17 = dezassete, 18 = dezoito, 19 = dezanove"
+    },
+    {
+      "word": "vinte e um, trinta, quarenta, cinquenta",
+      "translation": "twenty-one, thirty, forty, fifty",
+      "pronunciation": "VEEN-teh ee oom, TREEN-tah, kwah-REN-tah, seen-KWEN-tah",
+      "ipa": "/ˈvĩtɨ i ũ/ /ˈtɾĩtɐ/ /ˈkwaɾẽtɐ/ /sĩˈkwẽtɐ/",
+      "example": "Tenho vinte e cinco anos.",
+      "exampleTranslation": "I am twenty-five years old.",
+      "category": "numbers",
+      "tip": "Compound numbers use 'e' (and): vinte e três = 23"
+    },
+    {
+      "word": "Como?",
+      "translation": "How? / What? (name)",
+      "pronunciation": "KOH-moo",
+      "ipa": "/ˈkomu/",
+      "example": "Como te chamas?",
+      "exampleTranslation": "What's your name? (How do you call yourself?)",
+      "category": "interrogatives",
+      "tip": "'Como' asks about manner or name; don't confuse with 'o quê' (what thing)"
+    },
+    {
+      "word": "Onde?",
+      "translation": "Where?",
+      "pronunciation": "ON-deh",
+      "ipa": "/ˈõdɨ/",
+      "example": "Onde é a biblioteca?",
+      "exampleTranslation": "Where is the library?",
+      "category": "interrogatives",
+      "tip": "Combine with prepositions: 'de onde' = from where, 'para onde' = to where"
+    },
+    {
+      "word": "Qual / Quais?",
+      "translation": "Which? / What?",
+      "pronunciation": "kwahl / kwaysh",
+      "ipa": "/ˈkwal/ / /ˈkwajʃ/",
+      "example": "Qual é o teu nome? Qual é a tua nacionalidade?",
+      "exampleTranslation": "What is your name? What is your nationality?",
+      "category": "interrogatives",
+      "tip": "'Qual' is used before 'é' where English uses 'what': Qual é...? = What is...?"
+    },
+    {
+      "word": "Quanto / Quantos?",
+      "translation": "How much? / How many?",
+      "pronunciation": "KWAN-too / KWAN-toosh",
+      "ipa": "/ˈkwɐ̃tu/ / /ˈkwɐ̃tuʃ/",
+      "example": "Quantos anos tens? Quanto custa?",
+      "exampleTranslation": "How old are you? How much does it cost?",
+      "category": "interrogatives",
+      "tip": "Agrees in gender/number: quanto/quanta, quantos/quantas"
+    },
+    {
+      "word": "Quem?",
+      "translation": "Who?",
+      "pronunciation": "kame",
+      "ipa": "/ˈkɐ̃j/",
+      "example": "Quem é ela? Ela é a minha professora.",
+      "exampleTranslation": "Who is she? She is my teacher.",
+      "category": "interrogatives",
+      "tip": "Used for people; 'o quê' is used for things"
+    }
+  ],
+  "grammar": {
+    "title": "Numbers, Interrogatives & Consonant Sounds",
+    "sections": [
+      {
+        "type": "explanation",
+        "heading": "Numbers 0–20",
+        "body": "Portuguese numbers from 0 to 19 are unique words that must be memorized individually. There is no pattern — each one is its own word. Start by learning 0–10, then 11–19. The numbers 16–19 have special forms: dezasseis (16), dezassete (17), dezoito (18), and dezanove (19). Note that 16 and 17 use 'ss' while 18 and 19 use 'z' — this is a key spelling distinction."
+      },
+      {
+        "type": "table",
+        "heading": "Numbers 0–20",
+        "columns": ["Number", "Portuguese", "Pronunciation"],
+        "rows": [
+          ["0", "zero", "ZEH-roo"],
+          ["1", "um / uma", "oom / OO-mah"],
+          ["2", "dois / duas", "doysh / DOO-ash"],
+          ["3", "três", "tresh"],
+          ["4", "quatro", "KWAH-troo"],
+          ["5", "cinco", "SEEN-koo"],
+          ["6", "seis", "saysh"],
+          ["7", "sete", "SEH-teh"],
+          ["8", "oito", "OY-too"],
+          ["9", "nove", "NOH-veh"],
+          ["10", "dez", "desh"],
+          ["11", "onze", "ON-zeh"],
+          ["12", "doze", "DOH-zeh"],
+          ["13", "treze", "TREH-zeh"],
+          ["14", "catorze / quatorze", "kah-TOR-zeh"],
+          ["15", "quinze", "KEEN-zeh"],
+          ["16", "dezasseis", "deh-zah-SAYSH"],
+          ["17", "dezassete", "deh-zah-SEH-teh"],
+          ["18", "dezoito", "deh-ZOY-too"],
+          ["19", "dezanove", "deh-zah-NOH-veh"],
+          ["20", "vinte", "VEEN-teh"]
+        ]
+      },
+      {
+        "type": "explanation",
+        "heading": "Numbers 21–100 and Beyond",
+        "body": "From 21 onward, Portuguese numbers follow a regular pattern: tens + 'e' (and) + units. For example: vinte e um (21), vinte e dois (22), trinta e cinco (35). The word 'e' (and) is always used between the tens and units, just like in French. The tens themselves are: trinta (30), quarenta (40), cinquenta (50), sessenta (60), setenta (70), oitenta (80), noventa (90). For 100, use 'cem' (before a noun) or 'cento' (when followed by more numbers, e.g., cento e um = 101)."
+      },
+      {
+        "type": "table",
+        "heading": "The Tens",
+        "columns": ["Number", "Portuguese", "Pronunciation"],
+        "rows": [
+          ["20", "vinte", "VEEN-teh"],
+          ["30", "trinta", "TREEN-tah"],
+          ["40", "quarenta", "kwah-REN-tah"],
+          ["50", "cinquenta", "seen-KWEN-tah"],
+          ["60", "sessenta", "seh-SEN-tah"],
+          ["70", "setente", "seh-TEN-teh"],
+          ["80", "oitenta", "oy-TEN-tah"],
+          ["90", "noventa", "noh-VEN-tah"],
+          ["100", "cem / cento", "sẽj̃ / SEN-too"]
+        ]
+      },
+      {
+        "type": "explanation",
+        "heading": "Interrogative Words (Question Words)",
+        "body": "Portuguese interrogatives are essential for asking questions. Unlike English, Portuguese question words always carry a written accent mark (called 'acento agudo'). Most interrogatives can combine with prepositions to create more specific questions: 'de onde' (from where), 'para onde' (to where), 'porquê' (why), 'em que' (in which). The word 'qual' is used before 'é' where English uses 'what': 'Qual é o teu nome?' = 'What is your name?'"
+      },
+      {
+        "type": "table",
+        "heading": "All Interrogative Words",
+        "columns": ["Interrogative", "Meaning", "Example"],
+        "rows": [
+          ["Como?", "How? / What? (name)", "Como te chamas? (What's your name?)"],
+          ["Onde?", "Where?", "Onde moras? (Where do you live?)"],
+          ["De onde?", "From where?", "De onde és? (Where are you from?)"],
+          ["Para onde?", "To where?", "Para onde vais? (Where are you going?)"],
+          ["Quando?", "When?", "Quando é o exame? (When is the exam?)"],
+          ["Qual / Quais?", "Which? / What?", "Qual é a tua profissão? (What is your job?)"],
+          ["O quê?", "What? (thing)", "O quê que fazes? (What do you do?)"],
+          ["Quanto/a?", "How much?", "Quanto custa? (How much does it cost?)"],
+          ["Quantos/as?", "How many?", "Quantos anos tens? (How old are you?)"],
+          ["Quem?", "Who?", "Quem é ele? (Who is he?)"],
+          ["Porquê?", "Why?", "Porquê estudas português? (Why do you study Portuguese?)"],
+          ["Como é que...?", "How... (informal)", "Como é que se diz...? (How do you say...?)"]
+        ]
+      },
+      {
+        "type": "examples",
+        "heading": "Asking Questions in Portuguese",
+        "items": [
+          {
+            "portuguese": "Como te chamas? Chamo-me Sofia.",
+            "translation": "What's your name? My name is Sofia.",
+            "pronunciation": "KOH-moo teh SHA-mash? SHAH-moo-meh soh-FEE-ah.",
+            "highlight": ["Como"]
+          },
+          {
+            "portuguese": "De onde és? Sou do Brasil.",
+            "translation": "Where are you from? I'm from Brazil.",
+            "pronunciation": "deh ON-deh ezh? soh doh brah-ZEEL.",
+            "highlight": ["De onde"]
+          },
+          {
+            "portuguese": "Quantos anos tens? Tenho vinte e três.",
+            "translation": "How old are you? I'm 23.",
+            "pronunciation": "KWAN-toosh AH-noosh tenz? TEN-yoo VEEN-teh ee TRESH.",
+            "highlight": ["Quantos"]
+          },
+          {
+            "portuguese": "Qual é a tua profissão? Sou engenheiro.",
+            "translation": "What is your profession? I'm an engineer.",
+            "pronunciation": "kwahl eh ah TOO-ah pro-fee-SOWNG? soh en-jen-YAY-roo.",
+            "highlight": ["Qual"]
+          }
+        ]
+      },
+      {
+        "type": "explanation",
+        "heading": "The Consonant Sounds: CH, LH, NH",
+        "body": "Portuguese has three important digraphs (two-letter combinations) that produce sounds very different from English. Mastering these is key to being understood: CH is pronounced like English 'sh' (as in 'shoe'), LH is pronounced like 'lli' in 'million' (a palatal lateral), and NH is pronounced like 'ny' in 'canyon' (a palatal nasal). These sounds are among the most distinctive features of Portuguese pronunciation."
+      },
+      {
+        "type": "table",
+        "heading": "The Three Digraphs",
+        "columns": ["Digraph", "Sound", "Examples", "Pronunciation"],
+        "rows": [
+          ["ch", "Like English 'sh'", "chave, chávena, chuva, muito", "SHA-veh, SHA-veh-nah, SHOO-vah, MOO-ee-too"],
+          ["lh", "Like 'lli' in 'million'", "ilha, milho, filho, trabalho", "EE-lyah, MEE-lyoo, FEE-lyoo, trah-BAHL-yoo"],
+          ["nh", "Like 'ny' in 'canyon'", "galinha, vinho, sonho, Espanha", "gah-LEE-nyah, VEE-nyoo, SOH-nyoo, esh-PAH-nyah"]
+        ]
+      },
+      {
+        "type": "tips",
+        "heading": "Common Mistakes & Tips",
+        "items": [
+          "Don't forget the 'e' in compound numbers: vinte e um (21), NOT vinte um.",
+          "Numbers 1 and 2 change for gender: um livro (m.) but uma casa (f.); dois homens (m.) but duas mulheres (f.).",
+          "'Qual' vs. 'O quê': Use 'Qual' before 'é' (Qual é...?), and 'O quê' after verbs or at the end of sentences (O quê que fazes?).",
+          "In spoken Portuguese, 'O quê?' often becomes just 'Quê?' — the 'o' gets dropped.",
+          "The interrogative 'porquê' (why) is used at the beginning of questions. The answer uses 'porque' (because) without an accent.",
+          "For CH: if you can say 'sh' instead of 'ch', you're on the right track. 'Chá' (tea) sounds like 'sha', NOT 'cha' as in English.",
+          "For LH: imagine saying 'million' but in one syllable. Your tongue touches the roof of your mouth.",
+          "For NH: think of the Spanish 'ñ' — it's the exact same sound. 'Vinho' = 'VEEN-yoo'."
+        ]
+      }
+    ],
+    "exercises": [
+      {
+        "type": "multiple-choice",
+        "title": "Choose the Correct Interrogative",
+        "instructions": "Select the right question word for each sentence.",
+        "items": [
+          {
+            "question": "___ te chamas?",
+            "options": ["Onde", "Como", "Quando", "Quem"],
+            "correct": 1,
+            "explanation": "'Como te chamas?' = 'What's your name?' (literally: 'How do you call yourself?'). 'Como' is used for names."
+          },
+          {
+            "question": "___ és? Sou de França.",
+            "options": ["Onde", "De onde", "Para onde", "Qual"],
+            "correct": 1,
+            "explanation": "'De onde és?' = 'Where are you from?' The preposition 'de' (from) is needed with 'onde' to ask about origin."
+          },
+          {
+            "question": "___ custa o café?",
+            "options": ["Quantos", "Quanto", "Qual", "Como"],
+            "correct": 1,
+            "explanation": "'Quanto custa?' = 'How much does it cost?' 'Quanto' asks about price/amount (masculine singular)."
+          },
+          {
+            "question": "___ é ela? É a minha professora.",
+            "options": ["Qual", "Como", "Quem", "Onde"],
+            "correct": 2,
+            "explanation": "'Quem é ela?' = 'Who is she?' 'Quem' is used to ask about people."
+          }
+        ]
+      },
+      {
+        "type": "fill-in-blank",
+        "title": "Write the Number in Portuguese",
+        "instructions": "Fill in the blank with the correct Portuguese number.",
+        "items": [
+          {
+            "sentence": "16 = _____",
+            "answer": "dezasseis",
+            "fullAnswer": "dezasseis",
+            "hint": "10 + 6, uses 'ss'"
+          },
+          {
+            "sentence": "25 = _____",
+            "answer": "vinte e cinco",
+            "fullAnswer": "vinte e cinco",
+            "hint": "20 and 5"
+          },
+          {
+            "sentence": "18 = _____",
+            "answer": "dezoito",
+            "fullAnswer": "dezoito",
+            "hint": "Uses 'z', not 'ss'"
+          },
+          {
+            "sentence": "43 = _____",
+            "answer": "quarenta e três",
+            "fullAnswer": "quarenta e três",
+            "hint": "40 and 3"
+          }
+        ]
+      },
+      {
+        "type": "multiple-choice",
+        "title": "Identify the Digraph Sound",
+        "instructions": "Which word contains the 'lh' sound (like 'lli' in 'million')?",
+        "items": [
+          {
+            "question": "Which word has the 'lh' sound?",
+            "options": ["chuva", "milho", "vinho", "não"],
+            "correct": 1,
+            "explanation": "'Milho' (corn) contains 'lh' — pronounced 'MEE-lyoo'. 'Chuva' has 'ch' (sh sound), 'vinho' has 'nh' (ny sound), and 'não' has a nasal vowel."
+          },
+          {
+            "question": "Which word has the 'nh' sound?",
+            "options": ["chave", "ilha", "sonho", "chá"],
+            "correct": 2,
+            "explanation": "'Sonho' (dream) contains 'nh' — pronounced 'SOH-nyoo'. 'Chave' and 'chá' have 'ch' (sh sound), 'ilha' has 'lh' (ly sound)."
+          }
+        ]
+      }
+    ]
+  }
+}

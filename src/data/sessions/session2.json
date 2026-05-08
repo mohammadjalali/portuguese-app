@@ -1,0 +1,339 @@
+{
+  "id": 2,
+  "title": "Informação Pessoal",
+  "subtitle": "Personal Information",
+  "color": "#1B4965",
+  "accent": "#5FA8D3",
+  "icon": "👤",
+  "description": "Learn to introduce yourself fully, use personal pronouns, and conjugate key verbs like ser (to be) and ter (to have).",
+  "topics": ["Personal pronouns", "Verb SER", "Verb TER", "Numbers 0–50", "Nationalities", "Reflexive verb chamar-se"],
+  "vocabulary": [
+    {
+      "word": "Eu / Tu / Ele / Ela",
+      "translation": "I / You / He / She",
+      "pronunciation": "AY-oo / too / EH-leh / EH-lah",
+      "ipa": "/ew/ / /tu/ / /ˈelɨ/ / /ˈelɐ/",
+      "example": "Eu sou estudante. Tu és português?",
+      "exampleTranslation": "I am a student. Are you Portuguese?",
+      "category": "pronouns",
+      "tip": "In Portuguese, subject pronouns are often omitted as the verb ending shows the person"
+    },
+    {
+      "word": "Nós / Vocês / Eles / Elas",
+      "translation": "We / You (pl.) / They (m.) / They (f.)",
+      "pronunciation": "NOSH / voh-SESH / EH-lesh / EH-lash",
+      "ipa": "/nɔʃ/ / /voˈseʃ/ / /ˈelɨʃ/ / /ˈelɐʃ/",
+      "example": "Nós somos amigos. Eles são de Lisboa.",
+      "exampleTranslation": "We are friends. They are from Lisbon.",
+      "category": "pronouns",
+      "tip": "In Portugal, 'vocês' is the standard plural 'you'. 'Vós' is archaic."
+    },
+    {
+      "word": "Ser (sou / és / é / somos / são)",
+      "translation": "To be (I am / you are / he is / we are / they are)",
+      "pronunciation": "soar / ezh / eh / SOH-moosh / sow",
+      "ipa": "/ˈso/ / /ˈɛʃ/ / /ˈɛ/ / /ˈsomuʃ/ / /ˈsɐ̃w̃/",
+      "example": "Eu sou portuguesa. Ela é espanhola.",
+      "exampleTranslation": "I am Portuguese. She is Spanish.",
+      "category": "verbs",
+      "tip": "SER is for permanent characteristics: identity, nationality, profession, origin"
+    },
+    {
+      "word": "Ter (tenho / tens / tem / temos / têm)",
+      "translation": "To have",
+      "pronunciation": "TEN-yoo / tenz / tame / TAY-moosh / tame",
+      "ipa": "/ˈtɐɲu/ / /tɐ̃jʃ/ / /tɐ̃j/ / /ˈtemuʃ/ / /ˈtɐ̃jʃ/",
+      "example": "Eu tenho 25 anos. Ela tem um cão.",
+      "exampleTranslation": "I am 25 years old. She has a dog.",
+      "category": "verbs",
+      "tip": "Use TER + anos to express age in Portuguese"
+    },
+    {
+      "word": "Chamar-se (chamo-me / chamas-te)",
+      "translation": "To be called / To call oneself",
+      "pronunciation": "SHA-moo-meh / SHA-mash-teh",
+      "ipa": "/ˈʃamu mɨ/ / /ˈʃamaʃ tɨ/",
+      "example": "Como te chamas? Chamo-me João.",
+      "exampleTranslation": "What's your name? My name is João.",
+      "category": "verbs",
+      "tip": "This is a reflexive verb — the pronoun changes with the subject"
+    },
+    {
+      "word": "Qual é a tua nacionalidade?",
+      "translation": "What is your nationality?",
+      "pronunciation": "kwahl eh ah TOO-ah nah-see-oh-nah-lee-DAH-deh",
+      "ipa": "/ˈkwal ˈɛ ɐ ˈtuɐ nasjunɐliˈdadɨ/",
+      "example": "— Qual é a tua nacionalidade? — Sou brasileiro.",
+      "exampleTranslation": "— What is your nationality? — I am Brazilian.",
+      "category": "questions",
+      "tip": "Nationality adjectives agree in gender and number with the person described"
+    },
+    {
+      "word": "De onde és?",
+      "translation": "Where are you from?",
+      "pronunciation": "deh ON-deh ezh",
+      "ipa": "/dɨ ˈõdɨ ˈɛʃ/",
+      "example": "— De onde és? — Sou do Brasil, de São Paulo.",
+      "exampleTranslation": "— Where are you from? — I'm from Brazil, from São Paulo.",
+      "category": "questions",
+      "tip": "'Onde' = where; 'de onde' = from where"
+    },
+    {
+      "word": "Quantos anos tens?",
+      "translation": "How old are you?",
+      "pronunciation": "KWAN-toosh AH-noosh tenz",
+      "ipa": "/ˈkwɐ̃tuʃ ˈɐnuʃ ˈtɐ̃jʃ/",
+      "example": "— Quantos anos tens? — Tenho vinte e dois anos.",
+      "exampleTranslation": "— How old are you? — I am 22 years old.",
+      "category": "questions",
+      "tip": "Literally: 'How many years do you have?' — TER is used for age"
+    },
+    {
+      "word": "Português / Portuguesa",
+      "translation": "Portuguese (m./f.)",
+      "pronunciation": "poor-too-GESH / poor-too-GAY-zah",
+      "ipa": "/puɾtuˈɡeʃ/ / /puɾtuˈɡezɐ/",
+      "example": "Eu sou portuguesa, sou de Braga.",
+      "exampleTranslation": "I am Portuguese, I'm from Braga.",
+      "category": "nationalities",
+      "tip": "Nationality adjectives change for masculine/feminine and singular/plural"
+    },
+    {
+      "word": "Espanhol / Espanhola",
+      "translation": "Spanish (m./f.)",
+      "pronunciation": "esh-pan-YOL / esh-pan-YOH-lah",
+      "ipa": "/ɨʃpɐˈɲɔl/ / /ɨʃpɐˈɲɔlɐ/",
+      "example": "O Miguel é espanhol. A María é espanhola.",
+      "exampleTranslation": "Miguel is Spanish. María is Spanish.",
+      "category": "nationalities",
+      "tip": "Irregular nationality — the feminine adds -a, plural adds -is for m., -as for f."
+    }
+  ],
+  "grammar": {
+    "title": "Verb SER vs. TER & Personal Pronouns",
+    "sections": [
+      {
+        "type": "explanation",
+        "heading": "Personal Pronouns in Portuguese",
+        "body": "Portuguese has a rich system of subject pronouns. Unlike English, the verb ending usually tells you who is performing the action, so pronouns are often dropped. The informal 'tu' is used with friends, family, and peers in Portugal. 'Vocês' is the standard plural 'you' (not 'vós', which is archaic). In formal situations, you may hear 'o senhor / a senhora'. Note that 'ele/ela' refer to people, while 'ele' can also refer to masculine objects in some contexts."
+      },
+      {
+        "type": "table",
+        "heading": "Subject Pronouns",
+        "columns": ["Pronoun", "Meaning", "Usage Note"],
+        "rows": [
+          ["Eu", "I", "Always lowercase (unlike English 'I')"],
+          ["Tu", "You (informal sg.)", "Used with friends, family, peers in Portugal"],
+          ["Ele / Ela", "He / She", "Also 'você' (formal you, but verb uses 3rd person)"],
+          ["Nós", "We", "Often replaced by 'a gente' in spoken Portuguese (uses 3rd person verb!)"],
+          ["Vocês", "You (pl.)", "Standard plural 'you' in Portugal"],
+          ["Eles / Elas", "They (m. / f.)", "Use 'eles' for mixed groups"]
+        ]
+      },
+      {
+        "type": "explanation",
+        "heading": "The Verb SER — To Be (Permanent)",
+        "body": "SER is one of two Portuguese verbs meaning 'to be'. It is used for permanent or inherent characteristics: identity, nationality, profession, origin, physical descriptions, and time/date. SER is highly irregular — you must memorize its conjugation. Think of SER as describing what something IS at its core, fundamentally and permanently."
+      },
+      {
+        "type": "table",
+        "heading": "SER — Present Tense Conjugation",
+        "columns": ["Person", "Conjugation", "Example"],
+        "rows": [
+          ["Eu", "sou", "Eu sou estudante. (I am a student.)"],
+          ["Tu", "és", "Tu és português. (You are Portuguese.)"],
+          ["Ele / Ela / Você", "é", "Ela é professora. (She is a teacher.)"],
+          ["Nós", "somos", "Nós somos amigos. (We are friends.)"],
+          ["Vocês / Eles / Elas", "são", "Eles são de Lisboa. (They are from Lisbon.)"]
+        ]
+      },
+      {
+        "type": "explanation",
+        "heading": "The Verb TER — To Have",
+        "body": "TER means 'to have' and is used for possession, age (in Portuguese you 'have' years, not 'are' years old), and many expressions. Unlike SER, TER is used for temporary states and concrete possessions. It is also irregular in the present tense. A very important use: TER + anos = to be X years old. You never use SER for age in Portuguese!"
+      },
+      {
+        "type": "table",
+        "heading": "TER — Present Tense Conjugation",
+        "columns": ["Person", "Conjugation", "Example"],
+        "rows": [
+          ["Eu", "tenho", "Eu tenho 25 anos. (I am 25 years old.)"],
+          ["Tu", "tens", "Tu tens um cão. (You have a dog.)"],
+          ["Ele / Ela / Você", "tem", "Ela tem uma casa. (She has a house.)"],
+          ["Nós", "temos", "Nós temos fome. (We are hungry.)"],
+          ["Vocês / Eles / Elas", "têm", "Eles têm dois filhos. (They have two children.)"]
+        ]
+      },
+      {
+        "type": "examples",
+        "heading": "SER vs. TER in Action",
+        "items": [
+          {
+            "portuguese": "Eu sou brasileiro. Eu tenho trinta anos.",
+            "translation": "I am Brazilian. I am thirty years old.",
+            "pronunciation": "ay-oo soh brah-zee-LAY-roo. ay-oo TEN-yoo TREEN-tah ah-noosh.",
+            "highlight": ["sou", "tenho"]
+          },
+          {
+            "portuguese": "Ela é médica. Ela tem dois filhos.",
+            "translation": "She is a doctor. She has two children.",
+            "pronunciation": "EH-lah eh MEH-dee-kah. EH-lah tame doysh FEE-lyoosh.",
+            "highlight": ["é", "tem"]
+          },
+          {
+            "portuguese": "Nós somos de Portugal. Nós temos uma casa em Lisboa.",
+            "translation": "We are from Portugal. We have a house in Lisbon.",
+            "pronunciation": "nosh SOH-moosh deh poor-too-GAHL. nosh TAY-moosh OO-mah kah-zah eem LEESH-boh-ah.",
+            "highlight": ["somos", "temos"]
+          }
+        ]
+      },
+      {
+        "type": "explanation",
+        "heading": "The Reflexive Verb CHAMAR-SE",
+        "body": "CHAMAR-SE means 'to be called' or 'to call oneself'. It is a reflexive verb, meaning the action reflects back on the subject. The reflexive pronoun changes depending on the subject: 'chamo-me' (I call myself), 'chamas-te' (you call yourself), 'chama-se' (he/she calls himself/herself). This is the most natural way to say your name in Portuguese. Note: the verb part (cham-) also changes with the person, just like any regular -ar verb."
+      },
+      {
+        "type": "table",
+        "heading": "CHAMAR-SE — Present Tense",
+        "columns": ["Person", "Conjugation", "Example"],
+        "rows": [
+          ["Eu", "chamo-me", "Chamo-me Ana. (My name is Ana.)"],
+          ["Tu", "chamas-te", "Como te chamas? (What's your name?)"],
+          ["Ele / Ela", "chama-se", "Chama-se Miguel. (His name is Miguel.)"],
+          ["Nós", "chamamo-nos", "Chamamo-nos João e Maria."],
+          ["Eles / Elas", "chamam-se", "Chamam-se Pedro e Ana."]
+        ]
+      },
+      {
+        "type": "explanation",
+        "heading": "Nationalities & Gender Agreement",
+        "body": "In Portuguese, nationality adjectives must agree with the person they describe — both in gender (masculine/feminine) and number (singular/plural). Most nationalities follow predictable patterns: masculine ends in -o, -ês, -eu, or a consonant; feminine typically changes -o → -a, -ês → -esa, -eu → -eia. Plurals add -s. Some nationalities like 'português/portuguesa' are irregular — memorize them individually."
+      },
+      {
+        "type": "table",
+        "heading": "Common Nationalities",
+        "columns": ["Country", "Masculine", "Feminine"],
+        "rows": [
+          ["Portugal", "português", "portuguesa"],
+          ["Brazil", "brasileiro", "brasileira"],
+          ["Spain", "espanhol", "espanhola"],
+          ["France", "francês", "francesa"],
+          ["Germany", "alemão", "alemã"],
+          ["Italy", "italiano", "italiana"],
+          ["United Kingdom", "britânico", "britânica"],
+          ["United States", "americano / norte-americano", "americana / norte-americana"],
+          ["Japan", "japonês", "japonesa"],
+          ["China", "chinês", "chinesa"]
+        ]
+      },
+      {
+        "type": "tips",
+        "heading": "Common Mistakes & Tips",
+        "items": [
+          "Never use SER for age! In Portuguese, you 'have' years: 'Tenho vinte anos' (I have 20 years), NOT 'Sou vinte anos'.",
+          "Don't confuse 'tu' and 'você'. In Portugal, 'tu' takes 2nd person verb forms (és, tens), while 'você' takes 3rd person forms (é, tem) even though it means 'you'.",
+          "After SER, you do NOT use an indefinite article before professions: 'Sou médico' (not 'Sou um médico'). But with adjectives, you do: 'Sou um bom médico'.",
+          "The verb TER has a special spelling in 'tenho' (I have) — the 'nh' makes a nasal 'ny' sound, like in 'canyon'.",
+          "'Nós' is increasingly replaced by 'a gente' in spoken Portuguese, but 'a gente' takes 3rd person verbs: 'A gente é de Lisboa' (not 'A gente somos').",
+          "When using CHAMAR-SE, the reflexive pronoun usually goes AFTER the verb connected by a hyphen: 'Chamo-me', not 'Me chamo'."
+        ]
+      }
+    ],
+    "exercises": [
+      {
+        "type": "multiple-choice",
+        "title": "SER or TER?",
+        "instructions": "Choose the correct verb to complete each sentence.",
+        "items": [
+          {
+            "question": "Eu ___ estudante de Economia.",
+            "options": ["sou", "tenho", "são", "tem"],
+            "correct": 0,
+            "explanation": "Use SER for identity/profession. 'Eu sou estudante' = I am a student."
+          },
+          {
+            "question": "Ela ___ vinte e cinco anos.",
+            "options": ["é", "são", "tem", "somos"],
+            "correct": 2,
+            "explanation": "Use TER for age. 'Ela tem vinte e cinco anos' = She is 25 years old."
+          },
+          {
+            "question": "Nós ___ de Lisboa.",
+            "options": ["temos", "são", "somos", "sou"],
+            "correct": 2,
+            "explanation": "Use SER for origin. 'Nós somos de Lisboa' = We are from Lisbon."
+          },
+          {
+            "question": "Eles ___ um cão e um gato.",
+            "options": ["são", "têm", "somos", "é"],
+            "correct": 1,
+            "explanation": "Use TER for possession. 'Eles têm um cão e um gato' = They have a dog and a cat."
+          }
+        ]
+      },
+      {
+        "type": "fill-in-blank",
+        "title": "Conjugate SER or TER",
+        "instructions": "Fill in the blank with the correct form of SER or TER.",
+        "items": [
+          {
+            "sentence": "Eu ___ português.",
+            "answer": "sou",
+            "fullAnswer": "sou",
+            "hint": "SER — 1st person singular"
+          },
+          {
+            "sentence": "Tu ___ um gato?",
+            "answer": "tens",
+            "fullAnswer": "tens",
+            "hint": "TER — 2nd person singular"
+          },
+          {
+            "sentence": "Ela ___ professora.",
+            "answer": "é",
+            "fullAnswer": "é",
+            "hint": "SER — 3rd person singular"
+          },
+          {
+            "sentence": "Nós ___ trinta anos.",
+            "answer": "temos",
+            "fullAnswer": "temos",
+            "hint": "TER — 1st person plural (age!)"
+          },
+          {
+            "sentence": "Eles ___ de Espanha.",
+            "answer": "são",
+            "fullAnswer": "são",
+            "hint": "SER — 3rd person plural (origin)"
+          }
+        ]
+      },
+      {
+        "type": "sentence-builder",
+        "title": "Build Sentences with CHAMAR-SE",
+        "instructions": "Choose the correct reflexive form to complete each sentence.",
+        "items": [
+          {
+            "sentence": "Eu ___ Ana.",
+            "blank": "chamo-me",
+            "wordBank": ["chamo-me", "chamas-te", "chama-se", "chamamo-nos"],
+            "hint": "1st person singular of chamar-se"
+          },
+          {
+            "sentence": "Como ___ tu?",
+            "blank": "te chamas",
+            "wordBank": ["me chamo", "te chamas", "se chama", "nos chamamos"],
+            "hint": "2nd person — the pronoun goes before in questions"
+          },
+          {
+            "sentence": "Ele ___ Pedro.",
+            "blank": "chama-se",
+            "wordBank": ["chamo-me", "chamas-te", "chama-se", "chamam-se"],
+            "hint": "3rd person singular of chamar-se"
+          }
+        ]
+      }
+    ]
+  }
+}

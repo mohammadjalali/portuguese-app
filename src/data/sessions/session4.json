@@ -1,0 +1,386 @@
+{
+  "id": 4,
+  "title": "Profissões e Verbos",
+  "subtitle": "Professions & Regular Verbs",
+  "color": "#8B3A0F",
+  "accent": "#F4A261",
+  "icon": "💼",
+  "description": "Learn professions vocabulary, practice regular -ar verb conjugations, and describe yourself in detail.",
+  "topics": ["Regular -ar verbs", "Professions", "Gender agreement", "Personal descriptions", "Nationalities review"],
+  "vocabulary": [
+    {
+      "word": "Verbos em -ar: falar",
+      "translation": "To speak",
+      "pronunciation": "fah-LAR",
+      "ipa": "/fɐˈlaɾ/",
+      "example": "Eu falo inglês e português. Tu falas espanhol?",
+      "exampleTranslation": "I speak English and Portuguese. Do you speak Spanish?",
+      "category": "verbs",
+      "tip": "Pattern: fal- + o/as/a/amos/am. All -ar verbs follow this pattern"
+    },
+    {
+      "word": "Morar",
+      "translation": "To live / To reside",
+      "pronunciation": "moo-RAR",
+      "ipa": "/muˈɾaɾ/",
+      "example": "Eu moro em Lisboa. Onde moras tu?",
+      "exampleTranslation": "I live in Lisbon. Where do you live?",
+      "category": "verbs",
+      "tip": "mor- + o/as/a/amos/am: moro, moras, mora, moramos, moram"
+    },
+    {
+      "word": "Trabalhar",
+      "translation": "To work",
+      "pronunciation": "trah-bal-YAR",
+      "ipa": "/tɾɐbɐˈʎaɾ/",
+      "example": "Ela trabalha num hospital.",
+      "exampleTranslation": "She works in a hospital.",
+      "category": "verbs",
+      "tip": "Note the 'lh' sound: trabalh-: trabalho, trabalhas, trabalha..."
+    },
+    {
+      "word": "Estudar",
+      "translation": "To study",
+      "pronunciation": "esh-too-DAR",
+      "ipa": "/ɨʃtuˈdaɾ/",
+      "example": "Eu estudo Economia na universidade.",
+      "exampleTranslation": "I study Economics at university.",
+      "category": "verbs",
+      "tip": "estud- + o/as/a/amos/am: estudo, estudas, estuda..."
+    },
+    {
+      "word": "Gostar de",
+      "translation": "To like",
+      "pronunciation": "gosh-TAR deh",
+      "ipa": "/ɡuʃˈtaɾ dɨ/",
+      "example": "Eu gosto de música. Gostas de desporto?",
+      "exampleTranslation": "I like music. Do you like sports?",
+      "category": "verbs",
+      "tip": "'Gostar' is always followed by 'de': gostar de + noun/infinitive"
+    },
+    {
+      "word": "o/a médico/a",
+      "translation": "Doctor (m./f.)",
+      "pronunciation": "oo MEH-dee-koo / ah MEH-dee-kah",
+      "ipa": "/u ˈmɛdiku/ / /ɐ ˈmɛdikɐ/",
+      "example": "O João é médico. A Ana é médica.",
+      "exampleTranslation": "João is a doctor. Ana is a doctor.",
+      "category": "professions",
+      "tip": "In Portuguese, no article before profession after SER: 'Sou médico' (not 'Sou um médico')"
+    },
+    {
+      "word": "o/a professor/a",
+      "translation": "Teacher / Professor (m./f.)",
+      "pronunciation": "oo pro-feh-SOR / ah pro-feh-SOH-rah",
+      "ipa": "/u pɾufɨˈsoɾ/ / /ɐ pɾufɨˈsoɾɐ/",
+      "example": "Ela é professora de matemática.",
+      "exampleTranslation": "She is a mathematics teacher.",
+      "category": "professions",
+      "tip": "Masculine ends in -or, feminine adds -a: professor → professora"
+    },
+    {
+      "word": "o/a engenheiro/a",
+      "translation": "Engineer (m./f.)",
+      "pronunciation": "oo en-jen-YAY-roo / ah en-jen-YAY-rah",
+      "ipa": "/u ẽʒɨˈɲejɾu/ / /ɐ ẽʒɨˈɲejɾɐ/",
+      "example": "O Nori é engenheiro e mora em Londres.",
+      "exampleTranslation": "Nori is an engineer and lives in London.",
+      "category": "professions",
+      "tip": "Ends in -eiro/-eira: engenheiro → engenheira"
+    },
+    {
+      "word": "o/a jornalista",
+      "translation": "Journalist (m./f.)",
+      "pronunciation": "oo / ah zhor-nah-LEESH-tah",
+      "ipa": "/u ʒuɾnɐˈliʃtɐ/ / /ɐ ʒuɾnɐˈliʃtɐ/",
+      "example": "A Christine é jornalista alemã.",
+      "exampleTranslation": "Christine is a German journalist.",
+      "category": "professions",
+      "tip": "Professions ending in -ista are the same for masculine and feminine"
+    },
+    {
+      "word": "o/a estudante",
+      "translation": "Student (m./f.)",
+      "pronunciation": "oo / ah esh-too-DAN-teh",
+      "ipa": "/u ɨʃtuˈdɐ̃tɨ/ / /ɐ ɨʃtuˈdɐ̃tɨ/",
+      "example": "Somos estudantes de Economia.",
+      "exampleTranslation": "We are Economics students.",
+      "category": "professions",
+      "tip": "Also same form for both genders — just change the article"
+    },
+    {
+      "word": "casado/a, solteiro/a, divorciado/a",
+      "translation": "Married, single, divorced",
+      "pronunciation": "kah-ZAH-doo, sol-TAY-roo, dee-vor-see-AH-doo",
+      "ipa": "/kɐˈzadu/ /sulˈtejɾu/ /divuɾsiˈadu/",
+      "example": "Sou solteiro. Ela é casada com o Pedro.",
+      "exampleTranslation": "I am single. She is married to Pedro.",
+      "category": "personal",
+      "tip": "Marital status adjectives agree in gender: casado (m.) / casada (f.)"
+    },
+    {
+      "word": "Qual é a tua profissão?",
+      "translation": "What is your profession?",
+      "pronunciation": "kwahl eh ah TOO-ah pro-fee-SOWNG",
+      "ipa": "/ˈkwal ˈɛ ɐ ˈtuɐ pɾufisˈɐ̃w̃/",
+      "example": "— Qual é a tua profissão? — Sou estudante.",
+      "exampleTranslation": "— What is your profession? — I am a student.",
+      "category": "questions",
+      "tip": "The most common way to ask about someone's job in Portuguese"
+    }
+  ],
+  "grammar": {
+    "title": "Regular -ar Verbs & Professions",
+    "sections": [
+      {
+        "type": "explanation",
+        "heading": "How Regular -ar Verbs Work",
+        "body": "The majority of Portuguese verbs end in -ar, and most of them are regular — meaning they follow a perfectly predictable pattern. To conjugate any regular -ar verb, you remove the -ar ending to get the 'stem', then add the appropriate ending for each person. The endings are: -o (eu), -as (tu), -a (ele/ela), -amos (nós), -am (eles/elas). Once you learn this pattern, you can conjugate hundreds of verbs. The key insight is that the stem never changes — only the ending does."
+      },
+      {
+        "type": "table",
+        "heading": "Regular -ar Conjugation Pattern (using FALAR as model)",
+        "columns": ["Person", "Ending", "Conjugation", "Translation"],
+        "rows": [
+          ["Eu", "-o", "falo", "I speak"],
+          ["Tu", "-as", "falas", "You speak (informal)"],
+          ["Ele / Ela / Você", "-a", "fala", "He/She speaks"],
+          ["Nós", "-amos", "falamos", "We speak"],
+          ["Vocês / Eles / Elas", "-am", "falam", "They speak"]
+        ]
+      },
+      {
+        "type": "explanation",
+        "heading": "Common Regular -ar Verbs",
+        "body": "Here are the most useful regular -ar verbs for beginners. Notice how they all follow the exact same pattern — only the stem changes. Practice by picking any of these verbs and running through all five persons: stem + o, stem + as, stem + a, stem + amos, stem + am."
+      },
+      {
+        "type": "table",
+        "heading": "Essential -ar Verbs",
+        "columns": ["Verb", "Meaning", "Stem", "Example"],
+        "rows": [
+          ["falar", "to speak", "fal-", "Eu falo português."],
+          ["morar", "to live/reside", "mor-", "Tu moras em Lisboa."],
+          ["trabalhar", "to work", "trabalh-", "Ela trabalha num banco."],
+          ["estudar", "to study", "estud-", "Nós estudamos muito."],
+          ["comprar", "to buy", "compr-", "Eles compram pão."],
+          ["cozinhar", "to cook", "cozinh-", "Eu cozinho bem."],
+          ["tocar", "to play (music)", "toc-", "Tu tocas guitarra."],
+          ["chegar", "to arrive", "cheg-", "O comboio chega às 8."],
+          ["pagar", "to pay", "pag-", "Quanto pagas?"],
+          ["viajar", "to travel", "viaj-", "Nós viajamos muito."],
+          ["gostar (de)", "to like", "gost-", "Eu gosto de café."],
+          ["precisar (de)", "to need", "precis-", "Precisas de ajuda?"]
+        ]
+      },
+      {
+        "type": "examples",
+        "heading": "-ar Verbs in Full Sentences",
+        "items": [
+          {
+            "portuguese": "Eu falo inglês e português.",
+            "translation": "I speak English and Portuguese.",
+            "pronunciation": "ay-oo FAH-loo een-GLESH ee poor-too-GESH.",
+            "highlight": ["falo"]
+          },
+          {
+            "portuguese": "Ela trabalha num hospital.",
+            "translation": "She works in a hospital.",
+            "pronunciation": "EH-lah trah-BAHL-yah noom ohsh-pee-TAHL.",
+            "highlight": ["trabalha"]
+          },
+          {
+            "portuguese": "Nós estudamos Economia na universidade.",
+            "translation": "We study Economics at university.",
+            "pronunciation": "nosh esh-too-DAH-moosh eh-koh-noh-MEE-ah nah oo-nee-veh-see-DAH-deh.",
+            "highlight": ["estudamos"]
+          },
+          {
+            "portuguese": "Eles moram em Lisboa.",
+            "translation": "They live in Lisbon.",
+            "pronunciation": "EH-lesh MOH-rahm eem LEESH-boh-ah.",
+            "highlight": ["moram"]
+          }
+        ]
+      },
+      {
+        "type": "explanation",
+        "heading": "The Verb GOSTAR DE",
+        "body": "GOSTAR DE (to like) is one of the most useful -ar verbs, but it works differently from English. It always requires the preposition 'de' after it: 'gostar de + noun' or 'gostar de + infinitive'. The thing you like comes AFTER 'de'. This is the opposite of English where the object comes directly after the verb. For example: 'Eu gosto de café' (I like coffee), 'Tu gostas de música?' (Do you like music?). Note: in European Portuguese, the 'de' often contracts with articles: 'do' (de + o), 'da' (de + a), 'dos', 'das'."
+      },
+      {
+        "type": "explanation",
+        "heading": "Professions & Gender Agreement",
+        "body": "In Portuguese, profession nouns must agree in gender with the person doing the job. There are three main patterns: (1) Verbs ending in -or change to -ora for feminine: professor → professora. (2) Nouns ending in -eiro change to -eira: engenheiro → engenheira. (3) Nouns ending in -ista are the same for both genders — only the article changes: o jornalista / a jornalista. After the verb SER, you do NOT use an indefinite article before a profession: 'Sou médico' (not 'Sou um médico'). However, if you add an adjective, you DO use the article: 'Sou um bom médico'."
+      },
+      {
+        "type": "table",
+        "heading": "Common Professions — Gender Forms",
+        "columns": ["Masculine", "Feminine", "Pattern"],
+        "rows": [
+          ["o médico", "a médica", "-ico → -ica"],
+          ["o professor", "a professora", "-or → -ora"],
+          ["o engenheiro", "a engenheira", "-eiro → -eira"],
+          ["o enfermeiro", "a enfermeira", "-eiro → -eira"],
+          ["o advogado", "a advogada", "-ado → -ada"],
+          ["o cozinheiro", "a cozinheira", "-eiro → -eira"],
+          ["o jornalista", "a jornalista", "-ista (same)"],
+          ["o estudante", "a estudante", "-ante (same)"],
+          ["o cantor", "a cantora", "-or → -ora"],
+          ["o vendedor", "a vendedora", "-or → -ora"]
+        ]
+      },
+      {
+        "type": "examples",
+        "heading": "Talking About Professions",
+        "items": [
+          {
+            "portuguese": "O João é médico. A Ana é médica.",
+            "translation": "João is a doctor. Ana is a doctor.",
+            "pronunciation": "oo ZHOH-ow eh MEH-dee-koo. ah AH-nah eh MEH-dee-kah.",
+            "highlight": ["médico", "médica"]
+          },
+          {
+            "portuguese": "Ela é engenheira e trabalha em Londres.",
+            "translation": "She is an engineer and works in London.",
+            "pronunciation": "EH-lah eh en-jen-YAY-rah ee trah-BAHL-yah eem LON-dresh.",
+            "highlight": ["engenheira", "trabalha"]
+          },
+          {
+            "portuguese": "Somos estudantes de Economia.",
+            "translation": "We are Economics students.",
+            "pronunciation": "SOH-moosh esh-too-DAN-tesh deh eh-koh-noh-MEE-ah.",
+            "highlight": ["estudantes"]
+          }
+        ]
+      },
+      {
+        "type": "tips",
+        "heading": "Common Mistakes & Tips",
+        "items": [
+          "After SER, drop the article before professions: 'Sou estudante' (not 'Sou um estudante'). But with adjectives: 'Sou um bom estudante'.",
+          "Don't forget the 'lh' in 'trabalhar' — it's trah-bahl-YAR, not trah-bal-AR. The 'lh' makes a 'ly' sound.",
+          "GOSTAR always needs 'de': 'Gosto de café', NOT 'Gosto café'. This is one of the most common beginner mistakes.",
+          "The verb 'morar' always uses 'em' for location: 'Moro em Lisboa', NOT 'Moro a Lisboa'.",
+          "For professions ending in -ista, the word doesn't change — only the article: 'o jornalista' / 'a jornalista'. Don't try to add -a!",
+          "When using -ar verbs, remember that 'nós' always ends in -amos. This is the only person with this ending, so it's a reliable anchor point.",
+          "In European Portuguese, the 'l' at the end of infinitives is pronounced like a dark 'l' (similar to the 'l' in English 'full'), not a clear 'l'."
+        ]
+      }
+    ],
+    "exercises": [
+      {
+        "type": "multiple-choice",
+        "title": "Conjugate the -ar Verb",
+        "instructions": "Choose the correct conjugation for each sentence.",
+        "items": [
+          {
+            "question": "Eu ___ português e inglês. (falar)",
+            "options": ["falo", "falas", "fala", "falam"],
+            "correct": 0,
+            "explanation": "Eu + stem + o = falo. First person singular of regular -ar verbs always ends in -o."
+          },
+          {
+            "question": "Ela ___ em Lisboa. (morar)",
+            "options": ["moras", "moro", "mora", "moram"],
+            "correct": 2,
+            "explanation": "Ela + stem + a = mora. Third person singular of regular -ar verbs always ends in -a."
+          },
+          {
+            "question": "Nós ___ muito para os exames. (estudar)",
+            "options": ["estuda", "estudas", "estudamos", "estudam"],
+            "correct": 2,
+            "explanation": "Nós + stem + amos = estudamos. First person plural of regular -ar verbs always ends in -amos."
+          },
+          {
+            "question": "Eles ___ num hospital. (trabalhar)",
+            "options": ["trabalho", "trabalhas", "trabalha", "trabalham"],
+            "correct": 3,
+            "explanation": "Eles + stem + am = trabalham. Third person plural of regular -ar verbs always ends in -am."
+          }
+        ]
+      },
+      {
+        "type": "fill-in-blank",
+        "title": "Complete the Verb Conjugation",
+        "instructions": "Fill in the blank with the correct form of the verb in parentheses.",
+        "items": [
+          {
+            "sentence": "Eu ___ de música. (gostar)",
+            "answer": "gosto",
+            "fullAnswer": "gosto",
+            "hint": "1st person singular of gostar"
+          },
+          {
+            "sentence": "Tu ___ em Madrid? (morar)",
+            "answer": "moras",
+            "fullAnswer": "moras",
+            "hint": "2nd person singular of morar"
+          },
+          {
+            "sentence": "Nós ___ Economia. (estudar)",
+            "answer": "estudamos",
+            "fullAnswer": "estudamos",
+            "hint": "1st person plural of estudar"
+          },
+          {
+            "sentence": "Ela ___ de café. (gostar)",
+            "answer": "gosta",
+            "fullAnswer": "gosta",
+            "hint": "3rd person singular of gostar"
+          }
+        ]
+      },
+      {
+        "type": "sentence-builder",
+        "title": "Build Sentences with -ar Verbs",
+        "instructions": "Choose the correct verb form to complete each sentence.",
+        "items": [
+          {
+            "sentence": "Eu ___ inglês.",
+            "blank": "falo",
+            "wordBank": ["falo", "falas", "fala", "falamos"],
+            "hint": "1st person singular of falar"
+          },
+          {
+            "sentence": "Ela ___ num banco.",
+            "blank": "trabalha",
+            "wordBank": ["trabalho", "trabalhas", "trabalha", "trabalham"],
+            "hint": "3rd person singular of trabalhar"
+          },
+          {
+            "sentence": "Nós ___ de música.",
+            "blank": "gostamos",
+            "wordBank": ["gosto", "gostas", "gosta", "gostamos"],
+            "hint": "1st person plural of gostar"
+          }
+        ]
+      },
+      {
+        "type": "multiple-choice",
+        "title": "Correct Profession Form",
+        "instructions": "Choose the correct gendered form of the profession.",
+        "items": [
+          {
+            "question": "A Maria é _____ (engineer).",
+            "options": ["engenheiro", "engenheira", "engenheir", "engenheirista"],
+            "correct": 1,
+            "explanation": "The feminine of 'engenheiro' is 'engenheira' — the pattern is -eiro → -eira."
+          },
+          {
+            "question": "O Pedro é _____ (journalist).",
+            "options": ["jornalisto", "jornalista", "jornaliste", "jornalisto"],
+            "correct": 1,
+            "explanation": "Professions ending in -ista are the same for both genders. 'O Pedro é jornalista'."
+          },
+          {
+            "question": "A Ana é _____ (teacher).",
+            "options": ["professor", "professora", "professo", "professoria"],
+            "correct": 1,
+            "explanation": "The feminine of 'professor' is 'professora' — the pattern is -or → -ora."
+          }
+        ]
+      }
+    ]
+  }
+}

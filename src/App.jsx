@@ -1,5 +1,6 @@
 import { useState, useEffect, useRef } from "react";
-import { sessions, courseInfo } from "./data/courseData";
+import { sessions, courseInfo } from "./data";
+import GrammarBox from "./components/GrammarBox";
 
 // ─── Utility: speak a Portuguese word ───────────────────────────────────────
 function speakPortuguese(text) {
@@ -217,67 +218,76 @@ function VocabCard({ item, accent }) {
   );
 }
 
-// ─── Grammar Box ─────────────────────────────────────────────────────────────
-function GrammarBox({ grammar, accent }) {
-  return (
-    <div
-      style={{
-        background: "rgba(255,255,255,0.04)",
-        border: `1px solid ${accent}44`,
-        borderRadius: 16,
-        padding: "24px 28px",
-        marginTop: 8,
-      }}
-    >
-      <div style={{ fontSize: "0.7rem", fontWeight: 700, letterSpacing: "0.12em", color: accent, textTransform: "uppercase", marginBottom: 6 }}>
-        Grammar Focus
-      </div>
-      <div style={{ fontSize: "1.2rem", fontWeight: 700, color: "#fff", marginBottom: 8, fontFamily: "'Playfair Display', serif" }}>
-        {grammar.title}
-      </div>
-      <div style={{ fontSize: "0.85rem", color: "rgba(255,255,255,0.65)", marginBottom: 20, lineHeight: 1.6 }}>
-        {grammar.explanation}
-      </div>
-      <div style={{ display: "grid", gap: 10 }}>
-        {grammar.examples.map((ex, i) => (
-          <div
-            key={i}
-            style={{
-              display: "grid",
-              gridTemplateColumns: "120px 1fr auto",
-              gap: 12,
-              alignItems: "center",
-              background: "rgba(0,0,0,0.2)",
-              borderRadius: 10,
-              padding: "10px 14px",
-            }}
-          >
-            <code style={{ color: accent, fontWeight: 700, fontSize: "0.9rem" }}>{ex.pattern}</code>
-            <span style={{ fontFamily: "'Playfair Display', serif", fontSize: "0.9rem", fontStyle: "italic", color: "#fff" }}>{ex.example}</span>
-            <span style={{ fontSize: "0.75rem", color: "rgba(255,255,255,0.4)" }}>{ex.sound}</span>
-          </div>
-        ))}
-      </div>
-    </div>
-  );
+// ─── Quiz Component ───────────────────────────────────────────────────────────
+function buildGrammarQuestions(session) {
+  if (!session.grammar?.exercises) return [];
+  const questions = [];
+  for (const ex of session.grammar.exercises) {
+    if (ex.type === "multiple-choice") {
+      for (const item of ex.items) {
+        const correctOpt = item.options[item.correct];
+        questions.push({
+          type: "grammar",
+          question: item.question,
+          correct: correctOpt,
+          options: [...item.options].sort(() => Math.random() - 0.5),
+          explanation: item.explanation || null,
+        });
+      }
+    }
+    if (ex.type === "fill-in-blank") {
+      for (const item of ex.items) {
+        const reversed = item.answer.split("").reverse().join("");
+        const withS = item.answer + (item.answer.endsWith("s") ? "" : "s");
+        const distractors = [reversed, withS, item.answer.toUpperCase()]
+          .filter((d) => d !== item.answer)
+          .slice(0, 3);
+        const options = [...distractors, item.answer].sort(() => Math.random() - 0.5);
+        questions.push({
+          type: "grammar",
+          question: item.sentence.replace(/____+/g, "_____") + " (" + item.hint + ")",
+          correct: item.answer,
+          options,
+        });
+      }
+    }
+    if (ex.type === "sentence-builder") {
+      for (const item of ex.items) {
+        const correctWord = item.blank;
+        const bank = item.wordBank;
+        questions.push({
+          type: "grammar",
+          question: item.sentence,
+          correct: correctWord,
+          options: [...bank].sort(() => Math.random() - 0.5),
+        });
+      }
+    }
+  }
+  return questions;
 }
 
-// ─── Quiz Component ───────────────────────────────────────────────────────────
 function QuizSection({ session }) {
   const [idx, setIdx] = useState(0);
   const [selected, setSelected] = useState(null);
   const [score, setScore] = useState(0);
   const [done, setDone] = useState(false);
+  const [questions, setQuestions] = useState([]);
 
-  const questions = session.vocabulary.slice(0, 6).map((v) => {
-    const wrong = session.vocabulary
-      .filter((x) => x.word !== v.word)
-      .sort(() => Math.random() - 0.5)
-      .slice(0, 3)
-      .map((x) => x.translation);
-    const opts = [...wrong, v.translation].sort(() => Math.random() - 0.5);
-    return { question: v.word, correct: v.translation, options: opts };
-  });
+  useEffect(() => {
+    const vocabQuestions = session.vocabulary.slice(0, 6).map((v) => {
+      const wrong = session.vocabulary
+        .filter((x) => x.word !== v.word)
+        .sort(() => Math.random() - 0.5)
+        .slice(0, 3)
+        .map((x) => x.translation);
+      const opts = [...wrong, v.translation].sort(() => Math.random() - 0.5);
+      return { type: "vocab", question: v.word, correct: v.translation, options: opts };
+    });
+    const grammarQuestions = buildGrammarQuestions(session).slice(0, 3);
+    const all = [...vocabQuestions, ...grammarQuestions].sort(() => Math.random() - 0.5);
+    setQuestions(all);
+  }, [session]);
 
   const q = questions[idx];
 
@@ -288,22 +298,36 @@ function QuizSection({ session }) {
     setTimeout(() => {
       if (idx + 1 >= questions.length) setDone(true);
       else { setIdx((i) => i + 1); setSelected(null); }
-    }, 1200);
+    }, q.explanation ? 2500 : 1200);
   };
 
-  const reset = () => { setIdx(0); setSelected(null); setScore(0); setDone(false); };
+  const reset = () => {
+    setIdx(0); setSelected(null); setScore(0); setDone(false);
+    const vocabQuestions = session.vocabulary.slice(0, 6).map((v) => {
+      const wrong = session.vocabulary
+        .filter((x) => x.word !== v.word)
+        .sort(() => Math.random() - 0.5)
+        .slice(0, 3)
+        .map((x) => x.translation);
+      const opts = [...wrong, v.translation].sort(() => Math.random() - 0.5);
+      return { type: "vocab", question: v.word, correct: v.translation, options: opts };
+    });
+    const grammarQuestions = buildGrammarQuestions(session).slice(0, 3);
+    const all = [...vocabQuestions, ...grammarQuestions].sort(() => Math.random() - 0.5);
+    setQuestions(all);
+  };
 
   if (done) {
     return (
       <div style={{ textAlign: "center", padding: "40px 20px" }}>
         <div style={{ fontSize: "3rem", marginBottom: 12 }}>
-          {score >= 5 ? "🏆" : score >= 3 ? "⭐" : "📚"}
+          {score >= questions.length - 1 ? "🏆" : score >= questions.length / 2 ? "⭐" : "📚"}
         </div>
         <div style={{ fontSize: "1.5rem", fontWeight: 700, color: "#fff", marginBottom: 8 }}>
           {score} / {questions.length}
         </div>
         <div style={{ color: "rgba(255,255,255,0.6)", marginBottom: 24 }}>
-          {score >= 5 ? "Excelente! Muito bem!" : score >= 3 ? "Bom trabalho!" : "Continue a praticar!"}
+          {score >= questions.length - 1 ? "Excelente! Muito bem!" : score >= questions.length / 2 ? "Bom trabalho!" : "Continue a praticar!"}
         </div>
         <button
           onClick={reset}
@@ -324,16 +348,32 @@ function QuizSection({ session }) {
     );
   }
 
+  if (!q) return null;
+
   return (
     <div style={{ padding: "8px 0" }}>
-      <div style={{ display: "flex", justifyContent: "space-between", marginBottom: 20, fontSize: "0.8rem", color: "rgba(255,255,255,0.5)" }}>
+      <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center", marginBottom: 20, fontSize: "0.8rem", color: "rgba(255,255,255,0.5)" }}>
         <span>Question {idx + 1} of {questions.length}</span>
-        <span>Score: {score}</span>
+        <div style={{ display: "flex", gap: 8, alignItems: "center" }}>
+          <span style={{
+            background: q.type === "grammar" ? session.accent + "33" : "rgba(255,255,255,0.1)",
+            color: q.type === "grammar" ? session.accent : "rgba(255,255,255,0.5)",
+            borderRadius: 99,
+            padding: "2px 10px",
+            fontSize: "0.7rem",
+            fontWeight: 700,
+            textTransform: "uppercase",
+            letterSpacing: "0.05em",
+          }}>
+            {q.type === "grammar" ? "Grammar" : "Vocab"}
+          </span>
+          <span>Score: {score}</span>
+        </div>
       </div>
       <div style={{ fontFamily: "'Playfair Display', serif", fontSize: "1.6rem", color: "#fff", marginBottom: 6, fontWeight: 700 }}>
         {q.question}
       </div>
-      <PronounceBtn text={q.question} />
+      {q.type === "vocab" && <PronounceBtn text={q.question} />}
       <div style={{ display: "grid", gridTemplateColumns: "1fr 1fr", gap: 10, marginTop: 20 }}>
         {q.options.map((opt) => {
           const isCorrect = opt === q.correct;
@@ -360,6 +400,20 @@ function QuizSection({ session }) {
           );
         })}
       </div>
+      {selected !== null && q.explanation && (
+        <div style={{
+          marginTop: 16,
+          background: "rgba(0,0,0,0.2)",
+          borderRadius: 8,
+          padding: "10px 14px",
+          fontSize: "0.82rem",
+          color: "rgba(255,255,255,0.7)",
+          lineHeight: 1.5,
+          borderLeft: `3px solid ${session.accent}`,
+        }}>
+          💡 {q.explanation}
+        </div>
+      )}
     </div>
   );
 }
@@ -517,7 +571,6 @@ function SessionPage({ session, onBack }) {
         {tab === "grammar" && (
           <div style={{ paddingTop: 20 }}>
             <GrammarBox grammar={session.grammar} accent={session.accent} />
-
             {/* YouTube grammar search */}
             <div
               style={{
@@ -549,7 +602,7 @@ function SessionPage({ session, onBack }) {
                   textDecoration: "none",
                 }}
               >
-                ▶ Search "{session.grammar.title}" on YouTube
+                {"▶ Search “" + session.grammar.title + "” on YouTube"}
               </a>
             </div>
           </div>

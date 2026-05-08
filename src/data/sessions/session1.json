@@ -1,0 +1,282 @@
+{
+  "id": 1,
+  "title": "Saudações e o Alfabeto",
+  "subtitle": "Greetings & the Alphabet",
+  "color": "#2D6A4F",
+  "accent": "#52B788",
+  "icon": "👋",
+  "description": "Learn how to greet people and introduce yourself in Portuguese, plus master the alphabet and basic sounds.",
+  "topics": ["Greetings", "Self-introductions", "The Alphabet", "Nasal sounds", "Diphthongs"],
+  "vocabulary": [
+    {
+      "word": "Olá",
+      "translation": "Hello",
+      "pronunciation": "oh-LAH",
+      "ipa": "/oˈla/",
+      "example": "Olá! Eu chamo-me Miguel.",
+      "exampleTranslation": "Hello! My name is Miguel.",
+      "category": "greetings",
+      "youtubeQuery": "como dizer olá em português",
+      "tip": "Used at any time of day, very common and friendly"
+    },
+    {
+      "word": "Bom dia",
+      "translation": "Good morning",
+      "pronunciation": "bom DEE-ah",
+      "ipa": "/bõ ˈdi.ɐ/",
+      "example": "Bom dia! Como está?",
+      "exampleTranslation": "Good morning! How are you?",
+      "category": "greetings",
+      "tip": "Used from morning until around noon"
+    },
+    {
+      "word": "Boa tarde",
+      "translation": "Good afternoon",
+      "pronunciation": "BOH-ah TAR-deh",
+      "ipa": "/ˈboɐ ˈtaɾdɨ/",
+      "example": "Boa tarde! Tudo bem?",
+      "exampleTranslation": "Good afternoon! All good?",
+      "category": "greetings",
+      "tip": "Used from noon until sunset"
+    },
+    {
+      "word": "Boa noite",
+      "translation": "Good evening / Good night",
+      "pronunciation": "BOH-ah NOY-teh",
+      "ipa": "/ˈboɐ ˈnojtɨ/",
+      "example": "Boa noite! Até amanhã.",
+      "exampleTranslation": "Good night! See you tomorrow.",
+      "category": "greetings",
+      "tip": "Used after sunset, both as a greeting and farewell"
+    },
+    {
+      "word": "Adeus",
+      "translation": "Goodbye",
+      "pronunciation": "ah-DAY-oos",
+      "ipa": "/ɐˈdewʃ/",
+      "example": "Adeus! Até logo!",
+      "exampleTranslation": "Goodbye! See you later!",
+      "category": "greetings",
+      "tip": "More formal goodbye, often used when parting for a long time"
+    },
+    {
+      "word": "Até logo",
+      "translation": "See you later",
+      "pronunciation": "ah-TAY LOH-goo",
+      "ipa": "/ɐˈtɛ ˈloɡu/",
+      "example": "Até logo, amigos!",
+      "exampleTranslation": "See you later, friends!",
+      "category": "greetings",
+      "tip": "Casual farewell, implies you'll see them again soon"
+    },
+    {
+      "word": "Obrigado / Obrigada",
+      "translation": "Thank you",
+      "pronunciation": "oh-bree-GAH-doo / oh-bree-GAH-dah",
+      "ipa": "/obɾiˈɡadu/ / /obɾiˈɡadɐ/",
+      "example": "Obrigado pela ajuda!",
+      "exampleTranslation": "Thank you for your help!",
+      "category": "politeness",
+      "tip": "Men say 'obrigado', women say 'obrigada' — it agrees with the speaker's gender"
+    },
+    {
+      "word": "De nada",
+      "translation": "You're welcome",
+      "pronunciation": "deh NAH-dah",
+      "ipa": "/dɨ ˈnadɐ/",
+      "example": "— Obrigada! — De nada!",
+      "exampleTranslation": "— Thank you! — You're welcome!",
+      "category": "politeness",
+      "tip": "Literally means 'of nothing' — the standard response to 'thank you'"
+    },
+    {
+      "word": "Por favor",
+      "translation": "Please",
+      "pronunciation": "por fah-VOR",
+      "ipa": "/puɾ fɐˈvoɾ/",
+      "example": "Um café, por favor.",
+      "exampleTranslation": "A coffee, please.",
+      "category": "politeness",
+      "tip": "Essential for polite requests; also 'faz favor' in Portugal"
+    },
+    {
+      "word": "Desculpe",
+      "translation": "Excuse me / I'm sorry",
+      "pronunciation": "desh-KOOL-peh",
+      "ipa": "/dɨʃˈkulpɨ/",
+      "example": "Desculpe, onde é a estação?",
+      "exampleTranslation": "Excuse me, where is the station?",
+      "category": "politeness",
+      "tip": "Use to get attention or apologize; 'desculpa' is the informal version"
+    },
+    {
+      "word": "Eu chamo-me",
+      "translation": "My name is (I call myself)",
+      "pronunciation": "ay-oo SHAH-moo-meh",
+      "ipa": "/ew ˈʃamu mɨ/",
+      "example": "Eu chamo-me Ana. E tu?",
+      "exampleTranslation": "My name is Ana. And you?",
+      "category": "introductions",
+      "tip": "Literally 'I call myself' — the reflexive verb chamar-se"
+    },
+    {
+      "word": "Eu sou de",
+      "translation": "I am from",
+      "pronunciation": "ay-oo soh deh",
+      "ipa": "/ew ˈso dɨ/",
+      "example": "Eu sou de Lisboa.",
+      "exampleTranslation": "I am from Lisbon.",
+      "category": "introductions",
+      "tip": "Use 'de' before city names and most countries"
+    },
+    {
+      "word": "Sim / Não",
+      "translation": "Yes / No",
+      "pronunciation": "see / now",
+      "ipa": "/sĩ/ / /nɐ̃w̃/",
+      "example": "Sim, eu falo português. Não, não falo espanhol.",
+      "exampleTranslation": "Yes, I speak Portuguese. No, I don't speak Spanish.",
+      "category": "basics",
+      "tip": "'Não' has a nasal sound — practice the ão diphthong!"
+    }
+  ],
+  "grammar": {
+    "title": "Nasal Vowels & the Portuguese Alphabet",
+    "sections": [
+      {
+        "type": "explanation",
+        "heading": "The Portuguese Alphabet",
+        "body": "Portuguese uses the same 26 letters as English, plus a few special characters: ç (c-cedilha), and letters with diacritical marks — à, á, â, ã, é, ê, í, ó, ô, õ, ú. The letters K, W, and Y exist but are almost exclusively used in foreign words and names. Each letter has a specific name: for example, A is 'á', B is 'bê', C is 'cê', and so on. The most important thing to learn at this stage is not the letter names, but the sounds — especially the nasal vowels, which don't exist in English."
+      },
+      {
+        "type": "explanation",
+        "heading": "What Are Nasal Vowels?",
+        "body": "Portuguese has a set of vowel sounds produced with air flowing through the nose. These are marked either with a tilde (~) above the vowel (like ã) or by the letters -m or -n in the same syllable (like in 'bem' or 'sim'). Mastering these sounds is one of the most important steps toward a natural Portuguese accent. Unlike English, where 'm' and 'n' are always pronounced as separate consonants, in Portuguese nasal vowels the vowel itself changes quality — the air flows through both the mouth and the nose simultaneously."
+      },
+      {
+        "type": "table",
+        "heading": "Nasal Vowel Sounds at a Glance",
+        "caption": "Compare each nasal sound to its closest English approximation",
+        "columns": ["Spelling", "IPA", "Sound Approx.", "Examples"],
+        "rows": [
+          ["ã / ão", "/ɐ̃w̃/", "nasal 'ow' (like 'cow' but through the nose)", "manhã, pão, coração, não"],
+          ["-em / -en", "/ɐ̃j̃/", "nasal 'ay' (like 'say' but nasal)", "também, entre, bem, quando"],
+          ["-im / -in", "/ĩ/", "nasal 'ee'", "sim, tinto, fim, vinte"],
+          ["-om / -on", "/õ/", "nasal 'o'", "com, contar, bom, som"],
+          ["-um / -un", "/ũ/", "nasal 'oo'", "um, nunca, algum, mundo"]
+        ]
+      },
+      {
+        "type": "examples",
+        "heading": "Nasal Vowels in Context",
+        "items": [
+          {
+            "portuguese": "Bom dia! Como está?",
+            "translation": "Good morning! How are you?",
+            "pronunciation": "bom DEE-ah koh-moo esh-TAH",
+            "highlight": ["Bom"]
+          },
+          {
+            "portuguese": "Eu tenho uma mãe muito boa.",
+            "translation": "I have a very good mother.",
+            "pronunciation": "ay-oo TEN-yoo OO-mah may moo-ee-too BOH-ah",
+            "highlight": ["tenho", "mãe", "boa"]
+          },
+          {
+            "portuguese": "Não, obrigado. Sim, por favor.",
+            "translation": "No, thank you. Yes, please.",
+            "pronunciation": "NOW oh-bree-GAH-doo. SEE por fah-VOR",
+            "highlight": ["Não", "Sim"]
+          },
+          {
+            "portuguese": "O pão é muito bom.",
+            "translation": "The bread is very good.",
+            "pronunciation": "oo POWN eh moo-ee-too BOM",
+            "highlight": ["pão", "bom"]
+          }
+        ]
+      },
+      {
+        "type": "pronunciation",
+        "heading": "Oral vs. Nasal: Minimal Pairs",
+        "description": "These pairs show how a single nasal vowel can change the meaning of a word entirely.",
+        "pairs": [
+          { "oral": "mau (/maw/) — bad", "nasal": "mão (/mɐ̃w̃/) — hand", "note": "Same spelling pattern, completely different meaning" },
+          { "oral": "sei (/sej/) — I know", "nasal": "sem (/sɐ̃j̃/) — without", "note": "The nasal version has a 'hazy' quality" },
+          { "oral": "fila (/ˈfilɐ/) — line/queue", "nasal": "fim (/fĩ/) — end", "note": "Nasal 'im' sounds like a hummed 'ee'" },
+          { "oral": "sê (/se/) — be (imperative)", "nasal": "sem (/sɐ̃j̃/) — without", "note": "Context usually makes the meaning clear" }
+        ]
+      },
+      {
+        "type": "tips",
+        "heading": "Common Mistakes & Tips",
+        "items": [
+          "Do NOT pronounce the 'n' or 'm' as a separate consonant — let the vowel itself become nasal. In 'pão', you don't say 'pah-own', you say a single nasalized syllable.",
+          "The tilde (~) always means the vowel is nasal. If you see it, air goes through your nose.",
+          "In '-em' and '-en' endings, the 'e' changes sound entirely — it becomes a nasal diphthong, not a regular 'e'. 'Bem' doesn't sound like 'ben'.",
+          "Practice trick: hold your nose while saying a nasal vowel. If you feel vibration in your nostrils, you're doing it right.",
+          "The diphthong 'ão' is one of the hardest sounds for English speakers. Start by saying 'ow' (as in 'cow'), then slowly direct air through your nose while maintaining the mouth position.",
+          "Not every 'm' or 'n' creates a nasal vowel! In words like 'mesa' or 'cana', the vowels are oral. Nasal vowels only occur when m/n is in the same syllable and follows the vowel."
+        ]
+      }
+    ],
+    "exercises": [
+      {
+        "type": "multiple-choice",
+        "title": "Identify the Nasal Vowel",
+        "instructions": "Select the word that contains a nasal vowel sound.",
+        "items": [
+          {
+            "question": "Which word has a nasal vowel?",
+            "options": ["casa", "sim", "bola", "mesa"],
+            "correct": 1,
+            "explanation": "'Sim' ends in '-im', which produces a nasal 'ee' sound. The others have regular oral vowels."
+          },
+          {
+            "question": "Which word does NOT have a nasal vowel?",
+            "options": ["mão", "bem", "livro", "um"],
+            "correct": 2,
+            "explanation": "'Livro' has only oral vowels. 'Mão' has 'ão' (nasal), 'bem' has '-em' (nasal), and 'um' has '-um' (nasal)."
+          },
+          {
+            "question": "Which word contains the nasal diphthong 'ão'?",
+            "options": ["com", "não", "sim", "um"],
+            "correct": 1,
+            "explanation": "'Não' ends in 'ão', the most iconic Portuguese nasal sound. 'Com' has '-om', 'sim' has '-im', and 'um' has '-um'."
+          }
+        ]
+      },
+      {
+        "type": "fill-in-blank",
+        "title": "Complete the Nasal Vowel",
+        "instructions": "Fill in the blank with the correct nasal vowel spelling.",
+        "items": [
+          {
+            "sentence": "Eu gosto de p__o.",
+            "answer": "ão",
+            "fullAnswer": "pão",
+            "hint": "bread"
+          },
+          {
+            "sentence": "A m__hã é muito bonita.",
+            "answer": "an",
+            "fullAnswer": "manhã",
+            "hint": "morning"
+          },
+          {
+            "sentence": "Ele t__m um cão.",
+            "answer": "e-e",
+            "fullAnswer": "tem",
+            "hint": "has (3rd person of ter)"
+          },
+          {
+            "sentence": "__o, obrigada!",
+            "answer": "Nã",
+            "fullAnswer": "Não",
+            "hint": "no"
+          }
+        ]
+      }
+    ]
+  }
+}
