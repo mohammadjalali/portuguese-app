@@ -1,22 +1,7 @@
-import { useState, useEffect, useRef } from "react";
+import { useState, useEffect } from "react";
 import { sessions, courseInfo } from "./data";
 import GrammarBox from "./components/GrammarBox";
-
-// ─── Utility: speak a Portuguese word ───────────────────────────────────────
-function speakPortuguese(text) {
-  if (!window.speechSynthesis) return;
-  window.speechSynthesis.cancel();
-  const utter = new SpeechSynthesisUtterance(text);
-  const voices = window.speechSynthesis.getVoices();
-  const ptVoice = voices.find(
-    (v) => v.lang.startsWith("pt") || v.name.toLowerCase().includes("portuguese")
-  );
-  if (ptVoice) utter.voice = ptVoice;
-  utter.lang = "pt-PT";
-  utter.rate = 0.85;
-  utter.pitch = 1;
-  window.speechSynthesis.speak(utter);
-}
+import { speakPortuguese } from "./utils/speak";
 
 // ─── Category Badge ──────────────────────────────────────────────────────────
 const categoryColors = {
@@ -861,12 +846,6 @@ export default function App() {
     link.rel = "stylesheet";
     link.href = "https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,700;0,800;1,400&display=swap";
     document.head.appendChild(link);
-
-    // preload voices
-    if (window.speechSynthesis) {
-      window.speechSynthesis.getVoices();
-      window.speechSynthesis.addEventListener("voiceschanged", () => window.speechSynthesis.getVoices());
-    }
 
     document.body.style.margin = "0";
     document.body.style.fontFamily = "'Segoe UI', system-ui, sans-serif";

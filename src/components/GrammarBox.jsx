@@ -1,23 +1,18 @@
+import { useState } from "react";
 import FillInTheBlank from "./FillInTheBlank";
 import MultipleChoice from "./MultipleChoice";
 import SentenceBuilder from "./SentenceBuilder";
+import { speakPortuguese } from "../utils/speak";
 
 function PronounceBtn({ text, size = 18 }) {
   const [active, setActive] = useState(false);
   const handle = () => {
-    if (!window.speechSynthesis) return;
-    window.speechSynthesis.cancel();
-    const utter = new SpeechSynthesisUtterance(text);
-    const voices = window.speechSynthesis.getVoices();
-    const ptVoice = voices.find(
-      (v) => v.lang.startsWith("pt") || v.name.toLowerCase().includes("portuguese")
-    );
-    if (ptVoice) utter.voice = ptVoice;
-    utter.lang = "pt-PT";
-    utter.rate = 0.85;
     setActive(true);
-    utter.onend = () => setActive(false);
-    window.speechSynthesis.speak(utter);
+    speakPortuguese(text);
+    // Approximate duration — Google TTS doesn't expose ended event easily
+    // so we estimate based on text length
+    const estimatedMs = Math.max(800, text.length * 120);
+    setTimeout(() => setActive(false), estimatedMs);
   };
   return (
     <button
@@ -40,8 +35,6 @@ function PronounceBtn({ text, size = 18 }) {
     </button>
   );
 }
-
-import { useState } from "react";
 
 function SectionHeading({ children, accent }) {
   return (
