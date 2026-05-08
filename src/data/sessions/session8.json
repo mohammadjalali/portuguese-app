@@ -1,345 +1,346 @@
 {
   "id": 8,
-  "title": "O Tempo e as Rotinas",
-  "subtitle": "Weather, Seasons & Daily Routines",
+  "title": "Hábitos Alimentares",
+  "subtitle": "Food Culture & Eating Habits in Portugal",
   "color": "#2B2D42",
   "accent": "#8D99AE",
-  "icon": "🌤️",
-  "description": "Learn weather vocabulary, seasons, and how to talk about daily routines using reflexive verbs.",
-  "topics": ["Weather expressions", "Seasons", "Daily routine verbs", "Reflexive verbs (levantar-se, vestir-se...)", "Telling time"],
+  "icon": "🍽️",
+  "description": "Deepen your knowledge of Portuguese food culture, describe daily meals, express preferences, and use time prepositions with meals and schedules.",
+  "topics": ["Portuguese food culture", "Daily meals & routines", "Food preferences", "Time prepositions with meals", "Comparing eating habits"],
   "vocabulary": [
     {
-      "word": "Está a chover / Está a fazer sol",
-      "translation": "It's raining / It's sunny",
-      "pronunciation": "esh-TAH ah shoh-VAIR / esh-TAH ah fah-ZER sol",
-      "ipa": "/ɨʃˈta ɐ ʃoˈveɾ/ / /ɨʃˈta ɐ fɐˈzeɾ sɔɫ/",
-      "example": "Hoje está a chover. Amanhã vai fazer sol.",
-      "exampleTranslation": "Today it's raining. Tomorrow it will be sunny.",
-      "category": "weather",
-      "tip": "Weather uses ESTAR A + INFINITIVO: está a chover (it's raining), está a nevar (it's snowing)"
+      "word": "o pequeno-almoço",
+      "translation": "Breakfast",
+      "pronunciation": "oo peh-KAY-noh ahl-MOH-soo",
+      "ipa": "/u pɨˈkenu aɫˈmɔsu/",
+      "example": "De manhã, tomo o pequeno-almoço às 8h.",
+      "exampleTranslation": "In the morning, I have breakfast at 8am.",
+      "category": "meals",
+      "tip": "Verb: 'tomar o pequeno-almoço' (to have breakfast). A typical Portuguese breakfast: coffee, toast, jam"
     },
     {
-      "word": "Está frio / Está calor",
-      "translation": "It's cold / It's hot",
-      "pronunciation": "esh-TAH FREE-oo / esh-TAH kah-LOR",
-      "ipa": "/ɨʃˈta ˈfɾiu/ / /ɨʃˈta kɐˈɫoɾ/",
-      "example": "No inverno está frio. No verão está muito calor.",
-      "exampleTranslation": "In winter it's cold. In summer it's very hot.",
-      "category": "weather",
-      "tip": "Use 'está' for current weather conditions. 'Frio' and 'calor' are nouns here, not adjectives"
+      "word": "o almoço",
+      "translation": "Lunch",
+      "pronunciation": "oo ahl-MOH-soo",
+      "ipa": "/u aɫˈɔsu/",
+      "example": "Almoçamos entre as 12 e as 14 horas.",
+      "exampleTranslation": "We have lunch between 12 and 2pm.",
+      "category": "meals",
+      "tip": "Lunch is the main meal in Portugal, usually 12-2pm. Verb: 'almoçar'"
     },
     {
-      "word": "Está nublado / Está vento",
-      "translation": "It's cloudy / It's windy",
-      "pronunciation": "esh-TAH noo-BLAH-doo / esh-TAH VEN-too",
-      "ipa": "/ɨʃˈta nuˈbladu/ / /ɨʃˈta ˈvẽtu/",
-      "example": "Hoje está nublado e vento.",
-      "exampleTranslation": "Today it's cloudy and windy.",
-      "category": "weather",
-      "tip": "'Nublado' is an adjective. For wind, use 'fazer vento' (to make wind)"
+      "word": "o lanche",
+      "translation": "Afternoon snack",
+      "pronunciation": "oo LAHN-sheh",
+      "ipa": "/u ˈlɐ̃ʃɨ/",
+      "example": "À tarde, lanchamos às 4h.",
+      "exampleTranslation": "In the afternoon, we have a snack at 4pm.",
+      "category": "meals",
+      "tip": "Verb: 'lanchar'. The Portuguese afternoon snack, usually around 4-5pm"
     },
     {
-      "word": "a primavera / o verão / o outono / o inverno",
-      "translation": "Spring / Summer / Autumn / Winter",
-      "pronunciation": "ah pree-mah-VEH-rah / oh veh-RAH-nyoo / oh oh-TOH-noh / oh een-VEHR-nyoo",
-      "ipa": "/ɐ pɾimɐˈvɛɾɐ/ / /u vɐˈɾɐ̃w̃/ / /u oˈtonu/ / /ĩˈvɛʁnu/",
-      "example": "A primavera é a minha estação preferida.",
-      "exampleTranslation": "Spring is my favorite season.",
-      "category": "seasons",
-      "tip": "Only 'primavera' is feminine. The others are masculine: o verão, o outono, o inverno"
+      "word": "o jantar",
+      "translation": "Dinner",
+      "pronunciation": "oo zhan-TAR",
+      "ipa": "/u ʒɐ̃ˈtaɾ/",
+      "example": "Jantamos às 9h da noite.",
+      "exampleTranslation": "We have dinner at 9pm.",
+      "category": "meals",
+      "tip": "Verb: 'jantar'. Dinner in Portugal is later than in the US, usually 8-9pm"
     },
     {
-      "word": "levantar-se",
-      "translation": "To get up / To wake up",
-      "pronunciation": "leh-vahn-TAR-seh",
-      "ipa": "/lɨvɐ̃ˈtaɾ sɨ/",
-      "example": "Eu levanto-me às 7h da manhã.",
-      "exampleTranslation": "I get up at 7am.",
-      "category": "routine",
-      "tip": "Reflexive verb: levanto-me, levantas-te, levanta-se, levantamo-nos, levantam-se"
+      "word": "a sopa / o prato / a sobremesa",
+      "translation": "Soup / Main course / Dessert",
+      "pronunciation": "ah SOH-pah / oo PRAH-too / ah soh-breh-MEH-zah",
+      "ipa": "/ɐ ˈsopɐ/ / /u ˈpɾatu/ / /ɐ sobɾɨˈmezɐ/",
+      "example": "Ao almoço, como sopa, um prato de peixe e uma sobremesa.",
+      "exampleTranslation": "At lunch, I eat soup, a fish main course, and a dessert.",
+      "category": "food",
+      "tip": "A typical Portuguese meal structure: sopa → prato → sobremesa"
     },
     {
-      "word": "vestir-se",
-      "translation": "To get dressed",
-      "pronunciation": "veh-SHTEER-she",
-      "ipa": "/vɨʃˈtiɾ sɨ/",
-      "example": "Eu visto-me depois do pequeno-almoço.",
-      "exampleTranslation": "I get dressed after breakfast.",
-      "category": "routine",
-      "tip": "Irregular in 1st person: visto (not 'vesto'). visto-me, vestes-te, veste-se..."
+      "word": "o bacalhau / o pastel de nata",
+      "translation": "Cod fish / Custard tart",
+      "pronunciation": "oo bah-kah-LYOW / oo pah-SHTEL deh NAH-tah",
+      "ipa": "/u bɐkɐˈʎaw/ / /u pɐʃˈtɛl dɨ ˈnatɐ/",
+      "example": "O bacalhau é o prato típico de Portugal. O pastel de nata é uma sobremesa famosa.",
+      "exampleTranslation": "Cod fish is the typical dish of Portugal. The custard tart is a famous dessert.",
+      "category": "food",
+      "tip": "Portugal has 365 ways to cook bacalhau (cod). Pastéis de nata come from Belém, Lisbon"
     },
     {
-      "word": "lavar-se",
-      "translation": "To wash oneself",
-      "pronunciation": "lah-VAR-seh",
-      "ipa": "/lɐˈvaɾ sɨ/",
-      "example": "Eu lavo-me de manhã.",
-      "exampleTranslation": "I wash (myself) in the morning.",
-      "category": "routine",
-      "tip": "Regular reflexive: lavo-me, lavas-te, lava-se, lavamo-nos, lavam-se"
+      "word": "a fruta / os legumes / a carne / o peixe",
+      "translation": "Fruit / Vegetables / Meat / Fish",
+      "pronunciation": "ah FROO-tah / osh leh-GOO-mesh / ah KAR-neh / oo PAY-sheh",
+      "ipa": "/ɐ ˈfɾutɐ/ / /uʒ lɨˈɡumɨʃ/ / /ɐ ˈkaɾnɨ/ / /u ˈpɐjʃɨ/",
+      "example": "Como muita fruta e legumes. Prefiro peixe a carne.",
+      "exampleTranslation": "I eat a lot of fruit and vegetables. I prefer fish to meat.",
+      "category": "food",
+      "tip": "The Mediterranean diet is central to Portuguese food culture"
     },
     {
-      "word": "deitar-se",
-      "translation": "To go to bed",
-      "pronunciation": "day-TAR-seh",
-      "ipa": "/dɐjˈtaɾ sɨ/",
-      "example": "Eu deito-me às 11h da noite.",
-      "exampleTranslation": "I go to bed at 11pm.",
-      "category": "routine",
-      "tip": "Stem-changing verb: deito-me, deitas-te, deita-se, deitamo-nos, deitam-se"
+      "word": "a água / o vinho / o café / o leite",
+      "translation": "Water / Wine / Coffee / Milk",
+      "pronunciation": "ah AH-gwah / oh VEE-nyoo / oh kah-FEH / oh LAY-teh",
+      "ipa": "/ɐ ˈaɡwɐ/ / /u ˈviɲu/ / /u kɐˈfɛ/ / /u ˈlɐjtɨ/",
+      "example": "Bebo água e vinho ao almoço. De manhã, bebo café com leite.",
+      "exampleTranslation": "I drink water and wine at lunch. In the morning, I drink coffee with milk.",
+      "category": "drinks",
+      "tip": "'Café' in Portugal is a small espresso. 'Café com leite' = latte. Wine is common at meals"
     },
     {
-      "word": "Que horas são?",
-      "translation": "What time is it?",
-      "pronunciation": "keh OH-rahsh SOWNG",
-      "ipa": "/kɛ ˈɔɾɐʃ ˈsɐ̃w̃/",
-      "example": "— Que horas são? — São duas e meia.",
-      "exampleTranslation": "— What time is it? — It's 2:30.",
+      "word": "Gosto de / Não gosto de",
+      "translation": "I like / I don't like",
+      "pronunciation": "GOH-stoo deh / NOW GOH-stoo deh",
+      "ipa": "/ˈɡoʃtu dɨ/ / /nɐ̃w̃ ˈɡoʃtu dɨ/",
+      "example": "Gosto de sopa. Não gosto de peixe.",
+      "exampleTranslation": "I like soup. I don't like fish.",
+      "category": "preferences",
+      "tip": "GOSTAR always needs 'de': gosto de, gostas de, gosta de..."
+    },
+    {
+      "word": "ao almoço / ao jantar / ao pequeno-almoço",
+      "translation": "At lunch / At dinner / At breakfast",
+      "pronunciation": "oh ahl-MOH-soo / oh zhan-TAR / oh peh-KAY-noh ahl-MOH-soo",
+      "ipa": "/aw aɫˈɔsu/ / /aw ʒɐ̃ˈtaɾ/ / /aw pɨˈkenu aɫˈmɔsu/",
+      "example": "Ao almoço, como sempre sopa.",
+      "exampleTranslation": "At lunch, I always eat soup.",
       "category": "time",
-      "tip": "Use SER for telling time. Plural for 1:00+ (são), singular for 1:00 (é uma)"
+      "tip": "Use 'a' + article for meals: ao almoço, ao jantar, ao pequeno-almoço"
     },
     {
-      "word": "São duas e meia / É uma e um quarto",
-      "translation": "It's 2:30 / It's 1:15",
-      "pronunciation": "sowng DOO-ash ee MAY-ah / eh OO-mah ee oom KWAHR-too",
-      "ipa": "/ˈsɐ̃w̃ ˈduɐz i ˈmejɐ/ / /ˈɛ ˈumɐ i ũ ˈkwartu/",
-      "example": "O comboio chega às duas e meia.",
-      "exampleTranslation": "The train arrives at 2:30.",
+      "word": "às 12h / à tarde / de manhã",
+      "translation": "At 12 o'clock / In the afternoon / In the morning",
+      "pronunciation": "ahsh DOH-zeh / ah TAR-deh / deh mah-NYAH",
+      "ipa": "/aʃ ˈdozɨ/ / /ɐ ˈtaɾdɨ/ / /dɨ mɐˈɲɐ̃/",
+      "example": "Almoço às 12h. Lanche à tarde. Tomo o pequeno-almoço de manhã.",
+      "exampleTranslation": "I have lunch at 12. Snack in the afternoon. Have breakfast in the morning.",
       "category": "time",
-      "tip": "e meia = and a half (30 min). e um quarto = and a quarter (15 min). menos um quarto = quarter to"
+      "tip": "'A' for clock times (às 12h), 'de' for parts of day (de manhã), 'a' for meals (ao almoço)"
     },
     {
-      "word": "ao fim de semana / durante a semana",
-      "translation": "On the weekend / During the week",
-      "pronunciation": "oh feeng deh seh-MAH-nah / doo-RAHN-teh ah seh-MAH-nah",
-      "ipa": "/aw ˈfĩ dɨ sɨˈmɐnɐ/ / /duˈɾɐ̃tɨ ɐ sɨˈmɐnɐ/",
-      "example": "Ao fim de semana descanso. Durante a semana trabalho.",
-      "exampleTranslation": "On the weekend I rest. During the week I work.",
+      "word": "todos os dias / normalmente / às vezes",
+      "translation": "Every day / Normally / Sometimes",
+      "pronunciation": "TOH-doosh oosh DEE-ash / nohr-mahl-MEN-teh / ahsh VAY-zesh",
+      "ipa": "/ˈtoðuʃ uʃ ˈdiɐʃ/ / /nɔɾmaɫˈmẽtɨ/ / /aʃ ˈvaʒɨʃ/",
+      "example": "Todos os dias almoço às 13h. Normalmente janto às 20h. Às vezes lanche às 17h.",
+      "exampleTranslation": "Every day I have lunch at 1pm. I normally have dinner at 8pm. Sometimes I snack at 5pm.",
       "category": "time",
-      "tip": "'Fim de semana' = weekend. 'Durante' = during (no contraction)"
+      "tip": "Frequency expressions help describe your daily eating routine"
     }
   ],
   "grammar": {
-    "title": "Weather, Seasons, Daily Routines & Reflexive Verbs",
+    "title": "Food Culture, Preferences & Time Prepositions",
     "sections": [
       {
         "type": "explanation",
-        "heading": "Talking About the Weather",
-        "body": "In Portuguese, weather expressions use the verb ESTAR + A + INFINITIVE: 'Está a chover' (It's raining), 'Está a nevar' (It's snowing), 'Está a fazer sol' (It's sunny). For temperature, use 'está' with nouns: 'Está frio' (It's cold), 'Está calor' (It's hot). You can also use 'fazer': 'Faz frio' (It's cold), 'Faz calor' (It's hot). Both 'está frio' and 'faz frio' are correct — 'está' emphasizes the current moment, 'fazer' is more general."
+        "heading": "Portuguese Food Culture",
+        "body": "Portuguese food culture is deeply rooted in the Mediterranean diet. Meals follow a traditional structure: sopa (soup) → prato (main course) → sobremesa (dessert). Lunch (almoço) is the main meal of the day, typically eaten between 12-2pm. Dinner (jantar) is lighter and later, around 8-9pm. The afternoon snack (lanche) around 4-5pm is also important. Wine is commonly consumed with meals, and coffee (a small espresso) is drunk throughout the day. Bacalhau (cod fish) is considered the national dish, with supposedly 365 different recipes."
       },
       {
         "type": "table",
-        "heading": "Weather Expressions",
-        "columns": ["Portuguese", "Pronunciation", "English"],
+        "heading": "Typical Portuguese Meals",
+        "columns": ["Meal", "Time", "Typical Foods", "Verb"],
         "rows": [
-          ["Está a chover", "esh-TAH ah shoh-VAIR", "It's raining"],
-          ["Está a nevar", "esh-TAH ah neh-VAR", "It's snowing"],
-          ["Está a fazer sol", "esh-TAH ah fah-ZER sol", "It's sunny"],
-          ["Está nublado", "esh-TAH noo-BLAH-doo", "It's cloudy"],
-          ["Está vento", "esh-TAH VEN-too", "It's windy"],
-          ["Faz frio", "fresh FREE-oo", "It's cold"],
-          ["Faz calor", "fresh kah-LOR", "It's hot"],
-          ["Está bom tempo", "esh-TAH bom TEM-poo", "The weather is good"],
-          ["Está mau tempo", "esh-TAH mow TEM-poo", "The weather is bad"]
+          ["o pequeno-almoço", "7-10am", "coffee, toast, jam, pastries", "tomar o pequeno-almoço"],
+          ["o almoço", "12-2pm", "soup, fish/meat, rice/potatoes, dessert", "almoçar"],
+          ["o lanche", "4-5pm", "sandwich, pastry, coffee", "lanchar"],
+          ["o jantar", "8-9pm", "soup, lighter main course", "jantar"]
         ]
       },
       {
         "type": "explanation",
-        "heading": "The Four Seasons",
-        "body": "Portuguese seasons: a primavera (spring — feminine), o verão (summer), o outono (autumn), o inverno (winter). To say something happens in a particular season, use 'em' which contracts: na primavera (em + a), no verão (em + o), no outono, no inverno. Example: 'No verão faz muito calor' (In summer it's very hot)."
+        "heading": "Expressing Food Preferences — GOSTAR DE",
+        "body": "To talk about food likes and dislikes, use GOSTAR DE (to like): 'Gosto de sopa' (I like soup), 'Não gosto de peixe' (I don't like fish). Remember that GOSTAR always requires 'de' after it. For stronger preferences, use PREFERIR (to prefer): 'Prefiro peixe a carne' (I prefer fish to meat). To talk about what you usually eat, use the present tense with frequency expressions: 'Todos os dias como sopa' (Every day I eat soup), 'Normalmente janto às 8h' (I normally have dinner at 8pm)."
       },
       {
         "type": "table",
-        "heading": "The Seasons",
-        "columns": ["Season", "Portuguese", "Gender", "With Preposition"],
+        "heading": "GOSTAR DE — Expressing Likes & Dislikes",
+        "columns": ["Person", "Affirmative", "Negative", "Example"],
         "rows": [
-          ["Spring", "a primavera", "feminine", "na primavera"],
-          ["Summer", "o verão", "masculine", "no verão"],
-          ["Autumn", "o outono", "masculine", "no outono"],
-          ["Winter", "o inverno", "masculine", "no inverno"]
+          ["Eu", "gosto de", "não gosto de", "Gosto de bacalhau."],
+          ["Tu", "gostas de", "não gostas de", "Gostas de sopa?"],
+          ["Ele/Ela", "gosta de", "não gosta de", "Ela gosta de fruta."],
+          ["Nós", "gostamos de", "não gostamos de", "Gostamos de peixe."],
+          ["Eles/Elas", "gostam de", "não gostam de", "Gostam de vinho."]
         ]
       },
       {
         "type": "explanation",
-        "heading": "Reflexive Verbs for Daily Routines",
-        "body": "Reflexive verbs are essential for describing daily routines. They indicate that the subject performs the action on themselves. The reflexive pronoun changes with the subject: me (myself), te (yourself), se (himself/herself), nos (ourselves), se (themselves). Common daily routine reflexive verbs: levantar-se (get up), lavar-se (wash), vestir-se (get dressed), deitar-se (go to bed), pentear-se (comb hair), sentar-se (sit down). In European Portuguese, the pronoun usually goes AFTER the verb connected by a hyphen: 'Levanto-me às 7h'."
+        "heading": "Time Prepositions with Meals & Schedules",
+        "body": "When talking about meals and schedules, Portuguese uses specific time prepositions: 'a' + article for meals ('ao almoço' = at lunch, 'ao jantar' = at dinner, 'ao pequeno-almoço' = at breakfast), 'de' for parts of day ('de manhã' = in the morning, 'de tarde' = in the afternoon, 'de noite' = at night), 'a' for clock times ('às 12h' = at 12 o'clock, 'às 8h da noite' = at 8pm). These prepositions are essential for describing when you eat and what your daily routine looks like."
       },
       {
         "type": "table",
-        "heading": "Common Reflexive Verbs — Daily Routine",
-        "columns": ["Verb", "Meaning", "eu", "tu", "ele/ela", "nós", "eles/elas"],
+        "heading": "Time Prepositions with Meals & Routines",
+        "columns": ["Preposition", "Used With", "Examples"],
         "rows": [
-          ["levantar-se", "to get up", "levanto-me", "levantas-te", "levanta-se", "levantamo-nos", "levantam-se"],
-          ["lavar-se", "to wash (oneself)", "lavo-me", "lavas-te", "lava-se", "lavamo-nos", "lavam-se"],
-          ["vestir-se", "to get dressed", "visto-me", "vestes-te", "veste-se", "vestimo-nos", "vestem-se"],
-          ["pentear-se", "to comb (hair)", "penteio-me", "penteias-te", "penteia-se", "penteamo-nos", "penteiam-se"],
-          ["deitar-se", "to go to bed", "deito-me", "deitas-te", "deita-se", "deitamo-nos", "deitam-se"],
-          ["sentar-se", "to sit down", "sento-me", "sentas-te", "senta-se", "sentamo-nos", "sentam-se"]
+          ["a → ao/à", "meals", "ao almoço, ao jantar, ao pequeno-almoço"],
+          ["a → às", "clock times", "às 12h, às 8h da noite, às 9h da manhã"],
+          ["de → do/da", "parts of day", "de manhã, de tarde, de noite"],
+          ["em → no/na", "days of week", "no domingo, na segunda-feira"],
+          ["em → no/na", "months/seasons", "em janeiro, no verão"]
         ]
       },
       {
         "type": "examples",
-        "heading": "Describing Your Daily Routine",
+        "heading": "Describing Your Eating Habits",
         "items": [
           {
-            "portuguese": "Eu levanto-me às 7h e lavo-me.",
-            "translation": "I get up at 7 and wash (myself).",
-            "pronunciation": "ay-oo leh-VAHN-too-meh ahsh SEH-teh ee LAH-voo-meh.",
-            "highlight": ["levanto-me", "lavo-me"]
+            "portuguese": "Todos os dias tomo o pequeno-almoço às 8h da manhã.",
+            "translation": "Every day I have breakfast at 8am.",
+            "pronunciation": "TOH-doosh oosh DEE-ash TOH-moo oo peh-KAY-noh ahl-MOH-soo ahsh OY-tah dah mah-NYAH.",
+            "highlight": ["Todos os dias", "às 8h da manhã"]
           },
           {
-            "portuguese": "Ela veste-se e penteia-se antes do pequeno-almoço.",
-            "translation": "She gets dressed and combs her hair before breakfast.",
-            "pronunciation": "EH-lah VESH-teh-seh ee pen-TEH-ah-seh AHN-tesh doo peh-KAY-noh ahl-MOH-soo.",
-            "highlight": ["veste-se", "penteia-se"]
+            "portuguese": "Ao almoço, como sempre sopa e um prato de peixe.",
+            "translation": "At lunch, I always eat soup and a fish main course.",
+            "pronunciation": "oh ahl-MOH-soo, KOH-moo see-MPREH SOH-pah ee oom PRAH-too deh PAY-sheh.",
+            "highlight": ["Ao almoço", "um prato de peixe"]
           },
           {
-            "portuguese": "Nós deitamos-me às 11h da noite.",
-            "translation": "We go to bed at 11pm.",
-            "pronunciation": "nohsh day-TAH-moosh-meh ahsh OH-nyeh dah NOY-teh.",
-            "highlight": ["deitamo-nos"]
+            "portuguese": "Gosto de fruta, mas prefiro peixe a carne.",
+            "translation": "I like fruit, but I prefer fish to meat.",
+            "pronunciation": "GOH-stoo deh FROO-tah, mahsh pree-FEE-roo PAY-sheh ah KAR-neh.",
+            "highlight": ["Gosto de", "prefiro peixe a carne"]
+          },
+          {
+            "portuguese": "Normalmente janto às 9h da noite. Às vezes lanche às 5h da tarde.",
+            "translation": "I normally have dinner at 9pm. Sometimes I snack at 5pm.",
+            "pronunciation": "nohr-mahl-MEN-teh ZHAN-too ahsh NOH-veh dah NOY-teh. ahsh VAY-zesh LAHN-sheh ahsh SEEN-koh dah TAR-deh.",
+            "highlight": ["às 9h da noite", "às 5h da tarde"]
           }
         ]
       },
       {
         "type": "explanation",
-        "heading": "Telling Time in Portuguese",
-        "body": "To tell time in Portuguese, use the verb SER: 'É uma' (It's one o'clock — singular), 'São duas/três...' (It's two/three... — plural for 2+). For half hours: 'e meia' (and a half). For quarters: 'e um quarto' (and a quarter past), 'menos um quarto' (quarter to). For specific times with 'at', use 'à' (singular) or 'às' (plural): 'à uma hora' (at 1:00), 'às duas horas' (at 2:00). In Portugal, the 24-hour clock is commonly used in writing and formal contexts."
-      },
-      {
-        "type": "table",
-        "heading": "Telling Time",
-        "columns": ["Time", "Portuguese", "Pronunciation"],
-        "rows": [
-          ["1:00", "É uma (hora)", "eh OO-mah OH-rah"],
-          ["2:00", "São duas (horas)", "sowng DOO-ash OH-rahsh"],
-          ["2:15", "São duas e um quarto", "sowng DOO-ash ee oom KWAHR-too"],
-          ["2:30", "São duas e meia", "sowng DOO-ash ee MAY-ah"],
-          ["2:45", "São três menos um quarto", "sowng tresh MEH-noosh oom KWAHR-too"],
-          ["12:00 (noon)", "É meio-dia", "eh MEH-yoo DEE-ah"],
-          ["12:00 (midnight)", "É meia-noite", "eh MAY-ah NOY-teh"],
-          ["3:05", "São três e cinco", "sowng tresh ee SEEN-koo"],
-          ["3:50", "São quatro menos dez", "sowng KWAH-troh MEH-noosh desh"]
-        ]
+        "heading": "Comparing Eating Habits — Portugal vs. Your Country",
+        "body": "A key part of this session is comparing Portuguese eating habits with those of your own culture. Useful structures: 'Em Portugal... mas no meu país...' (In Portugal... but in my country...), 'Aqui come-se muito peixe' (Here people eat a lot of fish — impersonal 'se'), 'Os portugueses almoçam mais cedo' (The Portuguese have lunch earlier). This cultural comparison helps you practice the vocabulary while learning about Portuguese daily life."
       },
       {
         "type": "tips",
         "heading": "Common Mistakes & Tips",
         "items": [
-          "Weather: 'Está a chover' (not 'É chover'). The structure is ESTAR + A + INFINITIVE.",
-          "For temperature, both 'está frio' and 'faz frio' are correct. 'Está' = right now, 'faz' = general.",
-          "Reflexive pronouns go AFTER the verb in European Portuguese: 'Levanto-me' (not 'Me levanto').",
-          "The verb 'vestir' is irregular in the 1st person: 'visto' (not 'vesto'). Same pattern as 'pedir', 'seguir'.",
-          "Telling time: use singular 'É' only for 1:00. Everything else uses 'São': São duas, São três...",
-          "Seasons: only 'primavera' is feminine. Use 'no' for all others: no verão, no outono, no inverno.",
-          "For 'quarter to' the hour, use 'menos um quarto': 2:45 = São três menos um quarto."
+          "GOSTAR always needs 'de': 'Gosto de café' (not 'Gosto café'). This is one of the most common beginner mistakes.",
+          "Use 'a' + article for meals: 'ao almoço' (at lunch), 'ao jantar' (at dinner). Don't use 'em' here.",
+          "Use 'de' for parts of day: 'de manhã', 'de tarde', 'de noite'. Never 'em manhã' or 'a manhã' for this.",
+          "Use 'a' for clock times: 'às 12h', 'às 8h'. The 'a' contracts with the plural article: a + as = às.",
+          "Portuguese meal times are later than in many countries. Lunch at 12-2pm, dinner at 8-9pm is normal.",
+          "The verb for 'to have breakfast' is 'tomar o pequeno-almoço' (literally: to take breakfast), not 'comer'.",
+          "When comparing, use 'mais...do que' (more...than): 'Em Portugal come-se mais peixe do que no Brasil'."
         ]
       }
     ],
     "exercises": [
       {
         "type": "multiple-choice",
-        "title": "Choose the Correct Weather Expression",
-        "instructions": "Select the correct way to describe the weather.",
+        "title": "Choose the Correct Time Preposition",
+        "instructions": "Select the correct preposition for each sentence.",
         "items": [
           {
-            "question": "It's raining.",
-            "options": ["É chover", "Está a chover", "Está chover", "Faz chover"],
+            "question": "___ almoço, como sopa.",
+            "options": ["No", "Ao", "Em", "De"],
             "correct": 1,
-            "explanation": "Weather uses ESTAR + A + INFINITIVE: 'Está a chover' = It's raining."
+            "explanation": "Use 'a' for meals: 'ao almoço' = at lunch. A + o = ao."
           },
           {
-            "question": "It's cold today.",
-            "options": ["É frio hoje", "Está frio hoje", "Está a frio hoje", "É a frio hoje"],
-            "correct": 1,
-            "explanation": "For temperature, use 'está' + noun: 'Está frio' = It's cold. You can also say 'Faz frio'."
-          },
-          {
-            "question": "It's sunny.",
-            "options": ["É sol", "Está sol", "Está a fazer sol", "Faz a sol"],
+            "question": "Tomo café ___ manhã.",
+            "options": ["a", "em", "de", "ao"],
             "correct": 2,
-            "explanation": "'Está a fazer sol' = It's sunny (literally: it's making sun). This is the standard expression."
+            "explanation": "Use 'de' for parts of day: 'de manhã' = in the morning."
+          },
+          {
+            "question": "Janto ___ 9h ___ noite.",
+            "options": ["a, de", "às, da", "em, de", "de, a"],
+            "correct": 1,
+            "explanation": "Use 'às' for clock times and 'da' for parts of day: 'às 9h da noite' = at 9pm."
+          },
+          {
+            "question": "___ domingo, almoço tarde.",
+            "options": ["Ao", "No", "Em", "De"],
+            "correct": 1,
+            "explanation": "Use 'em' for days of the week: 'no domingo' = on Sunday. Em + o = no."
           }
         ]
       },
       {
         "type": "fill-in-blank",
-        "title": "Complete the Reflexive Verb",
-        "instructions": "Fill in the blank with the correct reflexive form.",
+        "title": "Complete with GOSTAR or PREFERIR",
+        "instructions": "Fill in the blank with the correct form of GOSTAR or PREFERIR.",
         "items": [
           {
-            "sentence": "Eu ___ às 7h. (levantar-se)",
-            "answer": "levanto-me",
-            "fullAnswer": "levanto-me",
-            "hint": "1st person singular of levantar-se"
+            "sentence": "Eu ___ de sopa. (gostar)",
+            "answer": "gosto",
+            "fullAnswer": "gosto",
+            "hint": "1st person singular of gostar + de"
           },
           {
-            "sentence": "Ela ___ antes do pequeno-almoço. (lavar-se)",
-            "answer": "lava-se",
-            "fullAnswer": "lava-se",
-            "hint": "3rd person singular of lavar-se"
+            "sentence": "Tu ___ de peixe? (gostar)",
+            "answer": "gostas",
+            "fullAnswer": "gostas",
+            "hint": "2nd person singular of gostar + de"
           },
           {
-            "sentence": "Nós ___ às 11h. (deitar-se)",
-            "answer": "deitamo-nos",
-            "fullAnswer": "deitamo-nos",
-            "hint": "1st person plural of deitar-se"
+            "sentence": "Ela ___ peixe a carne. (preferir)",
+            "answer": "prefere",
+            "fullAnswer": "prefere",
+            "hint": "3rd person singular of preferir"
           },
           {
-            "sentence": "Tu ___ rapidamente. (vestir-se)",
-            "answer": "vestes-te",
-            "fullAnswer": "vestes-te",
-            "hint": "2nd person singular of vestir-se (irregular: vestes, not 'vistas')"
+            "sentence": "Nós ___ de fruta. (gostar)",
+            "answer": "gostamos",
+            "fullAnswer": "gostamos",
+            "hint": "1st person plural of gostar + de"
           }
         ]
       },
       {
         "type": "multiple-choice",
-        "title": "Telling Time",
-        "instructions": "Choose the correct time expression.",
+        "title": "Match the Meal to the Time",
+        "instructions": "Select the correct time for each meal in Portugal.",
         "items": [
           {
-            "question": "How do you say 2:30?",
-            "options": ["São duas e um quarto", "São duas e meia", "São três menos meia", "É duas e meia"],
-            "correct": 1,
-            "explanation": "'São duas e meia' = It's 2:30. 'E meia' = and a half. Use 'São' (plural) for 2:00+."
-          },
-          {
-            "question": "How do you say 1:00?",
-            "options": ["São uma", "É uma", "São um", "É um"],
-            "correct": 1,
-            "explanation": "'É uma' = It's 1:00. Use singular 'É' only for 1:00."
-          },
-          {
-            "question": "How do you say 3:45?",
-            "options": ["São três e um quarto", "São três menos um quarto", "São quatro menos um quarto", "É quatro menos um quarto"],
+            "question": "What time is lunch (almoço) typically eaten in Portugal?",
+            "options": ["7-8am", "10-11am", "12-2pm", "5-6pm"],
             "correct": 2,
-            "explanation": "'São quatro menos um quarto' = It's 3:45 (four o'clock minus a quarter)."
+            "explanation": "Lunch (almoço) in Portugal is typically eaten between 12 and 2pm."
+          },
+          {
+            "question": "What time is dinner (jantar) typically eaten in Portugal?",
+            "options": ["5-6pm", "6-7pm", "8-9pm", "10-11pm"],
+            "correct": 2,
+            "explanation": "Dinner (jantar) in Portugal is typically eaten between 8 and 9pm — later than in many countries."
+          },
+          {
+            "question": "What is the afternoon snack (lanche)?",
+            "options": ["A full meal at 3pm", "A light snack around 4-5pm", "A late dinner", "An early breakfast"],
+            "correct": 1,
+            "explanation": "Lanche is a light afternoon snack, typically around 4-5pm — a sandwich, pastry, or coffee."
           }
         ]
       },
       {
         "type": "sentence-builder",
-        "title": "Describe Your Daily Routine",
-        "instructions": "Choose the correct reflexive form to complete each sentence.",
+        "title": "Describe Your Eating Habits",
+        "instructions": "Choose the correct expression to complete each sentence.",
         "items": [
           {
-            "sentence": "Eu ___ às 8h da manhã. (levantar-se)",
-            "blank": "levanto-me",
-            "wordBank": ["levanto-me", "levantas-te", "levanta-se", "levantamo-nos"],
-            "hint": "1st person singular of levantar-se"
+            "sentence": "___ os dias, tomo o pequeno-almoço às 8h.",
+            "blank": "Todos",
+            "wordBank": ["Todos", "Normalmente", "Às vezes", "Nunca"],
+            "hint": "Todos os dias = every day"
           },
           {
-            "sentence": "Ela ___ antes de sair. (pentear-se)",
-            "blank": "penteia-se",
-            "wordBank": ["penteio-me", "penteias-te", "penteia-se", "penteamo-nos"],
-            "hint": "3rd person singular of pentear-se"
+            "sentence": "___ almoço às 13h.",
+            "blank": "Ao",
+            "wordBank": ["No", "Ao", "Em", "De"],
+            "hint": "Use 'a' for meals: a + o = ao"
           },
           {
-            "sentence": "Nós ___ cedo ao fim de semana. (deitar-se)",
-            "blank": "deitamo-nos",
-            "wordBank": ["deito-me", "deitas-te", "deita-se", "deitamo-nos"],
-            "hint": "1st person plural of deitar-se"
+            "sentence": "Gosto ___ fruta.",
+            "blank": "de",
+            "wordBank": ["de", "do", "da", "em"],
+            "hint": "GOSTAR always needs 'de'"
           }
         ]
       }
