@@ -1,0 +1,347 @@
+{
+  "id": 9,
+  "title": "A Casa e o Mobiliário",
+  "subtitle": "The House, Furniture & SER/ESTAR/FICAR",
+  "color": "#6A4C93",
+  "accent": "#C9ADA7",
+  "icon": "🏡",
+  "description": "Learn house vocabulary, rooms, furniture, the verb HAVER, and the distinction between SER, ESTAR, and FICAR for location.",
+  "topics": ["Types of houses", "Rooms of the house", "Furniture", "SER vs ESTAR vs FICAR", "The verb HAVER (there is/are)"],
+  "vocabulary": [
+    {
+      "word": "o apartamento / a moradia",
+      "translation": "Apartment / House (detached)",
+      "pronunciation": "oo ah-pahr-tah-MEN-too / ah moh-ree-DEE-ah",
+      "ipa": "/u ɐpɐɾtɐˈmẽtu/ / /ɐ muɾiˈdiɐ/",
+      "example": "O João mora num apartamento no Bairro Alto.",
+      "exampleTranslation": "João lives in an apartment in Bairro Alto.",
+      "category": "housing",
+      "tip": "'Moradia' = detached house. 'Apartamento' = flat/apartment. 'Vivenda' = villa"
+    },
+    {
+      "word": "a sala (de estar) / a cozinha / o quarto",
+      "translation": "Living room / Kitchen / Bedroom",
+      "pronunciation": "ah SAH-lah / ah koh-ZEEN-yah / oo KWAHR-too",
+      "ipa": "/ɐ ˈsalɐ/ / /ɐ kuˈziɲɐ/ / /u ˈkwartu/",
+      "example": "A casa tem uma sala, uma cozinha e dois quartos.",
+      "exampleTranslation": "The house has a living room, a kitchen, and two bedrooms.",
+      "category": "rooms",
+      "tip": "Rooms: sala (living room), cozinha (kitchen), quarto (bedroom), casa de banho (bathroom)"
+    },
+    {
+      "word": "a casa de banho / o corredor / a despensa",
+      "translation": "Bathroom / Hallway / Pantry",
+      "pronunciation": "ah KAH-zah deh BAHN-yoo / oo koh-reh-DOR / ah deh-SHEN-sah",
+      "ipa": "/ɐ ˈkazɐ dɨ ˈbɐɲu/ / /u kʀɨˈdoɾ/ / /ɐ dɨʃˈpẽsɐ/",
+      "example": "A casa de banho fica ao lado do quarto.",
+      "exampleTranslation": "The bathroom is next to the bedroom.",
+      "category": "rooms",
+      "tip": "'Casa de banho' = bathroom (literally 'house of bath'). 'WC' is also used in Portugal"
+    },
+    {
+      "word": "a cama / o roupeiro / a mesa",
+      "translation": "Bed / Wardrobe / Table",
+      "pronunciation": "ah KAH-mah / oo roh-PAY-roo / ah MEH-zah",
+      "ipa": "/ɐ ˈkɐmɐ/ / /u ʁuˈpeɾu/ / /ɐ ˈmezɐ/",
+      "example": "No quarto há uma cama e um roupeiro.",
+      "exampleTranslation": "In the bedroom there is a bed and a wardrobe.",
+      "category": "furniture",
+      "tip": "Furniture is usually preceded by 'um/uma' when describing what's in a room"
+    },
+    {
+      "word": "a banheira / o lavatório / a sanita",
+      "translation": "Bathtub / Sink / Toilet",
+      "pronunciation": "ah bahn-YAY-rah / oo lah-vah-TOH-ree-oo / ah sah-NEE-tah",
+      "ipa": "/ɐ bɐˈɲɐjɾɐ/ / /u lɐvɐˈtɔɾju/ / /ɐ sɐˈnitɐ/",
+      "example": "A casa de banho tem uma banheira e um lavatório.",
+      "exampleTranslation": "The bathroom has a bathtub and a sink.",
+      "category": "furniture",
+      "tip": "Essential bathroom vocabulary for describing your home"
+    },
+    {
+      "word": "o fogão / o frigorífico / o forno",
+      "translation": "Stove / Refrigerator / Oven",
+      "pronunciation": "oo foh-GOWN / oo free-goh-REE-foo / oo FOR-noo",
+      "ipa": "/u fuˈɡɐ̃w̃/ / /u fɾiɡuˈɾifiku/ / /u ˈfɔɾnu/",
+      "example": "Na cozinha há um fogão, um frigorífico e um forno.",
+      "exampleTranslation": "In the kitchen there is a stove, a refrigerator, and an oven.",
+      "category": "furniture",
+      "tip": "Kitchen essentials: fogão (stove), frigorífico (fridge), forno (oven), lava-loiças (dishwasher)"
+    },
+    {
+      "word": "o sofá / a televisão / o tapete",
+      "translation": "Sofa / Television / Rug",
+      "pronunciation": "oo soh-FAH / ah teh-leh-vee-ZOWN / oo tah-PEH-teh",
+      "ipa": "/u suˈfa/ / /ɐ tɨlɨviˈzɐ̃w̃/ / /u tɐˈpɛtɨ/",
+      "example": "Na sala há um sofá, uma televisão e um tapete.",
+      "exampleTranslation": "In the living room there is a sofa, a television, and a rug.",
+      "category": "furniture",
+      "tip": "Living room items: sofá (sofa), televisão (TV), tapete (rug), quadro (painting)"
+    },
+    {
+      "word": "Há um computador na sala.",
+      "translation": "There is a computer in the living room.",
+      "pronunciation": "ah oom kohm-poo-tah-DOR nah SAH-lah.",
+      "ipa": "/a ũ kɔ̃putɐˈdoɾ nɐ ˈsalɐ/",
+      "example": "Há um computador na sala. / A sala tem um computador.",
+      "exampleTranslation": "There is a computer in the living room. / The living room has a computer.",
+      "category": "haver",
+      "tip": "HAVER (there is/are) is impersonal — always use 'há' (3rd person singular)"
+    },
+    {
+      "word": "A casa é / fica no centro da cidade.",
+      "translation": "The house is / is located in the city center.",
+      "pronunciation": "ah KAH-zah eh / FEE-kah noh SEN-troo dah see-DAH-deh",
+      "ipa": "/ɐ ˈkazɐ ˈɛ/ / /ˈfikɐ nu ˈsɛtɾu dɐ siˈdadɨ/",
+      "example": "A casa do João é/fica no centro da cidade.",
+      "exampleTranslation": "João's house is in the city center.",
+      "category": "location",
+      "tip": "SER and FICAR are interchangeable for permanent location of buildings. ESTAR is for people/objects."
+    },
+    {
+      "word": "O quarto fica entre a sala e a casa de banho.",
+      "translation": "The bedroom is between the living room and the bathroom.",
+      "pronunciation": "oo KWAHR-too FEE-kah EN-treh ah SAH-lah ee ah KAH-zah deh BAHN-yoo",
+      "ipa": "/u ˈkwartu ˈfikɐ ˈẽtɾɨ ɐ ˈsalɐ i ɐ ˈkazɐ dɨ ˈbɐɲu/",
+      "example": "A cozinha fica entre a sala e a despensa.",
+      "exampleTranslation": "The kitchen is between the living room and the pantry.",
+      "category": "location",
+      "tip": "Use FICAR or É for describing where rooms are located within a house"
+    }
+  ],
+  "grammar": {
+    "title": "The House, SER/ESTAR/FICAR & HAVER",
+    "sections": [
+      {
+        "type": "explanation",
+        "heading": "Types of Houses & Rooms",
+        "body": "Portuguese has several words for types of dwellings: 'apartamento' (apartment/flat), 'moradia' (detached house), 'vivenda' (villa), 'andar' (floor/storey). A typical house has these rooms: 'sala' (living room), 'cozinha' (kitchen), 'quarto' (bedroom), 'casa de banho' (bathroom), 'corredor' (hallway), 'despensa' (pantry), 'jardim' (garden), 'varanda' (balcony). When describing your home, use TER for what it has: 'A casa tem dois quartos' (The house has two bedrooms). Use FICAR or É for where it is: 'A casa fica no centro' (The house is in the center)."
+      },
+      {
+        "type": "table",
+        "heading": "Rooms of the House",
+        "columns": ["Room", "Portuguese", "Pronunciation"],
+        "rows": [
+          ["Living room", "a sala (de estar)", "ah SAH-lah deh esh-TAR"],
+          ["Kitchen", "a cozinha", "ah koh-ZEEN-yah"],
+          ["Bedroom", "o quarto", "oo KWAHR-too"],
+          ["Bathroom", "a casa de banho", "ah KAH-zah deh BAHN-yoo"],
+          ["Hallway", "o corredor", "oo koh-reh-DOR"],
+          ["Pantry", "a despensa", "ah deh-SHEN-sah"],
+          ["Garden", "o jardim", "oo zhahr-DEENG"],
+          ["Balcony", "a varanda", "ah vah-RAHN-dah"],
+          ["Dining room", "a sala de jantar", "ah SAH-lah deh zhan-TAR"],
+          ["Garage", "a garagem", "ah gah-RAH-zheng"]
+        ]
+      },
+      {
+        "type": "explanation",
+        "heading": "Furniture by Room",
+        "body": "Each room has characteristic furniture. Bedroom: cama (bed), roupeiro (wardrobe), mesa de cabeceira (nightstand). Kitchen: fogão (stove), frigorífico (refrigerator), forno (oven), lava-loiças (dishwasher). Living room: sofá (sofa), televisão (TV), tapete (rug), quadro (painting). Bathroom: banheira (bathtub), lavatório (sink), sanita (toilet), duche (shower). When describing what's in a room, use HAVER: 'No quarto há uma cama' (In the bedroom there is a bed)."
+      },
+      {
+        "type": "table",
+        "heading": "Furniture by Room",
+        "columns": ["Room", "Furniture", "Portuguese"],
+        "rows": [
+          ["Quarto (bedroom)", "bed / wardrobe / nightstand", "cama / roupeiro / mesa de cabeceira"],
+          ["Cozinha (kitchen)", "stove / fridge / oven / dishwasher", "fogão / frigorífico / forno / lava-loiças"],
+          ["Sala (living room)", "sofa / TV / rug / painting", "sofá / televisão / tapete / quadro"],
+          ["Casa de banho (bathroom)", "bathtub / sink / toilet / shower", "banheira / lavatório / sanita / duche"]
+        ]
+      },
+      {
+        "type": "explanation",
+        "heading": "SER vs ESTAR vs FICAR — Three Verbs for Location",
+        "body": "Portuguese has three verbs that relate to location: SER, ESTAR, and FICAR. SER and FICAR are used for permanent locations of buildings, cities, and spaces: 'A casa é/fica no centro' (The house is in the center). ESTAR is used for temporary locations of people, animals, and movable objects: 'O João está em casa' (João is at home). FICAR adds a nuance of 'being located' or 'being situated' — it's very common when giving addresses or describing where places are. In many cases, SER and FICAR are interchangeable for location: 'O banco é/fica ao lado da farmácia'."
+      },
+      {
+        "type": "table",
+        "heading": "SER vs ESTAR vs FICAR — Conjugation",
+        "columns": ["Person", "SER", "ESTAR", "FICAR"],
+        "rows": [
+          ["Eu", "sou", "estou", "fico"],
+          ["Tu", "és", "estás", "ficas"],
+          ["Ele/Ela/Você", "é", "está", "fica"],
+          ["Nós", "somos", "estamos", "ficamos"],
+          ["Vocês/Eles/Elas", "são", "estão", "ficam"]
+        ]
+      },
+      {
+        "type": "examples",
+        "heading": "SER, ESTAR, FICAR for Location",
+        "items": [
+          {
+            "portuguese": "A casa do João é/fica no Bairro Alto. O João está em Lisboa.",
+            "translation": "João's house is in Bairro Alto. João is in Lisbon.",
+            "pronunciation": "ah KAH-zah doo ZHOH-ow eh/FEE-kah noh BAHR-yoo AHL-too. oo ZHOH-ow esh-TAH eem LEESH-boh-ah.",
+            "highlight": ["é/fica", "está"]
+          },
+          {
+            "portuguese": "O Marquês de Pombal é/fica no centro de Lisboa.",
+            "translation": "The Marquês de Pombal is in the center of Lisbon.",
+            "pronunciation": "oo mar-KEH deh Pom-BAHL eh/FEE-kah noh SEN-troo deh LEESH-boh-ah.",
+            "highlight": ["é/fica"]
+          },
+          {
+            "portuguese": "A carteira do António está em cima da mesa.",
+            "translation": "António's wallet is on the table.",
+            "pronunciation": "ah kahr-TAY-rah doh ahn-TOH-nee-oo esh-TAH ah-SEE-mah dah MEH-zah.",
+            "highlight": ["está"]
+          }
+        ]
+      },
+      {
+        "type": "explanation",
+        "heading": "The Verb HAVER — There Is / There Are",
+        "body": "The verb HAVER (to have / there is / there are) is used to indicate existence. When meaning 'there is/are', it is IMPERSONAL — it only exists in the 3rd person singular: 'há'. It doesn't matter if the noun is singular or plural: 'Há um computador' (There is a computer) / 'Há alunos na sala' (There are students in the room). HAVER can replace TER when introduced with the preposition 'em': 'O jardim tem muitas flores' = 'No jardim há muitas flores' (In the garden there are many flowers). In negative sentences, use 'não há' (there isn't/aren't)."
+      },
+      {
+        "type": "table",
+        "heading": "HAVER vs TER for Existence",
+        "columns": ["Structure", "Example", "Translation"],
+        "rows": [
+          ["HAVER (there is/are)", "Há uma loja em Paris.", "There is a shop in Paris."],
+          ["TER (to have)", "Paris tem uma loja.", "Paris has a shop."],
+          ["HAVER + em", "Em Paris há uma loja.", "In Paris there is a shop."],
+          ["HAVER (plural)", "Há muitos casinos em Macau.", "There are many casinos in Macau."],
+          ["TER (plural)", "Macau tem muitos casinos.", "Macau has many casinos."],
+          ["HAVER (negative)", "Não há elevadores.", "There aren't elevators."]
+        ]
+      },
+      {
+        "type": "tips",
+        "heading": "Common Mistakes & Tips",
+        "items": [
+          "SER and FICAR are interchangeable for permanent location: 'A casa é/fica no centro'. Both are correct.",
+          "ESTAR is for temporary location of people/objects: 'Estou em casa' (I'm at home), NOT 'Sou em casa'.",
+          "HAVER is always 'há' for 'there is/are' — never use 'hão' or 'havem'. It's impersonal.",
+          "Don't confuse 'há' (there is) with 'à' (at the). 'Há' comes from HAVER; 'à' is a preposition contraction.",
+          "When describing rooms, use FICAR for location within the house: 'O quarto fica ao lado da cozinha'.",
+          "For furniture, match the item to the room: 'cama' goes in 'quarto', 'fogão' goes in 'cozinha'.",
+          "The verb HAVER can replace TER: 'A cidade tem um templo' = 'Na cidade há um templo'."
+        ]
+      }
+    ],
+    "exercises": [
+      {
+        "type": "multiple-choice",
+        "title": "SER, ESTAR, or FICAR?",
+        "instructions": "Choose the correct verb for each sentence.",
+        "items": [
+          {
+            "question": "A biblioteca ___ no centro da cidade.",
+            "options": ["está", "é", "estão", "tem"],
+            "correct": 1,
+            "explanation": "Use SER for permanent location of buildings. 'A biblioteca é no centro' = The library is in the center."
+          },
+          {
+          "question": "A caneta azul ___ na mala.",
+            "options": ["é", "fica", "está", "são"],
+            "correct": 2,
+            "explanation": "Use ESTAR for temporary location of objects. 'A caneta está na mala' = The pen is in the bag."
+          },
+          {
+            "question": "Nós ___ na sala de aula.",
+            "options": ["somos", "estamos", "ficamos", "são"],
+            "correct": 1,
+            "explanation": "Use ESTAR for location of people. 'Estamos na sala de aula' = We are in the classroom."
+          },
+          {
+            "question": "Portugal ___ no sul da Europa.",
+            "options": ["está", "fica", "é", "estão"],
+            "correct": 1,
+            "explanation": "Use ESTAR for location of countries/regions. 'Portugal está no sul da Europa' = Portugal is in southern Europe."
+          }
+        ]
+      },
+      {
+        "type": "fill-in-blank",
+        "title": "Complete with HAVER or TER",
+        "instructions": "Fill in the blank with the correct form of HAVER or TER.",
+        "items": [
+          {
+            "sentence": "Em Paris, ___ uma loja de produtos portugueses.",
+            "answer": "há",
+            "fullAnswer": "há",
+            "hint": "Use HAVER for 'there is/are'"
+          },
+          {
+            "sentence": "Paris ___ uma loja de produtos portugueses.",
+            "answer": "tem",
+            "fullAnswer": "tem",
+            "hint": "Use TER for 'has'"
+          },
+          {
+            "sentence": "A cidade de Évora ___ o templo de Diana.",
+            "answer": "tem",
+            "fullAnswer": "tem",
+            "hint": "Use TER for 'has'"
+          },
+          {
+            "sentence": "Em Évora, ___ o templo de Diana.",
+            "answer": "há",
+            "fullAnswer": "há",
+            "hint": "Use HAVER for 'there is'"
+          },
+          {
+            "sentence": "___ quatro elevadores turísticos em Lisboa.",
+            "answer": "Há",
+            "fullAnswer": "Há",
+            "hint": "Use HAVER for 'there are'"
+          }
+        ]
+      },
+      {
+        "type": "multiple-choice",
+        "title": "Match the Furniture to the Room",
+        "instructions": "Select the item that does NOT belong in each room.",
+        "items": [
+          {
+            "question": "Which item does NOT belong in the kitchen?",
+            "options": ["fogão (stove)", "frigorífico (fridge)", "duche (shower)", "forno (oven)"],
+            "correct": 2,
+            "explanation": "'Duche' (shower) belongs in the bathroom, not the kitchen."
+          },
+          {
+            "question": "Which item does NOT belong in the bedroom?",
+            "options": ["cama (bed)", "roupeiro (wardrobe)", "frigorífico (fridge)", "mesa de cabeceira (nightstand)"],
+            "correct": 2,
+            "explanation": "'Frigorífico' (fridge) belongs in the kitchen, not the bedroom."
+          },
+          {
+            "question": "Which item does NOT belong in the bathroom?",
+            "options": ["banheira (bathtub)", "lavatório (sink)", "sanita (toilet)", "sofá (sofa)"],
+            "correct": 3,
+            "explanation": "'Sofá' (sofa) belongs in the living room, not the bathroom."
+          }
+        ]
+      },
+      {
+        "type": "sentence-builder",
+        "title": "Describe a House",
+        "instructions": "Choose the correct word to complete each sentence about a house.",
+        "items": [
+          {
+            "sentence": "A casa ___ no centro da cidade. (is located)",
+            "blank": "fica",
+            "wordBank": ["é", "está", "fica", "tem"],
+            "hint": "FICAR = is located (permanent location)"
+          },
+          {
+            "sentence": "No quarto ___ uma cama e um roupeiro. (there is)",
+            "blank": "há",
+            "wordBank": ["há", "tem", "é", "está"],
+            "hint": "HAVER = there is/are"
+          },
+          {
+            "sentence": "A cozinha ___ entre a sala e a despensa. (is)",
+            "blank": "fica",
+            "wordBank": ["é", "está", "fica", "há"],
+            "hint": "FICAR for location of rooms within a house"
+          }
+        ]
+      }
+    ]
+  }
+}

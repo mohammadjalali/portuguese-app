@@ -1,0 +1,371 @@
+{
+  "id": 6,
+  "title": "Descrição e Localização",
+  "subtitle": "Description & Location — SER vs ESTAR",
+  "color": "#1A535C",
+  "accent": "#4ECDC4",
+  "icon": "🏠",
+  "description": "Learn to describe people physically and psychologically, use location prepositions, and master the SER vs ESTAR distinction.",
+  "topics": ["Physical description", "Personality adjectives", "Prepositions of place", "SER vs ESTAR", "Location vocabulary"],
+  "vocabulary": [
+    {
+      "word": "alto / baixo",
+      "translation": "Tall / Short (height)",
+      "pronunciation": "AHL-too / BAHY-oo",
+      "ipa": "/ˈaɫtu/ / /ˈbajʃu/",
+      "example": "O meu pai é alto. A minha mãe é baixa.",
+      "exampleTranslation": "My father is tall. My mother is short.",
+      "category": "physical",
+      "tip": "These agree in gender: alto/alta, baixo/baixa"
+    },
+    {
+      "word": "gordo / magro",
+      "translation": "Fat / Thin",
+      "pronunciation": "GOR-doo / MAH-groo",
+      "ipa": "/ˈɡoɾdu/ / /ˈmaɡɾu/",
+      "example": "O gato é gordo. A gata é magra.",
+      "exampleTranslation": "The cat (m.) is fat. The cat (f.) is thin.",
+      "category": "physical",
+      "tip": "Can be considered blunt — use 'forte' (strong) or 'esbelto' (slim) as polite alternatives"
+    },
+    {
+      "word": "bonito / feio",
+      "translation": "Pretty / Ugly",
+      "pronunciation": "boo-NEE-foo / FAY-oo",
+      "ipa": "/buˈnitu/ / /ˈfɐju/",
+      "example": "Ela é muito bonita. Ele é feio.",
+      "exampleTranslation": "She is very pretty. He is ugly.",
+      "category": "physical",
+      "tip": "Also: 'belo/bela' (beautiful) for more formal/literary contexts"
+    },
+    {
+      "word": "forte / fraco",
+      "translation": "Strong / Weak",
+      "pronunciation": "FOR-teh / FRAH-koo",
+      "ipa": "/ˈfɔɾtɨ/ / /ˈfɾaku/",
+      "example": "Ele é muito forte. Ela é fraca.",
+      "exampleTranslation": "He is very strong. She is weak.",
+      "category": "physical",
+      "tip": "Also used for personality: 'uma pessoa forte' (a strong person)"
+    },
+    {
+      "word": "simpático / antipático",
+      "translation": "Nice / Unpleasant",
+      "pronunciation": "seem-PAH-tee-koo / ah-nee-PAH-tee-koo",
+      "ipa": "/sĩˈpatiku/ / /ɐ̃tʃiˈpatiku/",
+      "example": "Os vizinhos são muito simpáticos.",
+      "exampleTranslation": "The neighbors are very nice.",
+      "category": "personality",
+      "tip": "One of the most common personality adjectives in Portuguese"
+    },
+    {
+      "word": "inteligente / estúpido",
+      "translation": "Intelligent / Stupid",
+      "pronunciation": "een-teh-lee-ZHEN-teh / eh-SCHOO-pee-doo",
+      "ipa": "/ĩtɛliˈʒẽtɨ/ / /ɨʃˈtupidu/",
+      "example": "Ela é muito inteligente.",
+      "exampleTranslation": "She is very intelligent.",
+      "category": "personality",
+      "tip": "Same form for both genders — ends in -e"
+    },
+    {
+      "word": "alegre / triste",
+      "translation": "Happy / Sad",
+      "pronunciation": "ah-LEH-greh / TREESH-teh",
+      "ipa": "/ɐˈlɛɡɾɨ/ / /ˈtɾiʃtɨ/",
+      "example": "Ele é sempre alegre. Ela está triste hoje.",
+      "exampleTranslation": "He is always happy. She is sad today.",
+      "category": "personality",
+      "tip": "Use SER for personality (alegre), ESTAR for emotions (triste hoje)"
+    },
+    {
+      "word": "dentro de / fora de",
+      "translation": "Inside / Outside",
+      "pronunciation": "DEN-troo deh / FOR-ah deh",
+      "ipa": "/ˈdẾtɾu dɨ/ / /ˈfɔɾɐ dɨ/",
+      "example": "As canetas estão dentro do estojo.",
+      "exampleTranslation": "The pens are inside the pencil case.",
+      "category": "location",
+      "tip": "These prepositions combine with articles: dentro do (de+o), dentro da (de+a)"
+    },
+    {
+      "word": "em cima de / em baixo de",
+      "translation": "On top of / Under",
+      "pronunciation": "ame SEEN-mah deh / ame BAHY-shoo deh",
+      "ipa": "/ɐ̃j ˈsĩmɐ dɨ/ / /ɐ̃j ˈbajʃu dɨ/",
+      "example": "O livro está em cima da mesa. O gato está debaixo da mesa.",
+      "exampleTranslation": "The book is on the table. The cat is under the table.",
+      "category": "location",
+      "tip": "'Em cima de' often contracts to just 'na' in speech: 'O livro está na mesa'"
+    },
+    {
+      "word": "perto de / longe de",
+      "translation": "Near / Far from",
+      "pronunciation": "PEHR-too deh / LON-zheh deh",
+      "ipa": "/ˈpɛɾtu dɨ/ / /ˈlõʒɨ dɨ/",
+      "example": "A faculdade é perto do hospital. A praia é longe de Lisboa.",
+      "exampleTranslation": "The faculty is near the hospital. The beach is far from Lisbon.",
+      "category": "location",
+      "tip": "Use SER for permanent location, ESTAR for temporary: 'A praia é longe' vs 'Estou longe'"
+    },
+    {
+      "word": "à frente de / atrás de",
+      "translation": "In front of / Behind",
+      "pronunciation": "ah FREHN-teh deh / ah-TRAHSH deh",
+      "ipa": "/ɐ ˈfɾẽtɨ dɨ/ / /ɐˈtɾaʃ dɨ/",
+      "example": "A esplanada é em frente do café. O jardim fica atrás da casa.",
+      "exampleTranslation": "The terrace is in front of the café. The garden is behind the house.",
+      "category": "location",
+      "tip": "'Em frente de' = across from; 'à frente de' = ahead of/in front of"
+    },
+    {
+      "word": "ao lado de / entre",
+      "translation": "Next to / Between",
+      "pronunciation": "oh LAH-doo deh / EN-treh",
+      "ipa": "/aw ˈladu dɨ/ / /ˈẽtɾɨ/",
+      "example": "O banco fica ao lado da farmácia. A cozinha fica entre a sala e a despensa.",
+      "exampleTranslation": "The bank is next to the pharmacy. The kitchen is between the living room and the pantry.",
+      "category": "location",
+      "tip": "'Entre' (between) does not contract with articles"
+    },
+    {
+      "word": "à direita de / à esquerda de",
+      "translation": "To the right of / To the left of",
+      "pronunciation": "ah dee-RAY-tah deh / ah eh-KEHR-dah deh",
+      "ipa": "/ɐ diˈɾɐjtɐ dɨ/ / /ɐ ˈɛʃkeɾdɐ dɨ/",
+      "example": "O hospital fica à direita da escola.",
+      "exampleTranslation": "The hospital is to the right of the school.",
+      "category": "location",
+      "tip": "Essential for giving directions in Portuguese"
+    }
+  ],
+  "grammar": {
+    "title": "SER vs ESTAR & Prepositions of Place",
+    "sections": [
+      {
+        "type": "explanation",
+        "heading": "Physical & Psychological Description",
+        "body": "To describe people in Portuguese, you need two types of adjectives: physical (appearance) and psychological (personality). Physical descriptions use SER because they describe inherent characteristics: 'Ele é alto' (He is tall). Personality traits also use SER: 'Ela é simpática' (She is nice). However, temporary emotional states use ESTAR: 'Ela está triste' (She is sad). Most descriptive adjectives agree in gender and number with the person described."
+      },
+      {
+        "type": "table",
+        "heading": "Common Descriptive Adjectives",
+        "columns": ["Masculine", "Feminine", "Meaning", "Type"],
+        "rows": [
+          ["alto", "alta", "tall", "physical"],
+          ["baixo", "baixa", "short", "physical"],
+          ["gordo", "gorda", "fat", "physical"],
+          ["magro", "magra", "thin", "physical"],
+          ["bonito", "bonita", "pretty", "physical"],
+          ["forte", "forte", "strong", "physical"],
+          ["fraco", "fraca", "weak", "physical"],
+          ["simpático", "simpática", "nice", "personality"],
+          ["antipático", "antipática", "unpleasant", "personality"],
+          ["inteligente", "inteligente", "intelligent", "personality"],
+          ["alegre", "alegre", "happy/cheerful", "personality"],
+          ["triste", "triste", "sad", "emotion"],
+          ["nervoso", "nervosa", "nervous", "emotion"]
+        ]
+      },
+      {
+        "type": "explanation",
+        "heading": "SER vs ESTAR — The Fundamental Distinction",
+        "body": "Portuguese has two verbs meaning 'to be': SER and ESTAR. This is one of the most important distinctions in the language. SER is used for permanent or inherent characteristics: identity, profession, nationality, physical traits, time, and permanent location. ESTAR is used for temporary states: emotions, physical conditions, and temporary location of people, animals, and movable objects. A helpful rule: SER = what something IS; ESTAR = how something IS (right now). For location: SER locates permanent things (buildings, cities); ESTAR locates temporary things (people, objects)."
+      },
+      {
+        "type": "table",
+        "heading": "SER vs ESTAR — Conjugation & Usage",
+        "columns": ["Person", "SER", "ESTAR", "SER Example", "ESTAR Example"],
+        "rows": [
+          ["Eu", "sou", "estou", "Eu sou português.", "Estou em casa."],
+          ["Tu", "és", "estás", "Tu és alto.", "Estás bem?"],
+          ["Ele/Ela/Você", "é", "está", "Ela é médica.", "Está cansada."],
+          ["Nós", "somos", "estamos", "Nós somos amigos.", "Estamos felizes."],
+          ["Vocês/Eles/Elas", "são", "estão", "Eles são de Lisboa.", "Estão doentes."]
+        ]
+      },
+      {
+        "type": "examples",
+        "heading": "SER vs ESTAR in Action",
+        "items": [
+          {
+            "portuguese": "O João é engenheiro. O João está em Lisboa.",
+            "translation": "João is an engineer. João is in Lisbon.",
+            "pronunciation": "oo ZHOH-ow eh en-jen-YAY-roo. oo ZHOH-ow esh-TAH eem LEESH-boh-ah.",
+            "highlight": ["é", "está"]
+          },
+          {
+            "portuguese": "A casa do João é no Bairro Alto. O João está em Lisboa.",
+            "translation": "João's house is in Bairro Alto. João is in Lisbon.",
+            "pronunciation": "ah KAH-zah doo ZHOH-ow eh noh BAHR-yoo AHL-too. oo ZHOH-ow esh-TAH eem LEESH-boh-ah.",
+            "highlight": ["é", "está"]
+          },
+          {
+            "portuguese": "Ela é bonita. Ela está feliz hoje.",
+            "translation": "She is pretty. She is happy today.",
+            "pronunciation": "EH-lah eh boo-NEE-tah. EH-lah esh-TAH feh-LEEZ oh-zheh.",
+            "highlight": ["é", "está"]
+          }
+        ]
+      },
+      {
+        "type": "explanation",
+        "heading": "Prepositions of Place (Locuções Prepositivas de Lugar)",
+        "body": "Prepositions of place describe where things are located. In Portuguese, these are often compound prepositions (locuções prepositivas) made up of two or more words. They combine with definite articles to form contractions: dentro do (inside the — m.), em cima da (on top of the — f.), ao lado de (next to), entre (between — no contraction). These prepositions work with ESTAR for locating people and objects, and with SER for locating permanent things like buildings."
+      },
+      {
+        "type": "table",
+        "heading": "Prepositions of Place",
+        "columns": ["Preposition", "Meaning", "Example"],
+        "rows": [
+          ["dentro de", "inside", "O gato está dentro da caixa."],
+          ["fora de", "outside", "O cão está fora de casa."],
+          ["em cima de", "on top of", "O livro está em cima da mesa."],
+          ["em baixo de / debaixo de", "under", "O gato está debaixo da mesa."],
+          ["em frente de / à frente de", "in front of", "A esplanada é em frente do café."],
+          ["atrás de", "behind", "O jardim fica atrás da casa."],
+          ["ao lado de", "next to", "O banco fica ao lado da farmácia."],
+          ["à direita de", "to the right of", "O hospital fica à direita da escola."],
+          ["à esquerda de", "to the left da", "A igreja fica à esquerda do mercado."],
+          ["perto de", "near", "A faculdade é perto do hospital."],
+          ["longe de", "far from", "A praia é longe de Lisboa."],
+          ["entre", "between", "A cozinha fica entre a sala e a despensa."],
+          ["sobre", "on/upon", "O quadro está sobre a lareira."]
+        ]
+      },
+      {
+        "type": "tips",
+        "heading": "Common Mistakes & Tips",
+        "items": [
+          "SER for permanent location (buildings, cities), ESTAR for temporary location (people, objects): 'A escola é no centro' vs 'Estou na escola'.",
+          "Don't confuse 'em cima de' (on top of) with 'ao cima' (upstairs). 'Em cima' = on a surface; 'ao cima' = upstairs.",
+          "'Em frente de' = across from (opposite); 'à frente de' = ahead of (in front of in a sequence).",
+          "Adjectives ending in -e (like 'inteligente') don't change for gender: 'ele é inteligente, ela é inteligente'.",
+          "Use SER for personality traits ('Ele é alegre') and ESTAR for temporary emotions ('Ele está triste hoje').",
+          "Prepositions combine with articles: dentro + o = dentro do; em cima + a = em cima da; a + o lado = ao lado.",
+          "The verb ESTAR has an irregular first person: 'estou' (not 'esto'). Remember: estou, estás, está, estamos, estão."
+        ]
+      }
+    ],
+    "exercises": [
+      {
+        "type": "multiple-choice",
+        "title": "SER or ESTAR?",
+        "instructions": "Choose the correct verb to complete each sentence.",
+        "items": [
+          {
+            "question": "Ela ___ médica.",
+            "options": ["está", "é", "são", "estou"],
+            "correct": 1,
+            "explanation": "Use SER for profession. 'Ela é médica' = She is a doctor."
+          },
+          {
+            "question": "Onde ___ tu?",
+            "options": ["és", "estás", "são", "somos"],
+            "correct": 1,
+            "explanation": "Use ESTAR for temporary location. 'Onde estás tu?' = Where are you?"
+          },
+          {
+            "question": "Nós ___ em Lisboa.",
+            "options": ["somos", "estamos", "são", "estão"],
+            "correct": 1,
+            "explanation": "Use ESTAR for location of people. 'Estamos em Lisboa' = We are in Lisbon."
+          },
+          {
+            "question": "A biblioteca ___ no centro da cidade.",
+            "options": ["está", "é", "estão", "são"],
+            "correct": 1,
+            "explanation": "Use SER for permanent location of buildings. 'A biblioteca é no centro' = The library is in the center."
+          },
+          {
+            "question": "Eles ___ cansados.",
+            "options": ["são", "estão", "é", "está"],
+            "correct": 1,
+            "explanation": "Use ESTAR for temporary physical states. 'Estão cansados' = They are tired."
+          }
+        ]
+      },
+      {
+        "type": "fill-in-blank",
+        "title": "Complete with the Correct Preposition",
+        "instructions": "Fill in the blank with the correct preposition of place.",
+        "items": [
+          {
+            "sentence": "O gato está ___ da mesa. (under)",
+            "answer": "debaixo",
+            "fullAnswer": "debaixo da mesa",
+            "hint": "debaixo de = under"
+          },
+          {
+            "sentence": "O livro está ___ da mesa. (on top of)",
+            "answer": "em cima",
+            "fullAnswer": "em cima da mesa",
+            "hint": "em cima de = on top of"
+          },
+          {
+            "sentence": "O banco fica ___ da farmácia. (next to)",
+            "answer": "ao lado",
+            "fullAnswer": "ao lado da farmácia",
+            "hint": "ao lado de = next to"
+          },
+          {
+            "sentence": "A cozinha fica ___ a sala e a despensa. (between)",
+            "answer": "entre",
+            "fullAnswer": "entre a sala e a despensa",
+            "hint": "entre = between (no contraction)"
+          }
+        ]
+      },
+      {
+        "type": "multiple-choice",
+        "title": "Choose the Correct Adjective Form",
+        "instructions": "Select the correct gendered form of the adjective.",
+        "items": [
+          {
+            "question": "A Maria é muito _____ (tall).",
+            "options": ["alto", "alta", "altos", "altas"],
+            "correct": 1,
+            "explanation": "The feminine of 'alto' is 'alta'. 'A Maria é alta' = Maria is tall."
+          },
+          {
+            "question": "O Pedro é _____ (nice).",
+            "options": ["simpática", "simpático", "simpáticas", "simpáticos"],
+            "correct": 1,
+            "explanation": "The masculine of 'simpática' is 'simpático'. 'O Pedro é simpático'."
+          },
+          {
+            "question": "Eles são _____ (intelligent).",
+            "options": ["inteligenta", "inteligente", "inteligentos", "inteligentes"],
+            "correct": 3,
+            "explanation": "Adjectives ending in -e don't change for gender, but add -s for plural: 'inteligentes'."
+          }
+        ]
+      },
+      {
+        "type": "sentence-builder",
+        "title": "Describe People with SER and ESTAR",
+        "instructions": "Choose the correct form to complete each sentence.",
+        "items": [
+          {
+            "sentence": "Ele ___ alto e simpático.",
+            "blank": "é",
+            "wordBank": ["é", "está", "são", "estão"],
+            "hint": "Use SER for permanent physical/personality traits"
+          },
+          {
+            "sentence": "Ela ___ cansada hoje.",
+            "blank": "está",
+            "wordBank": ["é", "está", "são", "estão"],
+            "hint": "Use ESTAR for temporary physical states"
+          },
+          {
+            "sentence": "Nós ___ portugueses.",
+            "blank": "somos",
+            "wordBank": ["somos", "estamos", "são", "estão"],
+            "hint": "Use SER for nationality"
+          }
+        ]
+      }
+    ]
+  }
+}

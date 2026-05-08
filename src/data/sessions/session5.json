@@ -1,0 +1,411 @@
+{
+  "id": 5,
+  "title": "A Família e os Possessivos",
+  "subtitle": "The Family & Possessive Determiners",
+  "color": "#8B3A0F",
+  "accent": "#E9C46A",
+  "icon": "👨‍👩‍👧‍👦",
+  "description": "Learn family vocabulary, possessive determiners and pronouns, and regular -er verb conjugations.",
+  "topics": ["Family members", "Possessives (o meu, o teu, o seu...)", "Regular -er verbs", "Gender agreement in family nouns"],
+  "vocabulary": [
+    {
+      "word": "o pai / a mãe",
+      "translation": "Father / Mother",
+      "pronunciation": "oo pay / ah may",
+      "ipa": "/u ˈpaj/ / /ɐ ˈmɐ̃j/",
+      "example": "O meu pai é indiano. A minha mãe é portuguesa.",
+      "exampleTranslation": "My father is Indian. My mother is Portuguese.",
+      "category": "family",
+      "tip": "The plural is irregular: os pais (parents can also mean 'fathers' in context), as mães"
+    },
+    {
+      "word": "o filho / a filha",
+      "translation": "Son / Daughter",
+      "pronunciation": "oo FEE-lyoo / ah FEE-lyah",
+      "ipa": "/u ˈfiʎu/ / /ɐ ˈfiʎɐ/",
+      "example": "Eles têm dois filhos: um filho e uma filha.",
+      "exampleTranslation": "They have two children: a son and a daughter.",
+      "category": "family",
+      "tip": "os filhos = children (mixed or male group); as filhas = daughters"
+    },
+    {
+      "word": "o irmão / a irmã",
+      "translation": "Brother / Sister",
+      "pronunciation": "oo ee-MAHN / ah ee-mah",
+      "ipa": "/u iˈmɐ̃w̃/ / /ɐ iɾˈmɐ̃/",
+      "example": "Eu não tenho irmãos. A Patrícia tem uma irmã e um irmão.",
+      "exampleTranslation": "I don't have siblings. Patricia has a sister and a brother.",
+      "category": "family",
+      "tip": "os irmãos can mean siblings in general; as irmãs = sisters"
+    },
+    {
+      "word": "o avô / a avó",
+      "translation": "Grandfather / Grandmother",
+      "pronunciation": "oo ah-VOH / ah ah-VOH",
+      "ipa": "/u ˈɐvu/ / /ɐ ˈɐvɔ/",
+      "example": "Os meus avós moram em Lisboa.",
+      "exampleTranslation": "My grandparents live in Lisbon.",
+      "category": "family",
+      "tip": "The plural is special: avós (grandparents), not a combined -ôs form"
+    },
+    {
+      "word": "o neto / a neta",
+      "translation": "Grandson / Granddaughter",
+      "pronunciation": "oo NEH-too / ah NEH-tah",
+      "ipa": "/u ˈnɛtu/ / /ɐ ˈnɛtɐ/",
+      "example": "Eles têm dois netos e três netas.",
+      "exampleTranslation": "They have two grandsons and three granddaughters.",
+      "category": "family",
+      "tip": "o/neto/a and avô/avó follow the same -o/-a pattern"
+    },
+    {
+      "word": "o tio / a tia",
+      "translation": "Uncle / Aunt",
+      "pronunciation": "oo TEE-oo / ah TEE-ah",
+      "ipa": "/u ˈtiu/ / /ɐ ˈtiɐ/",
+      "example": "O meu tio mora em Faro. A minha tia é professora.",
+      "exampleTranslation": "My uncle lives in Faro. My aunt is a teacher.",
+      "category": "family",
+      "tip": "Regular gender pattern: tio → tia"
+    },
+    {
+      "word": "o primo / a prima",
+      "translation": "Cousin (m./f.)",
+      "pronunciation": "oo PREE-moo / ah PREE-mah",
+      "ipa": "/u ˈpɾimu/ / /ɐ ˈpɾimɐ/",
+      "example": "Eu tenho muitos primos e primas.",
+      "exampleTranslation": "I have many cousins.",
+      "category": "family",
+      "tip": "Regular -o/-a pattern"
+    },
+    {
+      "word": "o marido / a esposa",
+      "translation": "Husband / Wife",
+      "pronunciation": "oo mah-RREE-doo / ah eh-PEH-zah",
+      "ipa": "/u mɐˈɾidu/ / /ɐ ˈɛzɐ/",
+      "example": "O Paulo é o marido da Patrícia.",
+      "exampleTranslation": "Paulo is Patricia's husband.",
+      "category": "family",
+      "tip": "After SER, no article: 'É casado com...' (married to...)"
+    },
+    {
+      "word": "o sobrinho / a sobrinha",
+      "translation": "Nephew / Niece",
+      "pronunciation": "oo soh-BREE-nyoo / ah soh-BREE-nyah",
+      "ipa": "/u soˈbɾiɲu/ / /ɐ soˈbɾiɲɐ/",
+      "example": "A Mónica é a sobrinha do Paulo.",
+      "exampleTranslation": "Mónica is Paulo's niece.",
+      "category": "family",
+      "tip": "The 'nh' sound is like in 'canyon'"
+    },
+    {
+      "word": "o sogro / a sogra",
+      "translation": "Father-in-law / Mother-in-law",
+      "pronunciation": "oo SOH-groo / ah SOH-grah",
+      "ipa": "/uˈsɔɡɾu/ / /ɐ ˈsɔɡɾɐ/",
+      "example": "Os sogros da Patrícia são o Carlos e a Sara.",
+      "exampleTranslation": "Patricia's parents-in-law are Carlos and Sara.",
+      "category": "family",
+      "tip": "In-law relationships are formed with compostos: sogro/a, genro/ nora"
+    },
+    {
+      "word": "o cunhado / a cunhada",
+      "translation": "Brother-in-law / Sister-in-law",
+      "pronunciation": "oo koo-NYAH-doo / ah koo-NYAH-dah",
+      "ipa": "/kuˈɲadu/ / /kuˈɲadɐ/",
+      "example": "O marido da Ana é o Luís, é o meu cunhado.",
+      "exampleTranslation": "Ana's husband is Luís, he is my brother-in-law.",
+      "category": "family",
+      "tip": "The 'nh' is key to being understood"
+    },
+    {
+      "word": "os meus pais / os meus avós",
+      "translation": "My parents / My grandparents",
+      "pronunciation": "oosh may-oosh PA-yeesh / oosh may-oosh ah-VOSH",
+      "ipa": "/uʃ ˈmejuʃ ˈpajʃ/ / /uʃ ˈmejuʃ ˈɐvɔʃ/",
+      "example": "Os meus pais são portugueses. Os meus avós são do Algarve.",
+      "exampleTranslation": "My parents are Portuguese. My grandparents are from the Algarve.",
+      "category": "possessives",
+      "tip": "Possessives agree with the THING POSSESSED, not with the possessor"
+    },
+    {
+      "word": "O meu / A minha / O teu / A tua",
+      "translation": "My / Your (informal)",
+      "pronunciation": "oo may-oo / ah mee-NYAH / oo t-oo / ah too-ah",
+      "ipa": "/u ˈmew/ / /ɐ ˈmiɲɐ/ / /u ˈtew/ / /ɐ ˈtuɐ/",
+      "example": "O meu pai é alto. A minha mãe é alta.",
+      "exampleTranslation": "My father is tall. My mother is tall.",
+      "category": "possessives",
+      "tip": "In Portuguese, possessives are preceded by the definite article: o meu livro (not just 'meu livro')"
+    },
+    {
+      "word": "O seu / A sua / dele / dela",
+      "translation": "His / Her / Your (formal)",
+      "pronunciation": "oo SAY-oo / ah SOO-ah / DEH-leh / DEH-lah",
+      "ipa": "/u ˈsew/ / /ɐ ˈsuɐ/ / /ˈdelɨ/ / /ˈdelɐ/",
+      "example": "O pai da Maria = O pai dela. É o seu pai.",
+      "exampleTranslation": "Maria's father = Her father. It's her father.",
+      "category": "possessives",
+      "tip": "'Dele'/'dela' = of him/of her. 'Seu'/'sua' can mean his/her/your — context clarifies!"
+    }
+  ],
+  "grammar": {
+    "title": "Family, Possessives & -er Verbs",
+    "sections": [
+      {
+        "type": "explanation",
+        "heading": "Family Vocabulary & Gender Patterns",
+        "body": "Portuguese family nouns follow predictable gender patterns. Most family members have distinct masculine and feminine forms. The key patterns are: (1) -o/-a: filho/filha, primo/prima, tio/tia. (2) -ô/-ó: avô/avó (irregular plural: avós). (3) -o/-a with different roots: pai/mãe, irmão/irmã. When referring to a mixed group, use the masculine plural: 'os filhos' can mean children (boys and girls), 'os irmãos' can mean siblings."
+      },
+      {
+        "type": "table",
+        "heading": "Family Members — Gender Forms",
+        "columns": ["Masculine", "Feminine", "Masculine Plural", "Feminine Plural"],
+        "rows": [
+          ["o pai", "a mãe", "os pais", "as mães"],
+          ["o filho", "a filha", "os filhos", "as filhas"],
+          ["o irmão", "a irmã", "os irmãos", "as irmãs"],
+          ["o avô", "a avó", "os avós", "as avós"],
+          ["o neto", "a neta", "os netos", "as netas"],
+          ["o tio", "a tia", "os tios", "as tias"],
+          ["o primo", "a prima", "os primos", "as primas"],
+          ["o sobrinho", "a sobrinha", "os sobrinhos", "as sobrinhas"],
+          ["o cunhado", "a cunhada", "os cunhados", "as cunhadas"],
+          ["o sogro", "a sogra", "os sogros", "as sogras"]
+        ]
+      },
+      {
+        "type": "explanation",
+        "heading": "Possessive Determiners (Determinantes Possessivos)",
+        "body": "Possessive determiners in Portuguese indicate ownership and agree in gender and number with the THING POSSESSED, not with the possessor. This is different from English! For example: 'o meu pai' (my father) — 'meu' is masculine because 'pai' is masculine, regardless of whether the speaker is male or female. Another key difference: Portuguese possessives are preceded by the definite article: 'o meu livro' (not just 'meu livro'). The article is dropped only in very specific cases like after the verb SER when identifying: 'Este livro é meu' (This book is mine)."
+      },
+      {
+        "type": "table",
+        "heading": "Possessive Determiners — Full Paradigm",
+        "columns": ["Possessor", "masc. sg.", "fem. sg.", "masc. pl.", "fem. pl."],
+        "rows": [
+          ["eu", "o meu", "a minha", "os meus", "as minhas"],
+          ["tu", "o teu", "a tua", "os teus", "as tuas"],
+          ["ele/ela/você", "o seu", "a sua", "os seus", "as suas"],
+          ["nós", "o nosso", "a nossa", "os nossos", "as nossas"],
+          ["vocês/eles/elas", "o vosso", "a vossa", "os vossos", "as vossas"]
+        ]
+      },
+      {
+        "type": "explanation",
+        "heading": "Possessive Pronouns (dele, dela, deles, delas)",
+        "body": "After prepositions like 'de' (of), Portuguese uses special possessive forms: dele (of him/his), dela (of her/hers), deles (of them — m.), delas (of them — f.). These are formed by combining 'de' + the personal pronoun. For example: 'O pai da Maria' = 'O pai dela' (Maria's father = Her father). These forms are essential for avoiding repetition and are used constantly in spoken Portuguese."
+      },
+      {
+        "type": "table",
+        "heading": "Possessive Pronouns After 'de'",
+        "columns": ["Preposition + Pronoun", "Form", "Example"],
+        "rows": [
+          ["de + ele", "dele", "O carro dele é azul. (His car is blue.)"],
+          ["de + ela", "dela", "A casa dela é grande. (Her house is big.)"],
+          ["de + eles", "deles", "Os filhos deles são simpáticos. (Their children are nice.)"],
+          ["de + elas", "delas", "As amigas delas moram aqui. (Their friends live here.)"]
+        ]
+      },
+      {
+        "type": "examples",
+        "heading": "Possessives in Context",
+        "items": [
+          {
+            "portuguese": "O meu pai é indiano e a minha mãe é portuguesa.",
+            "translation": "My father is Indian and my mother is Portuguese.",
+            "pronunciation": "oo may-oo pay eh een-dee-AH-noo ee ah mee-NYAH may eh poor-too-GAY-zah.",
+            "highlight": ["meu", "minha"]
+          },
+          {
+            "portuguese": "O pai da Maria é médico. = O pai dele é médico.",
+            "translation": "Maria's father is a doctor. = Her father is a doctor.",
+            "pronunciation": "oo pay dah mah-REE-ah eh MEH-dee-koo. oo pay DEH-leh eh MEH-dee-koo.",
+            "highlight": ["da Maria", "dele"]
+          },
+          {
+            "portuguese": "Os nossos avós moram em Lisboa.",
+            "translation": "Our grandparents live in Lisbon.",
+            "pronunciation": "oosh NOH-soosh ah-VOSH MOH-rahm eem LEESH-boh-ah.",
+            "highlight": ["nossos"]
+          }
+        ]
+      },
+      {
+        "type": "explanation",
+        "heading": "Regular -er Verbs (2nd Conjugation)",
+        "body": "The second major group of Portuguese verbs ends in -er. Like -ar verbs, most -er verbs are regular and follow a predictable pattern. To conjugate, remove the -er ending to get the stem, then add: -o (eu), -es (tu), -e (ele/ela), -emos (nós), -em (eles/elas). Notice the endings are very similar to -ar verbs, except the first person singular ends in -o (not -o... same!) and the plural endings are -emos/-em instead of -amos/-am. The key difference: -er verb stems often have a 'c' or 'ç' that changes spelling to preserve pronunciation."
+      },
+      {
+        "type": "table",
+        "heading": "Regular -er Conjugation Pattern (using COMER as model)",
+        "columns": ["Person", "Ending", "Conjugation", "Translation"],
+        "rows": [
+          ["Eu", "-o", "como", "I eat"],
+          ["Tu", "-es", "comes", "You eat (informal)"],
+          ["Ele / Ela / Você", "-e", "come", "He/She eats"],
+          ["Nós", "-emos", "comemos", "We eat"],
+          ["Vocês / Eles / Elas", "-em", "comem", "They eat"]
+        ]
+      },
+      {
+        "type": "table",
+        "heading": "Essential -er Verbs",
+        "columns": ["Verb", "Meaning", "Stem", "Example"],
+        "rows": [
+          ["comer", "to eat", "com-", "Eu como peixe."],
+          ["beber", "to drink", "beb-", "Tu bebes café."],
+          ["aprender", "to learn", "aprend-", "Ela aprende português."],
+          ["vender", "to sell", "vend-", "Nós vendemos fruta."],
+          ["viver", "to live", "viv-", "Eles vivem em Lisboa."],
+          ["receber", "to receive", "receb-", "Recebo um email."],
+          ["responder", "to answer", "respond-", "Respondes à pergunta."],
+          ["temer", "to fear", "tem-", "Tememos o frio."],
+          ["escrever", "to write", "escrev-", "Escrevo uma carta."],
+          ["conhecer", "to know/be acquainted", "conhec-", "Conheces a Maria?"],
+          ["correr", "to run", "corr-", "Corro no parque."],
+          ["compreender", "to understand", "compreend-", "Compreendes?"]
+        ]
+      },
+      {
+        "type": "tips",
+        "heading": "Common Mistakes & Tips",
+        "items": [
+          "Possessives agree with the thing possessed, NOT the possessor: 'o meu mãe' is WRONG — it's 'a minha mãe' because 'mãe' is feminine.",
+          "Don't forget the definite article before possessives: 'o meu pai' (not 'meu pai'). The article is only dropped in specific cases like 'É meu'.",
+          "Watch out for 'seu/sua' ambiguity — it can mean 'his', 'her', or 'your'. Use 'dele/dela' to be clear: 'O carro dele' (his car).",
+          "For -er verbs, the 'nós' form ends in -emos (comemos), not -imos. That's only for -ir verbs.",
+          "The verb 'viver' (to live) is an -er verb, while 'morar' (to live/reside) is an -ar verb. Both are correct in European Portuguese.",
+          "Family plural: 'os filhos' can mean 'the children' (mixed group) or 'the sons'. Context tells you which.",
+          "When describing your family, use SER for identity and TER for possession: 'Tenho dois irmãos' (I have two brothers), 'O meu irmão é alto' (My brother is tall)."
+        ]
+      }
+    ],
+    "exercises": [
+      {
+        "type": "multiple-choice",
+        "title": "Choose the Correct Possessive",
+        "instructions": "Select the correct possessive determiner for each sentence.",
+        "items": [
+          {
+            "question": "___ pai é médico. (eu)",
+            "options": ["Meu", "O meu", "O teu", "O seu"],
+            "correct": 1,
+            "explanation": "Possessives need the definite article: 'O meu pai'. 'Meu' without the article is only used in specific cases."
+          },
+          {
+            "question": "___ mãe é professora. (tu)",
+            "options": ["A tua", "Tua", "A sua", "A minha"],
+            "correct": 0,
+            "explanation": "'A tua mãe' — 'tua' agrees with 'mãe' (feminine). The article 'a' is required."
+          },
+          {
+            "question": "___ avós moram em Lisboa. (nós)",
+            "options": ["Os vossos", "Os nossos", "Os seus", "Os meus"],
+            "correct": 1,
+            "explanation": "'Os nossos avós' — 'nossos' agrees with 'avós' (masculine plural). First person plural possessive."
+          },
+          {
+            "question": "O pai da Ana é alto. = O pai ___ é alto.",
+            "options": ["dele", "dela", "deles", "da Ana"],
+            "correct": 1,
+            "explanation": "'Dela' = de + ela. 'O pai dela' = Her father. We use 'dela' to replace 'da Ana'."
+          }
+        ]
+      },
+      {
+        "type": "fill-in-blank",
+        "title": "Complete with the Correct Possessive",
+        "instructions": "Fill in the blank with the correct possessive determiner.",
+        "items": [
+          {
+            "sentence": "(eu) / irmão",
+            "answer": "o meu",
+            "fullAnswer": "o meu irmão",
+            "hint": "1st person, masculine singular"
+          },
+          {
+            "sentence": "(nós) / avós",
+            "answer": "os nossos",
+            "fullAnswer": "os nossos avós",
+            "hint": "1st person plural, masculine plural"
+          },
+          {
+            "sentence": "(tu) / tios",
+            "answer": "os teus",
+            "fullAnswer": "os teus tios",
+            "hint": "2nd person, masculine plural"
+          },
+          {
+            "sentence": "(ela) / avô",
+            "answer": "o seu",
+            "fullAnswer": "o seu avô",
+            "hint": "3rd person, masculine singular"
+          },
+          {
+            "sentence": "(vocês) / cunhados",
+            "answer": "os vossos",
+            "fullAnswer": "os vossos cunhados",
+            "hint": "2nd person plural (Portugal), masculine plural"
+          }
+        ]
+      },
+      {
+        "type": "multiple-choice",
+        "title": "Conjugate the -er Verb",
+        "instructions": "Choose the correct conjugation for each sentence.",
+        "items": [
+          {
+            "question": "Eu ___ peixe. (comer)",
+            "options": ["como", "comes", "come", "comem"],
+            "correct": 0,
+            "explanation": "Eu + stem + o = como. First person singular of regular -er verbs ends in -o."
+          },
+          {
+            "question": "Tu ___ café? (beber)",
+            "options": ["bebo", "bebes", "bebe", "bebem"],
+            "correct": 1,
+            "explanation": "Tu + stem + es = bebes. Second person singular of regular -er verbs ends in -es."
+          },
+          {
+            "question": "Nós ___ português. (aprender)",
+            "options": ["aprende", "aprendes", "aprendemos", "aprendem"],
+            "correct": 2,
+            "explanation": "Nós + stem + emos = aprendemos. First person plural of regular -er verbs ends in -emos."
+          },
+          {
+            "question": "Eles ___ em Lisboa. (viver)",
+            "options": ["vivo", "vives", "vive", "vivem"],
+            "correct": 3,
+            "explanation": "Eles + stem + em = vivem. Third person plural of regular -er verbs ends in -em."
+          }
+        ]
+      },
+      {
+        "type": "sentence-builder",
+        "title": "Build Sentences with -er Verbs",
+        "instructions": "Choose the correct verb form to complete each sentence.",
+        "items": [
+          {
+            "sentence": "Eu ___ um livro.",
+            "blank": "leio",
+            "wordBank": ["leio", "lês", "lê", "lemos"],
+            "hint": "1st person singular of ler (to read) — irregular but common"
+          },
+          {
+            "sentence": "Tu ___ água?",
+            "blank": "bebes",
+            "wordBank": ["bebo", "bebes", "bebe", "bebemos"],
+            "hint": "2nd person singular of beber"
+          },
+          {
+            "sentence": "Nós ___ em Paris.",
+            "blank": "vivemos",
+            "wordBank": ["vivo", "vives", "vive", "vivemos"],
+            "hint": "1st person plural of viver"
+          }
+        ]
+      }
+    ]
+  }
+}

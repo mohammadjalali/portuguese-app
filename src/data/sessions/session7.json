@@ -1,0 +1,371 @@
+{
+  "id": 7,
+  "title": "Dias, Meses e Alimentação",
+  "subtitle": "Days, Months, Food & Time Prepositions",
+  "color": "#5C4D7D",
+  "accent": "#B8B8FF",
+  "icon": "📅",
+  "description": "Learn days of the week, months, birthday dates, food vocabulary, mealtimes, and time prepositions.",
+  "topics": ["Days of the week", "Months of the year", "Birthday dates", "Food & meals", "Time prepositions (em, de, a)"],
+  "vocabulary": [
+    {
+      "word": "segunda-feira, terça-feira, quarta-feira",
+      "translation": "Monday, Tuesday, Wednesday",
+      "pronunciation": "seh-GOON-dah FAY-rah, tehr-SAH FAY-rah, KWAHR-tah FAY-rah",
+      "ipa": "/sɨˈɡũdɐ ˈfɐjɾɐ/ / /ˈteɾsɐ ˈfɐjɾɐ/ / /ˈkwartɐ ˈfɐjɾɐ/",
+      "example": "Eu tenho aulas à segunda-feira.",
+      "exampleTranslation": "I have classes on Monday.",
+      "category": "days",
+      "tip": "In Portugal, days use 'feira' after the number: segunda (2nd), terça (3rd), etc."
+    },
+    {
+      "word": "quinta-feira, sexta-feira, sábado, domingo",
+      "translation": "Thursday, Friday, Saturday, Sunday",
+      "pronunciation": "KEEN-tah FAY-rah, SAYSH-tah FAY-rah, SAH-bah-doo, doo-MEEN-goo",
+      "ipa": "/ˈkĩtɐ ˈfɐjɾɐ/ / /ˈsejʃtɐ ˈfɐjɾɐ/ / /ˈsabadu/ / /duˈĩɡu/",
+      "example": "Sábado e domingo é o fim de semana.",
+      "exampleTranslation": "Saturday and Sunday is the weekend.",
+      "category": "days",
+      "tip": "Sábado and domingo don't use 'feira'. Weekend = fim de semana"
+    },
+    {
+      "word": "janeiro a dezembro",
+      "translation": "January to December",
+      "pronunciation": "zhah-NAY-roo ah deh-ZEM-broo",
+      "ipa": "/ʒɐˈneju/ ... /dizˈẽbɾu/",
+      "example": "O meu aniversário é em janeiro.",
+      "exampleTranslation": "My birthday is in January.",
+      "category": "months",
+      "tip": "Months are NOT capitalized in Portuguese (unlike English)"
+    },
+    {
+      "word": "Quando fazes anos?",
+      "translation": "When is your birthday?",
+      "pronunciation": "KWAN-doo FAH-zesh AH-noosh",
+      "ipa": "/ˈkwɐ̃du ˈfaʒɨʃ ˈɐnuʃ/",
+      "example": "— Quando fazes anos? — Faço anos no dia 3 de agosto.",
+      "exampleTranslation": "— When is your birthday? — My birthday is on August 3rd.",
+      "category": "dates",
+      "tip": "'Fazer anos' = to have a birthday (literally: to make years)"
+    },
+    {
+      "word": "Quantos anos fazes?",
+      "translation": "How old are you turning?",
+      "pronunciation": "KWAN-toosh AH-noosh FAH-zesh",
+      "ipa": "/ˈkwɐ̃tuʃ ˈɐnuʃ ˈfaʒɨʃ/",
+      "example": "— Quantos anos fazes? — Faço 21 anos.",
+      "exampleTranslation": "— How old are you turning? — I'm turning 21.",
+      "category": "dates",
+      "tip": "Literally: 'How many years do you make?' — same as 'Quantos anos tens?'"
+    },
+    {
+      "word": "o pequeno-almoço",
+      "translation": "Breakfast",
+      "pronunciation": "oo peh-KAY-noh ahl-MOH-soo",
+      "ipa": "/u pɨˈkenu aɫˈmɔsu/",
+      "example": "De manhã, tomamos o pequeno-almoço.",
+      "exampleTranslation": "In the morning, we have breakfast.",
+      "category": "food",
+      "tip": "Verb: 'tomar o pequeno-almoço' (to have breakfast). In Brazil: 'café da manhã'"
+    },
+    {
+      "word": "o almoço",
+      "translation": "Lunch",
+      "pronunciation": "oo ahl-MOH-soo",
+      "ipa": "/u aɫˈɔsu/",
+      "example": "Entre as 12 e as 14 horas, almoçamos.",
+      "exampleTranslation": "Between 12 and 2pm, we have lunch.",
+      "category": "food",
+      "tip": "Verb: 'almoçar' (to have lunch). Lunch is the main meal in Portugal, usually 12-2pm"
+    },
+    {
+      "word": "o lanche",
+      "translation": "Afternoon snack",
+      "pronunciation": "oo LAHN-sheh",
+      "ipa": "/u ˈlɐ̃ʃɨ/",
+      "example": "À tarde, lanchamos.",
+      "exampleTranslation": "In the afternoon, we have a snack.",
+      "category": "food",
+      "tip": "Verb: 'lanchar' (to have a snack). The Portuguese afternoon snack, usually around 4-5pm"
+    },
+    {
+      "word": "o jantar",
+      "translation": "Dinner",
+      "pronunciation": "oo zhan-TAR",
+      "ipa": "/u ʒɐ̃ˈtaɾ/",
+      "example": "À noite, jantamos.",
+      "exampleTranslation": "In the evening, we have dinner.",
+      "category": "food",
+      "tip": "Verb: 'jantar' (to have dinner). Dinner in Portugal is usually later, around 8-9pm"
+    },
+    {
+      "word": "em / de / a",
+      "translation": "Time prepositions: in / of / at",
+      "pronunciation": "ame / deh / ah",
+      "ipa": "/ɐ̃j/ /dɨ/ /ɐ/",
+      "example": "Em janeiro. De manhã. À segunda-feira.",
+      "exampleTranslation": "In January. In the morning. On Monday.",
+      "category": "prepositions",
+      "tip": "'Em' for months/years, 'de' for parts of day, 'a' for specific days/hours"
+    },
+    {
+      "word": "às duas da tarde / à noite / ao meio-dia",
+      "translation": "At 2pm / at night / at noon",
+      "pronunciation": "ahsh DOO-ash dah TAR-deh / ah NOY-teh / oh MEH-yoo DEE-ah",
+      "ipa": "/aʃ ˈduɐʒ dɐ ˈtaɾdɨ/ / /ɐ ˈnojtɨ/ / /aw ˈmeju ˈdiɐ/",
+      "example": "Tenho aula às duas da tarde.",
+      "exampleTranslation": "I have class at 2pm.",
+      "category": "prepositions",
+      "tip": "'À' = a + a (at the). 'Ao' = a + o (at the). Always use the contraction!"
+    }
+  ],
+  "grammar": {
+    "title": "Days, Months, Food & Time Prepositions",
+    "sections": [
+      {
+        "type": "explanation",
+        "heading": "Days of the Week",
+        "body": "In Portuguese, the days of the week are based on a numbering system. Sunday is 'domingo' (Lord's day), and the rest are numbered: segunda-feira (2nd fair = Monday), terça-feira (3rd fair = Tuesday), quarta-feira (4th fair = Wednesday), quinta-feira (5th fair = Thursday), sexta-feira (6th fair = Friday). Saturday is 'sábado' (from Sabbath). In Portugal, when referring to a specific day, use the preposition 'a' which contracts with the article: 'à segunda-feira' (on Monday). For repeated/habitual actions on a day, also use 'à': 'À segunda-feira tenho aulas' (On Mondays I have classes)."
+      },
+      {
+        "type": "table",
+        "heading": "Days of the Week",
+        "columns": ["Day", "Portuguese", "Pronunciation", "Preposition Form"],
+        "rows": [
+          ["Monday", "segunda-feira (2ª)", "seh-GOON-dah FAY-rah", "à segunda-feira"],
+          ["Tuesday", "terça-feira (3ª)", "tehr-SAH FAY-rah", "à terça-feira"],
+          ["Wednesday", "quarta-feira (4ª)", "KWAHR-tah FAY-rah", "à quarta-feira"],
+          ["Thursday", "quinta-feira (5ª)", "KEEN-tah FAY-rah", "à quinta-feira"],
+          ["Friday", "sexta-feira (6ª)", "SAYSH-tah FAY-rah", "à sexta-feira"],
+          ["Saturday", "sábado", "SAH-bah-doo", "ao sábado"],
+          ["Sunday", "domingo", "doo-MEEN-goo", "ao domingo"]
+        ]
+      },
+      {
+        "type": "explanation",
+        "heading": "Months of the Year",
+        "body": "Portuguese months are very similar to English and come from the same Latin roots. They are NOT capitalized in Portuguese. When saying something happens in a particular month, use the preposition 'em': 'em janeiro' (in January), 'em março' (in March). Unlike days, months don't contract with articles in this context."
+      },
+      {
+        "type": "table",
+        "heading": "Months of the Year",
+        "columns": ["Month", "Portuguese", "Pronunciation"],
+        "rows": [
+          ["January", "janeiro", "zhah-NAY-roo"],
+          ["February", "fevereiro", "feh-vreh-RAY-roo"],
+          ["March", "março", "MAR-soo"],
+          ["April", "abril", "ah-BREEL"],
+          ["May", "maio", "MY-yoo"],
+          ["June", "junho", "ZHOO-nyoo"],
+          ["July", "julho", "ZHOO-lyoo"],
+          ["August", "agosto", "ah-GOHSH-too"],
+          ["September", "setembro", "seh-TEM-broo"],
+          ["October", "outubro", "oh-TOO-broo"],
+          ["November", "novembro", "noh-VEM-broo"],
+          ["December", "dezembro", "deh-ZEM-broo"]
+        ]
+      },
+      {
+        "type": "explanation",
+        "heading": "Talking About Birthdays — Fazer Anos",
+        "body": "In Portuguese, you don't say 'My birthday is...' — you say 'I make years': 'Faço anos'. The verb 'fazer' (to make/do) is used with 'anos' (years) to talk about birthdays. To ask someone's birthday: 'Quando fazes anos?' (When do you have your birthday?). To ask how old someone is turning: 'Quantos anos fazes?' (How many years do you make?). To give a date: 'Faço anos no dia 3 de agosto' (My birthday is on August 3rd). Note the structure: 'no dia + number + de + month'."
+      },
+      {
+        "type": "table",
+        "heading": "Fazer — Present Tense (for talking about birthdays)",
+        "columns": ["Person", "Conjugation", "Example"],
+        "rows": [
+          ["Eu", "faço", "Faço anos em maio."],
+          ["Tu", "fazes", "Quando fazes anos?"],
+          ["Ele/Ela/Você", "faz", "Ela faz 25 anos."],
+          ["Nós", "fazemos", "Fazemos anos em julho."],
+          ["Vocês/Eles/Elas", "fazem", "Eles fazem anos em dezembro."]
+        ]
+      },
+      {
+        "type": "explanation",
+        "heading": "Time Prepositions: EM, DE, A",
+        "body": "Portuguese uses three main prepositions to locate actions in time: EM (in), DE (of/from), and A (at). Each contracts with definite articles: em + o = no, em + a = na, de + o = do, de + a = da, a + o = ao, a + a = às. The general rules: EM for months, years, and general time periods ('em janeiro', 'em 2026', 'em Portugal'). DE for parts of the day and origins ('de manhã', 'de tarde', 'de noite'). A for specific days and clock times ('à segunda-feira', 'às duas da tarde')."
+      },
+      {
+        "type": "table",
+        "heading": "Time Prepositions — When to Use Each",
+        "columns": ["Preposition", "Used With", "Examples"],
+        "rows": [
+          ["em → no/na", "months, years, seasons", "em janeiro, em 2026, na primavera"],
+          ["de → do/da", "parts of day", "de manhã, de tarde, de noite"],
+          ["a → ao/às", "days of week, clock times", "à segunda-feira, às duas da tarde"],
+          ["em → no/na", "days with 'dia'", "no dia 14 de junho, no sábado"],
+          ["a → ao/à", "meals, specific moments", "ao meio-dia, à meia-noite"]
+        ]
+      },
+      {
+        "type": "explanation",
+        "heading": "Meals & Eating Habits in Portugal",
+        "body": "Portuguese eating culture has four main meals: pequeno-almoço (breakfast, morning), almoço (lunch, 12-2pm — the main meal), lanche (afternoon snack, 4-5pm), and jantar (dinner, 8-9pm). Each meal has its own verb: 'tomar o pequeno-almoço' (to have breakfast), 'almoçar' (to have lunch), 'lanchar' (to snack), 'jantar' (to have dinner). Portuguese meal times are typically later than in the US or UK, especially dinner."
+      },
+      {
+        "type": "table",
+        "heading": "Meals of the Day",
+        "columns": ["Meal", "Time", "Verb", "Example"],
+        "rows": [
+          ["o pequeno-almoço", "morning (7-10am)", "tomar", "Tomo o pequeno-almoço às 8h."],
+          ["o almoço", "midday (12-2pm)", "almoçar", "Almoçamos ao meio-dia."],
+          ["o lanche", "afternoon (4-5pm)", "lanchar", "Lanchamos às 4h da tarde."],
+          ["o jantar", "evening (8-9pm)", "jantar", "Jantamos às 9h da noite."]
+        ]
+      },
+      {
+        "type": "examples",
+        "heading": "Talking About Your Routine",
+        "items": [
+          {
+            "portuguese": "À segunda-feira tenho aulas de manhã e de tarde.",
+            "translation": "On Monday I have classes in the morning and afternoon.",
+            "pronunciation": "ah seh-GOON-dah FAY-rah TEN-yoo ah-oo-lash deh mah-NYAH ee deh TAR-deh.",
+            "highlight": ["À segunda-feira", "de manhã", "de tarde"]
+          },
+          {
+            "portuguese": "Faço anos no dia 14 de maio.",
+            "translation": "My birthday is on May 14th.",
+            "pronunciation": "FAH-soo AH-noosh noh DEE-ah DEH-zee deh MY-yoo.",
+            "highlight": ["Faço anos", "no dia", "de maio"]
+          },
+          {
+            "portuguese": "Almoçamos ao meio-dia e jantamos às nove da noite.",
+            "translation": "We have lunch at noon and dinner at 9pm.",
+            "pronunciation": "ahl-moh-SAH-moosh oh MEH-yoo DEE-ee-ah ee zhan-TAH-moosh ahsh NOH-veh dah NOY-teh.",
+            "highlight": ["ao meio-dia", "às nove da noite"]
+          }
+        ]
+      },
+      {
+        "type": "tips",
+        "heading": "Common Mistakes & Tips",
+        "items": [
+          "Days of the week are NOT capitalized in Portuguese: 'segunda-feira' (not 'Segunda-feira').",
+          "Use 'à' (not 'em') before days of the week: 'à segunda-feira' (on Monday), NOT 'em segunda-feira'.",
+          "Use 'de' for parts of the day: 'de manhã' (in the morning), 'de tarde' (in the afternoon), 'de noite' (at night).",
+          "Use 'a' for clock times: 'às duas' (at 2 o'clock), 'à meia-noite' (at midnight).",
+          "Months are not capitalized: 'janeiro' (not 'Janeiro').",
+          "When giving a date, use 'no dia + number + de + month': 'no dia 24 de abril'.",
+          "The verb for 'to have breakfast' is 'tomar o pequeno-almoço' — literally 'to take breakfast'."
+        ]
+      }
+    ],
+    "exercises": [
+      {
+        "type": "multiple-choice",
+        "title": "Choose the Correct Time Preposition",
+        "instructions": "Select the correct preposition for each time expression.",
+        "items": [
+          {
+            "question": "___ janeiro faz frio.",
+            "options": ["À", "Em", "De", "A"],
+            "correct": 1,
+            "explanation": "Use 'em' for months: 'Em janeiro' = In January."
+          },
+          {
+            "question": "___ segunda-feira tenho aulas.",
+            "options": ["Em", "De", "À", "No"],
+            "correct": 2,
+            "explanation": "Use 'a' for days of the week: 'à segunda-feira' = on Monday."
+          },
+          {
+            "question": "___ manhã bebo café.",
+            "options": ["Em", "De", "À", "Ao"],
+            "correct": 1,
+            "explanation": "Use 'de' for parts of the day: 'de manhã' = in the morning."
+          },
+          {
+            "question": "___ duas da tarde tenho aula.",
+            "options": ["Em", "De", "Às", "Ao"],
+            "correct": 2,
+            "explanation": "Use 'a' for clock times: 'às duas da tarde' = at 2pm."
+          }
+        ]
+      },
+      {
+        "type": "fill-in-blank",
+        "title": "Write the Date in Portuguese",
+        "instructions": "Fill in the blank with the correct date expression.",
+        "items": [
+          {
+            "sentence": "My birthday is on March 15th. → Faço anos ___ 15 ___ março.",
+            "answer": "no dia, de",
+            "fullAnswer": "no dia 15 de março",
+            "hint": "no dia + number + de + month"
+          },
+          {
+            "sentence": "On Friday → ___ sexta-feira",
+            "answer": "À",
+            "fullAnswer": "À sexta-feira",
+            "hint": "a + a = à (on Friday)"
+          },
+          {
+            "sentence": "In the evening → ___ noite",
+            "answer": "De",
+            "fullAnswer": "De noite",
+            "hint": "de + noite = in the evening/night"
+          },
+          {
+            "sentence": "At noon → ___ meio-dia",
+            "answer": "Ao",
+            "fullAnswer": "Ao meio-dia",
+            "hint": "a + o = ao (at noon)"
+          }
+        ]
+      },
+      {
+        "type": "multiple-choice",
+        "title": "Match the Meal",
+        "instructions": "Choose the correct meal for each description.",
+        "items": [
+          {
+            "question": "Which meal is between 12 and 2pm?",
+            "options": ["o pequeno-almoço", "o almoço", "o lanche", "o jantar"],
+            "correct": 1,
+            "explanation": "'O almoço' is lunch, the main midday meal in Portugal (12-2pm)."
+          },
+          {
+            "question": "Which meal is in the morning?",
+            "options": ["o pequeno-almoço", "o almoço", "o lanche", "o jantar"],
+            "correct": 0,
+            "explanation": "'O pequeno-almoço' is breakfast, eaten in the morning."
+          },
+          {
+            "question": "Which meal is at 8-9pm?",
+            "options": ["o pequeno-almoço", "o almoço", "o lanche", "o jantar"],
+            "correct": 3,
+            "explanation": "'O jantar' is dinner, eaten in the evening (8-9pm in Portugal)."
+          }
+        ]
+      },
+      {
+        "type": "sentence-builder",
+        "title": "Build Sentences About Your Routine",
+        "instructions": "Choose the correct time expression to complete each sentence.",
+        "items": [
+          {
+            "sentence": "___ segunda-feira tenho aulas.",
+            "blank": "À",
+            "wordBank": ["Em", "De", "À", "No"],
+            "hint": "Use 'a' for days of the week"
+          },
+          {
+            "sentence": "___ manhã tomo o pequeno-almoço.",
+            "blank": "De",
+            "wordBank": ["Em", "De", "À", "Ao"],
+            "hint": "Use 'de' for parts of the day"
+          },
+          {
+            "sentence": "Faço anos ___ dia 3 ___ agosto.",
+            "blank": "no, de",
+            "wordBank": ["no, de", "em, de", "ao, do", "à, de"],
+            "hint": "no dia + number + de + month"
+          }
+        ]
+      }
+    ]
+  }
+}

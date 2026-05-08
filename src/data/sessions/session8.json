@@ -1,0 +1,348 @@
+{
+  "id": 8,
+  "title": "O Tempo e as Rotinas",
+  "subtitle": "Weather, Seasons & Daily Routines",
+  "color": "#2B2D42",
+  "accent": "#8D99AE",
+  "icon": "🌤️",
+  "description": "Learn weather vocabulary, seasons, and how to talk about daily routines using reflexive verbs.",
+  "topics": ["Weather expressions", "Seasons", "Daily routine verbs", "Reflexive verbs (levantar-se, vestir-se...)", "Telling time"],
+  "vocabulary": [
+    {
+      "word": "Está a chover / Está a fazer sol",
+      "translation": "It's raining / It's sunny",
+      "pronunciation": "esh-TAH ah shoh-VAIR / esh-TAH ah fah-ZER sol",
+      "ipa": "/ɨʃˈta ɐ ʃoˈveɾ/ / /ɨʃˈta ɐ fɐˈzeɾ sɔɫ/",
+      "example": "Hoje está a chover. Amanhã vai fazer sol.",
+      "exampleTranslation": "Today it's raining. Tomorrow it will be sunny.",
+      "category": "weather",
+      "tip": "Weather uses ESTAR A + INFINITIVO: está a chover (it's raining), está a nevar (it's snowing)"
+    },
+    {
+      "word": "Está frio / Está calor",
+      "translation": "It's cold / It's hot",
+      "pronunciation": "esh-TAH FREE-oo / esh-TAH kah-LOR",
+      "ipa": "/ɨʃˈta ˈfɾiu/ / /ɨʃˈta kɐˈɫoɾ/",
+      "example": "No inverno está frio. No verão está muito calor.",
+      "exampleTranslation": "In winter it's cold. In summer it's very hot.",
+      "category": "weather",
+      "tip": "Use 'está' for current weather conditions. 'Frio' and 'calor' are nouns here, not adjectives"
+    },
+    {
+      "word": "Está nublado / Está vento",
+      "translation": "It's cloudy / It's windy",
+      "pronunciation": "esh-TAH noo-BLAH-doo / esh-TAH VEN-too",
+      "ipa": "/ɨʃˈta nuˈbladu/ / /ɨʃˈta ˈvẽtu/",
+      "example": "Hoje está nublado e vento.",
+      "exampleTranslation": "Today it's cloudy and windy.",
+      "category": "weather",
+      "tip": "'Nublado' is an adjective. For wind, use 'fazer vento' (to make wind)"
+    },
+    {
+      "word": "a primavera / o verão / o outono / o inverno",
+      "translation": "Spring / Summer / Autumn / Winter",
+      "pronunciation": "ah pree-mah-VEH-rah / oh veh-RAH-nyoo / oh oh-TOH-noh / oh een-VEHR-nyoo",
+      "ipa": "/ɐ pɾimɐˈvɛɾɐ/ / /u vɐˈɾɐ̃w̃/ / /u oˈtonu/ / /ĩˈvɛʁnu/",
+      "example": "A primavera é a minha estação preferida.",
+      "exampleTranslation": "Spring is my favorite season.",
+      "category": "seasons",
+      "tip": "Only 'primavera' is feminine. The others are masculine: o verão, o outono, o inverno"
+    },
+    {
+      "word": "levantar-se",
+      "translation": "To get up / To wake up",
+      "pronunciation": "leh-vahn-TAR-seh",
+      "ipa": "/lɨvɐ̃ˈtaɾ sɨ/",
+      "example": "Eu levanto-me às 7h da manhã.",
+      "exampleTranslation": "I get up at 7am.",
+      "category": "routine",
+      "tip": "Reflexive verb: levanto-me, levantas-te, levanta-se, levantamo-nos, levantam-se"
+    },
+    {
+      "word": "vestir-se",
+      "translation": "To get dressed",
+      "pronunciation": "veh-SHTEER-she",
+      "ipa": "/vɨʃˈtiɾ sɨ/",
+      "example": "Eu visto-me depois do pequeno-almoço.",
+      "exampleTranslation": "I get dressed after breakfast.",
+      "category": "routine",
+      "tip": "Irregular in 1st person: visto (not 'vesto'). visto-me, vestes-te, veste-se..."
+    },
+    {
+      "word": "lavar-se",
+      "translation": "To wash oneself",
+      "pronunciation": "lah-VAR-seh",
+      "ipa": "/lɐˈvaɾ sɨ/",
+      "example": "Eu lavo-me de manhã.",
+      "exampleTranslation": "I wash (myself) in the morning.",
+      "category": "routine",
+      "tip": "Regular reflexive: lavo-me, lavas-te, lava-se, lavamo-nos, lavam-se"
+    },
+    {
+      "word": "deitar-se",
+      "translation": "To go to bed",
+      "pronunciation": "day-TAR-seh",
+      "ipa": "/dɐjˈtaɾ sɨ/",
+      "example": "Eu deito-me às 11h da noite.",
+      "exampleTranslation": "I go to bed at 11pm.",
+      "category": "routine",
+      "tip": "Stem-changing verb: deito-me, deitas-te, deita-se, deitamo-nos, deitam-se"
+    },
+    {
+      "word": "Que horas são?",
+      "translation": "What time is it?",
+      "pronunciation": "keh OH-rahsh SOWNG",
+      "ipa": "/kɛ ˈɔɾɐʃ ˈsɐ̃w̃/",
+      "example": "— Que horas são? — São duas e meia.",
+      "exampleTranslation": "— What time is it? — It's 2:30.",
+      "category": "time",
+      "tip": "Use SER for telling time. Plural for 1:00+ (são), singular for 1:00 (é uma)"
+    },
+    {
+      "word": "São duas e meia / É uma e um quarto",
+      "translation": "It's 2:30 / It's 1:15",
+      "pronunciation": "sowng DOO-ash ee MAY-ah / eh OO-mah ee oom KWAHR-too",
+      "ipa": "/ˈsɐ̃w̃ ˈduɐz i ˈmejɐ/ / /ˈɛ ˈumɐ i ũ ˈkwartu/",
+      "example": "O comboio chega às duas e meia.",
+      "exampleTranslation": "The train arrives at 2:30.",
+      "category": "time",
+      "tip": "e meia = and a half (30 min). e um quarto = and a quarter (15 min). menos um quarto = quarter to"
+    },
+    {
+      "word": "ao fim de semana / durante a semana",
+      "translation": "On the weekend / During the week",
+      "pronunciation": "oh feeng deh seh-MAH-nah / doo-RAHN-teh ah seh-MAH-nah",
+      "ipa": "/aw ˈfĩ dɨ sɨˈmɐnɐ/ / /duˈɾɐ̃tɨ ɐ sɨˈmɐnɐ/",
+      "example": "Ao fim de semana descanso. Durante a semana trabalho.",
+      "exampleTranslation": "On the weekend I rest. During the week I work.",
+      "category": "time",
+      "tip": "'Fim de semana' = weekend. 'Durante' = during (no contraction)"
+    }
+  ],
+  "grammar": {
+    "title": "Weather, Seasons, Daily Routines & Reflexive Verbs",
+    "sections": [
+      {
+        "type": "explanation",
+        "heading": "Talking About the Weather",
+        "body": "In Portuguese, weather expressions use the verb ESTAR + A + INFINITIVE: 'Está a chover' (It's raining), 'Está a nevar' (It's snowing), 'Está a fazer sol' (It's sunny). For temperature, use 'está' with nouns: 'Está frio' (It's cold), 'Está calor' (It's hot). You can also use 'fazer': 'Faz frio' (It's cold), 'Faz calor' (It's hot). Both 'está frio' and 'faz frio' are correct — 'está' emphasizes the current moment, 'fazer' is more general."
+      },
+      {
+        "type": "table",
+        "heading": "Weather Expressions",
+        "columns": ["Portuguese", "Pronunciation", "English"],
+        "rows": [
+          ["Está a chover", "esh-TAH ah shoh-VAIR", "It's raining"],
+          ["Está a nevar", "esh-TAH ah neh-VAR", "It's snowing"],
+          ["Está a fazer sol", "esh-TAH ah fah-ZER sol", "It's sunny"],
+          ["Está nublado", "esh-TAH noo-BLAH-doo", "It's cloudy"],
+          ["Está vento", "esh-TAH VEN-too", "It's windy"],
+          ["Faz frio", "fresh FREE-oo", "It's cold"],
+          ["Faz calor", "fresh kah-LOR", "It's hot"],
+          ["Está bom tempo", "esh-TAH bom TEM-poo", "The weather is good"],
+          ["Está mau tempo", "esh-TAH mow TEM-poo", "The weather is bad"]
+        ]
+      },
+      {
+        "type": "explanation",
+        "heading": "The Four Seasons",
+        "body": "Portuguese seasons: a primavera (spring — feminine), o verão (summer), o outono (autumn), o inverno (winter). To say something happens in a particular season, use 'em' which contracts: na primavera (em + a), no verão (em + o), no outono, no inverno. Example: 'No verão faz muito calor' (In summer it's very hot)."
+      },
+      {
+        "type": "table",
+        "heading": "The Seasons",
+        "columns": ["Season", "Portuguese", "Gender", "With Preposition"],
+        "rows": [
+          ["Spring", "a primavera", "feminine", "na primavera"],
+          ["Summer", "o verão", "masculine", "no verão"],
+          ["Autumn", "o outono", "masculine", "no outono"],
+          ["Winter", "o inverno", "masculine", "no inverno"]
+        ]
+      },
+      {
+        "type": "explanation",
+        "heading": "Reflexive Verbs for Daily Routines",
+        "body": "Reflexive verbs are essential for describing daily routines. They indicate that the subject performs the action on themselves. The reflexive pronoun changes with the subject: me (myself), te (yourself), se (himself/herself), nos (ourselves), se (themselves). Common daily routine reflexive verbs: levantar-se (get up), lavar-se (wash), vestir-se (get dressed), deitar-se (go to bed), pentear-se (comb hair), sentar-se (sit down). In European Portuguese, the pronoun usually goes AFTER the verb connected by a hyphen: 'Levanto-me às 7h'."
+      },
+      {
+        "type": "table",
+        "heading": "Common Reflexive Verbs — Daily Routine",
+        "columns": ["Verb", "Meaning", "eu", "tu", "ele/ela", "nós", "eles/elas"],
+        "rows": [
+          ["levantar-se", "to get up", "levanto-me", "levantas-te", "levanta-se", "levantamo-nos", "levantam-se"],
+          ["lavar-se", "to wash (oneself)", "lavo-me", "lavas-te", "lava-se", "lavamo-nos", "lavam-se"],
+          ["vestir-se", "to get dressed", "visto-me", "vestes-te", "veste-se", "vestimo-nos", "vestem-se"],
+          ["pentear-se", "to comb (hair)", "penteio-me", "penteias-te", "penteia-se", "penteamo-nos", "penteiam-se"],
+          ["deitar-se", "to go to bed", "deito-me", "deitas-te", "deita-se", "deitamo-nos", "deitam-se"],
+          ["sentar-se", "to sit down", "sento-me", "sentas-te", "senta-se", "sentamo-nos", "sentam-se"]
+        ]
+      },
+      {
+        "type": "examples",
+        "heading": "Describing Your Daily Routine",
+        "items": [
+          {
+            "portuguese": "Eu levanto-me às 7h e lavo-me.",
+            "translation": "I get up at 7 and wash (myself).",
+            "pronunciation": "ay-oo leh-VAHN-too-meh ahsh SEH-teh ee LAH-voo-meh.",
+            "highlight": ["levanto-me", "lavo-me"]
+          },
+          {
+            "portuguese": "Ela veste-se e penteia-se antes do pequeno-almoço.",
+            "translation": "She gets dressed and combs her hair before breakfast.",
+            "pronunciation": "EH-lah VESH-teh-seh ee pen-TEH-ah-seh AHN-tesh doo peh-KAY-noh ahl-MOH-soo.",
+            "highlight": ["veste-se", "penteia-se"]
+          },
+          {
+            "portuguese": "Nós deitamos-me às 11h da noite.",
+            "translation": "We go to bed at 11pm.",
+            "pronunciation": "nohsh day-TAH-moosh-meh ahsh OH-nyeh dah NOY-teh.",
+            "highlight": ["deitamo-nos"]
+          }
+        ]
+      },
+      {
+        "type": "explanation",
+        "heading": "Telling Time in Portuguese",
+        "body": "To tell time in Portuguese, use the verb SER: 'É uma' (It's one o'clock — singular), 'São duas/três...' (It's two/three... — plural for 2+). For half hours: 'e meia' (and a half). For quarters: 'e um quarto' (and a quarter past), 'menos um quarto' (quarter to). For specific times with 'at', use 'à' (singular) or 'às' (plural): 'à uma hora' (at 1:00), 'às duas horas' (at 2:00). In Portugal, the 24-hour clock is commonly used in writing and formal contexts."
+      },
+      {
+        "type": "table",
+        "heading": "Telling Time",
+        "columns": ["Time", "Portuguese", "Pronunciation"],
+        "rows": [
+          ["1:00", "É uma (hora)", "eh OO-mah OH-rah"],
+          ["2:00", "São duas (horas)", "sowng DOO-ash OH-rahsh"],
+          ["2:15", "São duas e um quarto", "sowng DOO-ash ee oom KWAHR-too"],
+          ["2:30", "São duas e meia", "sowng DOO-ash ee MAY-ah"],
+          ["2:45", "São três menos um quarto", "sowng tresh MEH-noosh oom KWAHR-too"],
+          ["12:00 (noon)", "É meio-dia", "eh MEH-yoo DEE-ah"],
+          ["12:00 (midnight)", "É meia-noite", "eh MAY-ah NOY-teh"],
+          ["3:05", "São três e cinco", "sowng tresh ee SEEN-koo"],
+          ["3:50", "São quatro menos dez", "sowng KWAH-troh MEH-noosh desh"]
+        ]
+      },
+      {
+        "type": "tips",
+        "heading": "Common Mistakes & Tips",
+        "items": [
+          "Weather: 'Está a chover' (not 'É chover'). The structure is ESTAR + A + INFINITIVE.",
+          "For temperature, both 'está frio' and 'faz frio' are correct. 'Está' = right now, 'faz' = general.",
+          "Reflexive pronouns go AFTER the verb in European Portuguese: 'Levanto-me' (not 'Me levanto').",
+          "The verb 'vestir' is irregular in the 1st person: 'visto' (not 'vesto'). Same pattern as 'pedir', 'seguir'.",
+          "Telling time: use singular 'É' only for 1:00. Everything else uses 'São': São duas, São três...",
+          "Seasons: only 'primavera' is feminine. Use 'no' for all others: no verão, no outono, no inverno.",
+          "For 'quarter to' the hour, use 'menos um quarto': 2:45 = São três menos um quarto."
+        ]
+      }
+    ],
+    "exercises": [
+      {
+        "type": "multiple-choice",
+        "title": "Choose the Correct Weather Expression",
+        "instructions": "Select the correct way to describe the weather.",
+        "items": [
+          {
+            "question": "It's raining.",
+            "options": ["É chover", "Está a chover", "Está chover", "Faz chover"],
+            "correct": 1,
+            "explanation": "Weather uses ESTAR + A + INFINITIVE: 'Está a chover' = It's raining."
+          },
+          {
+            "question": "It's cold today.",
+            "options": ["É frio hoje", "Está frio hoje", "Está a frio hoje", "É a frio hoje"],
+            "correct": 1,
+            "explanation": "For temperature, use 'está' + noun: 'Está frio' = It's cold. You can also say 'Faz frio'."
+          },
+          {
+            "question": "It's sunny.",
+            "options": ["É sol", "Está sol", "Está a fazer sol", "Faz a sol"],
+            "correct": 2,
+            "explanation": "'Está a fazer sol' = It's sunny (literally: it's making sun). This is the standard expression."
+          }
+        ]
+      },
+      {
+        "type": "fill-in-blank",
+        "title": "Complete the Reflexive Verb",
+        "instructions": "Fill in the blank with the correct reflexive form.",
+        "items": [
+          {
+            "sentence": "Eu ___ às 7h. (levantar-se)",
+            "answer": "levanto-me",
+            "fullAnswer": "levanto-me",
+            "hint": "1st person singular of levantar-se"
+          },
+          {
+            "sentence": "Ela ___ antes do pequeno-almoço. (lavar-se)",
+            "answer": "lava-se",
+            "fullAnswer": "lava-se",
+            "hint": "3rd person singular of lavar-se"
+          },
+          {
+            "sentence": "Nós ___ às 11h. (deitar-se)",
+            "answer": "deitamo-nos",
+            "fullAnswer": "deitamo-nos",
+            "hint": "1st person plural of deitar-se"
+          },
+          {
+            "sentence": "Tu ___ rapidamente. (vestir-se)",
+            "answer": "vestes-te",
+            "fullAnswer": "vestes-te",
+            "hint": "2nd person singular of vestir-se (irregular: vestes, not 'vistas')"
+          }
+        ]
+      },
+      {
+        "type": "multiple-choice",
+        "title": "Telling Time",
+        "instructions": "Choose the correct time expression.",
+        "items": [
+          {
+            "question": "How do you say 2:30?",
+            "options": ["São duas e um quarto", "São duas e meia", "São três menos meia", "É duas e meia"],
+            "correct": 1,
+            "explanation": "'São duas e meia' = It's 2:30. 'E meia' = and a half. Use 'São' (plural) for 2:00+."
+          },
+          {
+            "question": "How do you say 1:00?",
+            "options": ["São uma", "É uma", "São um", "É um"],
+            "correct": 1,
+            "explanation": "'É uma' = It's 1:00. Use singular 'É' only for 1:00."
+          },
+          {
+            "question": "How do you say 3:45?",
+            "options": ["São três e um quarto", "São três menos um quarto", "São quatro menos um quarto", "É quatro menos um quarto"],
+            "correct": 2,
+            "explanation": "'São quatro menos um quarto' = It's 3:45 (four o'clock minus a quarter)."
+          }
+        ]
+      },
+      {
+        "type": "sentence-builder",
+        "title": "Describe Your Daily Routine",
+        "instructions": "Choose the correct reflexive form to complete each sentence.",
+        "items": [
+          {
+            "sentence": "Eu ___ às 8h da manhã. (levantar-se)",
+            "blank": "levanto-me",
+            "wordBank": ["levanto-me", "levantas-te", "levanta-se", "levantamo-nos"],
+            "hint": "1st person singular of levantar-se"
+          },
+          {
+            "sentence": "Ela ___ antes de sair. (pentear-se)",
+            "blank": "penteia-se",
+            "wordBank": ["penteio-me", "penteias-te", "penteia-se", "penteamo-nos"],
+            "hint": "3rd person singular of pentear-se"
+          },
+          {
+            "sentence": "Nós ___ cedo ao fim de semana. (deitar-se)",
+            "blank": "deitamo-nos",
+            "wordBank": ["deito-me", "deitas-te", "deita-se", "deitamo-nos"],
+            "hint": "1st person plural of deitar-se"
+          }
+        ]
+      }
+    ]
+  }
+}

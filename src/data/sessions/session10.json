@@ -1,0 +1,352 @@
+{
+  "id": 10,
+  "title": "Transportes e Comparativos",
+  "subtitle": "Transport, Comparatives & Estar a + Infinitive",
+  "color": "#D62828",
+  "accent": "#F77F00",
+  "icon": "🚌",
+  "description": "Learn transportation vocabulary, comparative forms, movement prepositions, and the progressive tense (estar a + infinitive).",
+  "topics": ["Means of transport", "Movement prepositions (a, para)", "Comparative forms (mais...do que, tão...como)", "Estar a + infinitive (progressive)", "Enquanto (while)"],
+  "vocabulary": [
+    {
+      "word": "o autocarro / o comboio / o metro",
+      "translation": "Bus / Train / Metro/Subway",
+      "pronunciation": "oo oh-toh-KAH-roo / oh kohm-BOY-oo / oh MEH-troh",
+      "ipa": "/u ɔtuˈkaʁu/ / /u kõˈboju/ / /uˈmɛtɾu/",
+      "example": "Vim no autocarro n.º 24. O comboio chega às 8h.",
+      "exampleTranslation": "I came by bus no. 24. The train arrives at 8am.",
+      "category": "transport",
+      "tip": "In Portugal: 'autocarro' (bus), 'comboio' (train), 'metro' (subway). In Brazil: 'ônibus', 'trem', 'metrô'"
+    },
+    {
+      "word": "o avião / o barco / o táxi",
+      "translation": "Airplane / Boat / Taxi",
+      "pronunciation": "oo ah-vee-AH-nyoo / oh BAHR-koo / oh TAH-ksee",
+      "ipa": "/u ɐviˈɐ̃w̃/ / /u ˈbaɾku/ / /uˈtaʃsi/",
+      "example": "Vamos de avião para Lisboa. O barco sai às 10h.",
+      "exampleTranslation": "We're going by plane to Lisbon. The boat leaves at 10am.",
+      "category": "transport",
+      "tip": "Use 'de' for means of transport: de avião, de comboio, de metro, de bicicleta"
+    },
+    {
+      "word": "a bicicleta (a pé) / o carro",
+      "translation": "Bicycle (on foot) / Car",
+      "pronunciation": "ah bee-see-KLEH-tah (ah peh) / oh KAH-roo",
+      "ipa": "/ɐ bisikˈletɐ/ / /uˈkaʁu/",
+      "example": "Venho de bicicleta. Posso vir a pé.",
+      "exampleTranslation": "I come by bicycle. I can come on foot.",
+      "category": "transport",
+      "tip": "'A pé' = on foot. 'De bicicleta' = by bike. 'De carro' = by car."
+    },
+    {
+      "word": "ir a / ir para",
+      "translation": "To go to (short trip) / To go to (destination)",
+      "pronunciation": "eer ah / eer PAH-rah",
+      "ipa": "/ˈiɾ ɐ/ / /ˈiɾ ˈpɾ̩ɐ/",
+      "example": "Vou ao supermercado e volto. Vou para Lisboa morar.",
+      "exampleTranslation": "I'm going to the supermarket and coming back. I'm going to Lisbon to live.",
+      "category": "prepositions",
+      "tip": "'A' = short trip (you'll return). 'Para' = destination (longer-term or permanent move)"
+    },
+    {
+      "word": "mais...do que / menos...do que",
+      "translation": "More...than / Less...than",
+      "pronunciation": "maysh...DOO keh / MEH-noosh...DOO keh",
+      "ipa": "/ˈmajʃ du kɨ/ / /ˈmẽnuʃ du kɨ/",
+      "example": "O café é mais caro do que no Brasil.",
+      "exampleTranslation": "Coffee is more expensive than in Brazil.",
+      "category": "comparatives",
+      "tip": "Regular comparative: mais/menos + adjective + do que"
+    },
+    {
+      "word": "tão...como",
+      "translation": "As...as",
+      "pronunciation": "tawn...KOH-moo",
+      "ipa": "/ˈtɐ̃w̃ ˈkomu/",
+      "example": "O Filipe é tão simpático como as irmãs.",
+      "exampleTranslation": "Filipe is as nice as his sisters.",
+      "category": "comparatives",
+      "tip": "Equality comparison: tão + adjective + como"
+    },
+    {
+      "word": "maior / melhor / pior",
+      "translation": "Bigger / Better / Worse",
+      "pronunciation": "may-OR /meh-LYOR /pee-OR",
+      "ipa": "/mɐˈjoɾ/ / /mɛˈʎoɾ/ / /piˈoɾ/",
+      "example": "A casa é maior. O hotel é melhor. O restaurante é pior.",
+      "exampleTranslation": "The house is bigger. The hotel is better. The restaurant is worse.",
+      "category": "comparatives",
+      "tip": "Irregular comparatives: grande→maior, bom→melhor, mau→pior"
+    },
+    {
+      "word": "Estou a ler / Está a chover",
+      "translation": "I am reading / It's raining",
+      "pronunciation": "eshtoh ah LEHR / esh-TAH ah shoh-VAIR",
+      "ipa": "/eʃˈtu ɐ leɾ/ / /ɨʃˈta ɐ ʃoˈveɾ/",
+      "example": "O que é que estás a fazer? Estou a estudar.",
+      "exampleTranslation": "What are you doing? I'm studying.",
+      "category": "progressive",
+      "tip": "ESTAR A + INFINITIVE = actions happening right now (Portuguese progressive)"
+    },
+    {
+      "word": "Enquanto uns... outros...",
+      "translation": "While some... others...",
+      "pronunciation": "en-KWAHN-too oonz... OH-troosh",
+      "ipa": "/ẽˈkwɐ̃tu ˈũʃ ˈotɾuʃ/",
+      "example": "Enquanto uns trabalham, outros descansam.",
+      "exampleTranslation": "While some work, others rest.",
+      "category": "connectors",
+      "tip": "'Enquanto' = while. Used to describe simultaneous actions."
+    },
+    {
+      "word": "apanhar / chegar / sair",
+      "translation": "To catch / To arrive / To leave",
+      "pronunciation": "ah-pahn-YAR / cheh-GAR / sa-EER",
+      "ipa": "/ɐpɐˈɲaɾ/ / /ʃɨˈɡaɾ/ / /saˈiɾ/",
+      "example": "Apanho o autocarro às 8h. Chego às 9h. Saio às 18h.",
+      "exampleTranslation": "I catch the bus at 8am. I arrive at 9am. I leave at 6pm.",
+      "category": "verbs",
+      "tip": "'Apanhar' = to catch (a bus/train). In Brazil: 'pegar'. 'Sair' = to leave/go out."
+    }
+  ],
+  "grammar": {
+    "title": "Transport, Comparatives & Progressive Tense",
+    "sections": [
+      {
+        "type": "explanation",
+        "heading": "Means of Transport",
+        "body": "To talk about how you travel, use 'de' + means of transport: 'de autocarro' (by bus), 'de comboio' (by train), 'de metro' (by metro), 'de avião' (by plane), 'de bicicleta' (by bike), 'de carro' (by car), 'de táxi' (by taxi). For walking, use 'a pé' (on foot). To say you take a specific vehicle, use 'apanhar' (to catch): 'Apanho o autocarro n.º 24' (I take bus no. 24). To ask how someone travels: 'Como vens para a universidade?' (How do you come to university?)."
+      },
+      {
+        "type": "table",
+        "heading": "Means of Transport",
+        "columns": ["Transport", "Portuguese", "Expression"],
+        "rows": [
+          ["Bus", "o autocarro", "ir de autocarro / apanhar o autocarro"],
+          ["Train", "o comboio", "ir de comboio"],
+          ["Metro/Subway", "o metro", "ir de metro"],
+          ["Airplane", "o avião", "ir de avião"],
+          ["Car", "o carro", "ir de carro"],
+          ["Bicycle", "a bicicleta", "ir de bicicleta"],
+          ["Taxi", "o táxi", "ir de táxi"],
+          ["On foot", "a pé", "ir a pé"],
+          ["Boat", "o barco", "ir de barco"],
+          ["Motorbike", "a mota / a motocicleta", "ir de mota"]
+        ]
+      },
+      {
+        "type": "explanation",
+        "heading": "Movement Prepositions: A vs PARA",
+        "body": "Both 'a' and 'para' indicate movement toward a destination, but they have different nuances. 'A' implies a short trip where you'll return: 'Vou ao supermercado' (I'm going to the supermarket — and I'll come back). 'Para' implies a longer-term destination or permanent move: 'Vou para Lisboa' (I'm going to Lisbon — to live/stay there). 'Para' can also mean 'toward': 'O autocarro vai para a Praça de Espanha' (The bus goes toward Praça de Espanha). In informal speech, 'para' is often shortened to 'pra'."
+      },
+      {
+        "type": "table",
+        "heading": "A vs PARA — Movement",
+        "columns": ["Preposition", "Meaning", "Example"],
+        "rows": [
+          ["a (ao/à)", "short trip, will return", "Vou ao banco. (I'm going to the bank.)"],
+          ["a (ao/à)", "short duration", "Vou a Paris por uma semana. (I'm going to Paris for a week.)"],
+          ["para", "destination, longer-term", "Vou para Lisboa. (I'm going to Lisbon.)"],
+          ["para", "permanent move", "Vou para o Brasil. (I'm going to Brazil.)"],
+          ["para", "toward (direction)", "O autocarro vai para a universidade."]
+        ]
+      },
+      {
+        "type": "explanation",
+        "heading": "Comparative Forms",
+        "body": "Portuguese has three comparative degrees: superiority (more...than), equality (as...as), and inferiority (less...than). For superiority: 'mais + adjective + do que' (O café é mais caro do que no Brasil). For equality: 'tão + adjective + como' (O Filipe é tão simpático como as irmãs). For inferiority: 'menos + adjective + do que' (O inverno é menos frio do que na Alemanha). Some common adjectives have irregular comparatives: grande → maior, bom → melhor, mau → pior."
+      },
+      {
+        "type": "table",
+        "heading": "Comparative Forms",
+        "columns": ["Type", "Structure", "Example"],
+        "rows": [
+          ["Superiority (regular)", "mais + adj. + do que", "mais frio do que (colder than)"],
+          ["Superiority (irregular)", "maior/melhor/pior + do que", "maior do que (bigger than)"],
+          ["Equality", "tão + adj. + como", "tão simpático como (as nice as)"],
+          ["Inferiority", "menos + adj. + do que", "menos alto do que (less tall than)"]
+        ]
+      },
+      {
+        "type": "table",
+        "heading": "Irregular Comparatives",
+        "columns": ["Adjective", "Comparative", "Example"],
+        "rows": [
+          ["grande (big)", "maior do que", "A casa é maior do que o apartamento."],
+          ["bom (good)", "melhor do que", "O hotel é melhor do que o hostel."],
+          ["mau (bad)", "pior do que", "O restaurante é pior do que aquele."],
+          ["bem (well)", "melhor do que", "Ela canta melhor do que eu."],
+          ["mal (badly)", "pior do que", "Ele escreve pior do que eu."]
+        ]
+      },
+      {
+        "type": "explanation",
+        "heading": "Estar a + Infinitive (Progressive Tense)",
+        "body": "To describe actions happening right now, Portuguese uses ESTAR + A + INFINITIVE: 'Estou a ler' (I'm reading), 'Está a chover' (It's raining), 'Estamos a estudar' (We're studying). This is the equivalent of English '-ing' forms. The 'a' is a preposition and doesn't change. In European Portuguese, this is the standard way to express the progressive. (In Brazilian Portuguese, they use 'estar + gerund': 'estou lendo'.)"
+      },
+      {
+        "type": "table",
+        "heading": "Estar a + Infinitive — Full Conjugation",
+        "columns": ["Person", "Conjugation", "Example"],
+        "rows": [
+          ["Eu", "estou a + inf.", "Estou a ler. (I'm reading.)"],
+          ["Tu", "estás a + inf.", "Estás a comer. (You're eating.)"],
+          ["Ele/Ela/Você", "está a + inf.", "Está a chover. (It's raining.)"],
+          ["Nós", "estamos a + inf.", "Estamos a estudar. (We're studying.)"],
+          ["Vocês/Eles/Elas", "estão a + inf.", "Estão a trabalhar. (They're working.)"]
+        ]
+      },
+      {
+        "type": "examples",
+        "heading": "Progressive & Simultaneous Actions",
+        "items": [
+          {
+            "portuguese": "O que é que estás a fazer?",
+            "translation": "What are you doing?",
+            "pronunciation": "oo keh keh esh-TASH ah fah-ZER?",
+            "highlight": ["estás a fazer"]
+          },
+          {
+            "portuguese": "Enquanto uns trabalham, outros descansam.",
+            "translation": "While some work, others rest.",
+            "pronunciation": "en-KWAHN-too oonz trah-BAHL-yahm, OH-troosh deh-kah-SAH-nyoo.",
+            "highlight": ["Enquanto"]
+          },
+          {
+            "portuguese": "A Maria está a nadar enquanto a Teresa está a ler.",
+            "translation": "Maria is swimming while Teresa is reading.",
+            "pronunciation": "ah mah-REE-ah esh-TAH ah nah-DAR en-KWAHN-too ah teh-REH-zah esh-TAH ah LEHR.",
+            "highlight": ["está a nadar", "enquanto", "está a ler"]
+          }
+        ]
+      },
+      {
+        "type": "tips",
+        "heading": "Common Mistakes & Tips",
+        "items": [
+          "Use 'de' for means of transport: 'ir de autocarro' (go by bus), NOT 'ir em autocarro'.",
+          "'A' vs 'Para': 'Vou ao supermercado' (short trip) vs 'Vou para Lisboa' (destination).",
+          "Comparatives always use 'do que' (than), not 'que' alone: 'mais frio do que', NOT 'mais frio que'.",
+          "Irregular comparatives: maior (not 'mais grande'), melhor (not 'mais bom'), pior (not 'mais mau').",
+          "Estar a + infinitive: don't forget the 'a' — 'estou a ler' (not 'estou ler').",
+          "'Enquanto' describes simultaneous actions: 'Eu leio enquanto tu cozinhas'.",
+          "In European Portuguese, use 'estar a + inf.' for progressive. In Brazil, they say 'estando + gerúndio'."
+        ]
+      }
+    ],
+    "exercises": [
+      {
+        "type": "multiple-choice",
+        "title": "Choose the Correct Comparative",
+        "instructions": "Select the correct comparative form.",
+        "items": [
+          {
+            "question": "O inverno é ___ do que o outono.",
+            "options": ["mais frio", "mais frio do que", "tão frio como", "menos frio"],
+            "correct": 1,
+            "explanation": "Superiority comparative: 'mais + adjective + do que'. 'O inverno é mais frio do que o outono'."
+          },
+          {
+            "question": "O Filipe é ___ simpático ___ as irmãs.",
+            "options": ["mais...do que", "tão...como", "menos...do que", "mais...como"],
+            "correct": 1,
+            "explanation": "Equality comparison: 'tão + adjective + como'. 'Tão simpático como' = as nice as."
+          },
+          {
+            "question": "A casa do João é ___ do que a casa do António.",
+            "options": ["mais grande", "maior", "mais maior", "grande"],
+            "correct": 1,
+            "explanation": "Irregular comparative: grande → maior. 'A casa é maior do que...' (not 'mais grande')."
+          },
+          {
+            "question": "Este restaurante é ___ do que aquele.",
+            "options": ["mais mau", "mais mau do que", "pior", "pior do que"],
+            "correct": 3,
+            "explanation": "Irregular comparative: mau → pior. 'Este restaurante é pior do que aquele'."
+          }
+        ]
+      },
+      {
+        "type": "fill-in-blank",
+        "title": "Complete with the Correct Preposition",
+        "instructions": "Fill in the blank with 'a' or 'para'.",
+        "items": [
+          {
+            "sentence": "Vou ___ supermercado e volto.",
+            "answer": "ao",
+            "fullAnswer": "ao",
+            "hint": "Short trip — use 'a' (a + o = ao)"
+          },
+          {
+            "sentence": "O irmão do Pedro vai estudar ___ Lisboa.",
+            "answer": "para",
+            "fullAnswer": "para",
+            "hint": "Destination — use 'para'"
+          },
+          {
+            "sentence": "Amanhã vou ___ Porto visitar a minha amiga.",
+            "answer": "a",
+            "fullAnswer": "a",
+            "hint": "Short trip — use 'a'"
+          },
+          {
+            "sentence": "Este autocarro vai ___ universidade.",
+            "answer": "para a",
+            "fullAnswer": "para a",
+            "hint": "Direction/destination — use 'para'"
+          }
+        ]
+      },
+      {
+        "type": "multiple-choice",
+        "title": "Estar a + Infinitive",
+        "instructions": "Choose the correct progressive form.",
+        "items": [
+          {
+            "question": "O que é que eles estão a ___?",
+            "options": ["fazer", "a fazer", "fazendo", "feito"],
+            "correct": 1,
+            "explanation": "Progressive: estar + a + infinitive. 'Estão a fazer' = They are doing."
+          },
+          {
+            "question": "Ela está a ___ um livro.",
+            "options": ["ler", "a ler", "lendo", "para ler"],
+            "correct": 1,
+            "explanation": "Progressive: 'está a ler' = She is reading. Don't forget the 'a'."
+          },
+          {
+            "question": "Está a ___.",
+            "options": ["chover", "a chover", "chovendo", "para chover"],
+            "correct": 1,
+            "explanation": "Weather progressive: 'Está a chover' = It's raining."
+          }
+        ]
+      },
+      {
+        "type": "sentence-builder",
+        "title": "Describe What People Are Doing",
+        "instructions": "Choose the correct form to complete each sentence.",
+        "items": [
+          {
+            "sentence": "Eu ___ a estudar.",
+            "blank": "estou",
+            "wordBank": ["estou", "estás", "está", "estamos"],
+            "hint": "1st person singular of estar"
+          },
+          {
+            "sentence": "Eles ___ a trabalhar.",
+            "blank": "estão",
+            "wordBank": ["estou", "estás", "está", "estão"],
+            "hint": "3rd person plural of estar"
+          },
+          {
+            "sentence": "Enquanto eu ___ a ler, tu ___ a cozinhar.",
+            "blank": "estou, estás",
+            "wordBank": ["estou, estás", "está, está", "estamos, estão", "estás, estou"],
+            "hint": "1st person + 2nd person of estar a + infinitive"
+          }
+        ]
+      }
+    ]
+  }
+}
