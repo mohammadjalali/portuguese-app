@@ -40,7 +40,8 @@ function CategoryBadge({ cat }) {
 // ─── Pronunciation Button ────────────────────────────────────────────────────
 function PronounceBtn({ text, size = 18 }) {
   const [active, setActive] = useState(false);
-  const handle = () => {
+  const handle = (e) => {
+    e.stopPropagation();
     setActive(true);
     speakPortuguese(text);
     setTimeout(() => setActive(false), 800);
