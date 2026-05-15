@@ -1,0 +1,401 @@
+{
+  "id": 16,
+  "title": "Saúde e Bem-estar",
+  "subtitle": "Health, Lifestyle & Healthcare Settings",
+  "color": "#004D40",
+  "accent": "#4DB6AC",
+  "icon": "🏥",
+  "description": "Learn vocabulary for health, body parts, and healthcare settings, plus how to give formal instructions using the imperative.",
+  "topics": ["Body parts", "Health and illness", "At the doctor / pharmacy", "Healthy lifestyle", "Formal imperative (você)"],
+  "vocabulary": [
+    {
+      "word": "a saúde",
+      "translation": "health",
+      "pronunciation": "ah sah-OO-deh",
+      "ipa": "/ɐ sɐˈudɨ/",
+      "example": "A saúde é mais importante do que o dinheiro.",
+      "exampleTranslation": "Health is more important than money.",
+      "category": "health",
+      "tip": "'Saúde!' = Cheers! (toast) / Bless you! (after sneezing). 'Estar com saúde' = to be in good health."
+    },
+    {
+      "word": "doente",
+      "translation": "sick / ill",
+      "pronunciation": "doo-EN-teh",
+      "ipa": "/duˈẽtɨ/",
+      "example": "Estou doente e tenho febre alta.",
+      "exampleTranslation": "I'm sick and I have a high fever.",
+      "category": "health",
+      "tip": "'Estar doente' = to be ill (temporary state — use ESTAR). 'Um/uma doente' = a patient (noun)."
+    },
+    {
+      "word": "a dor",
+      "translation": "pain / ache",
+      "pronunciation": "ah dor",
+      "ipa": "/ɐ ˈdoɾ/",
+      "example": "Tenho dores de cabeça desde ontem.",
+      "exampleTranslation": "I've had headaches since yesterday.",
+      "category": "health",
+      "tip": "'Ter dores de...' + body part: 'dores de cabeça' (headache), 'dores de barriga' (stomach ache), 'dores de garganta' (sore throat)."
+    },
+    {
+      "word": "a febre",
+      "translation": "fever / temperature",
+      "pronunciation": "ah FEH-breh",
+      "ipa": "/ɐ ˈfɛbɾɨ/",
+      "example": "Tenho febre — o termómetro marca 39 graus.",
+      "exampleTranslation": "I have a fever — the thermometer reads 39 degrees.",
+      "category": "health",
+      "tip": "'Ter febre' = to have a fever. 'A febre baixou' = the fever went down. 'Febril' = feverish."
+    },
+    {
+      "word": "a tosse",
+      "translation": "cough",
+      "pronunciation": "ah TOH-seh",
+      "ipa": "/ɐ ˈtosɨ/",
+      "example": "Tenho muita tosse — vou ao médico.",
+      "exampleTranslation": "I have a bad cough — I'm going to the doctor.",
+      "category": "health",
+      "tip": "'Tossir' = to cough (irregular verb). 'Um xarope para a tosse' = a cough syrup."
+    },
+    {
+      "word": "o médico / a médica",
+      "translation": "doctor",
+      "pronunciation": "oh MEH-dee-koo / ah MEH-dee-kah",
+      "ipa": "/u ˈmɛdiku/ / /ɐ ˈmɛdikɐ/",
+      "example": "Preciso de consultar um médico — não me sinto bem.",
+      "exampleTranslation": "I need to see a doctor — I don't feel well.",
+      "category": "healthcare",
+      "tip": "'Ir ao médico' = to go to the doctor. 'Consulta médica' = medical appointment. 'Clínica geral' = GP/general practice."
+    },
+    {
+      "word": "a farmácia",
+      "translation": "pharmacy / chemist",
+      "pronunciation": "ah far-MAH-see-ah",
+      "ipa": "/ɐ fɐɾˈmasiɐ/",
+      "example": "Vou à farmácia comprar medicamentos.",
+      "exampleTranslation": "I'm going to the pharmacy to buy medication.",
+      "category": "healthcare",
+      "tip": "Pharmacies (farmácias) in Portugal have a green cross. Pharmacists can advise on minor ailments."
+    },
+    {
+      "word": "o hospital",
+      "translation": "hospital",
+      "pronunciation": "oh osh-pee-TAL",
+      "ipa": "/u uʃpiˈtal/",
+      "example": "O meu pai foi ao hospital de urgência ontem.",
+      "exampleTranslation": "My father went to the hospital emergency room yesterday.",
+      "category": "healthcare",
+      "tip": "'As urgências' = emergency room/A&E. 'Internamento' = hospital admission. 'Alta hospitalar' = discharge."
+    },
+    {
+      "word": "a consulta",
+      "translation": "appointment / consultation",
+      "pronunciation": "ah kon-SUL-tah",
+      "ipa": "/ɐ kõˈsultɐ/",
+      "example": "Preciso de marcar uma consulta com o médico.",
+      "exampleTranslation": "I need to make an appointment with the doctor.",
+      "category": "healthcare",
+      "tip": "'Marcar uma consulta' = to make an appointment. 'Desmarcar' = to cancel. 'A consulta é às 10h' = the appointment is at 10am."
+    },
+    {
+      "word": "o medicamento",
+      "translation": "medicine / medication",
+      "pronunciation": "oh meh-dee-kah-MEN-too",
+      "ipa": "/u mɨdikɐˈmẽtu/",
+      "example": "O médico receitou-me um medicamento para a febre.",
+      "exampleTranslation": "The doctor prescribed me a medicine for the fever.",
+      "category": "healthcare",
+      "tip": "'O medicamento' or 'o remédio' = medicine. 'A receita' = prescription. 'Tomar um comprimido' = to take a tablet."
+    },
+    {
+      "word": "a receita",
+      "translation": "prescription / recipe",
+      "pronunciation": "ah reh-SAY-tah",
+      "ipa": "/ɐ ɾɨˈsɐjtɐ/",
+      "example": "Preciso de uma receita para este medicamento.",
+      "exampleTranslation": "I need a prescription for this medication.",
+      "category": "healthcare",
+      "tip": "'Receita médica' = medical prescription. 'Receita de culinária' = cooking recipe. Context makes it clear!"
+    },
+    {
+      "word": "a cabeça",
+      "translation": "head",
+      "pronunciation": "ah kah-BEH-sah",
+      "ipa": "/ɐ kɐˈbesɐ/",
+      "example": "Tenho dores de cabeça — preciso de descansar.",
+      "exampleTranslation": "I have a headache — I need to rest.",
+      "category": "body",
+      "tip": "'Dor de cabeça' = headache. 'A cabeça dói-me' = my head hurts. 'Estar de cabeça quente' = to be angry."
+    },
+    {
+      "word": "o estômago",
+      "translation": "stomach",
+      "pronunciation": "oh esh-TOH-mah-goo",
+      "ipa": "/u ɨʃˈtomaɡu/",
+      "example": "Tenho dores de estômago depois de comer.",
+      "exampleTranslation": "I have stomach aches after eating.",
+      "category": "body",
+      "tip": "'Dor de estômago' = stomach ache. 'Dor de barriga' = tummy ache (more informal)."
+    },
+    {
+      "word": "a garganta",
+      "translation": "throat",
+      "pronunciation": "ah gar-GAN-tah",
+      "ipa": "/ɐ ɡɐɾˈɡɐ̃tɐ/",
+      "example": "Tenho a garganta inflamada e dói-me muito.",
+      "exampleTranslation": "I have an inflamed throat and it hurts a lot.",
+      "category": "body",
+      "tip": "'Dores de garganta' = sore throat. 'A garganta está inflamada' = the throat is inflamed/sore."
+    },
+    {
+      "word": "fazer exercício",
+      "translation": "to exercise / to work out",
+      "pronunciation": "fah-ZEHR eh-shehr-SEE-see-oo",
+      "ipa": "/fɐˈzeɾ ɨʃɨɾˈsisiu/",
+      "example": "Faço exercício três vezes por semana para manter a saúde.",
+      "exampleTranslation": "I exercise three times a week to maintain my health.",
+      "category": "lifestyle",
+      "tip": "'Fazer exercício' = to exercise. 'Ir ao ginásio' = to go to the gym. 'Caminhar' = to walk (for exercise)."
+    },
+    {
+      "word": "descansar",
+      "translation": "to rest",
+      "pronunciation": "desh-kahn-SAR",
+      "ipa": "/dɨʃkɐ̃ˈsaɾ/",
+      "example": "O médico disse-me para descansar e beber muita água.",
+      "exampleTranslation": "The doctor told me to rest and drink plenty of water.",
+      "category": "lifestyle",
+      "tip": "Regular -ar verb. 'Descanso, descansas, descansa...' 'Estar em repouso' = to be resting (more formal)."
+    },
+    {
+      "word": "o seguro de saúde",
+      "translation": "health insurance",
+      "pronunciation": "oh seh-GOO-roo deh sah-OO-deh",
+      "ipa": "/u sɨˈɡuɾu dɨ sɐˈudɨ/",
+      "example": "Tens seguro de saúde? É importante em Portugal.",
+      "exampleTranslation": "Do you have health insurance? It's important in Portugal.",
+      "category": "healthcare",
+      "tip": "Portugal has a public health system (SNS). EU citizens can use the EHIC card for emergencies."
+    },
+    {
+      "word": "saudável",
+      "translation": "healthy",
+      "pronunciation": "sah-oo-DAH-vel",
+      "ipa": "/sɐwˈdavɛl/",
+      "example": "Tentar ter uma alimentação saudável é importante.",
+      "exampleTranslation": "Trying to have a healthy diet is important.",
+      "category": "lifestyle",
+      "tip": "'Saudável' = healthy (for food, lifestyle, person). 'Um estilo de vida saudável' = a healthy lifestyle."
+    },
+    {
+      "word": "marcar",
+      "translation": "to book / to schedule",
+      "pronunciation": "mar-KAR",
+      "ipa": "/mɐɾˈkaɾ/",
+      "example": "Queria marcar uma consulta para amanhã.",
+      "exampleTranslation": "I'd like to book an appointment for tomorrow.",
+      "category": "verbs",
+      "tip": "Regular -ar verb. 'Marcar uma consulta/reunião' = to book an appointment/meeting. Very useful in daily life."
+    },
+    {
+      "word": "sentir-se",
+      "translation": "to feel (about oneself)",
+      "pronunciation": "sen-TEER seh",
+      "ipa": "/sẽˈtiɾ sɨ/",
+      "example": "Não me sinto bem hoje — vou ficar em casa.",
+      "exampleTranslation": "I don't feel well today — I'm going to stay home.",
+      "category": "verbs",
+      "tip": "Reflexive verb. 'Sinto-me, sentes-te, sente-se...' 'Como se sente?' (formal) = How are you feeling?"
+    },
+    {
+      "word": "tome / beba / descanse",
+      "translation": "take (medicine) / drink / rest (formal commands)",
+      "pronunciation": "TOH-meh / BEH-bah / desh-KAN-seh",
+      "ipa": "/ˈtomɨ/ / /ˈbɛbɐ/ / /dɨʃˈkɐ̃sɨ/",
+      "example": "— Tome este comprimido duas vezes por dia e descanse.",
+      "exampleTranslation": "— Take this tablet twice a day and rest.",
+      "category": "grammar",
+      "tip": "Formal imperative (você): -ar verbs → -e ending; -er/-ir verbs → -a ending. Used by doctors, pharmacists, officials."
+    }
+  ],
+  "grammar": {
+    "title": "Formal Imperative — Giving Instructions and Advice",
+    "sections": [
+      {
+        "type": "explanation",
+        "heading": "What Is the Formal Imperative?",
+        "body": "The imperative mood is used to give instructions, orders, advice, or requests. In Portuguese, there are two imperatives: (1) informal (tu/vós) for friends, family, and people you know well, and (2) formal (você) for strangers, professionals, or people you should address respectfully (doctors, shop assistants, officials). At a doctor's appointment or pharmacy, you will always hear the formal imperative: 'Tome este medicamento.' (Take this medicine.) 'Beba muita água.' (Drink lots of water.) 'Descanse.' (Rest.)"
+      },
+      {
+        "type": "explanation",
+        "heading": "How to Form the Formal Imperative",
+        "body": "The formal imperative (você) is formed from the present tense first person singular (eu form), dropping the -o ending and adding the opposite vowel: (1) -AR verbs: eu falo → fal- → fale (speak!). (2) -ER verbs: eu como → com- → coma (eat!). (3) -IR verbs: eu abro → abr- → abra (open!). Remember: -AR verbs get -E, and -ER/-IR verbs get -A. This 'opposite vowel' rule is the key to forming this imperative correctly."
+      },
+      {
+        "type": "table",
+        "heading": "Formal Imperative Formation",
+        "columns": ["Infinitive", "EU form", "Drop -O, add opposite vowel", "Formal imperative"],
+        "rows": [
+          ["falar (to speak)", "falo", "fal- + e", "fale! (speak!)"],
+          ["tomar (to take)", "tomo", "tom- + e", "tome! (take!)"],
+          ["descansar (to rest)", "descanso", "descans- + e", "descanse! (rest!)"],
+          ["comer (to eat)", "como", "com- + a", "coma! (eat!)"],
+          ["beber (to drink)", "bebo", "beb- + a", "beba! (drink!)"],
+          ["abrir (to open)", "abro", "abr- + a", "abra! (open!)"],
+          ["seguir (to follow)", "sigo", "sig- + a", "siga! (follow/go straight!)"]
+        ]
+      },
+      {
+        "type": "table",
+        "heading": "Common Formal Imperatives in Healthcare",
+        "columns": ["Formal Imperative", "Meaning", "Context"],
+        "rows": [
+          ["Tome este comprimido.", "Take this tablet.", "Doctor's instructions"],
+          ["Beba muita água.", "Drink plenty of water.", "Doctor's advice"],
+          ["Descanse dois dias.", "Rest for two days.", "Doctor's advice"],
+          ["Abra a boca.", "Open your mouth.", "Medical examination"],
+          ["Respire fundo.", "Breathe deeply.", "Medical examination"],
+          ["Espere um momento.", "Wait a moment.", "Receptionist"],
+          ["Mostre-me a receita.", "Show me the prescription.", "Pharmacist"],
+          ["Siga em frente.", "Go straight ahead.", "Giving directions"]
+        ]
+      },
+      {
+        "type": "explanation",
+        "heading": "Negative Formal Imperative",
+        "body": "To tell someone NOT to do something formally, add 'não' before the imperative: 'Não tome este medicamento com álcool.' (Don't take this medicine with alcohol.) 'Não faça exercício intenso.' (Don't do intense exercise.) 'Não beba café.' (Don't drink coffee.) The form stays the same — just add 'não' before it."
+      },
+      {
+        "type": "examples",
+        "heading": "At the Doctor and Pharmacy",
+        "items": [
+          {
+            "portuguese": "— Como se sente? — Não me sinto bem. Tenho febre e dores de cabeça.",
+            "translation": "— How do you feel? — I don't feel well. I have a fever and a headache.",
+            "pronunciation": "KOH-moo seh SEN-teh / nah-oo meh SEN-too bem...",
+            "highlight": ["Como se sente", "febre", "dores de cabeça"]
+          },
+          {
+            "portuguese": "Tome este xarope duas vezes por dia e descanse em casa.",
+            "translation": "Take this syrup twice a day and rest at home.",
+            "pronunciation": "TOH-meh EH-steh shah-ROH-peh DOO-ash VEH-zesh...",
+            "highlight": ["Tome", "descanse"]
+          },
+          {
+            "portuguese": "Queria marcar uma consulta para amanhã, se for possível.",
+            "translation": "I'd like to book an appointment for tomorrow, if possible.",
+            "pronunciation": "keh-REE-ah mar-KAR oo-mah kon-SUL-tah...",
+            "highlight": ["marcar uma consulta"]
+          },
+          {
+            "portuguese": "Não coma alimentos picantes e beba muita água.",
+            "translation": "Don't eat spicy food and drink plenty of water.",
+            "pronunciation": "nah-oo KOH-mah ah-lee-MEN-toosh pee-KAN-tesh...",
+            "highlight": ["Não coma", "beba"]
+          }
+        ]
+      },
+      {
+        "type": "tips",
+        "heading": "Common Mistakes & Tips",
+        "items": [
+          "Remember the 'opposite vowel' rule: -AR verbs → -E (fale, tome), -ER/-IR verbs → -A (coma, abra). Many students mix these up.",
+          "The formal imperative (você) looks like the third person singular present: 'Ele fala' vs 'Fale!' This is NOT a coincidence — they share the same form.",
+          "Use 'por favor' to make imperatives more polite: 'Tome este comprimido, por favor.' Always use formal imperative with healthcare professionals.",
+          "'Descanse' (rest) comes from 'descansar' → descanso → descans- + e. Don't say 'descansar' as a command.",
+          "ESTAR vs SER for health: Always use ESTAR for health conditions: 'Estou doente' (I'm ill), 'Estou bem' (I'm fine). Never 'Sou doente'."
+        ]
+      }
+    ],
+    "exercises": [
+      {
+        "type": "multiple-choice",
+        "title": "Formal Imperative",
+        "instructions": "Choose the correct formal imperative form.",
+        "items": [
+          {
+            "question": "O médico diz: '__ este comprimido.' (tomar)",
+            "options": ["Toma", "Tome", "Tomar", "Tomem"],
+            "correct": 1,
+            "explanation": "'Tome' is the formal imperative of 'tomar' (-AR verb → drop -o from 'tomo', add -e). 'Toma' is the informal (tu) form."
+          },
+          {
+            "question": "A farmacêutica diz: '__ muita água.' (beber)",
+            "options": ["Beba", "Bebe", "Beber", "Bebe"],
+            "correct": 0,
+            "explanation": "'Beba' is the formal imperative of 'beber' (-ER verb → drop -o from 'bebo', add -a)."
+          },
+          {
+            "question": "A enfermeira diz: '__ a boca, por favor.' (abrir)",
+            "options": ["Abra", "Abre", "Abrir", "Abri"],
+            "correct": 0,
+            "explanation": "'Abra' is the formal imperative of 'abrir' (-IR verb → drop -o from 'abro', add -a)."
+          },
+          {
+            "question": "Para pedir uma consulta, digo: 'Queria __ uma consulta.'",
+            "options": ["marcar", "marca", "marque", "marcando"],
+            "correct": 0,
+            "explanation": "'Queria marcar' = I would like to book. Use infinitive after 'queria'. 'Marque' would be if a doctor is telling YOU to schedule."
+          }
+        ]
+      },
+      {
+        "type": "fill-in-blank",
+        "title": "Health Vocabulary",
+        "instructions": "Complete each sentence with the correct word.",
+        "items": [
+          {
+            "sentence": "Tenho __ de cabeça desde ontem — vou à farmácia.",
+            "answer": "dores",
+            "fullAnswer": "Tenho dores de cabeça desde ontem.",
+            "hint": "pain/ache (plural)"
+          },
+          {
+            "sentence": "O médico disse: '__ dois comprimidos por dia.' (tomar — formal)",
+            "answer": "Tome",
+            "fullAnswer": "O médico disse: 'Tome dois comprimidos por dia.'",
+            "hint": "formal imperative of TOMAR"
+          },
+          {
+            "sentence": "Preciso de __ uma consulta com o médico de família.",
+            "answer": "marcar",
+            "fullAnswer": "Preciso de marcar uma consulta com o médico de família.",
+            "hint": "to book (an appointment)"
+          },
+          {
+            "sentence": "Não me __ bem — tenho febre e tosse.",
+            "answer": "sinto",
+            "fullAnswer": "Não me sinto bem — tenho febre e tosse.",
+            "hint": "SENTIR-SE, 1st person singular"
+          }
+        ]
+      },
+      {
+        "type": "sentence-builder",
+        "title": "Doctor's Instructions",
+        "instructions": "Click the correct word to complete each sentence.",
+        "items": [
+          {
+            "sentence": "___ este medicamento três vezes por dia.",
+            "blank": "Tome",
+            "wordBank": ["Tome", "Toma", "Tomar", "Tomei"],
+            "hint": "formal imperative of TOMAR"
+          },
+          {
+            "sentence": "Não ___ exercício intenso esta semana.",
+            "blank": "faça",
+            "wordBank": ["faça", "faz", "fazer", "fazendo"],
+            "hint": "formal imperative (negative) of FAZER"
+          },
+          {
+            "sentence": "___ muita água e descanse em casa.",
+            "blank": "Beba",
+            "wordBank": ["Beba", "Bebe", "Beber", "Bebeu"],
+            "hint": "formal imperative of BEBER"
+          }
+        ]
+      }
+    ]
+  }
+}

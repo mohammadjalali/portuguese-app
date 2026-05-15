@@ -1,0 +1,465 @@
+{
+  "id": 11,
+  "title": "Às Compras",
+  "subtitle": "Shopping, Prices & Comparisons",
+  "color": "#1F4E79",
+  "accent": "#4FC3F7",
+  "icon": "🛒",
+  "description": "Learn how to shop in Portuguese — ask for prices, compare products, and use large numbers up to 1000.",
+  "topics": ["Shopping vocabulary", "Prices and quantities", "Comparing products", "Numbers 100–1000", "Near future with IR + infinitive"],
+  "vocabulary": [
+    {
+      "word": "a loja",
+      "translation": "shop / store",
+      "pronunciation": "ah LOH-zhah",
+      "ipa": "/ɐ ˈloʒɐ/",
+      "example": "Há uma loja de roupa perto da universidade.",
+      "exampleTranslation": "There is a clothes shop near the university.",
+      "category": "shopping",
+      "tip": "'Loja de...' + type: 'loja de sapatos' (shoe shop), 'loja de livros' (bookshop), 'loja de desporto' (sports shop)."
+    },
+    {
+      "word": "o mercado",
+      "translation": "market",
+      "pronunciation": "oh mehr-KAH-doo",
+      "ipa": "/u mɨɾˈkadu/",
+      "example": "Vou ao mercado comprar fruta e legumes.",
+      "exampleTranslation": "I'm going to the market to buy fruit and vegetables.",
+      "category": "shopping",
+      "tip": "Outdoor markets ('mercados') are common in Portugal. The 'Mercado da Ribeira' in Lisbon is famous."
+    },
+    {
+      "word": "o supermercado",
+      "translation": "supermarket",
+      "pronunciation": "oh soo-pehr-mehr-KAH-doo",
+      "ipa": "/u supɨɾmɨɾˈkadu/",
+      "example": "O supermercado está aberto até às 22h.",
+      "exampleTranslation": "The supermarket is open until 10pm.",
+      "category": "shopping",
+      "tip": "Common Portuguese supermarkets: Pingo Doce, Continente, Lidl, Aldi."
+    },
+    {
+      "word": "o centro comercial",
+      "translation": "shopping centre / mall",
+      "pronunciation": "oh SEN-troo koh-mehr-see-AHL",
+      "ipa": "/u ˈsẽtɾu kumɨɾsiˈal/",
+      "example": "O centro comercial tem muitas lojas e restaurantes.",
+      "exampleTranslation": "The shopping centre has many shops and restaurants.",
+      "category": "shopping",
+      "tip": "Often called 'centro comercial' or just 'o centro'. Common ones in Lisbon: Colombo, Vasco da Gama."
+    },
+    {
+      "word": "o preço",
+      "translation": "price",
+      "pronunciation": "oh PREH-soo",
+      "ipa": "/u ˈpɾesu/",
+      "example": "Qual é o preço desta camisola?",
+      "exampleTranslation": "What is the price of this jumper?",
+      "category": "shopping",
+      "tip": "Related: 'preço fixo' (fixed price), 'lista de preços' (price list), 'bom preço' (good price)."
+    },
+    {
+      "word": "Quanto custa?",
+      "translation": "How much does it cost?",
+      "pronunciation": "KWAHN-too KOOSH-tah",
+      "ipa": "/ˈkwɐ̃tu ˈkuʃtɐ/",
+      "example": "— Quanto custa este casaco? — Custa noventa euros.",
+      "exampleTranslation": "— How much does this coat cost? — It costs ninety euros.",
+      "category": "shopping",
+      "tip": "For multiple items: 'Quanto custam?' (How much do they cost?). The verb 'custar' conjugates normally."
+    },
+    {
+      "word": "caro / barato",
+      "translation": "expensive / cheap",
+      "pronunciation": "KAH-roo / bah-RAH-too",
+      "ipa": "/ˈkaɾu/ / /bɐˈɾatu/",
+      "example": "Este telemóvel é muito caro. Aquele é mais barato.",
+      "exampleTranslation": "This mobile phone is very expensive. That one is cheaper.",
+      "category": "adjectives",
+      "tip": "Agreement: 'cara/barata' (feminine), 'caros/baratos' (plural). 'Baratinho/a' = very cheap (diminutive)."
+    },
+    {
+      "word": "pagar",
+      "translation": "to pay",
+      "pronunciation": "pah-GAR",
+      "ipa": "/pɐˈɡaɾ/",
+      "example": "Posso pagar com cartão de crédito?",
+      "exampleTranslation": "Can I pay by credit card?",
+      "category": "verbs",
+      "tip": "Regular -ar verb: pago, pagas, paga, pagamos, pagam. 'Pagar em dinheiro' = to pay cash."
+    },
+    {
+      "word": "comprar",
+      "translation": "to buy",
+      "pronunciation": "kohm-PRAR",
+      "ipa": "/kõˈpɾaɾ/",
+      "example": "Vou comprar um presente para a minha mãe.",
+      "exampleTranslation": "I'm going to buy a present for my mother.",
+      "category": "verbs",
+      "tip": "Regular -ar verb: compro, compras, compra, compramos, compram. Opposite: 'vender' (to sell)."
+    },
+    {
+      "word": "querer",
+      "translation": "to want",
+      "pronunciation": "keh-REHR",
+      "ipa": "/kɨˈɾeɾ/",
+      "example": "Quero este livro, por favor.",
+      "exampleTranslation": "I want this book, please.",
+      "category": "verbs",
+      "tip": "Irregular: quero, queres, quer, queremos, querem. Very common in shops: 'Queria...' (I would like...) is more polite."
+    },
+    {
+      "word": "poder",
+      "translation": "can / to be able to",
+      "pronunciation": "poh-DEHR",
+      "ipa": "/puˈdeɾ/",
+      "example": "Pode mostrar-me aquela camisa, por favor?",
+      "exampleTranslation": "Can you show me that shirt, please?",
+      "category": "verbs",
+      "tip": "Irregular: posso, podes, pode, podemos, podem. Used to ask for permission or possibility."
+    },
+    {
+      "word": "o dinheiro",
+      "translation": "money",
+      "pronunciation": "oh dee-NYAY-roo",
+      "ipa": "/u diˈɲɐjɾu/",
+      "example": "Não tenho dinheiro suficiente para esta televisão.",
+      "exampleTranslation": "I don't have enough money for this television.",
+      "category": "shopping",
+      "tip": "'Em dinheiro' = in cash. 'Levantar dinheiro' = to withdraw money (from an ATM)."
+    },
+    {
+      "word": "o cartão",
+      "translation": "card",
+      "pronunciation": "oh kar-TAH-oo",
+      "ipa": "/u kɐɾˈtɐ̃w̃/",
+      "example": "Aceita cartão de débito?",
+      "exampleTranslation": "Do you accept debit card?",
+      "category": "shopping",
+      "tip": "'Cartão de crédito' (credit card), 'cartão de débito' (debit card), 'cartão de desconto' (loyalty card)."
+    },
+    {
+      "word": "o troco",
+      "translation": "change (money)",
+      "pronunciation": "oh TROH-koo",
+      "ipa": "/u ˈtɾoku/",
+      "example": "Aqui está o seu troco — dois euros e cinquenta.",
+      "exampleTranslation": "Here is your change — two euros and fifty cents.",
+      "category": "shopping",
+      "tip": "'Trocar' = to change/exchange. 'Pode trocar esta nota?' = Can you change this note?"
+    },
+    {
+      "word": "o desconto",
+      "translation": "discount",
+      "pronunciation": "oh desh-KON-too",
+      "ipa": "/u dɨʃˈkõtu/",
+      "example": "Há um desconto de 20% nesta loja esta semana.",
+      "exampleTranslation": "There is a 20% discount in this shop this week.",
+      "category": "shopping",
+      "tip": "'Com desconto' = with a discount. 'Fazer desconto' = to give a discount."
+    },
+    {
+      "word": "a promoção",
+      "translation": "promotion / sale",
+      "pronunciation": "ah proh-moh-SAH-oo",
+      "ipa": "/ɐ pɾumuˈsɐ̃w̃/",
+      "example": "Estas calças estão em promoção esta semana.",
+      "exampleTranslation": "These trousers are on sale this week.",
+      "category": "shopping",
+      "tip": "'Em promoção' = on sale/promotion. 'Saldos' = sales (seasonal). 'Liquidação' = clearance sale."
+    },
+    {
+      "word": "o quilo",
+      "translation": "kilogram",
+      "pronunciation": "oh KEE-loo",
+      "ipa": "/u ˈkilu/",
+      "example": "Quero um quilo de tomates e meio quilo de queijo.",
+      "exampleTranslation": "I want a kilo of tomatoes and half a kilo of cheese.",
+      "category": "quantities",
+      "tip": "'Meio quilo' = half a kilo. 'Um quilo e meio' = one and a half kilos. Common at markets and delis."
+    },
+    {
+      "word": "a garrafa",
+      "translation": "bottle",
+      "pronunciation": "ah gah-RAH-fah",
+      "ipa": "/ɐ ɡɐˈʁafɐ/",
+      "example": "Uma garrafa de água, por favor.",
+      "exampleTranslation": "A bottle of water, please.",
+      "category": "quantities",
+      "tip": "'Garrafa de vinho' (bottle of wine), 'garrafa de azeite' (bottle of olive oil)."
+    },
+    {
+      "word": "a lata",
+      "translation": "tin / can",
+      "pronunciation": "ah LAH-tah",
+      "ipa": "/ɐ ˈlatɐ/",
+      "example": "Preciso de duas latas de atum.",
+      "exampleTranslation": "I need two cans of tuna.",
+      "category": "quantities",
+      "tip": "'Lata de...' + food: 'lata de atum' (can of tuna), 'lata de tomate' (tin of tomatoes)."
+    },
+    {
+      "word": "o/a vendedor/a",
+      "translation": "salesperson / shop assistant",
+      "pronunciation": "oh vehn-deh-DOR / ah vehn-deh-DOH-rah",
+      "ipa": "/u vẽdɨˈdoɾ/ / /ɐ vẽdɨˈdoɾɐ/",
+      "example": "O vendedor ajudou-me a escolher um presente.",
+      "exampleTranslation": "The shop assistant helped me to choose a present.",
+      "category": "people",
+      "tip": "'Vendedor' (m) / 'vendedora' (f). From the verb 'vender' (to sell) + agent suffix '-dor'."
+    },
+    {
+      "word": "a lista de compras",
+      "translation": "shopping list",
+      "pronunciation": "ah LEESH-tah deh KOM-prash",
+      "ipa": "/ɐ ˈliʃtɐ dɨ ˈkõpɾɐʃ/",
+      "example": "Não te esqueças da lista de compras!",
+      "exampleTranslation": "Don't forget the shopping list!",
+      "category": "shopping",
+      "tip": "From 'compras' (shopping/purchases). 'Fazer compras' = to go shopping / to do the shopping."
+    },
+    {
+      "word": "mais barato / mais caro",
+      "translation": "cheaper / more expensive",
+      "pronunciation": "mysh bah-RAH-too / mysh KAH-roo",
+      "ipa": "/ˈmajʃ bɐˈɾatu/ / /ˈmajʃ ˈkaɾu/",
+      "example": "Este modelo é mais barato do que aquele.",
+      "exampleTranslation": "This model is cheaper than that one.",
+      "category": "adjectives",
+      "tip": "Comparative: 'mais... do que' (more... than) or 'menos... do que' (less... than). 'Do que' can be shortened to 'que'."
+    },
+    {
+      "word": "melhor / pior",
+      "translation": "better / worse",
+      "pronunciation": "meh-LYOR / pee-OR",
+      "ipa": "/mɨˈʎoɾ/ / /piˈoɾ/",
+      "example": "Esta marca é melhor do que aquela.",
+      "exampleTranslation": "This brand is better than that one.",
+      "category": "adjectives",
+      "tip": "Irregular comparatives: 'bom → melhor', 'mau → pior'. Don't say 'mais bom' or 'mais mau'."
+    },
+    {
+      "word": "vou / vais / vai comprar",
+      "translation": "I'm going to / you're going to / he's going to buy",
+      "pronunciation": "voh / vysh / vy kohm-PRAR",
+      "ipa": "/ˈvow/ / /ˈvajʃ/ / /ˈvaj kõˈpɾaɾ/",
+      "example": "Vou comprar um computador novo amanhã.",
+      "exampleTranslation": "I'm going to buy a new computer tomorrow.",
+      "category": "verbs",
+      "tip": "IR + infinitive expresses near future: 'vou + verb' = I'm going to... Very common and natural in everyday speech."
+    },
+    {
+      "word": "Posso ajudá-lo/la?",
+      "translation": "Can I help you?",
+      "pronunciation": "POH-soo ah-zhoo-DAH-loo / lah",
+      "ipa": "/ˈposu ɐʒuˈdalɨ/ / /ɐʒuˈdalɐ/",
+      "example": "— Posso ajudá-la? — Sim, queria ver aquela bolsa.",
+      "exampleTranslation": "— Can I help you? — Yes, I'd like to see that bag.",
+      "category": "shopping",
+      "tip": "'-lo' for male customers, '-la' for female. 'Está bem servido/a?' is also used."
+    }
+  ],
+  "grammar": {
+    "title": "Comparatives, Numbers 100–1000 & Near Future",
+    "sections": [
+      {
+        "type": "explanation",
+        "heading": "Comparing Things in Portuguese",
+        "body": "To compare two things in Portuguese, you use simple patterns. The most common is (1) 'mais... (do) que' for 'more... than', and (2) 'menos... (do) que' for 'less... than'. For equal comparisons, use (3) 'tão... como' for 'as... as'. These work with any adjective: 'Este casaco é mais caro do que aquele.' (This coat is more expensive than that one.) 'Aquela loja é menos cara do que esta.' (That shop is less expensive than this one.) The 'do' in 'do que' is optional but sounds more natural in European Portuguese."
+      },
+      {
+        "type": "table",
+        "heading": "Comparative Structures",
+        "columns": ["Structure", "Meaning", "Example"],
+        "rows": [
+          ["mais + adj + (do) que", "more ... than", "mais barato do que (cheaper than)"],
+          ["menos + adj + (do) que", "less ... than", "menos caro do que (less expensive than)"],
+          ["tão + adj + como", "as ... as", "tão bom como (as good as)"],
+          ["o/a mais + adj", "the most ... (superlative)", "o mais barato (the cheapest)"],
+          ["o/a menos + adj", "the least ...", "o menos caro (the least expensive)"]
+        ]
+      },
+      {
+        "type": "table",
+        "heading": "Irregular Comparatives",
+        "columns": ["Adjective", "Comparative", "Superlative"],
+        "rows": [
+          ["bom (good)", "melhor (better)", "o melhor (the best)"],
+          ["mau (bad)", "pior (worse)", "o pior (the worst)"],
+          ["grande (big)", "maior (bigger)", "o maior (the biggest)"],
+          ["pequeno (small)", "menor (smaller)", "o menor (the smallest)"]
+        ],
+        "caption": "Do NOT say 'mais bom', 'mais mau', 'mais grande', 'mais pequeno' — always use the irregular forms."
+      },
+      {
+        "type": "explanation",
+        "heading": "Numbers 100 to 1000",
+        "body": "Large numbers are essential for prices and quantities. Key rules: (1) 'Cem' is used alone (100), but 'cento' is used before other numbers: 'cento e vinte' (120). (2) Numbers 200–900 agree in gender: 'duzentos euros' but 'duzentas pessoas'. (3) 'Mil' (1000) is invariable — it doesn't change for gender. Prices in euros: '2,50€' is read as 'dois euros e cinquenta (cêntimos)'."
+      },
+      {
+        "type": "table",
+        "heading": "Numbers 100–1000",
+        "columns": ["Number", "Masculine", "Feminine"],
+        "rows": [
+          ["100", "cem (alone) / cento (before others)", "cem / cento"],
+          ["200", "duzentos", "duzentas"],
+          ["300", "trezentos", "trezentas"],
+          ["400", "quatrocentos", "quatrocentas"],
+          ["500", "quinhentos", "quinhentas"],
+          ["600", "seiscentos", "seiscentas"],
+          ["700", "setecentos", "setecentas"],
+          ["800", "oitocentos", "oitocentas"],
+          ["900", "novecentos", "novecentas"],
+          ["1000", "mil", "mil"]
+        ]
+      },
+      {
+        "type": "explanation",
+        "heading": "Near Future: IR + Infinitive",
+        "body": "To talk about what you are going to do, use the verb IR (to go) in the present tense + the infinitive of the main verb. This is the most common way to express near future in Portuguese: 'Vou comprar uma televisão.' (I'm going to buy a television.) 'Ela vai pagar com cartão.' (She's going to pay by card.) 'Vamos ir ao mercado amanhã.' (We're going to go to the market tomorrow.) This structure works with any infinitive and is more natural than the future tense for everyday speech."
+      },
+      {
+        "type": "table",
+        "heading": "IR + Infinitive — Near Future",
+        "columns": ["Subject", "IR (present)", "Example"],
+        "rows": [
+          ["eu", "vou", "Vou comprar pão. (I'm going to buy bread.)"],
+          ["tu", "vais", "Vais pagar em dinheiro? (Are you going to pay cash?)"],
+          ["ele/ela/você", "vai", "Ela vai ao mercado. (She's going to the market.)"],
+          ["nós", "vamos", "Vamos fazer compras. (We're going to go shopping.)"],
+          ["eles/vocês", "vão", "Eles vão comprar fruta. (They're going to buy fruit.)"]
+        ]
+      },
+      {
+        "type": "examples",
+        "heading": "Shopping Dialogues",
+        "items": [
+          {
+            "portuguese": "— Posso ajudá-lo? — Sim, quanto custa esta mochila?",
+            "translation": "— Can I help you? — Yes, how much does this backpack cost?",
+            "pronunciation": "POH-soo ah-zhoo-DAH-loo / KWAHN-too KOOSH-tah EH-stah moh-SHEE-lah",
+            "highlight": ["Posso ajudá-lo", "quanto custa"]
+          },
+          {
+            "portuguese": "Esta loja é mais barata do que aquela.",
+            "translation": "This shop is cheaper than that one.",
+            "pronunciation": "EH-stah LOH-zhah eh mysh bah-RAH-tah doo keh ah-KEH-lah",
+            "highlight": ["mais barata do que"]
+          },
+          {
+            "portuguese": "Vou comprar duzentos euros de roupa.",
+            "translation": "I'm going to spend two hundred euros on clothes.",
+            "pronunciation": "voh kohm-PRAR doo-ZEN-toosh OY-roosh deh ROH-pah",
+            "highlight": ["Vou comprar", "duzentos euros"]
+          },
+          {
+            "portuguese": "Aceita cartão? Não tenho troco.",
+            "translation": "Do you accept card? I don't have change.",
+            "pronunciation": "ah-SAY-tah kar-TAH-oo / nah-oo TEN-yoo TROH-koo",
+            "highlight": ["Aceita cartão", "troco"]
+          }
+        ]
+      },
+      {
+        "type": "tips",
+        "heading": "Common Mistakes & Tips",
+        "items": [
+          "Never say 'mais bom' or 'mais mau' — use 'melhor' (better) and 'pior' (worse) always.",
+          "Remember gender with hundreds: 'duzentas pessoas' (200 people, feminine) vs 'duzentos euros' (200 euros, masculine).",
+          "Use 'cem' for exactly 100, but 'cento' when followed by more digits: 'cento e cinco' (105).",
+          "IR + infinitive is used for near future: 'Vou comprar' means 'I'm going to buy', not 'I go to buy'.",
+          "In shops, 'Queria...' (I would like...) is more polite than 'Quero...' (I want...) — use it when asking for something."
+        ]
+      }
+    ],
+    "exercises": [
+      {
+        "type": "multiple-choice",
+        "title": "Comparatives",
+        "instructions": "Choose the correct comparative form.",
+        "items": [
+          {
+            "question": "Este telemóvel é __ do que aquele. (bom)",
+            "options": ["mais bom", "melhor", "mais bem", "bom mais"],
+            "correct": 1,
+            "explanation": "'Melhor' is the irregular comparative of 'bom'. NEVER say 'mais bom' — it is incorrect in Portuguese."
+          },
+          {
+            "question": "Aquela loja é __ esta. (barato — comparação de igualdade)",
+            "options": ["mais barata que", "tão barata como", "menos barata do que", "barata como"],
+            "correct": 1,
+            "explanation": "For equal comparisons, use 'tão + adjective + como': 'tão barata como' (as cheap as)."
+          },
+          {
+            "question": "O supermercado é __ do que a boutique. (caro)",
+            "options": ["menos caro", "mais caro", "tão caro", "caro menos"],
+            "correct": 0,
+            "explanation": "The supermarket is typically less expensive than a boutique: 'menos caro do que' (less expensive than)."
+          },
+          {
+            "question": "Qual é o número correto? 'Custou __ euros.'",
+            "options": ["duzentos e cinquenta", "duzentas e cinquenta", "duzcentos e cinquenta", "dozentos e cinquenta"],
+            "correct": 0,
+            "explanation": "'Euros' is masculine, so use 'duzentos' (masculine). 'Duzentos e cinquenta euros' = 250 euros."
+          }
+        ]
+      },
+      {
+        "type": "fill-in-blank",
+        "title": "Shopping Vocabulary",
+        "instructions": "Complete each sentence with the correct word.",
+        "items": [
+          {
+            "sentence": "— __ custa este casaco? — Custa trezentos euros.",
+            "answer": "Quanto",
+            "fullAnswer": "Quanto custa este casaco?",
+            "hint": "How much...?"
+          },
+          {
+            "sentence": "Vou __ um presente para o João amanhã.",
+            "answer": "comprar",
+            "fullAnswer": "Vou comprar um presente para o João amanhã.",
+            "hint": "IR + infinitive for near future"
+          },
+          {
+            "sentence": "Este modelo é mais __ do que aquele — só custa 50 euros.",
+            "answer": "barato",
+            "fullAnswer": "Este modelo é mais barato do que aquele — só custa 50 euros.",
+            "hint": "cheap (masculine)"
+          },
+          {
+            "sentence": "Posso pagar com __? Não tenho dinheiro.",
+            "answer": "cartão",
+            "fullAnswer": "Posso pagar com cartão?",
+            "hint": "card"
+          }
+        ]
+      },
+      {
+        "type": "sentence-builder",
+        "title": "Build Shopping Sentences",
+        "instructions": "Click the correct word to complete each sentence.",
+        "items": [
+          {
+            "sentence": "Esta televisão é ___ do que aquela.",
+            "blank": "melhor",
+            "wordBank": ["melhor", "mais bom", "bom mais", "muito bom"],
+            "hint": "Irregular comparative of 'bom'"
+          },
+          {
+            "sentence": "Amanhã ___ ao mercado comprar legumes.",
+            "blank": "vou",
+            "wordBank": ["vou", "vais", "vai", "fui"],
+            "hint": "Near future, first person singular"
+          },
+          {
+            "sentence": "Quanto ___ este casaco?",
+            "blank": "custa",
+            "wordBank": ["custa", "vale", "tem", "é"],
+            "hint": "Verb meaning 'costs'"
+          }
+        ]
+      }
+    ]
+  }
+}

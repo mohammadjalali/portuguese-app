@@ -1,0 +1,406 @@
+{
+  "id": 19,
+  "title": "O Passado — Verbos Regulares",
+  "subtitle": "Past Tense, Travel & Personal Experiences",
+  "color": "#4A148C",
+  "accent": "#AB47BC",
+  "icon": "✈️",
+  "description": "Learn to talk about past events, holidays, and travel experiences using the Pretérito Perfeito of regular verbs.",
+  "topics": ["Past events and experiences", "Travel and holidays", "Pretérito Perfeito (regular verbs)", "Adverbs JÁ/AINDA/NUNCA", "Describing completed actions"],
+  "vocabulary": [
+    {
+      "word": "viajar",
+      "translation": "to travel",
+      "pronunciation": "vee-ah-ZHAR",
+      "ipa": "/viɐˈʒaɾ/",
+      "example": "No verão passado, viajei pela Europa.",
+      "exampleTranslation": "Last summer, I travelled through Europe.",
+      "category": "travel",
+      "tip": "Regular -ar verb. Past: viajei, viajaste, viajou, viajámos, viajaram. 'Uma viagem' = a trip/journey."
+    },
+    {
+      "word": "a viagem",
+      "translation": "trip / journey",
+      "pronunciation": "ah vee-AH-zhehm",
+      "ipa": "/ɐ viˈaʒẽj/",
+      "example": "A viagem a Lisboa foi incrível!",
+      "exampleTranslation": "The trip to Lisbon was incredible!",
+      "category": "travel",
+      "tip": "Plural: 'as viagens'. 'Fazer uma viagem' = to take a trip. 'Boa viagem!' = Have a good trip!"
+    },
+    {
+      "word": "o aeroporto",
+      "translation": "airport",
+      "pronunciation": "oh ah-eh-roh-POR-too",
+      "ipa": "/u ɐɨɾuˈpɔɾtu/",
+      "example": "Cheguei ao aeroporto com duas horas de antecedência.",
+      "exampleTranslation": "I arrived at the airport two hours early.",
+      "category": "travel",
+      "tip": "'O aeroporto de Lisboa' = Humberto Delgado Airport. 'Fazer o check-in' = to check in."
+    },
+    {
+      "word": "o hotel",
+      "translation": "hotel",
+      "pronunciation": "oh oh-TEL",
+      "ipa": "/u oˈtɛl/",
+      "example": "Fiquei num hotel perto do centro histórico.",
+      "exampleTranslation": "I stayed in a hotel near the historic centre.",
+      "category": "travel",
+      "tip": "'Ficar num hotel' = to stay in a hotel. 'Um hotel de quatro estrelas' = a four-star hotel. 'A pensão' = B&B/guesthouse."
+    },
+    {
+      "word": "a praia",
+      "translation": "beach",
+      "pronunciation": "ah PRY-ah",
+      "ipa": "/ɐ ˈpɾajɐ/",
+      "example": "Fui à praia todos os dias nas férias.",
+      "exampleTranslation": "I went to the beach every day on holiday.",
+      "category": "travel",
+      "tip": "Portugal has some of Europe's best beaches. 'Apanhar sol na praia' = to sunbathe on the beach. 'Tomar banho' = to swim."
+    },
+    {
+      "word": "as férias",
+      "translation": "holiday / vacation",
+      "pronunciation": "ash FEH-ree-ash",
+      "ipa": "/ɐʃ ˈfɛɾiɐʃ/",
+      "example": "Nas últimas férias, visitei o Porto e o Algarve.",
+      "exampleTranslation": "On my last holiday, I visited Porto and the Algarve.",
+      "category": "travel",
+      "tip": "Always plural in Portuguese: 'as férias' (the holiday). 'Tirar férias' = to take holidays. 'Estar de férias' = to be on holiday."
+    },
+    {
+      "word": "visitar",
+      "translation": "to visit",
+      "pronunciation": "vee-zee-TAR",
+      "ipa": "/viziˈtaɾ/",
+      "example": "Visitei o Museu dos Azulejos em Lisboa.",
+      "exampleTranslation": "I visited the Azulejo Museum in Lisbon.",
+      "category": "verbs",
+      "tip": "Regular -ar verb. Past: visitei, visitaste, visitou, visitámos, visitaram."
+    },
+    {
+      "word": "conhecer",
+      "translation": "to meet / to get to know",
+      "pronunciation": "koo-nyeh-SEHR",
+      "ipa": "/kuɲɨˈseɾ/",
+      "example": "Conheci pessoas fantásticas durante a viagem.",
+      "exampleTranslation": "I met fantastic people during the trip.",
+      "category": "verbs",
+      "tip": "Regular -er verb (for past tense purposes). Past: conheci, conheceste, conheceu, conhecemos, conheceram."
+    },
+    {
+      "word": "já",
+      "translation": "already / yet",
+      "pronunciation": "zhah",
+      "ipa": "/ˈʒa/",
+      "example": "Já visitaste Lisboa? É uma cidade maravilhosa!",
+      "exampleTranslation": "Have you already visited Lisbon? It's a wonderful city!",
+      "category": "adverbs",
+      "tip": "'Já' = already (affirmative) or yet (in questions). 'Já fui' (I've already gone). 'Já foste?' (Have you been yet?)"
+    },
+    {
+      "word": "ainda",
+      "translation": "still / yet",
+      "pronunciation": "ah-EEN-dah",
+      "ipa": "/ɐˈĩdɐ/",
+      "example": "Ainda não visitei o Norte de Portugal.",
+      "exampleTranslation": "I still haven't visited the North of Portugal.",
+      "category": "adverbs",
+      "tip": "'Ainda' = still (ongoing) or 'ainda não' = not yet. 'Ainda bem!' = Thank goodness! / Good thing!"
+    },
+    {
+      "word": "nunca",
+      "translation": "never",
+      "pronunciation": "NOON-kah",
+      "ipa": "/ˈnũkɐ/",
+      "example": "Nunca provei bacalhau à Brás — quero experimentar.",
+      "exampleTranslation": "I've never tried bacalhau à Brás — I want to try it.",
+      "category": "adverbs",
+      "tip": "'Nunca' = never. 'Nunca fui' (I never went). With 'não': 'Não fui nunca' = I never went. Both are correct."
+    },
+    {
+      "word": "ontem",
+      "translation": "yesterday",
+      "pronunciation": "ON-tehm",
+      "ipa": "/ˈõtẽj/",
+      "example": "Ontem comi um prato delicioso num restaurante local.",
+      "exampleTranslation": "Yesterday I ate a delicious dish at a local restaurant.",
+      "category": "time",
+      "tip": "'Ontem' = yesterday. 'Anteontem' = the day before yesterday. 'Ontem à tarde/noite' = yesterday afternoon/evening."
+    },
+    {
+      "word": "a semana passada",
+      "translation": "last week",
+      "pronunciation": "ah seh-MAH-nah pah-SAH-dah",
+      "ipa": "/ɐ sɨˈmɐnɐ pɐˈsadɐ/",
+      "example": "A semana passada fui ao cinema com a minha turma.",
+      "exampleTranslation": "Last week I went to the cinema with my class.",
+      "category": "time",
+      "tip": "'A semana passada' = last week. 'O mês passado' = last month. 'O ano passado' = last year."
+    },
+    {
+      "word": "no verão passado",
+      "translation": "last summer",
+      "pronunciation": "noo veh-RAH-oo pah-SAH-doo",
+      "ipa": "/nu vɨˈɾɐ̃w̃ pɐˈsadu/",
+      "example": "No verão passado, passei duas semanas no Algarve.",
+      "exampleTranslation": "Last summer, I spent two weeks in the Algarve.",
+      "category": "time",
+      "tip": "'Passado/a' after a time word = last: 'o ano passado', 'o mês passado', 'a semana passada'."
+    },
+    {
+      "word": "comer",
+      "translation": "to eat",
+      "pronunciation": "koh-MEHR",
+      "ipa": "/kuˈmeɾ/",
+      "example": "Comemos muito bem em Portugal — a comida é deliciosa!",
+      "exampleTranslation": "We ate very well in Portugal — the food is delicious!",
+      "category": "verbs",
+      "tip": "Regular -er verb. Past: comi, comeste, comeu, comemos, comeram. 'Comer fora' = to eat out."
+    },
+    {
+      "word": "beber",
+      "translation": "to drink",
+      "pronunciation": "beh-BEHR",
+      "ipa": "/bɨˈbeɾ/",
+      "example": "Bebi vinho verde no Porto — é delicioso.",
+      "exampleTranslation": "I drank green wine in Porto — it's delicious.",
+      "category": "verbs",
+      "tip": "Regular -er verb. Past: bebi, bebeste, bebeu, bebemos, beberam. 'Vinho verde' = young wine from northern Portugal."
+    },
+    {
+      "word": "partir",
+      "translation": "to leave / to depart",
+      "pronunciation": "par-TEER",
+      "ipa": "/pɐɾˈtiɾ/",
+      "example": "Partimos de madrugada para apanhar o avião.",
+      "exampleTranslation": "We left at dawn to catch the plane.",
+      "category": "verbs",
+      "tip": "Regular -ir verb. Past: parti, partiste, partiu, partimos, partiram. 'Partir' also means 'to break (something)'."
+    },
+    {
+      "word": "dormir",
+      "translation": "to sleep",
+      "pronunciation": "dor-MEER",
+      "ipa": "/duɾˈmiɾ/",
+      "example": "Dormi muito bem no hotel — a cama era ótima.",
+      "exampleTranslation": "I slept very well in the hotel — the bed was great.",
+      "category": "verbs",
+      "tip": "Irregular present (durmo, dormes...) but regular in past tense: dormi, dormiste, dormiu, dormimos, dormiram."
+    },
+    {
+      "word": "a experiência",
+      "translation": "experience",
+      "pronunciation": "ah esh-peh-ree-EN-see-ah",
+      "ipa": "/ɐ ɨʃpɨˈɾiẽsiɐ/",
+      "example": "Viver em Portugal foi uma experiência incrível.",
+      "exampleTranslation": "Living in Portugal was an incredible experience.",
+      "category": "travel",
+      "tip": "'Ter experiência' = to have experience. 'Uma experiência de vida' = a life experience."
+    },
+    {
+      "word": "a recordação",
+      "translation": "memory / souvenir",
+      "pronunciation": "ah reh-kor-dah-SAH-oo",
+      "ipa": "/ɐ ʁɨkuɾdɐˈsɐ̃w̃/",
+      "example": "Trouxe uma recordação de Lisboa para a minha família.",
+      "exampleTranslation": "I brought a souvenir from Lisbon for my family.",
+      "category": "travel",
+      "tip": "'Recordação' = a memory (mental) or a souvenir (physical). 'Guardar uma recordação' = to keep a memory."
+    },
+    {
+      "word": "adorar",
+      "translation": "to love / to adore",
+      "pronunciation": "ah-doh-RAR",
+      "ipa": "/ɐduˈɾaɾ/",
+      "example": "Adorei Lisboa — vou voltar com certeza!",
+      "exampleTranslation": "I loved Lisbon — I will definitely come back!",
+      "category": "verbs",
+      "tip": "Regular -ar verb. 'Adorei' = I loved it (stronger than 'gostei'). 'Adoro + infinitive' = I love doing..."
+    }
+  ],
+  "grammar": {
+    "title": "Pretérito Perfeito — Past Tense of Regular Verbs",
+    "sections": [
+      {
+        "type": "explanation",
+        "heading": "What Is the Pretérito Perfeito?",
+        "body": "The Pretérito Perfeito Simples (Simple Past) is the main past tense in Portuguese for completed actions. Use it when: (1) An action is COMPLETED and happened at a specific time in the past: 'Ontem comi pizza.' (Yesterday I ate pizza.) (2) An action happened a specific number of times: 'Fui a Portugal três vezes.' (I went to Portugal three times.) (3) A series of completed events: 'Acordei, tomei o pequeno-almoço e saí.' (I woke up, had breakfast, and left.) This is the most important past tense to learn first!"
+      },
+      {
+        "type": "table",
+        "heading": "Pretérito Perfeito — Regular -AR Verbs (FALAR)",
+        "columns": ["Subject", "Ending", "Falar (to speak)", "English"],
+        "rows": [
+          ["eu", "-ei", "falei", "I spoke"],
+          ["tu", "-aste", "falaste", "you spoke"],
+          ["ele/ela/você", "-ou", "falou", "he/she/you spoke"],
+          ["nós", "-ámos", "falámos", "we spoke"],
+          ["eles/vocês", "-aram", "falaram", "they/you all spoke"]
+        ],
+        "caption": "Other -AR verbs: comprei (bought), viajei (travelled), visitei (visited), adorei (loved)"
+      },
+      {
+        "type": "table",
+        "heading": "Pretérito Perfeito — Regular -ER Verbs (COMER)",
+        "columns": ["Subject", "Ending", "Comer (to eat)", "English"],
+        "rows": [
+          ["eu", "-i", "comi", "I ate"],
+          ["tu", "-este", "comeste", "you ate"],
+          ["ele/ela/você", "-eu", "comeu", "he/she/you ate"],
+          ["nós", "-emos", "comemos", "we ate"],
+          ["eles/vocês", "-eram", "comeram", "they/you all ate"]
+        ],
+        "caption": "Other -ER verbs: bebi (drank), conheci (met), percebi (understood), vendi (sold)"
+      },
+      {
+        "type": "table",
+        "heading": "Pretérito Perfeito — Regular -IR Verbs (PARTIR)",
+        "columns": ["Subject", "Ending", "Partir (to leave)", "English"],
+        "rows": [
+          ["eu", "-i", "parti", "I left"],
+          ["tu", "-iste", "partiste", "you left"],
+          ["ele/ela/você", "-iu", "partiu", "he/she/you left"],
+          ["nós", "-imos", "partimos", "we left"],
+          ["eles/vocês", "-iram", "partiram", "they/you all left"]
+        ],
+        "caption": "Other -IR verbs: dormi (slept), abri (opened), decidi (decided), ouvi (heard)"
+      },
+      {
+        "type": "explanation",
+        "heading": "JÁ, AINDA (NÃO), and NUNCA with the Past Tense",
+        "body": "These three adverbs are essential for discussing past experiences: (1) JÁ = already (affirmative) or yet (questions): 'Já visitei Paris.' (I've already visited Paris.) 'Já foste a Lisboa?' (Have you been to Lisbon yet?) (2) AINDA NÃO = not yet: 'Ainda não comi bacalhau.' (I haven't eaten bacalhau yet.) (3) NUNCA = never: 'Nunca bebi vinho verde.' (I've never drunk green wine.) These adverbs tell us about whether an experience has or hasn't happened yet."
+      },
+      {
+        "type": "examples",
+        "heading": "Talking About Past Experiences",
+        "items": [
+          {
+            "portuguese": "No verão passado, viajei a Portugal e adorei!",
+            "translation": "Last summer, I travelled to Portugal and loved it!",
+            "pronunciation": "noo veh-RAH-oo pah-SAH-doo vee-ah-ZHAY ah...",
+            "highlight": ["viajei", "adorei"]
+          },
+          {
+            "portuguese": "Já visitaste o Museu do Azulejo? É fantástico.",
+            "translation": "Have you already visited the Azulejo Museum? It's fantastic.",
+            "pronunciation": "ZHAH vee-zee-TASH-teh oh moo-ZAY-oo...",
+            "highlight": ["Já visitaste"]
+          },
+          {
+            "portuguese": "Nunca comi tão bem como em Lisboa — a comida é incrível.",
+            "translation": "I've never eaten so well as in Lisbon — the food is incredible.",
+            "pronunciation": "NOON-kah koh-MEE tah-oo bem KOH-moo ehm...",
+            "highlight": ["Nunca comi"]
+          },
+          {
+            "portuguese": "Ainda não fui ao Porto — quero ir no próximo inverno.",
+            "translation": "I still haven't been to Porto — I want to go next winter.",
+            "pronunciation": "ah-EEN-dah nah-oo fwee ah-oo POR-too...",
+            "highlight": ["Ainda não fui"]
+          }
+        ]
+      },
+      {
+        "type": "tips",
+        "heading": "Common Mistakes & Tips",
+        "items": [
+          "Key distinction: -AR verbs → 'eu falei' (not 'falé'). The stressed syllable shifts: 'falar' → 'falámos', 'falaram'.",
+          "Don't confuse 'nós falámos' (we spoke — past) with 'nós falamos' (we speak — present). In EP, only the accent mark distinguishes them!",
+          "Use time markers to make it clear you're in the past: 'ontem', 'a semana passada', 'no verão passado', 'em 2023'.",
+          "'Já' in questions means 'yet': 'Já comeste?' (Have you eaten yet?). In statements, it means 'already': 'Já comi' (I've already eaten).",
+          "'Ainda não' = not yet. Don't say 'não ainda' — the correct order is 'ainda não'."
+        ]
+      }
+    ],
+    "exercises": [
+      {
+        "type": "multiple-choice",
+        "title": "Conjugate in the Past Tense",
+        "instructions": "Choose the correct Pretérito Perfeito form.",
+        "items": [
+          {
+            "question": "Ontem eu __ muito bem. (dormir)",
+            "options": ["dormiu", "dormi", "dormiste", "dormimos"],
+            "correct": 1,
+            "explanation": "'Dormi' is the first person singular (eu) past tense of DORMIR (-IR verb): dormi, dormiste, dormiu, dormimos, dormiram."
+          },
+          {
+            "question": "A Ana __ um livro interessante. (ler → regular past)",
+            "options": ["leu", "lei", "leste", "lemos"],
+            "correct": 0,
+            "explanation": "'Leu' is the third person singular (ela) past tense of LER: li, leste, leu, lemos, leram."
+          },
+          {
+            "question": "Nós __ o pequeno-almoço às 8h. (tomar)",
+            "options": ["tomamos", "tomámos", "tomaram", "tomastes"],
+            "correct": 1,
+            "explanation": "'Tomámos' (with accent) = we took (past tense). 'Tomamos' (no accent) = we take (present). The accent is key!"
+          },
+          {
+            "question": "__ visitado Paris? (já — present perfect question)",
+            "options": ["Nunca", "Ainda não", "Já", "Sempre"],
+            "correct": 2,
+            "explanation": "'Já' in a question = 'yet/already': 'Já visitaste Paris?' (Have you visited Paris yet?)"
+          }
+        ]
+      },
+      {
+        "type": "fill-in-blank",
+        "title": "Past Travel Experiences",
+        "instructions": "Complete with the correct past tense form.",
+        "items": [
+          {
+            "sentence": "Nas últimas férias, __ (viajar, eu) pelo Algarve.",
+            "answer": "viajei",
+            "fullAnswer": "Nas últimas férias, viajei pelo Algarve.",
+            "hint": "regular -AR verb, 1st person singular past"
+          },
+          {
+            "sentence": "Ainda não __ (visitar, eu) o Porto — quero ir em breve.",
+            "answer": "visitei",
+            "fullAnswer": "Ainda não visitei o Porto.",
+            "hint": "regular -AR verb, 1st person singular past (after 'não')"
+          },
+          {
+            "sentence": "Eles __ muito bem no restaurante. (comer)",
+            "answer": "comeram",
+            "fullAnswer": "Eles comeram muito bem no restaurante.",
+            "hint": "regular -ER verb, 3rd person plural past"
+          },
+          {
+            "sentence": "Nunca __ numa pousada histórica. (dormir, eu)",
+            "answer": "dormi",
+            "fullAnswer": "Nunca dormi numa pousada histórica.",
+            "hint": "regular -IR verb, 1st person singular past"
+          }
+        ]
+      },
+      {
+        "type": "sentence-builder",
+        "title": "Past Tense Sentences",
+        "instructions": "Click the correct word to complete each sentence.",
+        "items": [
+          {
+            "sentence": "No verão passado, ___ a Portugal com a minha família.",
+            "blank": "viajei",
+            "wordBank": ["viajei", "viajo", "viajar", "viajava"],
+            "hint": "past tense, 1st person singular of VIAJAR"
+          },
+          {
+            "sentence": "___ visitei Lisboa — foi incrível!",
+            "blank": "Já",
+            "wordBank": ["Já", "Nunca", "Ainda", "Sempre"],
+            "hint": "adverb meaning 'already' (affirmative)"
+          },
+          {
+            "sentence": "___ fui ao Porto — quero ir em breve.",
+            "blank": "Ainda não",
+            "wordBank": ["Ainda não", "Já", "Nunca", "Sempre"],
+            "hint": "not yet"
+          }
+        ]
+      }
+    ]
+  }
+}

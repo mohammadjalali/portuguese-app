@@ -1,0 +1,426 @@
+{
+  "id": 13,
+  "title": "A Roupa e a Moda",
+  "subtitle": "Clothing, Fashion & Connectors",
+  "color": "#7B2D8B",
+  "accent": "#CE93D8",
+  "icon": "👗",
+  "description": "Learn clothing vocabulary, describe outfits, express how long things have been happening with HÁ/DESDE, and connect ideas with conjunctions.",
+  "topics": ["Clothing and accessories", "Describing outfits", "Temporal expressions HÁ/DESDE", "Indirect object pronouns", "Connectors quando/porque/mas/e"],
+  "vocabulary": [
+    {
+      "word": "a roupa",
+      "translation": "clothes / clothing",
+      "pronunciation": "ah ROH-pah",
+      "ipa": "/ɐ ˈʁopɐ/",
+      "example": "Preciso de comprar roupa nova para o verão.",
+      "exampleTranslation": "I need to buy new clothes for summer.",
+      "category": "clothing",
+      "tip": "Collective noun — always singular: 'a roupa' (clothing). For individual items, use specific words: 'a camisola', 'as calças'."
+    },
+    {
+      "word": "a camisola",
+      "translation": "jumper / sweater / T-shirt",
+      "pronunciation": "ah kah-mee-ZOH-lah",
+      "ipa": "/ɐ kɐmiˈzɔlɐ/",
+      "example": "Esta camisola azul fica-te muito bem.",
+      "exampleTranslation": "This blue jumper suits you very well.",
+      "category": "clothing",
+      "tip": "In EP, 'camisola' = sweater/jumper/T-shirt. 'A camisa' = dress shirt (button-up). Don't confuse them!"
+    },
+    {
+      "word": "as calças",
+      "translation": "trousers / pants",
+      "pronunciation": "ash KAL-sash",
+      "ipa": "/ɐʃ ˈkaɫsɐʃ/",
+      "example": "Estas calças pretas são muito elegantes.",
+      "exampleTranslation": "These black trousers are very elegant.",
+      "category": "clothing",
+      "tip": "Always plural in Portuguese: 'as calças' (the trousers). 'Calças de ganga' = jeans. 'Um par de calças' = a pair of trousers."
+    },
+    {
+      "word": "o vestido",
+      "translation": "dress",
+      "pronunciation": "oh vesh-TEE-doo",
+      "ipa": "/u vɨʃˈtidu/",
+      "example": "A Sofia usa um vestido vermelho na festa.",
+      "exampleTranslation": "Sofia wears a red dress at the party.",
+      "category": "clothing",
+      "tip": "'Vestido de noite' = evening dress, 'vestido de verão' = summer dress. The verb 'vestir' = to dress/wear."
+    },
+    {
+      "word": "a saia",
+      "translation": "skirt",
+      "pronunciation": "ah SY-ah",
+      "ipa": "/ɐ ˈsajɐ/",
+      "example": "Prefiro saias a calças no verão.",
+      "exampleTranslation": "I prefer skirts to trousers in summer.",
+      "category": "clothing",
+      "tip": "'Saia curta' = short skirt, 'saia comprida' = long skirt. 'Uma saia plissada' = a pleated skirt."
+    },
+    {
+      "word": "os sapatos",
+      "translation": "shoes",
+      "pronunciation": "oosh sah-PAH-toosh",
+      "ipa": "/uʃ sɐˈpatuʃ/",
+      "example": "Estes sapatos são muito confortáveis para caminhar.",
+      "exampleTranslation": "These shoes are very comfortable for walking.",
+      "category": "clothing",
+      "tip": "Always plural. 'Um par de sapatos' (a pair of shoes). 'Sapatos de salto alto' = high heels. 'Sapatos rasos' = flat shoes."
+    },
+    {
+      "word": "as botas",
+      "translation": "boots",
+      "pronunciation": "ash BOH-tash",
+      "ipa": "/ɐʃ ˈbotɐʃ/",
+      "example": "No inverno uso sempre as minhas botas castanhas.",
+      "exampleTranslation": "In winter I always wear my brown boots.",
+      "category": "clothing",
+      "tip": "'Botas de chuva' = rain boots/wellies. 'Botas de montanha' = hiking boots."
+    },
+    {
+      "word": "o casaco",
+      "translation": "coat / jacket",
+      "pronunciation": "oh kah-ZAH-koo",
+      "ipa": "/u kɐˈzaku/",
+      "example": "Não te esqueças do casaco — está frio.",
+      "exampleTranslation": "Don't forget your coat — it's cold.",
+      "category": "clothing",
+      "tip": "'Casaco de malha' = cardigan/knit jacket. 'Casaco de chuva' = rain jacket. 'Sobretudo' = overcoat."
+    },
+    {
+      "word": "o chapéu",
+      "translation": "hat",
+      "pronunciation": "oh shah-PAY-oo",
+      "ipa": "/u ʃɐˈpɛw/",
+      "example": "Usa um chapéu quando está muito sol.",
+      "exampleTranslation": "Wear a hat when it's very sunny.",
+      "category": "accessories",
+      "tip": "'Chapéu de sol' = sun hat. 'Boné' = baseball cap. 'Gorro' = beanie/woollen hat."
+    },
+    {
+      "word": "o cachecol",
+      "translation": "scarf",
+      "pronunciation": "oh kah-sheh-KOL",
+      "ipa": "/u kaʃɨˈkɔl/",
+      "example": "No inverno uso cachecol e luvas quando saio.",
+      "exampleTranslation": "In winter I wear a scarf and gloves when I go out.",
+      "category": "accessories",
+      "tip": "'Cachecol' = scarf (long, wrapped). 'Lenço' = handkerchief or small neck scarf."
+    },
+    {
+      "word": "as luvas",
+      "translation": "gloves",
+      "pronunciation": "ash LOO-vash",
+      "ipa": "/ɐʃ ˈluvɐʃ/",
+      "example": "Esqueci as luvas em casa e tenho as mãos frias.",
+      "exampleTranslation": "I forgot my gloves at home and my hands are cold.",
+      "category": "accessories",
+      "tip": "Always plural. 'Um par de luvas' = a pair of gloves. 'Luvas de lã' = wool gloves."
+    },
+    {
+      "word": "usar / vestir",
+      "translation": "to wear / to put on (clothing)",
+      "pronunciation": "oo-ZAR / vesh-TEER",
+      "ipa": "/uˈzaɾ/ / /vɨʃˈtiɾ/",
+      "example": "Hoje vou usar um vestido azul. Visto sempre roupa confortável.",
+      "exampleTranslation": "Today I'm going to wear a blue dress. I always wear comfortable clothes.",
+      "category": "verbs",
+      "tip": "'Usar' = to wear (habitually/generally). 'Vestir' = to put on clothing (action). Both are common in EP."
+    },
+    {
+      "word": "ficar bem / ficar mal",
+      "translation": "to suit / to not suit",
+      "pronunciation": "fee-KAR bem / fee-KAR mal",
+      "ipa": "/fikˈaɾ ˈbẽj/ / /fikˈaɾ ˈmal/",
+      "example": "Essa cor fica-te muito bem!",
+      "exampleTranslation": "That colour suits you very well!",
+      "category": "verbs",
+      "tip": "'Ficar bem/mal' with indirect object pronoun: 'fica-me bem' (it suits me), 'fica-te bem' (it suits you)."
+    },
+    {
+      "word": "a cor",
+      "translation": "colour",
+      "pronunciation": "ah kor",
+      "ipa": "/ɐ ˈkoɾ/",
+      "example": "Qual é a tua cor favorita para roupa?",
+      "exampleTranslation": "What is your favourite colour for clothing?",
+      "category": "clothing",
+      "tip": "Colours agree with nouns: 'um vestido vermelho' (m), 'uma camisa vermelha' (f). Exception: 'rosa, laranja, azul-marinho' are invariable."
+    },
+    {
+      "word": "o tamanho",
+      "translation": "size",
+      "pronunciation": "oh tah-MAH-nyoo",
+      "ipa": "/u tɐˈmɐɲu/",
+      "example": "Tem este casaco em tamanho médio?",
+      "exampleTranslation": "Do you have this coat in medium size?",
+      "category": "shopping",
+      "tip": "Sizes: 'pequeno' (small/S), 'médio' (medium/M), 'grande' (large/L), 'extra grande' (XL)."
+    },
+    {
+      "word": "experimentar",
+      "translation": "to try on",
+      "pronunciation": "esh-peh-ree-men-TAR",
+      "ipa": "/ɨʃpɨɾimẽˈtaɾ/",
+      "example": "Posso experimentar este vestido?",
+      "exampleTranslation": "Can I try on this dress?",
+      "category": "verbs",
+      "tip": "Regular -ar verb. 'O/A provador/a' = changing room/fitting room. 'Caber' = to fit (in size)."
+    },
+    {
+      "word": "há",
+      "translation": "for (time ago / duration)",
+      "pronunciation": "ah",
+      "ipa": "/ˈa/",
+      "example": "Moro em Lisboa há dois anos.",
+      "exampleTranslation": "I have been living in Lisbon for two years.",
+      "category": "grammar",
+      "tip": "'Há + time' expresses duration up to now: 'Estudo português há seis meses' = I've been studying Portuguese for 6 months."
+    },
+    {
+      "word": "desde",
+      "translation": "since (a point in time)",
+      "pronunciation": "DEZH-deh",
+      "ipa": "/ˈdeʒdɨ/",
+      "example": "Trabalho aqui desde janeiro.",
+      "exampleTranslation": "I have been working here since January.",
+      "category": "grammar",
+      "tip": "'Desde' + specific point: 'desde segunda-feira' (since Monday), 'desde 2020'. Contrast with 'há' + duration: 'há três dias' (for three days)."
+    },
+    {
+      "word": "quando",
+      "translation": "when",
+      "pronunciation": "KWAHN-doo",
+      "ipa": "/ˈkwɐ̃du/",
+      "example": "Quando está frio, uso sempre um casaco.",
+      "exampleTranslation": "When it's cold, I always wear a coat.",
+      "category": "connectors",
+      "tip": "'Quando' introduces a time clause. Also used as a question word: 'Quando chegaste?' (When did you arrive?)"
+    },
+    {
+      "word": "porque",
+      "translation": "because",
+      "pronunciation": "por-KEH",
+      "ipa": "/puɾˈkɨ/",
+      "example": "Gosto desta loja porque tem preços bons.",
+      "exampleTranslation": "I like this shop because it has good prices.",
+      "category": "connectors",
+      "tip": "'Porque' (one word, unstressed) = because. 'Por quê?' / 'Porquê?' = why? (question). Don't confuse them!"
+    },
+    {
+      "word": "mas",
+      "translation": "but",
+      "pronunciation": "mash",
+      "ipa": "/ˈmaʃ/",
+      "example": "Gosto deste vestido, mas é muito caro.",
+      "exampleTranslation": "I like this dress, but it's very expensive.",
+      "category": "connectors",
+      "tip": "'Mas' = but (contrasting ideas). 'Porém' and 'contudo' are more formal alternatives."
+    },
+    {
+      "word": "e",
+      "translation": "and",
+      "pronunciation": "ee",
+      "ipa": "/ˈi/",
+      "example": "Vou comprar umas calças e uma camisola.",
+      "exampleTranslation": "I'm going to buy some trousers and a jumper.",
+      "category": "connectors",
+      "tip": "'E' = and. Before words starting with 'e' sound, it can change to 'é': rare. Very common connector in everyday speech."
+    },
+    {
+      "word": "me / te / lhe",
+      "translation": "to me / to you / to him/her",
+      "pronunciation": "meh / teh / lyeh",
+      "ipa": "/mɨ/ / /tɨ/ / /ʎɨ/",
+      "example": "Podes dar-me uma ajuda? Ela deu-lhe um presente.",
+      "exampleTranslation": "Can you give me a hand? She gave him/her a present.",
+      "category": "grammar",
+      "tip": "Indirect object pronouns come after the verb with a hyphen in EP: 'deu-me' (gave me), 'mostrou-te' (showed you)."
+    }
+  ],
+  "grammar": {
+    "title": "Clothing, Temporal Expressions & Connectors",
+    "sections": [
+      {
+        "type": "explanation",
+        "heading": "HÁ vs DESDE — Duration and Starting Point",
+        "body": "Two very useful time expressions in Portuguese: (1) 'HÁ + time period' expresses how long something has been happening (duration up to now): 'Moro em Portugal há dois anos.' (I have been living in Portugal for two years.) (2) 'DESDE + specific moment' expresses since when something has been happening: 'Moro em Portugal desde março.' (I have been living in Portugal since March.) The big difference: 'há' uses a time period (two years, three months), 'desde' uses a specific point (March, 2020, Monday)."
+      },
+      {
+        "type": "table",
+        "heading": "HÁ vs DESDE — Examples",
+        "columns": ["Expression", "Meaning", "Example"],
+        "rows": [
+          ["há + duration", "for (a period of time)", "Estudo aqui há seis meses. (I've studied here for 6 months.)"],
+          ["desde + moment", "since (a specific time)", "Estudo aqui desde setembro. (I've studied here since September.)"],
+          ["há quanto tempo?", "how long? (duration)", "Há quanto tempo estudas português?"],
+          ["desde quando?", "since when?", "Desde quando vives em Lisboa?"]
+        ]
+      },
+      {
+        "type": "explanation",
+        "heading": "Indirect Object Pronouns",
+        "body": "Indirect object pronouns tell us TO WHOM or FOR WHOM something is done. In European Portuguese, these pronouns typically come after the verb, joined with a hyphen: 'Ela deu-me um livro.' (She gave me a book.) 'Posso mostrar-te este vestido?' (Can I show you this dress?) The forms are: me (to me), te (to you/informal), lhe (to him/her/você), nos (to us), vos (to you all/formal), lhes (to them/vocês)."
+      },
+      {
+        "type": "table",
+        "heading": "Indirect Object Pronouns",
+        "columns": ["Pronoun", "Meaning", "Example"],
+        "rows": [
+          ["me", "to me", "Ela deu-me um presente. (She gave me a gift.)"],
+          ["te", "to you (informal)", "Vou mostrar-te algo especial. (I'll show you something special.)"],
+          ["lhe", "to him/her/você", "Comprei-lhe umas calças novas. (I bought him/her new trousers.)"],
+          ["nos", "to us", "O professor explicou-nos a gramática. (The teacher explained grammar to us.)"],
+          ["lhes", "to them/vocês", "Enviei-lhes uma mensagem. (I sent them a message.)"]
+        ]
+      },
+      {
+        "type": "explanation",
+        "heading": "Connectors — Building Complex Sentences",
+        "body": "Connectors link ideas together. The four key connectors at A1 level are: (1) 'e' (and) — adds information: 'Gosto de calças e saias.' (2) 'mas' (but) — contrasts information: 'É bonito mas é caro.' (3) 'porque' (because) — gives a reason: 'Comprei porque estava em promoção.' (4) 'quando' (when) — introduces a time condition: 'Quando está frio, uso um casaco.' Using these connectors will make your Portuguese sound much more natural."
+      },
+      {
+        "type": "table",
+        "heading": "The Four Key Connectors",
+        "columns": ["Connector", "Meaning", "Use", "Example"],
+        "rows": [
+          ["e", "and", "adds information", "Gosto de calças e de saias."],
+          ["mas", "but", "contrasts/concedes", "É bonito, mas é caro."],
+          ["porque", "because", "gives reason", "Comprei porque estava barato."],
+          ["quando", "when", "time condition", "Quando faz frio, uso casaco."]
+        ]
+      },
+      {
+        "type": "examples",
+        "heading": "Talking About Clothing",
+        "items": [
+          {
+            "portuguese": "Estudo português há três meses e já falo um pouco.",
+            "translation": "I've been studying Portuguese for three months and I already speak a little.",
+            "pronunciation": "esh-TOO-doh por-too-GAYSH ah trehsh MEH-zesh ee zhah FAH-loo oom POO-koo",
+            "highlight": ["há três meses", "e"]
+          },
+          {
+            "portuguese": "Gosto deste casaco, mas não tenho dinheiro suficiente.",
+            "translation": "I like this coat, but I don't have enough money.",
+            "pronunciation": "GOSH-too DEH-steh kah-ZAH-koo mash...",
+            "highlight": ["Gosto", "mas"]
+          },
+          {
+            "portuguese": "Moro em Portugal desde setembro porque gosto do clima.",
+            "translation": "I've been living in Portugal since September because I like the climate.",
+            "pronunciation": "MOH-roo ehm por-too-GAL DEZH-deh...",
+            "highlight": ["desde setembro", "porque"]
+          },
+          {
+            "portuguese": "Quando está frio, visto sempre um casaco e uso cachecol.",
+            "translation": "When it's cold, I always put on a coat and wear a scarf.",
+            "pronunciation": "KWAHN-doo esh-TAH FREE-oo VEESH-too...",
+            "highlight": ["Quando", "e"]
+          }
+        ]
+      },
+      {
+        "type": "tips",
+        "heading": "Common Mistakes & Tips",
+        "items": [
+          "HÁ vs DESDE: 'há dois anos' (for two years — duration) vs 'desde 2022' (since 2022 — starting point). Use 'há' with time periods, 'desde' with dates/moments.",
+          "In EP, indirect object pronouns follow the verb with a hyphen: 'deu-me', 'mostrou-te'. In questions or with negation, the pronoun can come before: 'Não me deu nada.'",
+          "'Porque' (because) vs 'Porquê?' (Why?): 'Não fui porque estava doente.' (I didn't go because I was ill.) 'Porquê?' (Why?)",
+          "Clothing is always discussed with the verb USAR (to wear/use): 'Uso calças' (I wear trousers), NOT 'Porto calças' (that's more literary).",
+          "Remember colour agreement: 'um casaco azul' (masculine), 'uma saia azul' (feminine) — but most colours agree: 'vermelho/vermelha', 'branco/branca'."
+        ]
+      }
+    ],
+    "exercises": [
+      {
+        "type": "multiple-choice",
+        "title": "HÁ or DESDE?",
+        "instructions": "Choose the correct temporal expression.",
+        "items": [
+          {
+            "question": "Moro em Lisboa __ dois anos.",
+            "options": ["desde", "há", "para", "de"],
+            "correct": 1,
+            "explanation": "'Há + time period' expresses duration: 'há dois anos' = for two years (up until now)."
+          },
+          {
+            "question": "Trabalho nesta empresa __ 2021.",
+            "options": ["há", "desde", "para", "em"],
+            "correct": 1,
+            "explanation": "'Desde + specific year/moment' = since: 'desde 2021' = since 2021."
+          },
+          {
+            "question": "__ quanto tempo estudas português?",
+            "options": ["Desde", "Há", "Para", "De"],
+            "correct": 1,
+            "explanation": "'Há quanto tempo?' = how long? (asking about duration). 'Desde quando?' = since when?"
+          },
+          {
+            "question": "Gosto deste vestido __ é muito caro.",
+            "options": ["e", "quando", "mas", "porque"],
+            "correct": 2,
+            "explanation": "'Mas' = but (contrast). 'I like this dress but it's very expensive' — contrasting two ideas."
+          }
+        ]
+      },
+      {
+        "type": "fill-in-blank",
+        "title": "Clothing and Connectors",
+        "instructions": "Complete each sentence with the correct word.",
+        "items": [
+          {
+            "sentence": "Estudo português __ seis meses.",
+            "answer": "há",
+            "fullAnswer": "Estudo português há seis meses.",
+            "hint": "duration (for six months)"
+          },
+          {
+            "sentence": "Posso experimentar __ vestido, por favor?",
+            "answer": "este",
+            "fullAnswer": "Posso experimentar este vestido, por favor?",
+            "hint": "demonstrative: this (masculine)"
+          },
+          {
+            "sentence": "Gosto de usar saias __ calças no verão.",
+            "answer": "e",
+            "fullAnswer": "Gosto de usar saias e calças no verão.",
+            "hint": "connector meaning 'and'"
+          },
+          {
+            "sentence": "Ela deu-__ um casaco azul de presente.",
+            "answer": "me",
+            "fullAnswer": "Ela deu-me um casaco azul de presente.",
+            "hint": "indirect object pronoun: to me"
+          }
+        ]
+      },
+      {
+        "type": "sentence-builder",
+        "title": "Build Sentences with Connectors",
+        "instructions": "Click the correct word to complete each sentence.",
+        "items": [
+          {
+            "sentence": "Não comprei o casaco ___ era muito caro.",
+            "blank": "porque",
+            "wordBank": ["porque", "mas", "quando", "e"],
+            "hint": "connector meaning 'because'"
+          },
+          {
+            "sentence": "Vivo em Portugal ___ 2023.",
+            "blank": "desde",
+            "wordBank": ["desde", "há", "para", "em"],
+            "hint": "since a specific year"
+          },
+          {
+            "sentence": "Quando está frio, ___ sempre um casaco.",
+            "blank": "uso",
+            "wordBank": ["uso", "visto", "tenho", "faço"],
+            "hint": "to wear (habitually)"
+          }
+        ]
+      }
+    ]
+  }
+}

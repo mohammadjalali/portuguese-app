@@ -1,0 +1,396 @@
+{
+  "id": 17,
+  "title": "Festas e Comunicação Escrita",
+  "subtitle": "Social Events, Invitations & Written Messages",
+  "color": "#E65100",
+  "accent": "#FFB74D",
+  "icon": "💌",
+  "description": "Learn to talk about parties and social events, write invitations and digital messages, and use TÃO/TANTO with indefinite pronouns.",
+  "topics": ["Social events and parties", "Writing invitations", "Digital messages (SMS)", "Indefinite pronouns", "TÃO/TANTO for intensity"],
+  "vocabulary": [
+    {
+      "word": "a festa de aniversário",
+      "translation": "birthday party",
+      "pronunciation": "ah FESH-tah deh ah-nee-vehr-SAH-ree-oo",
+      "ipa": "/ɐ ˈfɛʃtɐ dɨ ɐnivɨɾˈsaɾiu/",
+      "example": "Estou a organizar uma festa de aniversário para sábado.",
+      "exampleTranslation": "I'm organising a birthday party for Saturday.",
+      "category": "events",
+      "tip": "'Festa de aniversário' = birthday party. 'Aniversário' = birthday or anniversary. 'Parabéns!' = Happy Birthday!"
+    },
+    {
+      "word": "o convite",
+      "translation": "invitation",
+      "pronunciation": "oh kon-VEE-teh",
+      "ipa": "/u kõˈvitɨ/",
+      "example": "Recebi um convite para o casamento da Ana.",
+      "exampleTranslation": "I received an invitation to Ana's wedding.",
+      "category": "communication",
+      "tip": "'Enviar/mandar um convite' = to send an invitation. 'Aceitar/recusar um convite' = to accept/decline an invitation."
+    },
+    {
+      "word": "convidar",
+      "translation": "to invite",
+      "pronunciation": "kon-vee-DAR",
+      "ipa": "/kõviˈdaɾ/",
+      "example": "Vou convidar todos os meus colegas para a festa.",
+      "exampleTranslation": "I'm going to invite all my colleagues to the party.",
+      "category": "verbs",
+      "tip": "Regular -ar verb. 'Convidei, convidaste, convidou...' (past tense). 'O/A convidado/a' = guest."
+    },
+    {
+      "word": "a mensagem",
+      "translation": "message",
+      "pronunciation": "ah men-SAH-zhehm",
+      "ipa": "/ɐ mẽˈsaʒẽj/",
+      "example": "Enviei uma mensagem ao João a convidá-lo para jantar.",
+      "exampleTranslation": "I sent a message to João inviting him to dinner.",
+      "category": "communication",
+      "tip": "'SMS' is also commonly used: 'Envia-me um SMS.' Plural: 'as mensagens'. 'Deixar uma mensagem' = to leave a message."
+    },
+    {
+      "word": "o jantar",
+      "translation": "dinner",
+      "pronunciation": "oh zhahn-TAR",
+      "ipa": "/u ʒɐ̃ˈtaɾ/",
+      "example": "Podemos jantar juntos na sexta-feira?",
+      "exampleTranslation": "Can we have dinner together on Friday?",
+      "category": "events",
+      "tip": "'O jantar' = dinner (noun). 'Jantar' = to have dinner (verb). 'Jantar fora' = to dine out. 'Jantar em casa' = to have dinner at home."
+    },
+    {
+      "word": "o almoço",
+      "translation": "lunch",
+      "pronunciation": "oh al-MOH-soo",
+      "ipa": "/u alˈmosu/",
+      "example": "Vamos almoçar juntos no sábado?",
+      "exampleTranslation": "Shall we have lunch together on Saturday?",
+      "category": "events",
+      "tip": "'O almoço' = lunch (noun). 'Almoçar' = to have lunch (verb). 'O almoço de negócios' = business lunch."
+    },
+    {
+      "word": "o casamento",
+      "translation": "wedding",
+      "pronunciation": "oh kah-zah-MEN-too",
+      "ipa": "/u kazɐˈmẽtu/",
+      "example": "O casamento do Miguel e da Patrícia foi muito bonito.",
+      "exampleTranslation": "Miguel and Patrícia's wedding was very beautiful.",
+      "category": "events",
+      "tip": "'Casar(-se)' = to get married. 'Os noivos' = the newlyweds/engaged couple. 'A lua de mel' = honeymoon."
+    },
+    {
+      "word": "a reunião",
+      "translation": "meeting / gathering",
+      "pronunciation": "ah reh-oo-nee-AH-oo",
+      "ipa": "/ɐ ʁɨuˈniɐ̃w̃/",
+      "example": "Temos uma reunião de trabalho às 14h.",
+      "exampleTranslation": "We have a work meeting at 2pm.",
+      "category": "events",
+      "tip": "'Reunião de trabalho' = work meeting. 'Reunião de família' = family gathering. 'Reunião de amigos' = friends get-together."
+    },
+    {
+      "word": "Podes vir?",
+      "translation": "Can you come?",
+      "pronunciation": "POH-desh veer",
+      "ipa": "/ˈpodɨʃ ˈviɾ/",
+      "example": "— Podes vir à minha festa no sábado? — Claro que sim!",
+      "exampleTranslation": "— Can you come to my party on Saturday? — Of course!",
+      "category": "communication",
+      "tip": "'Podes vir?' (informal, tu). 'Pode vir?' (formal, você). 'Consegues vir?' = Can you make it? (implying scheduling difficulty)."
+    },
+    {
+      "word": "Claro que sim / Claro que não",
+      "translation": "Of course / Of course not",
+      "pronunciation": "KLAH-roo keh seem / KLAH-roo keh nah-oo",
+      "ipa": "/ˈklaɾu kɨ ˈsĩ/ / /ˈklaɾu kɨ ˈnɐ̃w̃/",
+      "example": "— Vens à festa? — Claro que sim! Às que horas?",
+      "exampleTranslation": "— Are you coming to the party? — Of course! At what time?",
+      "category": "communication",
+      "tip": "Very common in Portuguese. 'Com certeza' (certainly), 'É claro' (obviously) are alternatives to 'Claro que sim'."
+    },
+    {
+      "word": "Infelizmente não posso",
+      "translation": "Unfortunately I can't",
+      "pronunciation": "een-feh-leez-MEN-teh nah-oo POH-soo",
+      "ipa": "/ĩfɨliʒˈmẽtɨ nɐ̃w̃ ˈposu/",
+      "example": "— Podes vir ao jantar? — Infelizmente não posso, tenho trabalho.",
+      "exampleTranslation": "— Can you come to dinner? — Unfortunately I can't, I have work.",
+      "category": "communication",
+      "tip": "'Infelizmente' = unfortunately. Always polite to give a reason when declining: '...porque tenho...' (because I have...)"
+    },
+    {
+      "word": "tão",
+      "translation": "so / such (before adjective/adverb)",
+      "pronunciation": "tah-oo",
+      "ipa": "/ˈtɐ̃w̃/",
+      "example": "A festa foi tão divertida! Fiquei tão feliz.",
+      "exampleTranslation": "The party was so fun! I was so happy.",
+      "category": "grammar",
+      "tip": "'Tão + adjective/adverb': 'tão bom' (so good), 'tão rápido' (so fast). For nouns/verbs, use 'tanto/tanta'."
+    },
+    {
+      "word": "tanto / tanta / tantos / tantas",
+      "translation": "so much / so many",
+      "pronunciation": "TAN-too / TAN-tah",
+      "ipa": "/ˈtɐ̃tu/ / /ˈtɐ̃tɐ/",
+      "example": "Havia tanta comida na festa! Comemos tanto!",
+      "exampleTranslation": "There was so much food at the party! We ate so much!",
+      "category": "grammar",
+      "tip": "'Tanto/tanta' before nouns (agrees in gender/number): 'tanto barulho' (so much noise), 'tanta gente' (so many people). After verbs: 'Comi tanto!' (I ate so much!)"
+    },
+    {
+      "word": "divertido",
+      "translation": "fun / entertaining",
+      "pronunciation": "dee-vehr-TEE-doo",
+      "ipa": "/divɨɾˈtidu/",
+      "example": "A festa foi muito divertida — dançámos toda a noite.",
+      "exampleTranslation": "The party was very fun — we danced all night.",
+      "category": "adjectives",
+      "tip": "Agreement: 'divertido/a'. 'Muito divertido' = very fun. 'Nada divertido' = not fun at all."
+    },
+    {
+      "word": "o barulho",
+      "translation": "noise",
+      "pronunciation": "oh bah-ROO-lyoo",
+      "ipa": "/u bɐˈɾuʎu/",
+      "example": "Havia tanto barulho na festa que não conseguia falar.",
+      "exampleTranslation": "There was so much noise at the party that I couldn't talk.",
+      "category": "events",
+      "tip": "'Fazer barulho' = to make noise. 'Barulhento/a' = noisy. 'Silêncio!' = Silence! Be quiet!"
+    },
+    {
+      "word": "dançar",
+      "translation": "to dance",
+      "pronunciation": "dan-SAR",
+      "ipa": "/dɐ̃ˈsaɾ/",
+      "example": "Gosto muito de dançar em festas com os meus amigos.",
+      "exampleTranslation": "I really like dancing at parties with my friends.",
+      "category": "verbs",
+      "tip": "Regular -ar verb. 'Vamos dançar?' = Shall we dance? 'A dança' = dance (noun). 'O baile' = ball/formal dance."
+    },
+    {
+      "word": "a surpresa",
+      "translation": "surprise",
+      "pronunciation": "ah soor-PREH-zah",
+      "ipa": "/ɐ suɾˈpɾezɐ/",
+      "example": "Organizei uma festa surpresa para o aniversário da Mónica.",
+      "exampleTranslation": "I organised a surprise party for Mónica's birthday.",
+      "category": "events",
+      "tip": "'Festa surpresa' = surprise party. 'Que surpresa!' = What a surprise! 'Surpreendente' = surprising."
+    },
+    {
+      "word": "a bebida",
+      "translation": "drink / beverage",
+      "pronunciation": "ah beh-BEE-dah",
+      "ipa": "/ɐ bɨˈbidɐ/",
+      "example": "Precisamos de comprar bebidas para a festa.",
+      "exampleTranslation": "We need to buy drinks for the party.",
+      "category": "food",
+      "tip": "'Bebida alcoólica' = alcoholic drink. 'Bebida não alcoólica' = soft drink. 'Queres uma bebida?' = Do you want a drink?"
+    },
+    {
+      "word": "o bolo de aniversário",
+      "translation": "birthday cake",
+      "pronunciation": "oh BOH-loo deh ah-nee-vehr-SAH-ree-oo",
+      "ipa": "/u ˈbolu dɨ ɐnivɨɾˈsaɾiu/",
+      "example": "Vou fazer um bolo de aniversário para a festa da Sofia.",
+      "exampleTranslation": "I'm going to make a birthday cake for Sofia's party.",
+      "category": "food",
+      "tip": "'Soprar as velas' = to blow out the candles. 'Parabéns a você!' is the traditional birthday song."
+    },
+    {
+      "word": "Parabéns!",
+      "translation": "Congratulations! / Happy Birthday!",
+      "pronunciation": "pah-rah-BAYNSH",
+      "ipa": "/pɐɾɐˈbẽjʃ/",
+      "example": "Parabéns pelo teu aniversário! Muitas felicidades!",
+      "exampleTranslation": "Happy birthday! Best wishes!",
+      "category": "expressions",
+      "tip": "'Parabéns' is used for any congratulation. 'Parabéns pelo teu aniversário!' (Happy birthday!) and 'Parabéns pela promoção!' (Congratulations on the promotion!)"
+    },
+    {
+      "word": "Até logo / Até já",
+      "translation": "See you later / See you soon",
+      "pronunciation": "ah-TEH LOH-goo / ah-TEH ZHAH",
+      "ipa": "/ɐˈtɛ ˈloɡu/ / /ɐˈtɛ ˈʒa/",
+      "example": "— Até logo! — Até já! Cuida-te!",
+      "exampleTranslation": "— See you later! — See you soon! Take care!",
+      "category": "expressions",
+      "tip": "'Até logo' = see you later (not necessarily soon). 'Até já' = see you very soon. 'Até amanhã' = see you tomorrow."
+    }
+  ],
+  "grammar": {
+    "title": "TÃO/TANTO for Intensity & Indefinite Pronouns Review",
+    "sections": [
+      {
+        "type": "explanation",
+        "heading": "TÃO and TANTO — Expressing Intensity",
+        "body": "TÃO and TANTO both express intensity ('so much', 'such'), but they follow different rules. Use TÃO before adjectives and adverbs: 'A festa foi tão boa!' (The party was so good!) 'Chegaram tão tarde!' (They arrived so late!). Use TANTO/TANTA before nouns (agreeing in gender/number) or after verbs: 'Havia tanto barulho!' (There was so much noise!) 'Havia tanta gente!' (There were so many people!) 'Comi tanto!' (I ate so much!) Think of it this way: TÃO modifies quality (adj/adv), TANTO modifies quantity (nouns/verbs)."
+      },
+      {
+        "type": "table",
+        "heading": "TÃO vs TANTO — Rules",
+        "columns": ["Form", "Used before/after", "Example"],
+        "rows": [
+          ["tão", "adjective", "A festa foi tão divertida! (The party was so fun!)"],
+          ["tão", "adverb", "Cantou tão bem! (She sang so well!)"],
+          ["tanto (m.sg)", "masculine singular noun", "Havia tanto barulho! (So much noise!)"],
+          ["tanta (f.sg)", "feminine singular noun", "Havia tanta comida! (So much food!)"],
+          ["tantos (m.pl)", "masculine plural noun", "Havia tantos convidados! (So many guests!)"],
+          ["tantas (f.pl)", "feminine plural noun", "Havia tantas bebidas! (So many drinks!)"],
+          ["tanto", "after verb (no noun)", "Trabalhei tanto! (I worked so much!)"]
+        ]
+      },
+      {
+        "type": "explanation",
+        "heading": "Writing Invitations and Short Messages",
+        "body": "In Portuguese digital communication, messages tend to be friendly and slightly informal. Key phrases for invitations: (1) 'Convido-te para...' or 'Estás convidado/a para...' (You are invited to...). (2) 'Podes vir?' or 'Consegues vir?' (Can you come?). (3) 'Confirma a tua presença até...' (Confirm your attendance by...). (4) 'Aguardo a tua resposta' (I look forward to your reply). For declining: 'Infelizmente não posso ir porque...' (Unfortunately I can't come because...)"
+      },
+      {
+        "type": "table",
+        "heading": "Useful Phrases for Social Communication",
+        "columns": ["Portuguese", "English", "Register"],
+        "rows": [
+          ["Convido-te para a minha festa.", "I invite you to my party.", "informal"],
+          ["Estás convidado/a!", "You're invited!", "informal"],
+          ["Pode vir no sábado?", "Can you come on Saturday?", "formal"],
+          ["Claro que sim! Com muito prazer.", "Of course! With great pleasure.", "any"],
+          ["Infelizmente não posso ir.", "Unfortunately I can't come.", "any"],
+          ["Obrigado/a pelo convite.", "Thank you for the invitation.", "any"],
+          ["Até sábado!", "See you Saturday!", "informal"],
+          ["Aguardo a tua resposta.", "I look forward to your reply.", "semi-formal"]
+        ]
+      },
+      {
+        "type": "examples",
+        "heading": "Social Situations",
+        "items": [
+          {
+            "portuguese": "A festa foi tão divertida! Havia tanta comida e tanta música!",
+            "translation": "The party was so fun! There was so much food and so much music!",
+            "pronunciation": "ah FESH-tah foy tah-oo dee-vehr-TEE-dah...",
+            "highlight": ["tão divertida", "tanta comida", "tanta música"]
+          },
+          {
+            "portuguese": "— Podes vir à minha festa de aniversário sábado? — Claro que sim! Que horas?",
+            "translation": "— Can you come to my birthday party on Saturday? — Of course! What time?",
+            "pronunciation": "POH-desh veer ah MEE-nyah FESH-tah...",
+            "highlight": ["Podes vir", "Claro que sim"]
+          },
+          {
+            "portuguese": "Infelizmente não posso ir — tenho uma reunião de trabalho.",
+            "translation": "Unfortunately I can't come — I have a work meeting.",
+            "pronunciation": "een-feh-leez-MEN-teh nah-oo POH-soo eer...",
+            "highlight": ["Infelizmente", "não posso"]
+          },
+          {
+            "portuguese": "Havia tantos convidados na festa — foi incrível!",
+            "translation": "There were so many guests at the party — it was incredible!",
+            "pronunciation": "ah-VEE-ah TAN-toosh kon-vee-DAH-doosh...",
+            "highlight": ["tantos convidados"]
+          }
+        ]
+      },
+      {
+        "type": "tips",
+        "heading": "Common Mistakes & Tips",
+        "items": [
+          "TÃO vs TANTO: 'tão' before adjectives ('tão bom'), TANTO/TANTA before nouns ('tanto barulho', 'tanta gente'). Don't say 'tão gente' or 'tanto bom'.",
+          "TANTO after a verb (no noun after it) stays 'tanto' regardless of gender: 'Ela trabalhou tanto!' (She worked so much!)",
+          "When declining an invitation, always give a reason — it's more polite in Portuguese culture: 'Infelizmente não posso porque...'",
+          "Confirmation: In Portugal, it's common to confirm attendance at events. 'RSVP' is written as 'Confirmar presença até [date]'.",
+          "'Parabéns' works for all congratulations — birthday, wedding, graduation, promotion. It's not just for birthdays like 'happy birthday' in English."
+        ]
+      }
+    ],
+    "exercises": [
+      {
+        "type": "multiple-choice",
+        "title": "TÃO or TANTO/TANTA?",
+        "instructions": "Choose the correct form.",
+        "items": [
+          {
+            "question": "A festa foi __ divertida!",
+            "options": ["tanto", "tão", "tanta", "tantos"],
+            "correct": 1,
+            "explanation": "'Tão' before adjectives: 'tão divertida' (so fun). 'Tanto/tanta' is used before nouns."
+          },
+          {
+            "question": "Havia __ gente na festa!",
+            "options": ["tão", "tanto", "tanta", "tantos"],
+            "correct": 2,
+            "explanation": "'Gente' is feminine singular, so use 'tanta': 'tanta gente' (so many people)."
+          },
+          {
+            "question": "Comi __ na festa que fiquei com dores de estômago.",
+            "options": ["tão", "tanta", "tanto", "tantas"],
+            "correct": 2,
+            "explanation": "'Tanto' after a verb (without a noun following): 'Comi tanto' (I ate so much)."
+          },
+          {
+            "question": "Havia __ convidados! Não conhecia ninguém.",
+            "options": ["tanto", "tanta", "tão", "tantos"],
+            "correct": 3,
+            "explanation": "'Convidados' is masculine plural, so use 'tantos': 'tantos convidados' (so many guests)."
+          }
+        ]
+      },
+      {
+        "type": "fill-in-blank",
+        "title": "Social Events",
+        "instructions": "Complete each sentence correctly.",
+        "items": [
+          {
+            "sentence": "Vou __ a Sofia para a minha festa de aniversário.",
+            "answer": "convidar",
+            "fullAnswer": "Vou convidar a Sofia para a minha festa de aniversário.",
+            "hint": "to invite"
+          },
+          {
+            "sentence": "A festa foi __ boa — dançámos a noite toda!",
+            "answer": "tão",
+            "fullAnswer": "A festa foi tão boa — dançámos a noite toda!",
+            "hint": "so (before adjective)"
+          },
+          {
+            "sentence": "Infelizmente não posso ir porque tenho uma __.",
+            "answer": "reunião",
+            "fullAnswer": "Infelizmente não posso ir porque tenho uma reunião.",
+            "hint": "meeting"
+          },
+          {
+            "sentence": "__ pela tua presença na minha festa!",
+            "answer": "Obrigado",
+            "fullAnswer": "Obrigado/Obrigada pela tua presença na minha festa!",
+            "hint": "thank you (masculine speaker)"
+          }
+        ]
+      },
+      {
+        "type": "sentence-builder",
+        "title": "Writing Messages",
+        "instructions": "Click the correct word to complete each sentence.",
+        "items": [
+          {
+            "sentence": "Havia ___ barulho na festa que não consegui dormir.",
+            "blank": "tanto",
+            "wordBank": ["tanto", "tão", "tanta", "tantos"],
+            "hint": "'barulho' is masculine singular"
+          },
+          {
+            "sentence": "Podes ___ à festa no sábado?",
+            "blank": "vir",
+            "wordBank": ["vir", "ir", "vem", "venha"],
+            "hint": "to come (infinitive after 'podes')"
+          },
+          {
+            "sentence": "Claro que ___! Às que horas começa?",
+            "blank": "sim",
+            "wordBank": ["sim", "não", "também", "nunca"],
+            "hint": "positive answer: 'Of course...!'"
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,439 @@
+{
+  "id": 12,
+  "title": "O Tempo e as Estações",
+  "subtitle": "Weather, Seasons & Future Plans",
+  "color": "#2E5902",
+  "accent": "#8BC34A",
+  "icon": "🌤️",
+  "description": "Learn to talk about the weather and seasons in Portugal, and describe future plans using irregular verbs.",
+  "topics": ["Weather vocabulary", "Seasons", "Temperature", "Irregular verbs DAR/FAZER/PÔR/TRAZER", "IR + infinitive for future plans"],
+  "vocabulary": [
+    {
+      "word": "o tempo",
+      "translation": "weather / time",
+      "pronunciation": "oh TEM-poo",
+      "ipa": "/u ˈtẽpu/",
+      "example": "Como está o tempo hoje?",
+      "exampleTranslation": "What is the weather like today?",
+      "category": "weather",
+      "tip": "'Tempo' means both 'weather' and 'time'. Context makes it clear: 'Que tempo faz?' (What's the weather like?) vs 'Que horas são?' (What time is it?)."
+    },
+    {
+      "word": "Que tempo faz?",
+      "translation": "What is the weather like?",
+      "pronunciation": "keh TEM-poo fahsh",
+      "ipa": "/kɨ ˈtẽpu ˈfajʃ/",
+      "example": "— Que tempo faz em Lisboa? — Faz sol e calor.",
+      "exampleTranslation": "— What's the weather like in Lisbon? — It's sunny and warm.",
+      "category": "weather",
+      "tip": "Use the verb FAZER for weather expressions: 'faz calor' (it's hot), 'faz frio' (it's cold), 'faz sol' (it's sunny)."
+    },
+    {
+      "word": "o sol",
+      "translation": "sun",
+      "pronunciation": "oh sol",
+      "ipa": "/u ˈsɔl/",
+      "example": "Hoje faz sol. Vou à praia!",
+      "exampleTranslation": "Today it's sunny. I'm going to the beach!",
+      "category": "weather",
+      "tip": "'Faz sol' = it's sunny. 'Está sol' is also common. 'Apanhar sol' = to sunbathe."
+    },
+    {
+      "word": "a chuva",
+      "translation": "rain",
+      "pronunciation": "ah SHOO-vah",
+      "ipa": "/ɐ ˈʃuvɐ/",
+      "example": "Há muita chuva no inverno em Portugal.",
+      "exampleTranslation": "There is a lot of rain in winter in Portugal.",
+      "category": "weather",
+      "tip": "'Chove' (it rains), 'está a chover' (it is raining). 'Um guarda-chuva' = umbrella (literally 'rain guard')."
+    },
+    {
+      "word": "o vento",
+      "translation": "wind",
+      "pronunciation": "oh VEN-too",
+      "ipa": "/u ˈvẽtu/",
+      "example": "Hoje há muito vento — não vou à praia.",
+      "exampleTranslation": "Today it's very windy — I'm not going to the beach.",
+      "category": "weather",
+      "tip": "'Está muito vento' or 'Há muito vento' = it's very windy. 'Um dia ventoso' = a windy day."
+    },
+    {
+      "word": "a nuvem",
+      "translation": "cloud",
+      "pronunciation": "ah NOO-vehm",
+      "ipa": "/ɐ ˈnuvẽj/",
+      "example": "O céu está cheio de nuvens hoje.",
+      "exampleTranslation": "The sky is full of clouds today.",
+      "category": "weather",
+      "tip": "Plural: 'as nuvens'. 'Está nublado' (it's cloudy), 'céu nublado' (cloudy sky)."
+    },
+    {
+      "word": "a neve",
+      "translation": "snow",
+      "pronunciation": "ah NEH-veh",
+      "ipa": "/ɐ ˈnɛvɨ/",
+      "example": "Em Portugal, só neva na Serra da Estrela.",
+      "exampleTranslation": "In Portugal, it only snows in the Serra da Estrela mountains.",
+      "category": "weather",
+      "tip": "'Neva' (it snows), 'está a nevar' (it is snowing), 'a nevasca' (snowstorm), 'a neve derrete' (the snow melts)."
+    },
+    {
+      "word": "o calor / o frio",
+      "translation": "heat / cold",
+      "pronunciation": "oh kah-LOR / oh FREE-oo",
+      "ipa": "/u kɐˈloɾ/ / /u ˈfɾiu/",
+      "example": "No verão faz muito calor. No inverno faz frio.",
+      "exampleTranslation": "In summer it's very hot. In winter it's cold.",
+      "category": "weather",
+      "tip": "'Faz calor/frio' (it's hot/cold — weather). 'Tenho calor/frio' (I'm hot/cold — personal feeling)."
+    },
+    {
+      "word": "a temperatura",
+      "translation": "temperature",
+      "pronunciation": "ah tehm-peh-rah-TOO-rah",
+      "ipa": "/ɐ tẽpɨɾɐˈtuɾɐ/",
+      "example": "A temperatura hoje é de 25 graus.",
+      "exampleTranslation": "The temperature today is 25 degrees.",
+      "category": "weather",
+      "tip": "'Graus Celsius' = degrees Celsius. 'A temperatura máxima/mínima' = maximum/minimum temperature."
+    },
+    {
+      "word": "a primavera",
+      "translation": "spring",
+      "pronunciation": "ah pree-mah-VEH-rah",
+      "ipa": "/ɐ pɾimɐˈvɛɾɐ/",
+      "example": "Na primavera as flores abrem e o tempo fica melhor.",
+      "exampleTranslation": "In spring the flowers open and the weather gets better.",
+      "category": "seasons",
+      "tip": "Seasons don't use a capital letter in Portuguese. 'Na primavera' (in spring) — use 'no/na' with seasons."
+    },
+    {
+      "word": "o verão",
+      "translation": "summer",
+      "pronunciation": "oh veh-RAH-oo",
+      "ipa": "/u vɨˈɾɐ̃w̃/",
+      "example": "No verão vou sempre à praia com a minha família.",
+      "exampleTranslation": "In summer I always go to the beach with my family.",
+      "category": "seasons",
+      "tip": "'No verão' (in summer). Portugal has warm, dry summers, especially in the south (Algarve)."
+    },
+    {
+      "word": "o outono",
+      "translation": "autumn / fall",
+      "pronunciation": "oh oh-TOH-noo",
+      "ipa": "/u oˈtonu/",
+      "example": "No outono as folhas ficam amarelas e laranja.",
+      "exampleTranslation": "In autumn the leaves turn yellow and orange.",
+      "category": "seasons",
+      "tip": "'No outono' (in autumn). 'A folha' (leaf), 'as folhas caem' (the leaves fall)."
+    },
+    {
+      "word": "o inverno",
+      "translation": "winter",
+      "pronunciation": "oh een-VEHR-noo",
+      "ipa": "/u ĩˈvɛɾnu/",
+      "example": "No inverno fico em casa e bebo chá quente.",
+      "exampleTranslation": "In winter I stay at home and drink warm tea.",
+      "category": "seasons",
+      "tip": "'No inverno' (in winter). Portuguese winters are mild in the south, but colder in the north and mountains."
+    },
+    {
+      "word": "estar a chover",
+      "translation": "to be raining",
+      "pronunciation": "esh-TAR ah shoh-VEHR",
+      "ipa": "/ɨʃˈtaɾ ɐ ʃuˈveɾ/",
+      "example": "Está a chover muito. Não me esqueço do guarda-chuva.",
+      "exampleTranslation": "It's raining a lot. I won't forget the umbrella.",
+      "category": "weather",
+      "tip": "In EP, use 'estar a + infinitive' for continuous actions: 'está a chover' (it's raining). Brazilian Portuguese uses 'está chovendo'."
+    },
+    {
+      "word": "fazer",
+      "translation": "to make / to do",
+      "pronunciation": "fah-ZEHR",
+      "ipa": "/fɐˈzeɾ/",
+      "example": "Hoje faz muito calor — vou à piscina.",
+      "exampleTranslation": "Today it's very hot — I'm going to the pool.",
+      "category": "verbs",
+      "tip": "Irregular: faço, fazes, faz, fazemos, fazem. Used for weather, age (fazer anos), and many expressions."
+    },
+    {
+      "word": "dar",
+      "translation": "to give",
+      "pronunciation": "dar",
+      "ipa": "/ˈdaɾ/",
+      "example": "Podes dar-me o guarda-chuva, por favor?",
+      "exampleTranslation": "Can you give me the umbrella, please?",
+      "category": "verbs",
+      "tip": "Irregular: dou, dás, dá, damos, dão. 'Dar uma volta' = to go for a walk/ride."
+    },
+    {
+      "word": "trazer",
+      "translation": "to bring",
+      "pronunciation": "trah-ZEHR",
+      "ipa": "/tɾɐˈzeɾ/",
+      "example": "Traz um casaco — vai fazer frio hoje à noite.",
+      "exampleTranslation": "Bring a coat — it's going to be cold tonight.",
+      "category": "verbs",
+      "tip": "Irregular: trago, trazes, traz, trazemos, trazem. Contrast with 'levar' (to take/bring away from speaker)."
+    },
+    {
+      "word": "pôr",
+      "translation": "to put / to place",
+      "pronunciation": "por",
+      "ipa": "/ˈpoɾ/",
+      "example": "Põe o casaco — está frio lá fora.",
+      "exampleTranslation": "Put on your coat — it's cold outside.",
+      "category": "verbs",
+      "tip": "Irregular: ponho, pões, põe, pomos, põem. Note the accent on 'pôr' to distinguish it from 'por' (preposition)."
+    },
+    {
+      "word": "o guarda-chuva",
+      "translation": "umbrella",
+      "pronunciation": "oh GWAHR-dah SHOO-vah",
+      "ipa": "/u ˈɡwaɾdɐ ˈʃuvɐ/",
+      "example": "Não te esqueças do guarda-chuva — vai chover.",
+      "exampleTranslation": "Don't forget the umbrella — it's going to rain.",
+      "category": "weather",
+      "tip": "Literally 'rain guard'. Compound word: 'guardar' (to guard/keep) + 'chuva' (rain)."
+    },
+    {
+      "word": "o casaco",
+      "translation": "coat / jacket",
+      "pronunciation": "oh kah-ZAH-koo",
+      "ipa": "/u kɐˈzaku/",
+      "example": "No inverno uso sempre um casaco quente.",
+      "exampleTranslation": "In winter I always wear a warm coat.",
+      "category": "clothing",
+      "tip": "'Casaco de inverno' (winter coat), 'casaco de chuva' (rain jacket), 'casaco de malha' (knit cardigan)."
+    },
+    {
+      "word": "quente / fresco",
+      "translation": "warm / cool/fresh",
+      "pronunciation": "KEN-teh / FRESH-koo",
+      "ipa": "/ˈkẽtɨ/ / /ˈfɾɛʃku/",
+      "example": "No outono o tempo fica mais fresco.",
+      "exampleTranslation": "In autumn the weather becomes cooler.",
+      "category": "adjectives",
+      "tip": "'Quente' = warm/hot (temperature). 'Fresco' = cool, fresh. 'Frio' = cold. These describe weather or objects."
+    },
+    {
+      "word": "húmido / seco",
+      "translation": "humid / dry",
+      "pronunciation": "OO-mee-doo / SEH-koo",
+      "ipa": "/ˈumidu/ / /ˈsɛku/",
+      "example": "O verão em Lisboa é quente e seco.",
+      "exampleTranslation": "Summer in Lisbon is hot and dry.",
+      "category": "adjectives",
+      "tip": "'Húmido' (EP) = humid, damp. 'Seco' = dry. Portugal has Mediterranean climate: hot dry summers, mild wet winters."
+    },
+    {
+      "word": "o céu",
+      "translation": "sky",
+      "pronunciation": "oh SAY-oo",
+      "ipa": "/u ˈsɛw/",
+      "example": "O céu está azul e limpo hoje.",
+      "exampleTranslation": "The sky is blue and clear today.",
+      "category": "weather",
+      "tip": "'Céu limpo' = clear sky. 'Céu nublado' = cloudy sky. 'Céu estrelado' = starry sky."
+    },
+    {
+      "word": "a previsão do tempo",
+      "translation": "weather forecast",
+      "pronunciation": "ah preh-vee-ZAH-oo doo TEM-poo",
+      "ipa": "/ɐ pɾɨvɨˈzɐ̃w̃ du ˈtẽpu/",
+      "example": "Segundo a previsão do tempo, vai chover amanhã.",
+      "exampleTranslation": "According to the weather forecast, it's going to rain tomorrow.",
+      "category": "weather",
+      "tip": "'Previsão' = forecast/prediction. 'Segundo o tempo...' = according to the forecast..."
+    },
+    {
+      "word": "vai / vão chover",
+      "translation": "it's going to rain / they're going to rain",
+      "pronunciation": "vy shoh-VEHR",
+      "ipa": "/ˈvaj ʃuˈveɾ/",
+      "example": "Vai chover esta tarde. Fica em casa.",
+      "exampleTranslation": "It's going to rain this afternoon. Stay at home.",
+      "category": "verbs",
+      "tip": "IR + infinitive for near future weather predictions: 'vai chover' (it's going to rain), 'vai fazer calor' (it's going to be hot)."
+    }
+  ],
+  "grammar": {
+    "title": "Irregular Verbs DAR/FAZER/PÔR/TRAZER & Near Future",
+    "sections": [
+      {
+        "type": "explanation",
+        "heading": "Weather Expressions with FAZER",
+        "body": "In Portuguese, many weather expressions use the verb FAZER (to make/do) in the third person: 'Faz calor' (It's hot), 'Faz frio' (It's cold), 'Faz sol' (It's sunny), 'Faz vento' (It's windy). You can also use ESTAR: 'Está frio', 'Está calor'. For rain and snow, use the verbs CHOVER (to rain) and NEVAR (to snow): 'Chove muito no Porto' (It rains a lot in Porto), 'Está a chover' (It is raining)."
+      },
+      {
+        "type": "table",
+        "heading": "Common Weather Expressions",
+        "columns": ["Portuguese", "English", "Verb used"],
+        "rows": [
+          ["Faz calor.", "It's hot.", "FAZER"],
+          ["Faz frio.", "It's cold.", "FAZER"],
+          ["Faz sol.", "It's sunny.", "FAZER"],
+          ["Faz vento.", "It's windy.", "FAZER"],
+          ["Chove / Está a chover.", "It rains / It's raining.", "CHOVER"],
+          ["Neva / Está a nevar.", "It snows / It's snowing.", "NEVAR"],
+          ["Está nublado.", "It's cloudy.", "ESTAR"],
+          ["Há trovoada.", "There's a thunderstorm.", "HAVER"]
+        ]
+      },
+      {
+        "type": "explanation",
+        "heading": "Four Important Irregular Verbs",
+        "body": "These four verbs are irregular in the present tense and are used frequently. (1) FAZER (to do/make) — used for weather, age, and many fixed expressions. (2) DAR (to give) — used in many idioms like 'dar uma volta' (to go for a walk). (3) TRAZER (to bring) — moving something towards the speaker. (4) PÔR (to put/place) — note the accent on 'pôr' to distinguish it from the preposition 'por'. Study their conjugations carefully!"
+      },
+      {
+        "type": "table",
+        "heading": "FAZER, DAR, TRAZER, PÔR — Present Tense",
+        "columns": ["Subject", "FAZER", "DAR", "TRAZER", "PÔR"],
+        "rows": [
+          ["eu", "faço", "dou", "trago", "ponho"],
+          ["tu", "fazes", "dás", "trazes", "pões"],
+          ["ele/ela/você", "faz", "dá", "traz", "põe"],
+          ["nós", "fazemos", "damos", "trazemos", "pomos"],
+          ["eles/vocês", "fazem", "dão", "trazem", "põem"]
+        ]
+      },
+      {
+        "type": "explanation",
+        "heading": "Near Future: IR + Infinitive for Weather Plans",
+        "body": "When making plans based on the weather, combine IR + infinitive: 'Vai fazer sol amanhã, por isso vou à praia.' (It's going to be sunny tomorrow, so I'm going to the beach.) 'Vai chover, então vou ficar em casa.' (It's going to rain, so I'm going to stay home.) This is the most natural way to express future actions in everyday Portuguese."
+      },
+      {
+        "type": "examples",
+        "heading": "Weather Conversations",
+        "items": [
+          {
+            "portuguese": "Que tempo faz hoje? Faz sol e calor — cerca de 30 graus.",
+            "translation": "What's the weather like today? It's sunny and hot — about 30 degrees.",
+            "pronunciation": "keh TEM-poo fahsh oh-ZHEH / fahsh sol ee kah-LOR",
+            "highlight": ["Que tempo faz", "Faz sol", "calor"]
+          },
+          {
+            "portuguese": "Vai chover amanhã. Trazes o guarda-chuva?",
+            "translation": "It's going to rain tomorrow. Will you bring the umbrella?",
+            "pronunciation": "vy shoh-VEHR ah-mah-NYAH / TRAH-zesh oh GWAHR-dah SHOO-vah",
+            "highlight": ["Vai chover", "Trazes"]
+          },
+          {
+            "portuguese": "No inverno faço muito exercício dentro de casa.",
+            "translation": "In winter I do a lot of exercise inside the house.",
+            "pronunciation": "noo een-VEHR-noo FAH-soo MYOO-ee-too...",
+            "highlight": ["No inverno", "faço"]
+          },
+          {
+            "portuguese": "Põe o casaco! Está muito frio lá fora.",
+            "translation": "Put on your coat! It's very cold outside.",
+            "pronunciation": "POY-eh oh kah-ZAH-koo / esh-TAH MYOO-ee-too FREE-oo lah FOH-rah",
+            "highlight": ["Põe", "frio"]
+          }
+        ]
+      },
+      {
+        "type": "tips",
+        "heading": "Common Mistakes & Tips",
+        "items": [
+          "Use FAZER for weather: 'Faz calor' NOT 'É calor'. However, 'Está frio/calor' is also acceptable.",
+          "TRAZER vs LEVAR: 'trazer' = to bring (towards you), 'levar' = to take (away from you). Common confusion!",
+          "PÔR (to put) has an accent to distinguish it from 'por' (the preposition meaning 'by/through'). Always write the accent.",
+          "The first person singular of PÔR is 'ponho' (I put) — it looks very different from the infinitive!",
+          "In European Portuguese, use 'está a + infinitive' for ongoing actions: 'está a chover' (it's raining). Do NOT say 'está chovendo'."
+        ]
+      }
+    ],
+    "exercises": [
+      {
+        "type": "multiple-choice",
+        "title": "Irregular Verbs",
+        "instructions": "Choose the correct verb form.",
+        "items": [
+          {
+            "question": "Eu __ o jantar todos os dias. (fazer)",
+            "options": ["faz", "faço", "fazes", "fazemos"],
+            "correct": 1,
+            "explanation": "'Faço' is the first person singular (eu) of FAZER. Note the irregular spelling with 'ç'."
+          },
+          {
+            "question": "A Ana __ flores para a festa. (trazer)",
+            "options": ["trago", "trazes", "traz", "trazem"],
+            "correct": 2,
+            "explanation": "'Traz' is the third person singular (ele/ela/você) of TRAZER."
+          },
+          {
+            "question": "Onde __ a Ana o livro? (pôr)",
+            "options": ["põe", "pon", "põem", "pomos"],
+            "correct": 0,
+            "explanation": "'Põe' is the third person singular (ela/você) of PÔR. Note the nasal tilde."
+          },
+          {
+            "question": "Que tempo __ hoje?",
+            "options": ["está", "é", "faz", "tem"],
+            "correct": 2,
+            "explanation": "For weather expressions with calor/frio/sol/vento, use FAZER: 'Que tempo faz?' (What's the weather like?)"
+          }
+        ]
+      },
+      {
+        "type": "fill-in-blank",
+        "title": "Weather Descriptions",
+        "instructions": "Complete with the correct form of FAZER, DAR, TRAZER, or PÔR.",
+        "items": [
+          {
+            "sentence": "Hoje __ muito sol. Vou à praia!",
+            "answer": "faz",
+            "fullAnswer": "Hoje faz muito sol.",
+            "hint": "FAZER, 3rd person singular, weather expression"
+          },
+          {
+            "sentence": "__ o casaco — está muito frio lá fora. (pôr, tu)",
+            "answer": "Põe",
+            "fullAnswer": "Põe o casaco — está muito frio lá fora.",
+            "hint": "PÔR, 2nd person singular (tu)"
+          },
+          {
+            "sentence": "Amanhã vai __. Não te esqueças do guarda-chuva.",
+            "answer": "chover",
+            "fullAnswer": "Amanhã vai chover.",
+            "hint": "IR + infinitive: 'it's going to rain'"
+          },
+          {
+            "sentence": "Eu __ o meu melhor quando estudo.",
+            "answer": "faço",
+            "fullAnswer": "Eu faço o meu melhor quando estudo.",
+            "hint": "FAZER, 1st person singular"
+          }
+        ]
+      },
+      {
+        "type": "sentence-builder",
+        "title": "Weather Sentences",
+        "instructions": "Click the correct word to complete each sentence.",
+        "items": [
+          {
+            "sentence": "No verão ___ muito calor em Portugal.",
+            "blank": "faz",
+            "wordBank": ["faz", "está", "tem", "vai"],
+            "hint": "Use FAZER for weather expressions"
+          },
+          {
+            "sentence": "Amanhã ___ chover. Fica em casa.",
+            "blank": "vai",
+            "wordBank": ["vai", "vais", "vou", "vão"],
+            "hint": "Near future: 'it's going to' — 3rd person singular"
+          },
+          {
+            "sentence": "Ela ___ flores para o jantar.",
+            "blank": "traz",
+            "wordBank": ["traz", "traz", "trago", "trazes"],
+            "hint": "TRAZER, 3rd person singular (ela)"
+          }
+        ]
+      }
+    ]
+  }
+}

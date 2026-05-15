@@ -1,0 +1,399 @@
+{
+  "id": 18,
+  "title": "Cultura e Costumes Portugueses",
+  "subtitle": "Portuguese Culture, Social Norms & Synonyms",
+  "color": "#1A237E",
+  "accent": "#7986CB",
+  "icon": "🇵🇹",
+  "description": "Discover Portuguese social conventions, everyday cultural habits, and expand your vocabulary through synonyms and opposites.",
+  "topics": ["Portuguese social customs", "Daily social interactions", "Imperative mood revision", "Synonyms and antonyms", "Cultural awareness"],
+  "vocabulary": [
+    {
+      "word": "cumprimentar",
+      "translation": "to greet",
+      "pronunciation": "koom-pree-men-TAR",
+      "ipa": "/kũpɾimẽˈtaɾ/",
+      "example": "Em Portugal, cumprimentamos com dois beijos na cara.",
+      "exampleTranslation": "In Portugal, we greet with two kisses on the cheek.",
+      "category": "culture",
+      "tip": "The two-kiss greeting (two cheeks) is standard in Portugal for friends and family. Handshakes for formal/professional contexts."
+    },
+    {
+      "word": "o beijo",
+      "translation": "kiss",
+      "pronunciation": "oh BAY-zhoo",
+      "ipa": "/u ˈbɐjʒu/",
+      "example": "Damos dois beijos quando nos cumprimentamos.",
+      "exampleTranslation": "We give two kisses when we greet each other.",
+      "category": "culture",
+      "tip": "Two cheek kisses are standard in Portugal: start with the right cheek. Between men, a handshake is more common."
+    },
+    {
+      "word": "o aperto de mão",
+      "translation": "handshake",
+      "pronunciation": "oh ah-PEHR-too deh mah-oo",
+      "ipa": "/u ɐˈpɛɾtu dɨ ˈmɐ̃w̃/",
+      "example": "Numa reunião de negócios, damos um aperto de mão.",
+      "exampleTranslation": "In a business meeting, we give a handshake.",
+      "category": "culture",
+      "tip": "'Dar um aperto de mão' = to shake hands. Common in formal/professional settings."
+    },
+    {
+      "word": "a saudade",
+      "translation": "saudade (longing / nostalgic love)",
+      "pronunciation": "ah sah-oo-DAH-deh",
+      "ipa": "/ɐ sɐwˈdadɨ/",
+      "example": "Tenho saudades de Portugal quando estou no estrangeiro.",
+      "exampleTranslation": "I feel saudade for Portugal when I'm abroad.",
+      "category": "culture",
+      "tip": "'Saudade' is uniquely Portuguese — a deep emotional longing for something or someone absent. 'Tenho saudades tuas' = I miss you."
+    },
+    {
+      "word": "a tertúlia",
+      "translation": "informal social gathering / intellectual discussion",
+      "pronunciation": "ah tehr-TOO-lee-ah",
+      "ipa": "/ɐ tɨɾˈtuliɐ/",
+      "example": "Os portugueses gostam de tertúlias em cafés.",
+      "exampleTranslation": "Portuguese people like social gatherings in cafés.",
+      "category": "culture",
+      "tip": "A 'tertúlia' is a typical Portuguese tradition — friends gathering to talk, debate, and share ideas, usually over coffee."
+    },
+    {
+      "word": "a sobremesa",
+      "translation": "after-dinner conversation / dessert",
+      "pronunciation": "ah soh-breh-MEH-zah",
+      "ipa": "/ɐ sobɾɨˈmezɐ/",
+      "example": "Em Portugal, a sobremesa é um momento de conversa.",
+      "exampleTranslation": "In Portugal, after-dinner conversation is an important moment.",
+      "category": "culture",
+      "tip": "'Sobremesa' literally means 'above the table' — it refers to the time spent chatting after eating, not just the dessert."
+    },
+    {
+      "word": "o café",
+      "translation": "coffee / café",
+      "pronunciation": "oh kah-FEH",
+      "ipa": "/u kɐˈfɛ/",
+      "example": "Tomar um café é um ritual diário para os portugueses.",
+      "exampleTranslation": "Having a coffee is a daily ritual for Portuguese people.",
+      "category": "culture",
+      "tip": "'Um café' = a small espresso. 'Uma bica' = espresso (Lisbon slang). 'Uma meia de leite' = half milk, half coffee (like a latte)."
+    },
+    {
+      "word": "o bacalhau",
+      "translation": "codfish (salted)",
+      "pronunciation": "oh bah-kah-LYAH-oo",
+      "ipa": "/u bɐkɐˈʎaw/",
+      "example": "Dizem que há 365 receitas de bacalhau em Portugal.",
+      "exampleTranslation": "They say there are 365 codfish recipes in Portugal.",
+      "category": "food",
+      "tip": "Bacalhau is the Portuguese national dish — salted, dried cod. 'O fiel amigo' (the faithful friend) is its nickname."
+    },
+    {
+      "word": "a pastelaria",
+      "translation": "pastry shop / café-bakery",
+      "pronunciation": "ah pash-teh-lah-REE-ah",
+      "ipa": "/ɐ pɐʃtɨlɐˈɾiɐ/",
+      "example": "Vou à pastelaria tomar um café e um pastel de nata.",
+      "exampleTranslation": "I'm going to the pastry shop to have a coffee and a custard tart.",
+      "category": "food",
+      "tip": "'Pastelaria' = café-bakery selling pastries, coffee, sandwiches. The 'pastel de nata' (custard tart) is Portugal's most iconic pastry."
+    },
+    {
+      "word": "respeitar",
+      "translation": "to respect",
+      "pronunciation": "reh-spay-TAR",
+      "ipa": "/ʁɨʃpɨjˈtaɾ/",
+      "example": "É importante respeitar os costumes locais quando viajamos.",
+      "exampleTranslation": "It's important to respect local customs when we travel.",
+      "category": "verbs",
+      "tip": "Regular -ar verb. 'O respeito' = respect (noun). 'Respeitoso/a' = respectful."
+    },
+    {
+      "word": "o costume",
+      "translation": "custom / habit",
+      "pronunciation": "oh koosh-TOO-meh",
+      "ipa": "/u kuʃˈtumɨ/",
+      "example": "É costume dar dois beijos quando nos conhecemos.",
+      "exampleTranslation": "It's customary to give two kisses when we meet.",
+      "category": "culture",
+      "tip": "'É costume + infinitive' = it's customary to... Plural: 'os costumes' = customs, traditions."
+    },
+    {
+      "word": "o comportamento",
+      "translation": "behaviour",
+      "pronunciation": "oh kom-por-tah-MEN-too",
+      "ipa": "/u kõpuɾtɐˈmẽtu/",
+      "example": "O comportamento educado é valorizado em Portugal.",
+      "exampleTranslation": "Polite behaviour is valued in Portugal.",
+      "category": "culture",
+      "tip": "'Comportar-se bem/mal' = to behave well/badly. 'Bem-comportado' = well-behaved."
+    },
+    {
+      "word": "educado / mal-educado",
+      "translation": "polite / rude",
+      "pronunciation": "eh-doo-KAH-doo / mal eh-doo-KAH-doo",
+      "ipa": "/eduˈkadu/ / /mal eduˈkadu/",
+      "example": "Sempre fui educado com toda a gente.",
+      "exampleTranslation": "I have always been polite with everyone.",
+      "category": "adjectives",
+      "tip": "'Educado' = polite (literally 'well-educated'). 'Mal-educado' = rude. Synonyms for polite: 'cortês', 'amável'."
+    },
+    {
+      "word": "simpático / antipático",
+      "translation": "friendly / unfriendly",
+      "pronunciation": "seem-PAH-tee-koo / an-tee-PAH-tee-koo",
+      "ipa": "/sĩˈpatiku/ / /ɐ̃tiˈpatiku/",
+      "example": "Os lisboetas são muito simpáticos com os turistas.",
+      "exampleTranslation": "Lisbonites are very friendly with tourists.",
+      "category": "adjectives",
+      "tip": "'Simpático' ≠ 'sympathetic' in English! It means 'nice/friendly'. This is a common false friend!"
+    },
+    {
+      "word": "ruidoso / silencioso",
+      "translation": "noisy / quiet",
+      "pronunciation": "rwee-DOH-zoo / see-len-see-OH-zoo",
+      "ipa": "/ʁujˈdozu/ / /silẽsiˈozu/",
+      "example": "Lisboa é uma cidade barulhenta mas também tem zonas silenciosas.",
+      "exampleTranslation": "Lisbon is a noisy city but also has quiet areas.",
+      "category": "adjectives",
+      "tip": "Synonyms: 'barulhento' = noisy, 'tranquilo' = quiet/calm. Antonyms are important for precision in description."
+    },
+    {
+      "word": "a pontualidade",
+      "translation": "punctuality",
+      "pronunciation": "ah pon-too-ah-lee-DAH-deh",
+      "ipa": "/ɐ põtuɐliˈdadɨ/",
+      "example": "Em Portugal, é aceitável chegar um pouco atrasado a festas.",
+      "exampleTranslation": "In Portugal, it's acceptable to arrive a little late to parties.",
+      "category": "culture",
+      "tip": "Cultural note: being 15-30 minutes late to social events is normal in Portugal. Business meetings, however, require punctuality."
+    },
+    {
+      "word": "o atraso / a pontualidade",
+      "translation": "lateness / punctuality",
+      "pronunciation": "oh ah-TRAH-zoo / ah pon-too-ah-lee-DAH-deh",
+      "ipa": "/u ɐˈtɾazu/ / /ɐ põtuɐliˈdadɨ/",
+      "example": "Peço desculpa pelo atraso — houve muito trânsito.",
+      "exampleTranslation": "I apologise for the lateness — there was a lot of traffic.",
+      "category": "culture",
+      "tip": "'Chegar atrasado/a' = to arrive late. 'Chegar a horas' = to arrive on time. 'Chegar adiantado/a' = to arrive early."
+    },
+    {
+      "word": "aberto / fechado",
+      "translation": "open / closed",
+      "pronunciation": "ah-BEHR-too / feh-SHAH-doo",
+      "ipa": "/ɐˈbɛɾtu/ / /fɨˈʃadu/",
+      "example": "A padaria está fechada ao domingo.",
+      "exampleTranslation": "The bakery is closed on Sundays.",
+      "category": "adjectives",
+      "tip": "Key antonym pair. 'Aberto ao público' = open to the public. 'Encerrado' is more formal for 'closed'."
+    },
+    {
+      "word": "antigamente / hoje em dia",
+      "translation": "in the old days / nowadays",
+      "pronunciation": "an-tee-gah-MEN-teh / oh-ZHEH ehm dee-ah",
+      "ipa": "/ɐ̃tiɡɐˈmẽtɨ/ / /ˈoʒɨ ɐ̃j ˈdiɐ/",
+      "example": "Antigamente, as pessoas comunicavam por cartas. Hoje em dia, usam o telemóvel.",
+      "exampleTranslation": "In the old days, people communicated by letter. Nowadays, they use mobile phones.",
+      "category": "time",
+      "tip": "'Antigamente' = in the past/old days. 'Hoje em dia' = nowadays. 'Atualmente' = currently. Useful for comparisons."
+    },
+    {
+      "word": "Faz favor!",
+      "translation": "Excuse me! / Please! (to get attention)",
+      "pronunciation": "fahsh fah-VOR",
+      "ipa": "/ˈfajʃ fɐˈvoɾ/",
+      "example": "— Faz favor! — Sim, diga. — Queria um café.",
+      "exampleTranslation": "— Excuse me! — Yes, tell me. — I'd like a coffee.",
+      "category": "expressions",
+      "tip": "'Faz favor' = please (to get a waiter's/shopkeeper's attention in EP). 'Se faz favor' is also used. 'Por favor' is more universal."
+    }
+  ],
+  "grammar": {
+    "title": "Imperative Revision & Synonyms/Antonyms",
+    "sections": [
+      {
+        "type": "explanation",
+        "heading": "Imperative Revision — Formal vs Informal",
+        "body": "The imperative is used for instructions, advice, requests, and invitations. In Portuguese, you need to choose between formal (você) and informal (tu). Informal (tu): use the 3rd person singular present: 'Fala!' (Speak!), 'Come!' (Eat!), 'Abre!' (Open!). Formal (você): from the 1st person singular present, drop -o, add opposite vowel: -AR → -e: 'Fale!'; -ER/-IR → -a: 'Coma!', 'Abra!'. The choice between formal and informal depends on your relationship with the person and the context."
+      },
+      {
+        "type": "table",
+        "heading": "Formal vs Informal Imperative — Comparison",
+        "columns": ["Infinitive", "Informal (tu)", "Formal (você)", "English"],
+        "rows": [
+          ["falar", "Fala!", "Fale!", "Speak!"],
+          ["comer", "Come!", "Coma!", "Eat!"],
+          ["abrir", "Abre!", "Abra!", "Open!"],
+          ["vir", "Vem!", "Venha!", "Come!"],
+          ["ir", "Vai!", "Vá!", "Go!"],
+          ["ter", "Tem!", "Tenha!", "Have!"],
+          ["ser", "Sê!", "Seja!", "Be!"],
+          ["estar", "Está!", "Esteja!", "Be (state)!"]
+        ]
+      },
+      {
+        "type": "explanation",
+        "heading": "Synonyms and Antonyms — Building Vocabulary",
+        "body": "Knowing synonyms (words with similar meanings) and antonyms (words with opposite meanings) helps you express yourself more precisely and naturally. Synonyms let you avoid repetition: instead of 'bom' every time, you can say 'excelente', 'ótimo', 'fantástico'. Antonyms help you describe contrasts, which is very useful when comparing people, places, or things. At A1 level, focus on common adjective pairs and verbs with opposite meanings."
+      },
+      {
+        "type": "table",
+        "heading": "Common Antonym Pairs",
+        "columns": ["Word", "Antonym", "Example pair"],
+        "rows": [
+          ["caro (expensive)", "barato (cheap)", "Este é caro, aquele é barato."],
+          ["aberto (open)", "fechado (closed)", "A loja está aberta / fechada."],
+          ["simpático (friendly)", "antipático (unfriendly)", "Ela é simpática, ele é antipático."],
+          ["ruidoso (noisy)", "silencioso (quiet)", "A cidade é ruidosa, o campo é silencioso."],
+          ["educado (polite)", "mal-educado (rude)", "Fui educado, não mal-educado."],
+          ["antigo (old/ancient)", "moderno (modern)", "Um café antigo vs. um bar moderno."],
+          ["saudável (healthy)", "doentio (unhealthy)", "Comida saudável vs. comida doentia."]
+        ]
+      },
+      {
+        "type": "table",
+        "heading": "Common Synonym Groups",
+        "columns": ["Base word", "Synonyms", "Meaning"],
+        "rows": [
+          ["bom", "ótimo, excelente, fantástico", "good"],
+          ["bonito", "lindo, elegante, atraente", "beautiful/pretty"],
+          ["grande", "enorme, vasto, imenso", "big/large"],
+          ["falar", "dizer, contar, comunicar", "to speak/say"],
+          ["gostar", "adorar, apreciar, curtir", "to like/love"],
+          ["começar", "iniciar, arrancar, principiar", "to begin/start"]
+        ]
+      },
+      {
+        "type": "examples",
+        "heading": "Portuguese Culture in Practice",
+        "items": [
+          {
+            "portuguese": "Em Portugal, é costume tomar um café depois do almoço.",
+            "translation": "In Portugal, it's customary to have a coffee after lunch.",
+            "pronunciation": "ehm por-too-GAL eh koosh-TOO-meh toh-MAR oom kah-FEH...",
+            "highlight": ["É costume", "café"]
+          },
+          {
+            "portuguese": "Antigamente, a família jantava sempre junta. Hoje em dia, é diferente.",
+            "translation": "In the old days, the family always had dinner together. Nowadays, it's different.",
+            "pronunciation": "an-tee-gah-MEN-teh ah fah-MEE-lee-ah...",
+            "highlight": ["Antigamente", "Hoje em dia"]
+          },
+          {
+            "portuguese": "Sê simpático com toda a gente — é um valor português.",
+            "translation": "Be friendly with everyone — it's a Portuguese value.",
+            "pronunciation": "say seem-PAH-tee-koo kom TOH-dah ah ZHEN-teh",
+            "highlight": ["Sê simpático"]
+          },
+          {
+            "portuguese": "Tenho saudades de Portugal — a comida, as pessoas, o clima.",
+            "translation": "I miss Portugal — the food, the people, the climate.",
+            "pronunciation": "TEN-yoo sah-oo-DAH-desh deh por-too-GAL",
+            "highlight": ["saudades"]
+          }
+        ]
+      },
+      {
+        "type": "tips",
+        "heading": "Common Mistakes & Tips",
+        "items": [
+          "'Simpático' in Portuguese means FRIENDLY, not 'sympathetic'. A common false friend! 'Simpático' ≠ sympathetic.",
+          "The informal imperative of IR is 'vai' and SER is 'sê'. The formal imperative of IR is 'vá' and SER is 'seja'. These irregular forms must be memorised.",
+          "'Saudade' has no direct translation in English. It describes a melancholic longing for someone/something you love but that is absent.",
+          "Use 'tomar um café' or 'beber um café' — never 'comer um café'. You 'take/drink' coffee in Portuguese.",
+          "'Faz favor' (EP) is used to get a waiter's attention or to say 'please' at a counter. 'Por favor' works in all situations."
+        ]
+      }
+    ],
+    "exercises": [
+      {
+        "type": "multiple-choice",
+        "title": "Imperative Revision",
+        "instructions": "Choose the correct imperative form.",
+        "items": [
+          {
+            "question": "To a friend (informal): '__ mais devagar, por favor!' (falar)",
+            "options": ["Fale", "Fala", "Falar", "Falando"],
+            "correct": 1,
+            "explanation": "Informal imperative (tu) of FALAR = 'Fala'. It's the same as the 3rd person singular: 'ele fala' → 'Fala!'"
+          },
+          {
+            "question": "To a doctor (formal): '__ bem e descanse.' (comer)",
+            "options": ["Come", "Coma", "Comer", "Comendo"],
+            "correct": 1,
+            "explanation": "Formal imperative (você) of COMER = 'Coma'. Drop -o from 'como', add -a."
+          },
+          {
+            "question": "Which is a synonym of 'bonito'?",
+            "options": ["feio", "lindo", "pequeno", "velho"],
+            "correct": 1,
+            "explanation": "'Lindo' is a synonym of 'bonito' (beautiful/pretty). 'Feio' is the antonym (ugly)."
+          },
+          {
+            "question": "What is the antonym of 'silencioso'?",
+            "options": ["tranquilo", "calmo", "ruidoso", "agradável"],
+            "correct": 2,
+            "explanation": "'Ruidoso' (noisy) is the antonym of 'silencioso' (quiet/silent)."
+          }
+        ]
+      },
+      {
+        "type": "fill-in-blank",
+        "title": "Culture and Language",
+        "instructions": "Complete each sentence correctly.",
+        "items": [
+          {
+            "sentence": "Tenho __ de Portugal quando estou no estrangeiro.",
+            "answer": "saudades",
+            "fullAnswer": "Tenho saudades de Portugal quando estou no estrangeiro.",
+            "hint": "a uniquely Portuguese feeling of longing"
+          },
+          {
+            "sentence": "Em Portugal, é __ dar dois beijos ao cumprimentar.",
+            "answer": "costume",
+            "fullAnswer": "Em Portugal, é costume dar dois beijos ao cumprimentar.",
+            "hint": "it's customary"
+          },
+          {
+            "sentence": "Fala mais devagar, por favor! (Make this formal: __ mais devagar, por favor!)",
+            "answer": "Fale",
+            "fullAnswer": "Fale mais devagar, por favor!",
+            "hint": "formal imperative of FALAR"
+          },
+          {
+            "sentence": "__, a família almoçava sempre junta ao domingo.",
+            "answer": "Antigamente",
+            "fullAnswer": "Antigamente, a família almoçava sempre junta ao domingo.",
+            "hint": "in the old days"
+          }
+        ]
+      },
+      {
+        "type": "sentence-builder",
+        "title": "Synonyms and Antonyms",
+        "instructions": "Click the correct word to complete each sentence.",
+        "items": [
+          {
+            "sentence": "A comida portuguesa é ___ — adoro!",
+            "blank": "ótima",
+            "wordBank": ["ótima", "boa", "excelente", "fantástica"],
+            "hint": "Choose a synonym of 'boa' (all are correct, but pick 'ótima')"
+          },
+          {
+            "sentence": "Este restaurante está ___. Voltamos amanhã.",
+            "blank": "fechado",
+            "wordBank": ["fechado", "aberto", "cheio", "vazio"],
+            "hint": "antonym of 'aberto'"
+          },
+          {
+            "sentence": "Os portugueses são muito ___ com os turistas.",
+            "blank": "simpáticos",
+            "wordBank": ["simpáticos", "antipáticos", "ruidosos", "mal-educados"],
+            "hint": "friendly (positive adjective)"
+          }
+        ]
+      }
+    ]
+  }
+}

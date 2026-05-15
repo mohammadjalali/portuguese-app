@@ -1,0 +1,411 @@
+{
+  "id": 15,
+  "title": "Festas e Celebrações",
+  "subtitle": "Portuguese Festivals & Cultural Celebrations",
+  "color": "#880E4F",
+  "accent": "#F48FB1",
+  "icon": "🎉",
+  "description": "Explore Portuguese festivals, cultural traditions, and holidays while learning indefinite pronouns.",
+  "topics": ["Festivals and holidays", "Cultural traditions", "Describing celebrations", "Indefinite pronouns", "Expressing opinions about culture"],
+  "vocabulary": [
+    {
+      "word": "a festa",
+      "translation": "party / festival / celebration",
+      "pronunciation": "ah FESH-tah",
+      "ipa": "/ɐ ˈfɛʃtɐ/",
+      "example": "A festa de São João é a mais famosa do Porto.",
+      "exampleTranslation": "The São João festival is the most famous in Porto.",
+      "category": "celebrations",
+      "tip": "'Festa' can mean a birthday party, a street festival, or a national celebration. 'Fazer uma festa' = to throw a party."
+    },
+    {
+      "word": "o feriado",
+      "translation": "public holiday",
+      "pronunciation": "oh feh-ree-AH-doo",
+      "ipa": "/u fɨɾiˈadu/",
+      "example": "O 25 de Abril é um feriado nacional em Portugal.",
+      "exampleTranslation": "The 25th of April is a national public holiday in Portugal.",
+      "category": "celebrations",
+      "tip": "'Feriado nacional' = national holiday. 'Feriado municipal' = local holiday. Portugal has many public holidays."
+    },
+    {
+      "word": "o Natal",
+      "translation": "Christmas",
+      "pronunciation": "oh nah-TAL",
+      "ipa": "/u nɐˈtal/",
+      "example": "No Natal, a família reúne-se para uma grande refeição.",
+      "exampleTranslation": "At Christmas, the family gathers for a big meal.",
+      "category": "celebrations",
+      "tip": "'Feliz Natal!' = Merry Christmas! 'A Consoada' = Christmas Eve dinner in Portugal (traditional bacalhau)."
+    },
+    {
+      "word": "a Páscoa",
+      "translation": "Easter",
+      "pronunciation": "ah PAHSH-koo-ah",
+      "ipa": "/ɐ ˈpaʃkwɐ/",
+      "example": "Na Páscoa, os portugueses comem folar e cabrito.",
+      "exampleTranslation": "At Easter, Portuguese people eat Easter bread and kid (goat).",
+      "category": "celebrations",
+      "tip": "'Feliz Páscoa!' = Happy Easter! 'O folar' = traditional Easter bread. Easter is a major family celebration in Portugal."
+    },
+    {
+      "word": "o Carnaval",
+      "translation": "Carnival",
+      "pronunciation": "oh kar-nah-VAL",
+      "ipa": "/u kaɾnɐˈval/",
+      "example": "O Carnaval de Torres Vedras é muito famoso em Portugal.",
+      "exampleTranslation": "The Torres Vedras Carnival is very famous in Portugal.",
+      "category": "celebrations",
+      "tip": "Carnaval happens before Lent. Known for colourful costumes ('fantasias'), parades ('desfiles'), and music."
+    },
+    {
+      "word": "as Festas de Lisboa",
+      "translation": "Lisbon Festivities (June)",
+      "pronunciation": "ash FESH-tash deh leezh-BOH-ah",
+      "ipa": "/ɐʃ ˈfɛʃtɐʃ dɨ liʒˈboɐ/",
+      "example": "As Festas de Lisboa celebram Santo António em junho.",
+      "exampleTranslation": "The Lisbon Festivities celebrate Saint Anthony in June.",
+      "category": "celebrations",
+      "tip": "June 12-13: Lisbon celebrates Santo António (patron saint). Streets fill with grilled sardines, music, and dancing."
+    },
+    {
+      "word": "o São João",
+      "translation": "Saint John's Festival",
+      "pronunciation": "oh sah-oo zhoo-AH-oo",
+      "ipa": "/u ˈsɐ̃w̃ ʒwˈɐ̃w̃/",
+      "example": "No São João do Porto, as pessoas batem nas cabeças com alhos-porro.",
+      "exampleTranslation": "At Porto's São João, people hit each other on the head with leeks.",
+      "category": "celebrations",
+      "tip": "June 23-24: Porto's biggest celebration. Traditionally people hit each other with plastic hammers or garlic flowers!"
+    },
+    {
+      "word": "o 25 de Abril",
+      "translation": "25th of April (Carnation Revolution)",
+      "pronunciation": "oh vehn-tee-SEEN-koo deh ah-BREEL",
+      "ipa": "/u vẽtiˈsĩku dɨ ɐˈbɾil/",
+      "example": "O 25 de Abril de 1974 marcou o fim da ditadura em Portugal.",
+      "exampleTranslation": "The 25th of April 1974 marked the end of the dictatorship in Portugal.",
+      "category": "celebrations",
+      "tip": "The Carnation Revolution (Revolução dos Cravos). Red carnations are the symbol. A key date in Portuguese history."
+    },
+    {
+      "word": "celebrar",
+      "translation": "to celebrate",
+      "pronunciation": "seh-leh-BRAR",
+      "ipa": "/sɨlɨˈbɾaɾ/",
+      "example": "Como celebras o teu aniversário?",
+      "exampleTranslation": "How do you celebrate your birthday?",
+      "category": "verbs",
+      "tip": "Regular -ar verb: celebro, celebras, celebra, celebramos, celebram."
+    },
+    {
+      "word": "festejar",
+      "translation": "to celebrate / to rejoice",
+      "pronunciation": "fesh-teh-ZHAR",
+      "ipa": "/fɨʃtɨˈʒaɾ/",
+      "example": "Vamos festejar o fim das aulas com uma festa!",
+      "exampleTranslation": "Let's celebrate the end of classes with a party!",
+      "category": "verbs",
+      "tip": "Regular -ar verb. Similar to 'celebrar' but more informal. 'Festejar' often implies joyful, lively celebration."
+    },
+    {
+      "word": "os fogos de artifício",
+      "translation": "fireworks",
+      "pronunciation": "oosh FOH-goosh deh ar-tee-FEE-see-oo",
+      "ipa": "/uʃ ˈfoɡuʃ dɨ ɐɾtiˈfisiu/",
+      "example": "No Ano Novo há sempre fogos de artifício em Lisboa.",
+      "exampleTranslation": "On New Year's Eve there are always fireworks in Lisbon.",
+      "category": "celebrations",
+      "tip": "Literally 'artificial fire'. 'Os fogos' for short. New Year and São João are famous for fireworks in Portugal."
+    },
+    {
+      "word": "o desfile",
+      "translation": "parade / procession",
+      "pronunciation": "oh desh-FEE-leh",
+      "ipa": "/u dɨʃˈfilɨ/",
+      "example": "O desfile do Carnaval tem muitas fantasias coloridas.",
+      "exampleTranslation": "The Carnival parade has many colourful costumes.",
+      "category": "celebrations",
+      "tip": "'Desfilar' = to parade. 'Uma fantasia' = a costume (at Carnival). 'Um grupo' = a group in the parade."
+    },
+    {
+      "word": "as sardinhas assadas",
+      "translation": "grilled sardines",
+      "pronunciation": "ash sar-DEE-nyash ah-SAH-dash",
+      "ipa": "/ɐʃ sɐɾˈdiɲɐʃ ɐˈsadɐʃ/",
+      "example": "As sardinhas assadas são o prato típico das festas de Lisboa.",
+      "exampleTranslation": "Grilled sardines are the typical dish of the Lisbon festivities.",
+      "category": "food",
+      "tip": "Grilled sardines are a symbol of Portuguese popular culture, especially during June saints' festivals."
+    },
+    {
+      "word": "alguém",
+      "translation": "someone / somebody",
+      "pronunciation": "al-GAYNG",
+      "ipa": "/alˈɡẽj/",
+      "example": "Alguém quer vir à festa comigo?",
+      "exampleTranslation": "Does someone want to come to the party with me?",
+      "category": "pronouns",
+      "tip": "'Alguém' = someone (in affirmative sentences and questions). Opposite: 'ninguém' (nobody)."
+    },
+    {
+      "word": "ninguém",
+      "translation": "nobody / no one",
+      "pronunciation": "neen-GAYNG",
+      "ipa": "/nĩˈɡẽj/",
+      "example": "Ninguém veio à festa — foi uma pena.",
+      "exampleTranslation": "Nobody came to the party — it was a shame.",
+      "category": "pronouns",
+      "tip": "'Ninguém' requires no second negative: 'Ninguém veio' (nobody came) — NOT 'Ninguém não veio'."
+    },
+    {
+      "word": "tudo",
+      "translation": "everything",
+      "pronunciation": "TOO-doo",
+      "ipa": "/ˈtudu/",
+      "example": "Tudo correu bem na festa!",
+      "exampleTranslation": "Everything went well at the party!",
+      "category": "pronouns",
+      "tip": "'Tudo' refers to things (not people). 'Tudo bem?' = Is everything OK? Very common greeting in Portuguese."
+    },
+    {
+      "word": "todos / todas",
+      "translation": "everyone / all (people)",
+      "pronunciation": "TOH-doosh / TOH-dash",
+      "ipa": "/ˈtoduʃ/ / /ˈtodɐʃ/",
+      "example": "Todos foram à festa e divertiram-se muito.",
+      "exampleTranslation": "Everyone went to the party and had a great time.",
+      "category": "pronouns",
+      "tip": "'Todos/todas' refers to people: 'todos os alunos' (all the students). 'Tudo' for things: 'tudo o que tenho' (everything I have)."
+    },
+    {
+      "word": "nada",
+      "translation": "nothing",
+      "pronunciation": "NAH-dah",
+      "ipa": "/ˈnadɐ/",
+      "example": "— Obrigada! — De nada!",
+      "exampleTranslation": "— Thank you! — You're welcome! (literally: It's nothing!)",
+      "category": "pronouns",
+      "tip": "'Nada' = nothing (things). 'De nada' = you're welcome. 'Não há nada' = there's nothing. No double negative needed."
+    },
+    {
+      "word": "algo",
+      "translation": "something",
+      "pronunciation": "AL-goo",
+      "ipa": "/ˈalɡu/",
+      "example": "Queres algo para beber na festa?",
+      "exampleTranslation": "Do you want something to drink at the party?",
+      "category": "pronouns",
+      "tip": "'Algo' = something (things, more formal). 'Alguma coisa' is more common in spoken EP: 'Queres alguma coisa?'"
+    },
+    {
+      "word": "divertir-se",
+      "translation": "to have fun / to enjoy oneself",
+      "pronunciation": "dee-vehr-TEER seh",
+      "ipa": "/divɨɾˈtiɾ sɨ/",
+      "example": "Divertiste-te na festa do São João?",
+      "exampleTranslation": "Did you have fun at the São João festival?",
+      "category": "verbs",
+      "tip": "Reflexive verb. Present: divirto-me, divertes-te, diverte-se, divertimo-nos, divertem-se."
+    },
+    {
+      "word": "a tradição",
+      "translation": "tradition",
+      "pronunciation": "ah trah-dee-SAH-oo",
+      "ipa": "/ɐ tɾɐdiˈsɐ̃w̃/",
+      "example": "É tradição comer bacalhau na véspera de Natal.",
+      "exampleTranslation": "It's tradition to eat codfish on Christmas Eve.",
+      "category": "celebrations",
+      "tip": "Plural: 'as tradições'. 'Tradicional' (adjective): 'comida tradicional' (traditional food)."
+    },
+    {
+      "word": "a música",
+      "translation": "music",
+      "pronunciation": "ah MOO-zee-kah",
+      "ipa": "/ɐ ˈmuzikɐ/",
+      "example": "O fado é a música mais típica de Portugal.",
+      "exampleTranslation": "Fado is the most typical music of Portugal.",
+      "category": "culture",
+      "tip": "'O fado' = Portuguese musical genre (UNESCO heritage). 'Fadista' = fado singer. Lisbon and Coimbra have distinct fado styles."
+    },
+    {
+      "word": "o fado",
+      "translation": "fado (Portuguese musical genre)",
+      "pronunciation": "oh FAH-doo",
+      "ipa": "/u ˈfadu/",
+      "example": "Ouvir fado numa tasca de Lisboa é uma experiência única.",
+      "exampleTranslation": "Listening to fado in a Lisbon tavern is a unique experience.",
+      "category": "culture",
+      "tip": "Fado means 'fate' and expresses 'saudade' (longing). UNESCO Intangible Cultural Heritage since 2011."
+    }
+  ],
+  "grammar": {
+    "title": "Indefinite Pronouns — Someone, Nobody, Everything, Nothing",
+    "sections": [
+      {
+        "type": "explanation",
+        "heading": "What Are Indefinite Pronouns?",
+        "body": "Indefinite pronouns refer to people or things in a non-specific way — we don't know exactly who or what. The key ones at A1 level are: 'alguém' (someone), 'ninguém' (nobody), 'algo' / 'alguma coisa' (something), 'nada' (nothing), 'tudo' (everything), and 'todos/todas' (everyone). These pronouns replace nouns when we don't know exactly who or what we're talking about: 'Alguém telefonou.' (Someone called.) 'Ninguém veio.' (Nobody came.) 'Tudo está bem.' (Everything is fine.)"
+      },
+      {
+        "type": "table",
+        "heading": "Indefinite Pronouns — Overview",
+        "columns": ["Pronoun", "Meaning", "Refers to", "Example"],
+        "rows": [
+          ["alguém", "someone / anybody", "people", "Alguém quer vir? (Does someone want to come?)"],
+          ["ninguém", "nobody / no one", "people", "Ninguém veio. (Nobody came.)"],
+          ["algo / alguma coisa", "something", "things", "Queres algo? (Do you want something?)"],
+          ["nada", "nothing", "things", "Não há nada aqui. (There's nothing here.)"],
+          ["tudo", "everything", "things", "Tudo correu bem. (Everything went well.)"],
+          ["todos / todas", "everyone / all", "people", "Todos foram à festa. (Everyone went to the party.)"]
+        ]
+      },
+      {
+        "type": "explanation",
+        "heading": "Negative Sentences with NINGUÉM and NADA",
+        "body": "When 'ninguém' or 'nada' come AFTER the verb, you need 'não' before the verb too — this is called double negation and is standard in Portuguese! 'Não vi ninguém.' (I didn't see anyone / I saw nobody.) 'Não comi nada.' (I didn't eat anything / I ate nothing.) However, when 'ninguém' or 'nada' come BEFORE the verb, 'não' is not needed: 'Ninguém veio.' (Nobody came.) 'Nada aconteceu.' (Nothing happened.)"
+      },
+      {
+        "type": "table",
+        "heading": "Double Negation Rule",
+        "columns": ["Position", "Structure", "Example"],
+        "rows": [
+          ["Pronoun before verb", "ninguém/nada + verb (no não)", "Ninguém veio. (Nobody came.)"],
+          ["Pronoun after verb", "não + verb + ninguém/nada", "Não veio ninguém. (Nobody came.)"],
+          ["Pronoun before verb", "nada + verb", "Nada aconteceu. (Nothing happened.)"],
+          ["Pronoun after verb", "não + verb + nada", "Não aconteceu nada. (Nothing happened.)"]
+        ],
+        "caption": "Both positions are correct — they mean the same thing. Position after verb with 'não' is more common in speech."
+      },
+      {
+        "type": "examples",
+        "heading": "Indefinite Pronouns in Context",
+        "items": [
+          {
+            "portuguese": "Alguém sabe onde é a festa do São João?",
+            "translation": "Does someone know where the São João festival is?",
+            "pronunciation": "al-GAYNG SAH-beh ON-deh eh ah FESH-tah...",
+            "highlight": ["Alguém"]
+          },
+          {
+            "portuguese": "Não há nada melhor do que sardinhas assadas em junho.",
+            "translation": "There's nothing better than grilled sardines in June.",
+            "pronunciation": "nah-oo ah NAH-dah meh-LYOR...",
+            "highlight": ["nada"]
+          },
+          {
+            "portuguese": "Todos adoram o Carnaval — é muito divertido!",
+            "translation": "Everyone loves Carnival — it's so much fun!",
+            "pronunciation": "TOH-doosh ah-DOH-rahm oh kar-nah-VAL",
+            "highlight": ["Todos"]
+          },
+          {
+            "portuguese": "Tudo correu bem na festa — a música, a comida, tudo!",
+            "translation": "Everything went well at the party — the music, the food, everything!",
+            "pronunciation": "TOO-doo koh-REH-oo bem...",
+            "highlight": ["Tudo", "tudo"]
+          }
+        ]
+      },
+      {
+        "type": "tips",
+        "heading": "Common Mistakes & Tips",
+        "items": [
+          "'Tudo' (everything — things) vs 'todos/todas' (everyone — people). 'Tudo está bem' (everything is fine) vs 'Todos estão bem' (everyone is fine).",
+          "Remember double negation: 'Não veio ninguém' and 'Ninguém veio' mean the same thing — both are correct!",
+          "'Algo' and 'alguma coisa' both mean 'something'. 'Alguma coisa' is more common in everyday speech.",
+          "In questions, 'alguém' and 'algo/alguma coisa' are used (not ninguém/nada): 'Viste alguém?' (Did you see anyone?)"
+        ]
+      }
+    ],
+    "exercises": [
+      {
+        "type": "multiple-choice",
+        "title": "Indefinite Pronouns",
+        "instructions": "Choose the correct indefinite pronoun.",
+        "items": [
+          {
+            "question": "__ quer vir comigo ao concerto de fado?",
+            "options": ["Ninguém", "Alguém", "Nada", "Tudo"],
+            "correct": 1,
+            "explanation": "'Alguém' = someone (in questions and affirmative contexts). 'Ninguém' would mean 'nobody wants to come'."
+          },
+          {
+            "question": "Não há __ para comer na festa. Que pena!",
+            "options": ["tudo", "todos", "nada", "alguém"],
+            "correct": 2,
+            "explanation": "'Nada' = nothing (things). With 'não' before the verb, 'nada' comes after: 'não há nada' = there's nothing."
+          },
+          {
+            "question": "__ adoram o Natal em Portugal — é muito especial.",
+            "options": ["Tudo", "Todos", "Nada", "Ninguém"],
+            "correct": 1,
+            "explanation": "'Todos' = everyone (people). 'Tudo' = everything (things)."
+          },
+          {
+            "question": "__ correu mal na festa — foi perfeita!",
+            "options": ["Alguém", "Ninguém", "Nada", "Todos"],
+            "correct": 2,
+            "explanation": "'Nada correu mal' = nothing went wrong. 'Nada' before the verb without 'não'."
+          }
+        ]
+      },
+      {
+        "type": "fill-in-blank",
+        "title": "Festival Vocabulary",
+        "instructions": "Complete each sentence with the correct word.",
+        "items": [
+          {
+            "sentence": "__ veio à festa — estava muito frio.",
+            "answer": "Ninguém",
+            "fullAnswer": "Ninguém veio à festa — estava muito frio.",
+            "hint": "nobody (no double negation needed here)"
+          },
+          {
+            "sentence": "O fado é a música mais típica de Portugal — __ sabe isso.",
+            "answer": "todos",
+            "fullAnswer": "O fado é a música mais típica de Portugal — todos sabem isso.",
+            "hint": "everyone (people)"
+          },
+          {
+            "sentence": "__ ficou satisfeito com a festa — foi um sucesso!",
+            "answer": "Tudo",
+            "fullAnswer": "Tudo ficou satisfeito... (actually: Todos ficaram satisfeitos)",
+            "hint": "everything (things/situations)"
+          },
+          {
+            "sentence": "__ telefonou para ti enquanto estavas no Carnaval.",
+            "answer": "Alguém",
+            "fullAnswer": "Alguém telefonou para ti enquanto estavas no Carnaval.",
+            "hint": "someone (in a statement)"
+          }
+        ]
+      },
+      {
+        "type": "sentence-builder",
+        "title": "Celebrations and Pronouns",
+        "instructions": "Click the correct word to complete each sentence.",
+        "items": [
+          {
+            "sentence": "___ adoram as festas de Lisboa em junho.",
+            "blank": "Todos",
+            "wordBank": ["Todos", "Tudo", "Nada", "Ninguém"],
+            "hint": "everyone (people)"
+          },
+          {
+            "sentence": "Não há ___ melhor do que fado ao vivo.",
+            "blank": "nada",
+            "wordBank": ["nada", "ninguém", "todos", "alguém"],
+            "hint": "nothing (things)"
+          },
+          {
+            "sentence": "___ sabe onde há uma boa festa esta noite?",
+            "blank": "Alguém",
+            "wordBank": ["Alguém", "Ninguém", "Nada", "Tudo"],
+            "hint": "someone (in a question)"
+          }
+        ]
+      }
+    ]
+  }
+}

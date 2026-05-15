@@ -1,0 +1,405 @@
+{
+  "id": 21,
+  "title": "Viver no Estrangeiro",
+  "subtitle": "Living Abroad, Adaptation & Irregular Past Tense",
+  "color": "#BF360C",
+  "accent": "#FF8A65",
+  "icon": "🌍",
+  "description": "Discuss the challenges of living abroad and adapting to a new country, while mastering the past tense of irregular verbs.",
+  "topics": ["Living abroad and adaptation", "Personal challenges and wellbeing", "Pretérito Perfeito (irregular verbs)", "Adverbs of time", "Describing past experiences"],
+  "vocabulary": [
+    {
+      "word": "mudar-se",
+      "translation": "to move (house/country)",
+      "pronunciation": "moo-DAR seh",
+      "ipa": "/muˈdaɾ sɨ/",
+      "example": "Mudei-me para Portugal há dois anos.",
+      "exampleTranslation": "I moved to Portugal two years ago.",
+      "category": "life",
+      "tip": "Reflexive verb. Past: mudei-me, mudaste-te, mudou-se... 'Mudar de casa' = to move house. 'Mudar de país' = to move to a new country."
+    },
+    {
+      "word": "adaptar-se",
+      "translation": "to adapt / to adjust",
+      "pronunciation": "ah-dap-TAR seh",
+      "ipa": "/ɐdɐpˈtaɾ sɨ/",
+      "example": "Adaptei-me bem à vida em Portugal.",
+      "exampleTranslation": "I adapted well to life in Portugal.",
+      "category": "life",
+      "tip": "Reflexive verb. 'Adaptar-se a...' = to adapt to... 'A adaptação' = adaptation. 'Fácil/difícil de adaptar' = easy/hard to adapt."
+    },
+    {
+      "word": "o desafio",
+      "translation": "challenge",
+      "pronunciation": "oh deh-zah-FEE-oo",
+      "ipa": "/u dɨzɐˈfiu/",
+      "example": "O maior desafio foi aprender a língua.",
+      "exampleTranslation": "The biggest challenge was learning the language.",
+      "category": "life",
+      "tip": "'Desafiar' = to challenge. 'Desafiante' = challenging. 'Aceitar um desafio' = to accept a challenge."
+    },
+    {
+      "word": "a saudade de casa",
+      "translation": "homesickness",
+      "pronunciation": "ah sah-oo-DAH-deh deh KAH-zah",
+      "ipa": "/ɐ sɐwˈdadɨ dɨ ˈkazɐ/",
+      "example": "Às vezes tenho saudades de casa e da minha família.",
+      "exampleTranslation": "Sometimes I feel homesick for my family.",
+      "category": "feelings",
+      "tip": "'Ter saudades de casa' = to be homesick. 'Saudade' is the uniquely Portuguese word for longing."
+    },
+    {
+      "word": "o stress",
+      "translation": "stress",
+      "pronunciation": "oh esh-TRESS",
+      "ipa": "/u ˈstɾɛs/",
+      "example": "Lidar com o stress é importante para o bem-estar.",
+      "exampleTranslation": "Dealing with stress is important for wellbeing.",
+      "category": "wellbeing",
+      "tip": "Borrowed from English. 'Stressado/a' = stressed. 'Lidar com o stress' = to deal with stress."
+    },
+    {
+      "word": "o bem-estar",
+      "translation": "wellbeing",
+      "pronunciation": "oh bem esh-TAR",
+      "ipa": "/u ˈbẽj ɨʃˈtaɾ/",
+      "example": "Fazer exercício contribui para o bem-estar.",
+      "exampleTranslation": "Exercising contributes to wellbeing.",
+      "category": "wellbeing",
+      "tip": "Compound noun: 'bem' (well) + 'estar' (being). 'Sentir-se bem' = to feel well. 'O bem-estar mental' = mental wellbeing."
+    },
+    {
+      "word": "ser / ir (fui)",
+      "translation": "was / went (past of SER/IR)",
+      "pronunciation": "fwee",
+      "ipa": "/ˈfui/",
+      "example": "Fui ao médico ontem. A consulta foi muito boa.",
+      "exampleTranslation": "I went to the doctor yesterday. The consultation was very good.",
+      "category": "verbs",
+      "tip": "SER and IR share the same past tense! 'Fui' can mean 'I was' or 'I went'. Context makes it clear: 'Fui lá' (I went there) vs 'Fui feliz' (I was happy)."
+    },
+    {
+      "word": "ter (tive)",
+      "translation": "had (past of TER)",
+      "pronunciation": "TEE-veh",
+      "ipa": "/ˈtivɨ/",
+      "example": "Tive muitas dificuldades no início.",
+      "exampleTranslation": "I had many difficulties at the beginning.",
+      "category": "verbs",
+      "tip": "Irregular past of TER: tive, tiveste, teve, tivemos, tiveram. 'Tive sorte' = I was lucky."
+    },
+    {
+      "word": "fazer (fiz)",
+      "translation": "did / made (past of FAZER)",
+      "pronunciation": "feesh",
+      "ipa": "/ˈfiʃ/",
+      "example": "Fiz muitos amigos no primeiro mês em Portugal.",
+      "exampleTranslation": "I made many friends in the first month in Portugal.",
+      "category": "verbs",
+      "tip": "Irregular past of FAZER: fiz, fizeste, fez, fizemos, fizeram. 'Fez + weather' = 'It was + weather' in past."
+    },
+    {
+      "word": "vir (vim)",
+      "translation": "came (past of VIR)",
+      "pronunciation": "veem",
+      "ipa": "/ˈvĩ/",
+      "example": "Vim para Portugal em setembro do ano passado.",
+      "exampleTranslation": "I came to Portugal in September last year.",
+      "category": "verbs",
+      "tip": "Irregular past of VIR: vim, vieste, veio, viemos, vieram. 'Vim de...' = I came from... 'Vim a/para...' = I came to..."
+    },
+    {
+      "word": "estar (estive)",
+      "translation": "was (past of ESTAR)",
+      "pronunciation": "esh-TEE-veh",
+      "ipa": "/ɨʃˈtivɨ/",
+      "example": "Estive doente durante uma semana.",
+      "exampleTranslation": "I was ill for a week.",
+      "category": "verbs",
+      "tip": "Irregular past of ESTAR: estive, estiveste, esteve, estivemos, estiveram. 'Estive em...' = I was in..."
+    },
+    {
+      "word": "poder (pude)",
+      "translation": "could / was able to (past of PODER)",
+      "pronunciation": "POO-deh",
+      "ipa": "/ˈpudɨ/",
+      "example": "Não pude ir à festa porque estava doente.",
+      "exampleTranslation": "I couldn't go to the party because I was ill.",
+      "category": "verbs",
+      "tip": "Irregular past of PODER: pude, pudeste, pôde, pudemos, puderam. 'Pude' = I was able to / I could (past)."
+    },
+    {
+      "word": "querer (quis)",
+      "translation": "wanted (past of QUERER)",
+      "pronunciation": "keesh",
+      "ipa": "/ˈkiʃ/",
+      "example": "Quis aprender português desde o início.",
+      "exampleTranslation": "I wanted to learn Portuguese from the beginning.",
+      "category": "verbs",
+      "tip": "Irregular past of QUERER: quis, quiseste, quis, quisemos, quiseram. Note: 1st and 3rd person singular are the same: 'quis'."
+    },
+    {
+      "word": "a dificuldade",
+      "translation": "difficulty",
+      "pronunciation": "ah dee-fee-kool-DAH-deh",
+      "ipa": "/ɐ difikuɫˈdadɨ/",
+      "example": "Tive dificuldades com a burocracia portuguesa.",
+      "exampleTranslation": "I had difficulties with Portuguese bureaucracy.",
+      "category": "life",
+      "tip": "'Ter dificuldades em...' = to have difficulties with... 'Com dificuldade' = with difficulty. 'Difícil' = difficult."
+    },
+    {
+      "word": "a burocracia",
+      "translation": "bureaucracy / paperwork",
+      "pronunciation": "ah boo-roh-krah-SEE-ah",
+      "ipa": "/ɐ buɾukɾɐˈsiɐ/",
+      "example": "A burocracia foi o maior desafio ao mudar para Portugal.",
+      "exampleTranslation": "The bureaucracy was the biggest challenge when moving to Portugal.",
+      "category": "life",
+      "tip": "Common topic for expats in Portugal: registering at the local council (junta de freguesia), getting an NIF (tax number), etc."
+    },
+    {
+      "word": "lidar com",
+      "translation": "to deal with / to handle",
+      "pronunciation": "lee-DAR kom",
+      "ipa": "/liˈdaɾ kõ/",
+      "example": "Aprendi a lidar com a saudade de casa.",
+      "exampleTranslation": "I learned to deal with homesickness.",
+      "category": "verbs",
+      "tip": "Regular -ar verb. 'Lidar com...' = to deal with... 'Saber lidar' = to know how to handle."
+    },
+    {
+      "word": "a rotina",
+      "translation": "routine",
+      "pronunciation": "ah roh-TEE-nah",
+      "ipa": "/ɐ ʁuˈtinɐ/",
+      "example": "Estabeleci uma rotina diária para me sentir melhor.",
+      "exampleTranslation": "I established a daily routine to feel better.",
+      "category": "life",
+      "tip": "'A rotina diária' = daily routine. 'Ter uma rotina' = to have a routine. 'Rotineiro/a' = routine-like, monotonous."
+    },
+    {
+      "word": "logo",
+      "translation": "soon / later / right away",
+      "pronunciation": "LOH-goo",
+      "ipa": "/ˈloɡu/",
+      "example": "No início foi difícil, mas logo melhorou.",
+      "exampleTranslation": "At first it was difficult, but it soon got better.",
+      "category": "adverbs",
+      "tip": "'Logo' = soon, shortly. 'Logo a seguir' = right after. 'Até logo' = see you later. Context changes the exact meaning."
+    },
+    {
+      "word": "entretanto",
+      "translation": "meanwhile / in the meantime",
+      "pronunciation": "en-treh-TAN-too",
+      "ipa": "/ẽtɾɨˈtɐ̃tu/",
+      "example": "Entretanto, aprendi muitas coisas sobre a cultura portuguesa.",
+      "exampleTranslation": "Meanwhile, I learned many things about Portuguese culture.",
+      "category": "adverbs",
+      "tip": "'Entretanto' = meanwhile/in the meantime. Also used colloquially as 'meanwhile, anyway': 'Entretanto, como estás?'"
+    },
+    {
+      "word": "o início / o fim",
+      "translation": "the beginning / the end",
+      "pronunciation": "oh ee-NEE-see-oo / oh feem",
+      "ipa": "/u iˈnisiu/ / /u ˈfĩ/",
+      "example": "No início foi difícil, mas no fim adorei Portugal.",
+      "exampleTranslation": "At the beginning it was difficult, but in the end I loved Portugal.",
+      "category": "time",
+      "tip": "'No início' = at the beginning. 'No fim' = at the end. 'No final' = in the end. 'De início' = from the start."
+    },
+    {
+      "word": "crescer",
+      "translation": "to grow / to grow up",
+      "pronunciation": "kreh-SEHR",
+      "ipa": "/kɾɨˈseɾ/",
+      "example": "Cresci muito como pessoa ao viver no estrangeiro.",
+      "exampleTranslation": "I grew a lot as a person by living abroad.",
+      "category": "verbs",
+      "tip": "Regular -er verb in past: cresci, cresceste, cresceu, crescemos, cresceram. 'Crescer como pessoa' = to grow as a person."
+    }
+  ],
+  "grammar": {
+    "title": "Pretérito Perfeito — Irregular Verbs",
+    "sections": [
+      {
+        "type": "explanation",
+        "heading": "Why Are These Verbs Irregular?",
+        "body": "Several of the most common Portuguese verbs have completely irregular past tense forms that must be memorised. These verbs are so frequently used that you will encounter them in almost every conversation about the past. The good news: the endings for these irregular verbs follow a pattern once you know the irregular stem. The most important irregular past tenses to master are: SER/IR (fui), TER (tive), FAZER (fiz), VIR (vim), ESTAR (estive), PODER (pude), and QUERER (quis)."
+      },
+      {
+        "type": "table",
+        "heading": "SER/IR — Shared Past Tense (FALAR model)",
+        "columns": ["Subject", "SER / IR (past)", "SER example", "IR example"],
+        "rows": [
+          ["eu", "fui", "Fui feliz. (I was happy.)", "Fui ao porto. (I went to the port.)"],
+          ["tu", "foste", "Foste simpático. (You were nice.)", "Foste lá? (Did you go there?)"],
+          ["ele/ela/você", "foi", "Foi ótimo. (It was great.)", "Ela foi ao médico. (She went to the doctor.)"],
+          ["nós", "fomos", "Fomos felizes. (We were happy.)", "Fomos ao cinema. (We went to the cinema.)"],
+          ["eles/vocês", "foram", "Foram simpáticos. (They were nice.)", "Foram embora. (They went away.)"]
+        ],
+        "caption": "SER and IR share identical past tense forms. Context always makes the meaning clear."
+      },
+      {
+        "type": "table",
+        "heading": "TER, FAZER, VIR, ESTAR — Irregular Past Tense",
+        "columns": ["Subject", "TER", "FAZER", "VIR", "ESTAR"],
+        "rows": [
+          ["eu", "tive", "fiz", "vim", "estive"],
+          ["tu", "tiveste", "fizeste", "vieste", "estiveste"],
+          ["ele/ela/você", "teve", "fez", "veio", "esteve"],
+          ["nós", "tivemos", "fizemos", "viemos", "estivemos"],
+          ["eles/vocês", "tiveram", "fizeram", "vieram", "estiveram"]
+        ]
+      },
+      {
+        "type": "table",
+        "heading": "PODER and QUERER — Irregular Past Tense",
+        "columns": ["Subject", "PODER", "QUERER"],
+        "rows": [
+          ["eu", "pude", "quis"],
+          ["tu", "pudeste", "quiseste"],
+          ["ele/ela/você", "pôde", "quis"],
+          ["nós", "pudemos", "quisemos"],
+          ["eles/vocês", "puderam", "quiseram"]
+        ],
+        "caption": "Note: PODER 3rd person has an accent: 'pôde'. QUERER 1st and 3rd person singular are both 'quis'."
+      },
+      {
+        "type": "explanation",
+        "heading": "Adverbs of Time for Narratives",
+        "body": "When telling stories about the past, adverbs of time help structure your narrative: 'No início' (at the beginning), 'depois' (afterwards), 'logo' (soon/then), 'entretanto' (meanwhile), 'finalmente' (finally), 'no fim' (in the end). Using these adverbs makes your past tense narratives flow naturally: 'No início foi difícil. Depois, fiz amigos. Entretanto, aprendi a língua. Finalmente, adorei Portugal.' (At first it was difficult. Then I made friends. Meanwhile, I learned the language. Finally, I loved Portugal.)"
+      },
+      {
+        "type": "examples",
+        "heading": "Living Abroad — Past Experiences",
+        "items": [
+          {
+            "portuguese": "Vim para Portugal em setembro e no início foi difícil.",
+            "translation": "I came to Portugal in September and at first it was difficult.",
+            "pronunciation": "veem PAH-rah por-too-GAL ehm seh-TEM-broo...",
+            "highlight": ["Vim", "foi difícil"]
+          },
+          {
+            "portuguese": "Fiz muitos amigos e tive experiências incríveis.",
+            "translation": "I made many friends and had incredible experiences.",
+            "pronunciation": "feesh MYOO-ee-toosh ah-MEE-goosh ee TEE-veh...",
+            "highlight": ["Fiz", "tive"]
+          },
+          {
+            "portuguese": "Não pude ir à festa porque estive doente.",
+            "translation": "I couldn't go to the party because I was ill.",
+            "pronunciation": "nah-oo POO-deh eer ah FESH-tah por-KEH esh-TEE-veh DOO-en-teh",
+            "highlight": ["pude", "estive doente"]
+          },
+          {
+            "portuguese": "Quis aprender português desde o primeiro dia — e consegui!",
+            "translation": "I wanted to learn Portuguese from the first day — and I managed!",
+            "pronunciation": "keesh ah-pren-DEHR por-too-GAYSH DEZH-deh...",
+            "highlight": ["Quis", "consegui"]
+          }
+        ]
+      },
+      {
+        "type": "tips",
+        "heading": "Common Mistakes & Tips",
+        "items": [
+          "SER and IR share past forms: 'Fui feliz' (I was happy — SER) and 'Fui ao mercado' (I went to the market — IR). Context always makes it clear.",
+          "The 3rd person singular of PODER in the past is 'pôde' (with accent), not 'pode'. The accent distinguishes it from 'pode' (present).",
+          "QUERER 1st and 3rd person singular past are both 'quis': 'Eu quis ir' = I wanted to go; 'Ele quis ir' = He wanted to go.",
+          "VIR past tense: 'veio' (he/she/you came) looks very different from 'vim' (I came). Don't confuse them.",
+          "Practice linking past events with time adverbs: 'No início... depois... entretanto... finalmente...' — this makes you sound very natural."
+        ]
+      }
+    ],
+    "exercises": [
+      {
+        "type": "multiple-choice",
+        "title": "Irregular Past Tense",
+        "instructions": "Choose the correct past tense form.",
+        "items": [
+          {
+            "question": "Eu __ para Portugal há três anos. (vir)",
+            "options": ["veio", "vim", "vieste", "vieram"],
+            "correct": 1,
+            "explanation": "'Vim' is the first person singular (eu) past tense of VIR. 'Veio' = he/she/you came."
+          },
+          {
+            "question": "A viagem __ incrível — adorámos Portugal! (ser)",
+            "options": ["foi", "fui", "foste", "foram"],
+            "correct": 0,
+            "explanation": "'Foi' is the third person singular past of SER/IR. 'A viagem foi...' = The trip was... (SER)"
+          },
+          {
+            "question": "Não __ ir à festa porque estava doente. (poder, eu)",
+            "options": ["pôde", "posso", "pude", "pudeste"],
+            "correct": 2,
+            "explanation": "'Pude' is the first person singular (eu) past of PODER. 'Pôde' is the 3rd person: 'Ele pôde ir'."
+          },
+          {
+            "question": "Eles __ muitos amigos durante a viagem. (fazer)",
+            "options": ["fizeram", "fez", "fizeste", "fiz"],
+            "correct": 0,
+            "explanation": "'Fizeram' is the third person plural (eles) past of FAZER."
+          }
+        ]
+      },
+      {
+        "type": "fill-in-blank",
+        "title": "A Story About Living Abroad",
+        "instructions": "Complete with the correct irregular past tense form.",
+        "items": [
+          {
+            "sentence": "__ para Portugal em setembro do ano passado. (vir, eu)",
+            "answer": "Vim",
+            "fullAnswer": "Vim para Portugal em setembro do ano passado.",
+            "hint": "irregular past of VIR, 1st person singular"
+          },
+          {
+            "sentence": "No início, __ muitas dificuldades com a língua. (ter, eu)",
+            "answer": "tive",
+            "fullAnswer": "No início, tive muitas dificuldades com a língua.",
+            "hint": "irregular past of TER, 1st person singular"
+          },
+          {
+            "sentence": "Depois, __ muitos amigos e adaptei-me. (fazer, eu)",
+            "answer": "fiz",
+            "fullAnswer": "Depois, fiz muitos amigos e adaptei-me.",
+            "hint": "irregular past of FAZER, 1st person singular"
+          },
+          {
+            "sentence": "No fim, a experiência __ incrível! (ser)",
+            "answer": "foi",
+            "fullAnswer": "No fim, a experiência foi incrível!",
+            "hint": "irregular past of SER, 3rd person singular"
+          }
+        ]
+      },
+      {
+        "type": "sentence-builder",
+        "title": "Past Tense Narratives",
+        "instructions": "Click the correct word to complete each sentence.",
+        "items": [
+          {
+            "sentence": "Não ___ ir à festa — estava muito cansado.",
+            "blank": "pude",
+            "wordBank": ["pude", "posso", "pôde", "pudemos"],
+            "hint": "irregular past of PODER, 1st person singular"
+          },
+          {
+            "sentence": "___ muito stressado no início, mas depois melhorou.",
+            "blank": "Estive",
+            "wordBank": ["Estive", "Estava", "Estou", "Estiveste"],
+            "hint": "irregular past of ESTAR, 1st person singular"
+          },
+          {
+            "sentence": "Ela ___ à universidade de autocarro todos os dias.",
+            "blank": "foi",
+            "wordBank": ["foi", "fui", "foste", "foram"],
+            "hint": "irregular past of IR, 3rd person singular"
+          }
+        ]
+      }
+    ]
+  }
+}

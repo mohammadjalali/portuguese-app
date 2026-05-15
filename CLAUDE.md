@@ -62,7 +62,7 @@ src/utils/
 ```
 
 ### Content status
-10 of 25 planned sessions are implemented (Sessions 1–10). `courseInfo.totalSessions` is 25.
+19 of 25 planned sessions are implemented (Sessions 1–13, 15–19, 21). Sessions 14, 20, 22, 23, 24, 25 are skipped (midterm, oral presentations, and final exams — no new language content). `courseInfo.totalSessions` is 25.
 
 ### Syllabus — Authoritative Source for Session Topics
 **Always** check the syllabus PDF before creating or updating session content:
@@ -72,7 +72,7 @@ src/utils/
 - Key rule: **Never invent session topics.** If a session PDF doesn't exist, derive the topic from the syllabus and clearly note it was not sourced from a PDF.
 - Note: Session 8 PDF does not exist in `portuguese/` — derive its content from the syllabus only.
 
-**Syllabus session mapping (Sessions 1–10):**
+**Syllabus session mapping (all implemented sessions):**
 | Session | Date | Topic | Grammar |
 |---------|------|-------|---------|
 | 1 | Feb 24 | Greetings, self-introductions | Alphabet, useful expressions |
@@ -85,6 +85,15 @@ src/utils/
 | 8 | Mar 19 | Food culture & eating habits (deepening) | Time prepositions for meals/schedules |
 | 9 | Mar 24 | House, rooms, furniture | Prepositional phrases of place, SER/ESTAR/FICAR |
 | 10 | Mar 27 | Transport, directions | Movement prepositions (para, até, por) |
+| 11 | Apr 7 | Shopping, prices, quantities | Comparative adjectives, numbers 100–1000, IR + infinitive |
+| 12 | Apr 9 | Weather & seasons | Irregular verbs DAR/FAZER/PÔR/TRAZER, near future |
+| 13 | Apr 21 | Clothing, styles, accessories | Temporal expressions HÁ/DESDE, indirect object pronouns, connectors |
+| 15 | Apr 28 | Portuguese festivals & celebrations | Indefinite pronouns (alguém, ninguém, tudo, todos, nada, algo) |
+| 16 | Apr 30 | Health, healthcare, lifestyle | Formal imperative (você form) |
+| 17 | May 5 | Social events, invitations, digital messages | TÃO/TANTO, indefinite pronouns review |
+| 18 | May 7 | Portuguese culture, social norms | Imperative revision, synonyms & antonyms |
+| 19 | May 12 | Past events, travel, personal experiences | Pretérito Perfeito regular (-ar/-er/-ir), JÁ/AINDA/NUNCA |
+| 21 | May 19 | Living abroad, adaptation, wellbeing | Pretérito Perfeito irregular (ser/ir/ter/fazer/vir/estar/poder/querer) |
 
 ### Deployment
 GitHub Actions (`.github/workflows/deploy.yml`) builds and deploys to GitHub Pages on every push to `main`. Vite base path is `/portuguese-app/`.
