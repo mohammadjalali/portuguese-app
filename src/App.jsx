@@ -639,7 +639,10 @@ function SessionPage({ session, onBack }) {
 }
 
 // ─── Home Page ────────────────────────────────────────────────────────────────
-function HomePage({ onSelectSession, onShowGrammarMap }) {
+function HomePage({ onSelectSession }) {
+  const [grammarExpanded, setGrammarExpanded] = useState({});
+  const toggleGrammar = (id) => setGrammarExpanded((e) => ({ ...e, [id]: !e[id] }));
+
   return (
     <div style={{ minHeight: "100vh", background: "#08080f", color: "#fff" }}>
       {/* Hero */}
@@ -690,24 +693,6 @@ function HomePage({ onSelectSession, onShowGrammarMap }) {
             >
               {sessions.length} interactive sessions · Flip cards · Pronunciation · Quizzes
             </div>
-            <button
-              onClick={onShowGrammarMap}
-              style={{
-                display: "inline-flex",
-                alignItems: "center",
-                gap: 6,
-                background: "rgba(199,125,255,0.12)",
-                border: "1px solid rgba(199,125,255,0.3)",
-                borderRadius: 99,
-                padding: "6px 20px",
-                fontSize: "0.8rem",
-                color: "rgba(199,125,255,0.9)",
-                cursor: "pointer",
-                fontWeight: 600,
-              }}
-            >
-              📖 Grammar Map
-            </button>
           </div>
         </div>
       </div>
@@ -729,7 +714,7 @@ function HomePage({ onSelectSession, onShowGrammarMap }) {
         </div>
       </div>
 
-      {/* Session Cards */}
+      {/* Sessions */}
       <div style={{ maxWidth: 900, margin: "0 auto", padding: "28px 20px 60px" }}>
         <h2
           style={{
@@ -742,83 +727,70 @@ function HomePage({ onSelectSession, onShowGrammarMap }) {
         >
           Sessions
         </h2>
-        <div style={{ display: "grid", gap: 16 }}>
-          {sessions.map((s) => (
-            <button
-              key={s.id}
-              onClick={() => onSelectSession(s)}
-              style={{
-                background: `linear-gradient(135deg, ${s.color}22, ${s.color}08)`,
-                border: `1px solid ${s.color}44`,
-                borderRadius: 16,
-                padding: "22px 24px",
-                textAlign: "left",
-                cursor: "pointer",
-                transition: "all 0.25s",
-                width: "100%",
-                display: "grid",
-                gridTemplateColumns: "auto 1fr auto",
-                gap: 16,
-                alignItems: "center",
-                color: "#fff",
-              }}
-              onMouseEnter={(e) => {
-                e.currentTarget.style.transform = "translateX(6px)";
-                e.currentTarget.style.borderColor = s.accent + "99";
-                e.currentTarget.style.background = `linear-gradient(135deg, ${s.color}44, ${s.color}18)`;
-              }}
-              onMouseLeave={(e) => {
-                e.currentTarget.style.transform = "translateX(0)";
-                e.currentTarget.style.borderColor = s.color + "44";
-                e.currentTarget.style.background = `linear-gradient(135deg, ${s.color}22, ${s.color}08)`;
-              }}
-            >
+        <div style={{ display: "grid", gap: 12 }}>
+          {sessions.map((session) => {
+            const isOpen = !!grammarExpanded[session.id];
+            const secs = session.grammar?.sections || [];
+            return (
               <div
+                key={session.id}
                 style={{
-                  width: 52,
-                  height: 52,
                   borderRadius: 12,
-                  background: `${s.color}44`,
-                  display: "flex",
-                  alignItems: "center",
-                  justifyContent: "center",
-                  fontSize: "1.6rem",
-                  flexShrink: 0,
+                  border: "1px solid rgba(255,255,255,0.08)",
+                  overflow: "hidden",
+                  background: "rgba(255,255,255,0.03)",
                 }}
               >
-                {s.icon}
-              </div>
-              <div>
                 <div
                   style={{
-                    fontSize: "0.7rem",
-                    fontWeight: 700,
-                    color: s.accent,
-                    letterSpacing: "0.1em",
-                    textTransform: "uppercase",
-                    marginBottom: 4,
+                    display: "flex",
+                    alignItems: "center",
+                    gap: 14,
+                    padding: "16px 18px",
+                    borderLeft: `4px solid ${session.color}`,
+                    cursor: "pointer",
                   }}
+                  onClick={() => toggleGrammar(session.id)}
                 >
-                  Session {s.id}
+                  <span style={{ fontSize: "1.4rem", flexShrink: 0 }}>{session.icon}</span>
+                  <div style={{ flex: 1, minWidth: 0 }}>
+                    <div style={{ display: "flex", alignItems: "baseline", gap: 8, flexWrap: "wrap" }}>
+                      <span style={{ fontSize: "0.7rem", fontWeight: 700, color: session.accent, textTransform: "uppercase", letterSpacing: "0.1em" }}>
+                        Session {session.id}
+                      </span>
+                      <span style={{ fontSize: "0.9rem", fontWeight: 600 }}>{session.title}</span>
+                    </div>
+                    <div style={{ fontSize: "0.8rem", color: "rgba(255,255,255,0.45)", marginTop: 2 }}>
+                      {session.grammar?.title}
+                    </div>
+                  </div>
+                  <span style={{ color: "rgba(255,255,255,0.4)", fontSize: "0.9rem", transition: "transform 0.2s", transform: isOpen ? "rotate(90deg)" : "none", flexShrink: 0 }}>›</span>
                 </div>
-                <div
-                  style={{
-                    fontFamily: "'Playfair Display', serif",
-                    fontSize: "clamp(1rem, 2.5vw, 1.2rem)",
-                    fontWeight: 700,
-                    color: "#fff",
-                    marginBottom: 4,
-                  }}
-                >
-                  {s.title}
-                </div>
-                <div style={{ fontSize: "0.8rem", color: "rgba(255,255,255,0.5)" }}>
-                  {s.vocabulary.length} words · {s.topics.length} topics
-                </div>
+                {isOpen && (
+                  <div style={{ borderTop: "1px solid rgba(255,255,255,0.06)", padding: "8px 0 12px", background: "rgba(0,0,0,0.2)" }}>
+                    {secs.map((sec, i) => (
+                      <button
+                        key={i}
+                        onClick={() => onSelectSession(session)}
+                        style={{ display: "block", width: "100%", textAlign: "left", background: "none", border: "none", color: "rgba(255,255,255,0.7)", fontSize: "0.85rem", padding: "6px 22px 6px 42px", cursor: "pointer", lineHeight: 1.4, transition: "color 0.15s" }}
+                        onMouseEnter={(e) => (e.currentTarget.style.color = "#fff")}
+                        onMouseLeave={(e) => (e.currentTarget.style.color = "rgba(255,255,255,0.7)")}
+                      >
+                        <span style={{ color: session.accent, marginRight: 8, fontSize: "0.75rem" }}>›</span>
+                        {sec.heading}
+                      </button>
+                    ))}
+                    <button
+                      onClick={() => onSelectSession(session)}
+                      style={{ display: "block", marginTop: 10, marginLeft: 42, background: session.color, border: "none", color: "#fff", borderRadius: 8, padding: "6px 16px", fontSize: "0.78rem", fontWeight: 600, cursor: "pointer", letterSpacing: "0.04em" }}
+                    >
+                      Open Session {session.id} →
+                    </button>
+                  </div>
+                )}
               </div>
-              <div style={{ fontSize: "1.2rem", color: "rgba(255,255,255,0.25)", flexShrink: 0 }}>→</div>
-            </button>
-          ))}
+            );
+          })}
         </div>
 
         {/* Assessment Table */}
@@ -1097,5 +1069,5 @@ export default function App() {
     );
   }
 
-  return <HomePage onSelectSession={setActiveSession} onShowGrammarMap={() => setShowGrammarMap(true)} />;
+  return <HomePage onSelectSession={setActiveSession} />;
 }
