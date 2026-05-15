@@ -31,6 +31,12 @@ src/data/
     session2.json
     session3.json
     session4.json
+    session5.json
+    session6.json
+    session7.json
+    session8.json
+    session9.json
+    session10.json
 ```
 
 Each vocabulary item has: `word`, `translation`, `pronunciation`, `ipa`, `example`, `exampleTranslation`, `category`, `tip`. (`youtubeQuery` is optional and only used in early sessions.)
@@ -49,15 +55,22 @@ src/components/
 
 All styling is inline via `style={{}}` props. No CSS files, no UI library.
 
+### Utilities
+```
+src/utils/
+  speak.js              ← speakPortuguese(text): Google Translate TTS (pt-PT), falls back to Web Speech API
+```
+
 ### Content status
 10 of 25 planned sessions are implemented (Sessions 1–10). `courseInfo.totalSessions` is 25.
 
 ### Syllabus — Authoritative Source for Session Topics
 **Always** check the syllabus PDF before creating or updating session content:
-- `language/A1/PORT Spring IMS2026.docx-3.pdf` — full course syllabus with weekly schedule
+- `portuguese/PORT Spring IMS2026.docx-3.pdf` — full course syllabus with weekly schedule
 - The syllabus defines the exact topics and grammar points for each class session
-- Session PDFs (`language/Session *.pdf`) contain exercises and vocabulary but the syllabus is the authoritative source for **what each session covers**
+- Session PDFs (`portuguese/Session * B S2026*.pdf`) contain exercises and vocabulary but the syllabus is the authoritative source for **what each session covers**
 - Key rule: **Never invent session topics.** If a session PDF doesn't exist, derive the topic from the syllabus and clearly note it was not sourced from a PDF.
+- Note: Session 8 PDF does not exist in `portuguese/` — derive its content from the syllabus only.
 
 **Syllabus session mapping (Sessions 1–10):**
 | Session | Date | Topic | Grammar |
@@ -81,7 +94,7 @@ GitHub Actions (`.github/workflows/deploy.yml`) builds and deploys to GitHub Pag
 - Each session has a `color` and `accent` for its theme
 - Vocabulary categories use colored `CategoryBadge` pills with filter buttons
 - `VocabCard` uses CSS 3D flip transforms (front: word/IPA, back: example/tip)
-- `speakPortuguese(text)` uses `window.speechSynthesis` with `pt-PT` locale
+- `speakPortuguese(text)` in `src/utils/speak.js` — uses Google Translate TTS (primary) with Web Speech API `pt-PT` as fallback
 - Quiz questions mix vocabulary + grammar (grammar questions extracted from `grammar.exercises`)
 - Grammar exercises are collapsible via a "Practice Exercises" toggle button
 

@@ -618,7 +618,7 @@ function SessionPage({ session, onBack }) {
 }
 
 // ─── Home Page ────────────────────────────────────────────────────────────────
-function HomePage({ onSelectSession }) {
+function HomePage({ onSelectSession, onShowGrammarMap }) {
   return (
     <div style={{ minHeight: "100vh", background: "#08080f", color: "#fff" }}>
       {/* Hero */}
@@ -655,19 +655,38 @@ function HomePage({ onSelectSession }) {
           <div style={{ fontSize: "clamp(0.9rem, 2vw, 1.1rem)", color: "rgba(255,255,255,0.55)", marginBottom: 8 }}>
             European Portuguese · A1 Level · NOVA IMS · Spring 2026
           </div>
-          <div
-            style={{
-              display: "inline-block",
-              background: "rgba(255,255,255,0.07)",
-              border: "1px solid rgba(255,255,255,0.12)",
-              borderRadius: 99,
-              padding: "6px 20px",
-              fontSize: "0.8rem",
-              color: "rgba(255,255,255,0.5)",
-              marginTop: 8,
-            }}
-          >
-            {sessions.length} interactive sessions · Flip cards · Pronunciation · Quizzes
+          <div style={{ display: "flex", justifyContent: "center", gap: 10, flexWrap: "wrap", marginTop: 8 }}>
+            <div
+              style={{
+                display: "inline-block",
+                background: "rgba(255,255,255,0.07)",
+                border: "1px solid rgba(255,255,255,0.12)",
+                borderRadius: 99,
+                padding: "6px 20px",
+                fontSize: "0.8rem",
+                color: "rgba(255,255,255,0.5)",
+              }}
+            >
+              {sessions.length} interactive sessions · Flip cards · Pronunciation · Quizzes
+            </div>
+            <button
+              onClick={onShowGrammarMap}
+              style={{
+                display: "inline-flex",
+                alignItems: "center",
+                gap: 6,
+                background: "rgba(199,125,255,0.12)",
+                border: "1px solid rgba(199,125,255,0.3)",
+                borderRadius: 99,
+                padding: "6px 20px",
+                fontSize: "0.8rem",
+                color: "rgba(199,125,255,0.9)",
+                cursor: "pointer",
+                fontWeight: 600,
+              }}
+            >
+              📖 Grammar Map
+            </button>
           </div>
         </div>
       </div>
@@ -836,9 +855,189 @@ function HomePage({ onSelectSession }) {
   );
 }
 
+// ─── Grammar Curriculum Map ───────────────────────────────────────────────────
+function GrammarMapPage({ onBack, onSelectSession }) {
+  const [expanded, setExpanded] = useState({});
+
+  const toggle = (id) => setExpanded((e) => ({ ...e, [id]: !e[id] }));
+
+  return (
+    <div style={{ minHeight: "100vh", background: "#08080f", color: "#fff" }}>
+      {/* Header */}
+      <div
+        style={{
+          background: "linear-gradient(135deg, #1a1a2e 0%, #16213e 50%, #0f3460 100%)",
+          padding: "40px 24px 50px",
+          borderBottom: "1px solid rgba(255,255,255,0.07)",
+          position: "relative",
+        }}
+      >
+        <button
+          onClick={onBack}
+          style={{
+            background: "rgba(255,255,255,0.08)",
+            border: "1px solid rgba(255,255,255,0.15)",
+            color: "#fff",
+            borderRadius: 8,
+            padding: "6px 16px",
+            cursor: "pointer",
+            fontSize: "0.85rem",
+            marginBottom: 24,
+            display: "inline-flex",
+            alignItems: "center",
+            gap: 6,
+          }}
+        >
+          ← Back
+        </button>
+        <div style={{ textAlign: "center" }}>
+          <div style={{ fontSize: "2.5rem", marginBottom: 12 }}>📖</div>
+          <h1
+            style={{
+              fontFamily: "'Playfair Display', serif",
+              fontSize: "clamp(1.8rem, 5vw, 3rem)",
+              margin: "0 0 8px",
+              fontWeight: 800,
+              background: "linear-gradient(135deg, #fff 40%, #C77DFF)",
+              WebkitBackgroundClip: "text",
+              WebkitTextFillColor: "transparent",
+            }}
+          >
+            Grammar Curriculum
+          </h1>
+          <div style={{ fontSize: "0.95rem", color: "rgba(255,255,255,0.45)" }}>
+            {sessions.length} sessions · Click a topic to open that session
+          </div>
+        </div>
+      </div>
+
+      {/* Session list */}
+      <div style={{ maxWidth: 800, margin: "0 auto", padding: "32px 20px 60px" }}>
+        {sessions.map((session) => {
+          const isOpen = !!expanded[session.id];
+          const sections = session.grammar?.sections || [];
+          return (
+            <div
+              key={session.id}
+              style={{
+                marginBottom: 16,
+                borderRadius: 12,
+                border: "1px solid rgba(255,255,255,0.08)",
+                overflow: "hidden",
+                background: "rgba(255,255,255,0.03)",
+              }}
+            >
+              {/* Session row */}
+              <div
+                style={{
+                  display: "flex",
+                  alignItems: "center",
+                  gap: 14,
+                  padding: "16px 18px",
+                  borderLeft: `4px solid ${session.color}`,
+                  cursor: "pointer",
+                }}
+                onClick={() => toggle(session.id)}
+              >
+                <span style={{ fontSize: "1.6rem", flexShrink: 0 }}>{session.icon}</span>
+                <div style={{ flex: 1, minWidth: 0 }}>
+                  <div style={{ display: "flex", alignItems: "baseline", gap: 8, flexWrap: "wrap" }}>
+                    <span
+                      style={{
+                        fontSize: "0.7rem",
+                        fontWeight: 700,
+                        color: session.accent,
+                        textTransform: "uppercase",
+                        letterSpacing: "0.1em",
+                      }}
+                    >
+                      Session {session.id}
+                    </span>
+                    <span style={{ fontSize: "0.95rem", fontWeight: 600 }}>{session.title}</span>
+                  </div>
+                  <div style={{ fontSize: "0.8rem", color: "rgba(255,255,255,0.45)", marginTop: 2 }}>
+                    {session.grammar?.title}
+                  </div>
+                </div>
+                <span
+                  style={{
+                    color: "rgba(255,255,255,0.4)",
+                    fontSize: "0.9rem",
+                    transition: "transform 0.2s",
+                    transform: isOpen ? "rotate(90deg)" : "none",
+                    flexShrink: 0,
+                  }}
+                >
+                  ›
+                </span>
+              </div>
+
+              {/* Expanded sections */}
+              {isOpen && (
+                <div
+                  style={{
+                    borderTop: "1px solid rgba(255,255,255,0.06)",
+                    padding: "8px 0 12px",
+                    background: "rgba(0,0,0,0.2)",
+                  }}
+                >
+                  {sections.map((sec, i) => (
+                    <button
+                      key={i}
+                      onClick={() => onSelectSession(session)}
+                      style={{
+                        display: "block",
+                        width: "100%",
+                        textAlign: "left",
+                        background: "none",
+                        border: "none",
+                        color: "rgba(255,255,255,0.7)",
+                        fontSize: "0.85rem",
+                        padding: "6px 22px 6px 42px",
+                        cursor: "pointer",
+                        lineHeight: 1.4,
+                        transition: "color 0.15s",
+                      }}
+                      onMouseEnter={(e) => (e.currentTarget.style.color = "#fff")}
+                      onMouseLeave={(e) => (e.currentTarget.style.color = "rgba(255,255,255,0.7)")}
+                    >
+                      <span style={{ color: session.accent, marginRight: 8, fontSize: "0.75rem" }}>›</span>
+                      {sec.heading}
+                    </button>
+                  ))}
+                  <button
+                    onClick={() => onSelectSession(session)}
+                    style={{
+                      display: "block",
+                      marginTop: 10,
+                      marginLeft: 42,
+                      background: session.color,
+                      border: "none",
+                      color: "#fff",
+                      borderRadius: 8,
+                      padding: "6px 16px",
+                      fontSize: "0.78rem",
+                      fontWeight: 600,
+                      cursor: "pointer",
+                      letterSpacing: "0.04em",
+                    }}
+                  >
+                    Open Session {session.id} →
+                  </button>
+                </div>
+              )}
+            </div>
+          );
+        })}
+      </div>
+    </div>
+  );
+}
+
 // ─── Root App ─────────────────────────────────────────────────────────────────
 export default function App() {
   const [activeSession, setActiveSession] = useState(null);
+  const [showGrammarMap, setShowGrammarMap] = useState(false);
 
   // Load Google Fonts
   useEffect(() => {
@@ -854,7 +1053,7 @@ export default function App() {
 
   useEffect(() => {
     window.scrollTo(0, 0);
-  }, [activeSession]);
+  }, [activeSession, showGrammarMap]);
 
   if (activeSession) {
     return (
@@ -865,5 +1064,17 @@ export default function App() {
     );
   }
 
-  return <HomePage onSelectSession={setActiveSession} />;
+  if (showGrammarMap) {
+    return (
+      <GrammarMapPage
+        onBack={() => setShowGrammarMap(false)}
+        onSelectSession={(s) => {
+          setShowGrammarMap(false);
+          setActiveSession(s);
+        }}
+      />
+    );
+  }
+
+  return <HomePage onSelectSession={setActiveSession} onShowGrammarMap={() => setShowGrammarMap(true)} />;
 }
