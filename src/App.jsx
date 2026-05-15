@@ -68,6 +68,23 @@ function PronounceBtn({ text, size = 18 }) {
   );
 }
 
+// ─── Vocab Split Utility ─────────────────────────────────────────────────────
+function splitVocabItem(item) {
+  const sep = " / ";
+  if (!item.word.includes(sep)) return [item];
+  const words = item.word.split(sep);
+  const translations = item.translation.split(sep);
+  const pronunciations = item.pronunciation.split(sep);
+  const ipas = item.ipa.split(sep);
+  return words.map((word, i) => ({
+    ...item,
+    word: word.trim(),
+    translation: (translations[i] || translations[0]).trim(),
+    pronunciation: (pronunciations[i] || pronunciations[0]).trim(),
+    ipa: (ipas[i] || ipas[0]).trim(),
+  }));
+}
+
 // ─── Vocabulary Card ─────────────────────────────────────────────────────────
 function VocabCard({ item, accent }) {
   const [flipped, setFlipped] = useState(false);
@@ -112,11 +129,11 @@ function VocabCard({ item, accent }) {
               tap to flip
             </span>
           </div>
-          <div style={{ fontSize: "1.5rem", fontWeight: 800, color: "#fff", lineHeight: 1.2, fontFamily: "'Playfair Display', serif", flex: 1, display: "flex", alignItems: "center" }}>
+          <div style={{ fontSize: "1.5rem", fontWeight: 800, color: "#fff", lineHeight: 1.2, fontFamily: "'Playfair Display', serif" }}>
             {item.word}
           </div>
-          <div style={{ fontSize: "0.85rem", color: "rgba(255,255,255,0.6)" }}>
-            {item.translation}
+          <div style={{ fontSize: "0.82rem", color: "rgba(255,255,255,0.55)", fontStyle: "italic", lineHeight: 1.4 }}>
+            "{item.example}"
           </div>
           <div
             style={{
@@ -172,12 +189,15 @@ function VocabCard({ item, accent }) {
           }}
         >
           <div style={{ fontSize: "0.75rem", fontWeight: 700, color: accent, letterSpacing: "0.1em", textTransform: "uppercase" }}>
-            Example
+            Translation
           </div>
-          <div style={{ fontFamily: "'Playfair Display', serif", fontSize: "1.05rem", color: "#fff", fontStyle: "italic", lineHeight: 1.5 }}>
+          <div style={{ fontFamily: "'Playfair Display', serif", fontSize: "1.3rem", fontWeight: 700, color: "#fff", lineHeight: 1.3 }}>
+            {item.translation}
+          </div>
+          <div style={{ fontSize: "0.82rem", color: "rgba(255,255,255,0.55)", fontStyle: "italic", lineHeight: 1.4 }}>
             "{item.example}"
           </div>
-          <div style={{ fontSize: "0.82rem", color: "rgba(255,255,255,0.55)" }}>
+          <div style={{ fontSize: "0.78rem", color: "rgba(255,255,255,0.4)" }}>
             {item.exampleTranslation}
           </div>
           <PronounceBtn text={item.example} size={14} />
@@ -408,8 +428,9 @@ function SessionPage({ session, onBack }) {
   const [tab, setTab] = useState("vocab");
   const [filter, setFilter] = useState("all");
 
-  const categories = ["all", ...new Set(session.vocabulary.map((v) => v.category))];
-  const filtered = filter === "all" ? session.vocabulary : session.vocabulary.filter((v) => v.category === filter);
+  const splitVocab = session.vocabulary.flatMap(splitVocabItem);
+  const categories = ["all", ...new Set(splitVocab.map((v) => v.category))];
+  const filtered = filter === "all" ? splitVocab : splitVocab.filter((v) => v.category === filter);
 
   const tabs = [
     { id: "vocab", label: "📖 Vocabulary" },
